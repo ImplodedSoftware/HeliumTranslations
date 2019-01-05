@@ -1,0 +1,4752 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="About" xml:space="preserve">
+    <value>О приложении…</value>
+  </data>
+  <data name="Add" xml:space="preserve">
+    <value>Добавить</value>
+  </data>
+  <data name="AddFilesToLibrary" xml:space="preserve">
+    <value>Добавить файлы в библиотеку…</value>
+  </data>
+  <data name="AddFiles_AdddingFiles" xml:space="preserve">
+    <value>Добавление файлов</value>
+  </data>
+  <data name="AddFiles_AddFilesToLibrary" xml:space="preserve">
+    <value>Добавление файлов в библиотеку</value>
+  </data>
+  <data name="AddFiles_AddingFolders" xml:space="preserve">
+    <value>Helium добавляет выбранные папки; подождите</value>
+  </data>
+  <data name="AddFiles_AddPicturesFromTags" xml:space="preserve">
+    <value>Добавить изображения из тегов</value>
+  </data>
+  <data name="AddFiles_CalculatingAlbums" xml:space="preserve">
+    <value>Подсчет альбомов и соответствующих изображений</value>
+  </data>
+  <data name="AddFiles_CreateAccurateRipIds" xml:space="preserve">
+    <value>Создание идентификаторов AccurateRip, выполнено: {0}%</value>
+  </data>
+  <data name="AddFiles_CreateAcoustIds" xml:space="preserve">
+    <value>Создание идентификаторов Acoust, выполнено: {0}%</value>
+  </data>
+  <data name="AddFiles_CreateArtists" xml:space="preserve">
+    <value>Создание исполнителей и их оценок</value>
+  </data>
+  <data name="AddFiles_CreateMbids" xml:space="preserve">
+    <value>Создание идентификаторов MusicBrainz, выполнено: {0}%</value>
+  </data>
+  <data name="AddFiles_CreatePuids" xml:space="preserve">
+    <value>Создание идентификаторов PUID, выполнено: {0}%</value>
+  </data>
+  <data name="AddFiles_CreatingAlbums" xml:space="preserve">
+    <value>Создание альбомов, выполнено: {0}%</value>
+  </data>
+  <data name="AddFiles_CreatingGenres" xml:space="preserve">
+    <value>Создание жанров, выполнено: {0}%</value>
+  </data>
+  <data name="AddFiles_CreatingLabels" xml:space="preserve">
+    <value>Создание лейблов, выполнено: {0}%</value>
+  </data>
+  <data name="AddFiles_DetailText" xml:space="preserve">
+    <value>Выберите папки, которые нужно добавить в библиотеку.</value>
+  </data>
+  <data name="AddFiles_Header" xml:space="preserve">
+    <value>Добавить в библиотеку</value>
+  </data>
+  <data name="AddFiles_PrecalcArtistInfo" xml:space="preserve">
+    <value>Предварительный расчет сведений об исполнителях</value>
+  </data>
+  <data name="AddFiles_ScanningFiles" xml:space="preserve">
+    <value>Сканирование добавляемых файлов; подождите…</value>
+  </data>
+  <data name="AddFiles_UpdateArtistInfo" xml:space="preserve">
+    <value>Обновление сведений об исполнителях</value>
+  </data>
+  <data name="AddFiles_UpdatingAlbumInformation" xml:space="preserve">
+    <value>Обновление сведений об альбоме, выполнено: {0}%</value>
+  </data>
+  <data name="AddMusic" xml:space="preserve">
+    <value>Добавить музыку</value>
+  </data>
+  <data name="Advanced" xml:space="preserve">
+    <value>Расширенные</value>
+  </data>
+  <data name="AdvancedMode" xml:space="preserve">
+    <value>Расширенный режим</value>
+  </data>
+  <data name="Akas" xml:space="preserve">
+    <value>Псевдонимы</value>
+  </data>
+  <data name="Albums" xml:space="preserve">
+    <value>Альбомы</value>
+  </data>
+  <data name="Artists" xml:space="preserve">
+    <value>Исполнители</value>
+  </data>
+  <data name="CachingAlbums" xml:space="preserve">
+    <value>Кэширование альбомов</value>
+  </data>
+  <data name="CachingArtists" xml:space="preserve">
+    <value>Кэширование исполнителей</value>
+  </data>
+  <data name="CachingData" xml:space="preserve">
+    <value>Кэширование данных; подождите</value>
+  </data>
+  <data name="CachingTracks" xml:space="preserve">
+    <value>Кэширование дорожек</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Отмена</value>
+  </data>
+  <data name="LoadPicture" xml:space="preserve">
+    <value>Загрузка…</value>
+  </data>
+  <data name="Clear" xml:space="preserve">
+    <value>Очистить</value>
+  </data>
+  <data name="CreateingDatabase" xml:space="preserve">
+    <value>Создание новой базы данных; подождите</value>
+  </data>
+  <data name="CurrentStep" xml:space="preserve">
+    <value>Текущий шаг</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Правка</value>
+  </data>
+  <data name="EnqueueLast" xml:space="preserve">
+    <value>В конец очереди</value>
+  </data>
+  <data name="EnqueueNext" xml:space="preserve">
+    <value>В начало очереди</value>
+  </data>
+  <data name="ExploreFolder" xml:space="preserve">
+    <value>Открыть папку в «Проводнике»</value>
+  </data>
+  <data name="File" xml:space="preserve">
+    <value>Файл</value>
+  </data>
+  <data name="Filter" xml:space="preserve">
+    <value>Фильтр</value>
+  </data>
+  <data name="Followers" xml:space="preserve">
+    <value>Последователи</value>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>Справка</value>
+  </data>
+  <data name="InfluencedBy" xml:space="preserve">
+    <value>Влияние:</value>
+  </data>
+  <data name="Labels" xml:space="preserve">
+    <value>Лейблы</value>
+  </data>
+  <data name="LoadingData" xml:space="preserve">
+    <value>Загрузка данных; подождите…</value>
+  </data>
+  <data name="MusicExplorer" xml:space="preserve">
+    <value>Обзор музыки</value>
+  </data>
+  <data name="NoTrackPlaying" xml:space="preserve">
+    <value>Музыка не играет</value>
+  </data>
+  <data name="Options" xml:space="preserve">
+    <value>Параметры…</value>
+  </data>
+  <data name="PerformedSongsBy" xml:space="preserve">
+    <value>Исполненные композиции:</value>
+  </data>
+  <data name="PlayQueue" xml:space="preserve">
+    <value>Очередь</value>
+  </data>
+  <data name="Properties" xml:space="preserve">
+    <value>Свойства…</value>
+  </data>
+  <data name="ReadingPlayQueue" xml:space="preserve">
+    <value>Чтение Очередь</value>
+  </data>
+  <data name="Remove" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="RemoveAlbum" xml:space="preserve">
+    <value>Удалить альбом из библиотеки?</value>
+  </data>
+  <data name="Reset" xml:space="preserve">
+    <value>Сброс</value>
+  </data>
+  <data name="SeeAlso" xml:space="preserve">
+    <value>См. также</value>
+  </data>
+  <data name="SelectFolder" xml:space="preserve">
+    <value>Выбор папки</value>
+  </data>
+  <data name="Shown" xml:space="preserve">
+    <value>в окне</value>
+  </data>
+  <data name="Similar" xml:space="preserve">
+    <value>Похожие</value>
+  </data>
+  <data name="Step" xml:space="preserve">
+    <value>шаг</value>
+  </data>
+  <data name="SuggestedAlbums" xml:space="preserve">
+    <value>Рекомендуемые альбомы</value>
+  </data>
+  <data name="Tools" xml:space="preserve">
+    <value>Инструменты</value>
+  </data>
+  <data name="TotalSteps" xml:space="preserve">
+    <value>Всего шагов</value>
+  </data>
+  <data name="Tracks" xml:space="preserve">
+    <value>Дорожки</value>
+  </data>
+  <data name="User" xml:space="preserve">
+    <value>Пользователь</value>
+  </data>
+  <data name="VariousArtists" xml:space="preserve">
+    <value>Различные исполнители</value>
+  </data>
+  <data name="View" xml:space="preserve">
+    <value>Вид</value>
+  </data>
+  <data name="Accessed" xml:space="preserve">
+    <value>Доступ</value>
+  </data>
+  <data name="Album" xml:space="preserve">
+    <value>Альбом</value>
+  </data>
+  <data name="AlbumGain" xml:space="preserve">
+    <value>Усиление альбома</value>
+  </data>
+  <data name="Artist" xml:space="preserve">
+    <value>Исполнитель</value>
+  </data>
+  <data name="AudioProperties" xml:space="preserve">
+    <value>Свойства аудио</value>
+  </data>
+  <data name="Available" xml:space="preserve">
+    <value>Доступно</value>
+  </data>
+  <data name="Biography" xml:space="preserve">
+    <value>Биография</value>
+  </data>
+  <data name="Bitrate" xml:space="preserve">
+    <value>Битрейт</value>
+  </data>
+  <data name="BitsPerSample" xml:space="preserve">
+    <value>Битовая глубина</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Закрыть</value>
+  </data>
+  <data name="Created" xml:space="preserve">
+    <value>Создан</value>
+  </data>
+  <data name="DetailedFileAndTagInfo" xml:space="preserve">
+    <value>Подробные сведения о тегах и файле</value>
+  </data>
+  <data name="Discography" xml:space="preserve">
+    <value>Дискография</value>
+  </data>
+  <data name="Explore" xml:space="preserve">
+    <value>Открыть в «Проводнике»…</value>
+  </data>
+  <data name="Filename" xml:space="preserve">
+    <value>Имя файла</value>
+  </data>
+  <data name="FileProperties_Title" xml:space="preserve">
+    <value>Свойства файла</value>
+  </data>
+  <data name="FileSize" xml:space="preserve">
+    <value>Размер файла</value>
+  </data>
+  <data name="FileTime" xml:space="preserve">
+    <value>Время файла</value>
+  </data>
+  <data name="FileType" xml:space="preserve">
+    <value>Тип файла</value>
+  </data>
+  <data name="Format" xml:space="preserve">
+    <value>Формат</value>
+  </data>
+  <data name="Frequency" xml:space="preserve">
+    <value>Частота</value>
+  </data>
+  <data name="Genre" xml:space="preserve">
+    <value>Жанр</value>
+  </data>
+  <data name="Hidden" xml:space="preserve">
+    <value>Скрытый</value>
+  </data>
+  <data name="LastPlayed" xml:space="preserve">
+    <value>Последнее проигрывание</value>
+  </data>
+  <data name="Modified" xml:space="preserve">
+    <value>Изменен</value>
+  </data>
+  <data name="NeverPlayed" xml:space="preserve">
+    <value>Не проигрывалось</value>
+  </data>
+  <data name="NextArrow" xml:space="preserve">
+    <value>Далее &gt;</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>Нет</value>
+  </data>
+  <data name="Overview" xml:space="preserve">
+    <value>Обзор</value>
+  </data>
+  <data name="PlayCounter" xml:space="preserve">
+    <value>Счетчик проигрывания</value>
+  </data>
+  <data name="PreviousArrow" xml:space="preserve">
+    <value>&lt; Назад</value>
+  </data>
+  <data name="Profile" xml:space="preserve">
+    <value>Профиль</value>
+  </data>
+  <data name="Rating" xml:space="preserve">
+    <value>Оценка</value>
+  </data>
+  <data name="ReadOnly" xml:space="preserve">
+    <value>Только чтение</value>
+  </data>
+  <data name="SampleRate" xml:space="preserve">
+    <value>Частота дискретизации</value>
+  </data>
+  <data name="SimilarArtists" xml:space="preserve">
+    <value>Похожие исполнители</value>
+  </data>
+  <data name="SongLength" xml:space="preserve">
+    <value>Длина композиции</value>
+  </data>
+  <data name="Tags" xml:space="preserve">
+    <value>Теги</value>
+  </data>
+  <data name="Time" xml:space="preserve">
+    <value>Время</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>Название</value>
+  </data>
+  <data name="TrackGain" xml:space="preserve">
+    <value>Усиление дорожки</value>
+  </data>
+  <data name="VBR" xml:space="preserve">
+    <value>Переменная скорость</value>
+  </data>
+  <data name="Version" xml:space="preserve">
+    <value>Версия</value>
+  </data>
+  <data name="Year" xml:space="preserve">
+    <value>Год</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Да</value>
+  </data>
+  <data name="AddFiles_AddingFiles" xml:space="preserve">
+    <value>Добавление файлов, выполнено: {0}%</value>
+  </data>
+  <data name="UpdateLibrary_Header" xml:space="preserve">
+    <value>Обновление библиотеки</value>
+  </data>
+  <data name="UpdateLibrary_DetailText" xml:space="preserve">
+    <value>Выберите, какие папки нужно обновить</value>
+  </data>
+  <data name="UpdateLibrary_ForceSync" xml:space="preserve">
+    <value>Выполнить синхронизацию всех файлов</value>
+  </data>
+  <data name="UpdateLibrary_ProgressDetail" xml:space="preserve">
+    <value>Все найденные новые файлы будут добавлены после завершения сканирования</value>
+  </data>
+  <data name="UpdateLibrary_ProgressHeader" xml:space="preserve">
+    <value>Выбранные папки обновляются</value>
+  </data>
+  <data name="UpdateLibrary_RemoveUnavailable" xml:space="preserve">
+    <value>Удалить недоступные файлы</value>
+  </data>
+  <data name="UpdateLibrary" xml:space="preserve">
+    <value>Обновление библиотеки…</value>
+  </data>
+  <data name="Releases" xml:space="preserve">
+    <value>Выпуски</value>
+  </data>
+  <data name="ActiveFile" xml:space="preserve">
+    <value>Активный файл</value>
+  </data>
+  <data name="AllReleaseTypes" xml:space="preserve">
+    <value>Все типы выпусков</value>
+  </data>
+  <data name="AllYears" xml:space="preserve">
+    <value>Все годы</value>
+  </data>
+  <data name="AllGenres" xml:space="preserve">
+    <value>Все жанры</value>
+  </data>
+  <data name="Added" xml:space="preserve">
+    <value>Добавлено</value>
+  </data>
+  <data name="Cds" xml:space="preserve">
+    <value>CD</value>
+  </data>
+  <data name="Recorded" xml:space="preserve">
+    <value>Записано</value>
+  </data>
+  <data name="Released" xml:space="preserve">
+    <value>Выпущено</value>
+  </data>
+  <data name="Long" xml:space="preserve">
+    <value>Длинная</value>
+  </data>
+  <data name="Born" xml:space="preserve">
+    <value>Рождение</value>
+  </data>
+  <data name="Died" xml:space="preserve">
+    <value>Смерть</value>
+  </data>
+  <data name="Disbanded" xml:space="preserve">
+    <value>Роспуск</value>
+  </data>
+  <data name="Formed" xml:space="preserve">
+    <value>Создание</value>
+  </data>
+  <data name="From" xml:space="preserve">
+    <value>Страна</value>
+  </data>
+  <data name="Group" xml:space="preserve">
+    <value>Группа</value>
+  </data>
+  <data name="UntitledArtist" xml:space="preserve">
+    <value>Исполнитель без имени</value>
+  </data>
+  <data name="Parent" xml:space="preserve">
+    <value>Родительский</value>
+  </data>
+  <data name="UntitledLabel" xml:space="preserve">
+    <value>Лейбл без названия</value>
+  </data>
+  <data name="RebuildingCache" xml:space="preserve">
+    <value>Перестройка кэша</value>
+  </data>
+  <data name="TypeToFilter" xml:space="preserve">
+    <value>Введите текст фильтра…</value>
+  </data>
+  <data name="RT_Album" xml:space="preserve">
+    <value>Альбом</value>
+  </data>
+  <data name="RT_Anthology" xml:space="preserve">
+    <value>Антология</value>
+  </data>
+  <data name="RT_AudioBook" xml:space="preserve">
+    <value>Аудиокнига</value>
+  </data>
+  <data name="RT_Bootleg" xml:space="preserve">
+    <value>Бутлег</value>
+  </data>
+  <data name="RT_Compilation" xml:space="preserve">
+    <value>Компиляция</value>
+  </data>
+  <data name="RT_Digital" xml:space="preserve">
+    <value>Цифровой носитель</value>
+  </data>
+  <data name="RT_DVD" xml:space="preserve">
+    <value>DVD-диск</value>
+  </data>
+  <data name="RT_EP" xml:space="preserve">
+    <value>Миньон</value>
+  </data>
+  <data name="RT_LivePerformance" xml:space="preserve">
+    <value>Живое выступление</value>
+  </data>
+  <data name="RT_Maxi" xml:space="preserve">
+    <value>Макси-сингл</value>
+  </data>
+  <data name="RT_Sampler" xml:space="preserve">
+    <value>Семплер</value>
+  </data>
+  <data name="RT_SoundEffects" xml:space="preserve">
+    <value>Звуковые эффекты</value>
+  </data>
+  <data name="RT_Soundtrack" xml:space="preserve">
+    <value>Музыка из фильма</value>
+  </data>
+  <data name="RT_Undefined" xml:space="preserve">
+    <value>Не определено</value>
+  </data>
+  <data name="RT_Video" xml:space="preserve">
+    <value>Видео</value>
+  </data>
+  <data name="TypeToSearch" xml:space="preserve">
+    <value>Введите искомый текст…</value>
+  </data>
+  <data name="LangChanged" xml:space="preserve">
+    <value>Вы изменили язык приложения, Helium нужно перезапустить. 
+Нажмите «OK», чтобы перезапустить Helium.</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>Язык</value>
+  </data>
+  <data name="LastFm_Completed" xml:space="preserve">
+    <value>Нажмите «OK» после завершения проверки подлинности на сервисе Last.fm</value>
+  </data>
+  <data name="LastFm_Grant" xml:space="preserve">
+    <value>Нажмите «OK», чтобы разрешить приложению Helium использовать Last.fm</value>
+  </data>
+  <data name="LastFm_NeedToRegister" xml:space="preserve">
+    <value>Для использования Last.fm необходимо зарегистрировать Helium</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Пароль</value>
+  </data>
+  <data name="Register" xml:space="preserve">
+    <value>Регистрация</value>
+  </data>
+  <data name="UseLastFm" xml:space="preserve">
+    <value>Использовать Last.fm</value>
+  </data>
+  <data name="AddFiles_Completed" xml:space="preserve">
+    <value>Добавление файлов завершено</value>
+  </data>
+  <data name="AboutNeon" xml:space="preserve">
+    <value>О приложении Helium</value>
+  </data>
+  <data name="OptionsTitle" xml:space="preserve">
+    <value>Параметры</value>
+  </data>
+  <data name="Import_DatabaseIsNotEmpty" xml:space="preserve">
+    <value>Импортировать можно только в пустую базу данных.</value>
+  </data>
+  <data name="EditTags" xml:space="preserve">
+    <value>Изменить теги…</value>
+  </data>
+  <data name="FileExistsInQueue" xml:space="preserve">
+    <value>Обрабатываются один или несколько выбранных файлов. 
+Повторите попытку после завершения текущей операции.</value>
+  </data>
+  <data name="UpdatingDatabase" xml:space="preserve">
+    <value>Обновление базы данных</value>
+  </data>
+  <data name="UpdatingFileStatus" xml:space="preserve">
+    <value>Обновление файла {0} из {1}</value>
+  </data>
+  <data name="GroupMembers" xml:space="preserve">
+    <value>Участники группы</value>
+  </data>
+  <data name="ImportHelium11Db" xml:space="preserve">
+    <value>Импортировать базу данных Helium 11…</value>
+  </data>
+  <data name="MemberOf" xml:space="preserve">
+    <value>Входит в состав групп</value>
+  </data>
+  <data name="ImportingHelium11Database" xml:space="preserve">
+    <value>Импорт базы данных Helium</value>
+  </data>
+  <data name="EditMultipleGenresHelper" xml:space="preserve">
+    <value>Разделить жанры по строкам</value>
+  </data>
+  <data name="EditMultipleGenresTitle" xml:space="preserve">
+    <value>Изменить несколько жанров</value>
+  </data>
+  <data name="EditMultipleLabelsHelper" xml:space="preserve">
+    <value>Разделить лейблы по строкам</value>
+  </data>
+  <data name="EditMultipleLabelsTitle" xml:space="preserve">
+    <value>Изменить несколько лейблов</value>
+  </data>
+  <data name="ImportDbProgress1" xml:space="preserve">
+    <value>Импорт пользователей</value>
+  </data>
+  <data name="ImportDbProgress10" xml:space="preserve">
+    <value>Импорт исполнителей</value>
+  </data>
+  <data name="ImportDbProgress11" xml:space="preserve">
+    <value>Импорт оценок исполнителей</value>
+  </data>
+  <data name="ImportDbProgress12" xml:space="preserve">
+    <value>Импорт альбомов</value>
+  </data>
+  <data name="ImportDbProgress13" xml:space="preserve">
+    <value>Импорт оценок альбомов</value>
+  </data>
+  <data name="ImportDbProgress14" xml:space="preserve">
+    <value>Импорт связей</value>
+  </data>
+  <data name="ImportDbProgress15" xml:space="preserve">
+    <value>Импорт элементов сведений</value>
+  </data>
+  <data name="ImportDbProgress16" xml:space="preserve">
+    <value>Импорт оценок</value>
+  </data>
+  <data name="ImportDbProgress17" xml:space="preserve">
+    <value>Импорт элементов исполнитель x сведения</value>
+  </data>
+  <data name="ImportDbProgress18" xml:space="preserve">
+    <value>Импорт комментариев</value>
+  </data>
+  <data name="ImportDbProgress19" xml:space="preserve">
+    <value>Импорт текстов песен</value>
+  </data>
+  <data name="ImportDbProgress2" xml:space="preserve">
+    <value>Импорт групп пользователей</value>
+  </data>
+  <data name="ImportDbProgress20" xml:space="preserve">
+    <value>Импорт истории</value>
+  </data>
+  <data name="ImportDbProgress21" xml:space="preserve">
+    <value>Импорт записей в плей-листе</value>
+  </data>
+  <data name="ImportDbProgress22" xml:space="preserve">
+    <value>Импорт элементов жанр x сведения</value>
+  </data>
+  <data name="ImportDbProgress23" xml:space="preserve">
+    <value>Импорт элементов лейбл x сведения</value>
+  </data>
+  <data name="ImportDbProgress25" xml:space="preserve">
+    <value>Исправление исполнителей с вложенными дорожками</value>
+  </data>
+  <data name="ImportDbProgress26" xml:space="preserve">
+    <value>Исправление длин вложенных дорожек</value>
+  </data>
+  <data name="ImportDbProgress27" xml:space="preserve">
+    <value>Удаление пустых альбомов</value>
+  </data>
+  <data name="ImportDbProgress28" xml:space="preserve">
+    <value>Добавление корневых папок</value>
+  </data>
+  <data name="ImportDbProgress3" xml:space="preserve">
+    <value>Импорт сопоставлений пользователей</value>
+  </data>
+  <data name="ImportDbProgress4" xml:space="preserve">
+    <value>Импорт сервисов</value>
+  </data>
+  <data name="ImportDbProgress5" xml:space="preserve">
+    <value>Импорт стран</value>
+  </data>
+  <data name="ImportDbProgress6" xml:space="preserve">
+    <value>Импорт жанров</value>
+  </data>
+  <data name="ImportDbProgress7" xml:space="preserve">
+    <value>Импорт папок плей-листов</value>
+  </data>
+  <data name="ImportDbProgress8" xml:space="preserve">
+    <value>Импорт плей-листов</value>
+  </data>
+  <data name="ImportDbProgress9" xml:space="preserve">
+    <value>Импорт лейблов</value>
+  </data>
+  <data name="Extract" xml:space="preserve">
+    <value>Извлечь</value>
+  </data>
+  <data name="EditMultipleArtists" xml:space="preserve">
+    <value>Изменить несколько исполнителей</value>
+  </data>
+  <data name="EditIplTitle" xml:space="preserve">
+    <value>Изменить причастных людей</value>
+  </data>
+  <data name="EditMclTitle" xml:space="preserve">
+    <value>Изменить состав группы</value>
+  </data>
+  <data name="AddEditComment" xml:space="preserve">
+    <value>Добавить (изменить) комментарий</value>
+  </data>
+  <data name="AddEditTxxx" xml:space="preserve">
+    <value>Добавить (изменить) TXXX</value>
+  </data>
+  <data name="Content" xml:space="preserve">
+    <value>Содержимое</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Описание</value>
+  </data>
+  <data name="Load" xml:space="preserve">
+    <value>Загрузить</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Сохранить</value>
+  </data>
+  <data name="AddEditPicture" xml:space="preserve">
+    <value>Добавить (изменить) изображение</value>
+  </data>
+  <data name="Browse" xml:space="preserve">
+    <value>Обзор</value>
+  </data>
+  <data name="Picture" xml:space="preserve">
+    <value>Изображение</value>
+  </data>
+  <data name="PictureType" xml:space="preserve">
+    <value>Тип изображения</value>
+  </data>
+  <data name="Finish" xml:space="preserve">
+    <value>Готово</value>
+  </data>
+  <data name="te_album" xml:space="preserve">
+    <value>Альбом</value>
+  </data>
+  <data name="te_albumartist" xml:space="preserve">
+    <value>Исполнитель (альбом)</value>
+  </data>
+  <data name="te_albumartistsortorder" xml:space="preserve">
+    <value>Порядок исполнителей (альбом)</value>
+  </data>
+  <data name="te_albumsortorder" xml:space="preserve">
+    <value>Порядок альбомов</value>
+  </data>
+  <data name="te_albumsubtitle" xml:space="preserve">
+    <value>Подзаголовок альбома</value>
+  </data>
+  <data name="te_albumversion" xml:space="preserve">
+    <value>Версия альбома</value>
+  </data>
+  <data name="te_artist" xml:space="preserve">
+    <value>Исполнитель</value>
+  </data>
+  <data name="te_artistsortorder" xml:space="preserve">
+    <value>Порядок исполнителей</value>
+  </data>
+  <data name="te_artisturl" xml:space="preserve">
+    <value>Ссылка на исполнителя</value>
+  </data>
+  <data name="te_audiofileurl" xml:space="preserve">
+    <value>Ссылка на аудиофайл</value>
+  </data>
+  <data name="te_bandorch" xml:space="preserve">
+    <value>Группа, оркестр</value>
+  </data>
+  <data name="te_biography" xml:space="preserve">
+    <value>Биография</value>
+  </data>
+  <data name="te_blank" xml:space="preserve">
+    <value>Пусто</value>
+  </data>
+  <data name="te_bpm" xml:space="preserve">
+    <value>Уд/мин</value>
+  </data>
+  <data name="te_buycdurl" xml:space="preserve">
+    <value>Ссылка на покупку CD</value>
+  </data>
+  <data name="te_catalognumber" xml:space="preserve">
+    <value>Номер по каталогу</value>
+  </data>
+  <data name="te_composer" xml:space="preserve">
+    <value>Композитор</value>
+  </data>
+  <data name="te_conductor" xml:space="preserve">
+    <value>Дирижер</value>
+  </data>
+  <data name="te_copyright" xml:space="preserve">
+    <value>Авторские права</value>
+  </data>
+  <data name="te_currentcd" xml:space="preserve">
+    <value>Текущий CD</value>
+  </data>
+  <data name="te_currenttrack" xml:space="preserve">
+    <value>Текущая дорожка</value>
+  </data>
+  <data name="te_custom1" xml:space="preserve">
+    <value>Свое 1</value>
+  </data>
+  <data name="te_custom10" xml:space="preserve">
+    <value>Свое 10</value>
+  </data>
+  <data name="te_custom2" xml:space="preserve">
+    <value>Свое 2</value>
+  </data>
+  <data name="te_custom3" xml:space="preserve">
+    <value>Свое 3</value>
+  </data>
+  <data name="te_custom4" xml:space="preserve">
+    <value>Свое 4</value>
+  </data>
+  <data name="te_custom5" xml:space="preserve">
+    <value>Свое 5</value>
+  </data>
+  <data name="te_custom6" xml:space="preserve">
+    <value>Свое 6</value>
+  </data>
+  <data name="te_custom7" xml:space="preserve">
+    <value>Свое 7</value>
+  </data>
+  <data name="te_custom8" xml:space="preserve">
+    <value>Свое 8</value>
+  </data>
+  <data name="te_custom9" xml:space="preserve">
+    <value>Свое 9</value>
+  </data>
+  <data name="te_encodedby" xml:space="preserve">
+    <value>Кодирование:</value>
+  </data>
+  <data name="te_fileowner" xml:space="preserve">
+    <value>Владелец файла</value>
+  </data>
+  <data name="te_genre" xml:space="preserve">
+    <value>Жанр</value>
+  </data>
+  <data name="te_grouping" xml:space="preserve">
+    <value>Группировка</value>
+  </data>
+  <data name="te_initialkey" xml:space="preserve">
+    <value>Начальный ключ</value>
+  </data>
+  <data name="te_ipls" xml:space="preserve">
+    <value>Причастные</value>
+  </data>
+  <data name="te_isrc" xml:space="preserve">
+    <value>Код ISRC</value>
+  </data>
+  <data name="te_label" xml:space="preserve">
+    <value>Лейбл</value>
+  </data>
+  <data name="te_labelurl" xml:space="preserve">
+    <value>Ссылка на лейбл</value>
+  </data>
+  <data name="te_language" xml:space="preserve">
+    <value>Язык</value>
+  </data>
+  <data name="te_lyricist" xml:space="preserve">
+    <value>Автор текста</value>
+  </data>
+  <data name="te_lyrics" xml:space="preserve">
+    <value>Текст</value>
+  </data>
+  <data name="te_mcl" xml:space="preserve">
+    <value>Состав группы</value>
+  </data>
+  <data name="te_media" xml:space="preserve">
+    <value>Носитель</value>
+  </data>
+  <data name="te_mood" xml:space="preserve">
+    <value>Настроение</value>
+  </data>
+  <data name="te_multiplecomments" xml:space="preserve">
+    <value>Несколько комментариев</value>
+  </data>
+  <data name="te_orgartist" xml:space="preserve">
+    <value>Первоначальный исполнитель</value>
+  </data>
+  <data name="te_orgfilename" xml:space="preserve">
+    <value>Первоначальное имя файла</value>
+  </data>
+  <data name="te_orglyricist" xml:space="preserve">
+    <value>Первоначальный автор текста</value>
+  </data>
+  <data name="te_orgtitle" xml:space="preserve">
+    <value>Первоначальное название</value>
+  </data>
+  <data name="te_orgyear" xml:space="preserve">
+    <value>Первоначальный год</value>
+  </data>
+  <data name="te_partofseries" xml:space="preserve">
+    <value>Номер в серии</value>
+  </data>
+  <data name="te_pictures" xml:space="preserve">
+    <value>Вложенные изображения</value>
+  </data>
+  <data name="te_popularity" xml:space="preserve">
+    <value>Популярность</value>
+  </data>
+  <data name="te_preference" xml:space="preserve">
+    <value>Характеристика</value>
+  </data>
+  <data name="te_produced" xml:space="preserve">
+    <value>Продюсер</value>
+  </data>
+  <data name="te_quality" xml:space="preserve">
+    <value>Качество</value>
+  </data>
+  <data name="te_radiourl" xml:space="preserve">
+    <value>Ссылка на радио</value>
+  </data>
+  <data name="te_rating" xml:space="preserve">
+    <value>Оценка</value>
+  </data>
+  <data name="te_recordingyear" xml:space="preserve">
+    <value>Год записи</value>
+  </data>
+  <data name="te_releasetype" xml:space="preserve">
+    <value>Тип выпуска</value>
+  </data>
+  <data name="te_releaseyear" xml:space="preserve">
+    <value>Год выпуска</value>
+  </data>
+  <data name="te_remix" xml:space="preserve">
+    <value>Ремикс</value>
+  </data>
+  <data name="te_singlecomment" xml:space="preserve">
+    <value>Комментарий</value>
+  </data>
+  <data name="te_situation" xml:space="preserve">
+    <value>Обстоятельства</value>
+  </data>
+  <data name="te_softwaresettings" xml:space="preserve">
+    <value>Настройки ПО</value>
+  </data>
+  <data name="te_studio" xml:space="preserve">
+    <value>Студия</value>
+  </data>
+  <data name="te_subtitle" xml:space="preserve">
+    <value>Подзаголовок</value>
+  </data>
+  <data name="te_tempo" xml:space="preserve">
+    <value>Темп</value>
+  </data>
+  <data name="te_title" xml:space="preserve">
+    <value>Название</value>
+  </data>
+  <data name="te_titlesortorder" xml:space="preserve">
+    <value>Порядок названий</value>
+  </data>
+  <data name="te_totalcds" xml:space="preserve">
+    <value>Всего CD</value>
+  </data>
+  <data name="te_totaltracks" xml:space="preserve">
+    <value>Всего дорожек</value>
+  </data>
+  <data name="te_txxx" xml:space="preserve">
+    <value>Несколько TXXX</value>
+  </data>
+  <data name="Borned" xml:space="preserve">
+    <value>Рождение</value>
+  </data>
+  <data name="EditArtist" xml:space="preserve">
+    <value>Изменить исполнителя…</value>
+  </data>
+  <data name="BornName" xml:space="preserve">
+    <value>Имя при рождении</value>
+  </data>
+  <data name="Country" xml:space="preserve">
+    <value>Страна</value>
+  </data>
+  <data name="EditArtistInformation" xml:space="preserve">
+    <value>Изменить сведения об исполнителе</value>
+  </data>
+  <data name="IsGroup" xml:space="preserve">
+    <value>Это группа</value>
+  </data>
+  <data name="IsSingleArtist" xml:space="preserve">
+    <value>Это человек</value>
+  </data>
+  <data name="WebPage" xml:space="preserve">
+    <value>Веб-страница</value>
+  </data>
+  <data name="ImportDbProgress24" xml:space="preserve">
+    <value>Импорт идентификаторов</value>
+  </data>
+  <data name="ApplyToAll" xml:space="preserve">
+    <value>Применить ко всем &gt;&gt;</value>
+  </data>
+  <data name="ChangePicture" xml:space="preserve">
+    <value>Изменить изображение…</value>
+  </data>
+  <data name="DownloadingData" xml:space="preserve">
+    <value>Скачивание сведений</value>
+  </data>
+  <data name="DownloadPicture" xml:space="preserve">
+    <value>Скачивать…</value>
+  </data>
+  <data name="ImportHelium11Command" xml:space="preserve">
+    <value>Импорт из Helium 11…</value>
+  </data>
+  <data name="Import_InvalidDatabase" xml:space="preserve">
+    <value>Выбранная БД не является допустимой базой данных Helium 11. 
+База данных должна быть обновлена ​​до актуального формата Helium 11.</value>
+  </data>
+  <data name="LibraryManagement" xml:space="preserve">
+    <value>Управление библиотекой…</value>
+  </data>
+  <data name="LibraryManagmentTitle" xml:space="preserve">
+    <value>Управление библиотекой</value>
+  </data>
+  <data name="Library_CannotOverwriteActive" xml:space="preserve">
+    <value>Перезаписать активную базу данных нельзя</value>
+  </data>
+  <data name="Library_DatabaseAlreadyActive" xml:space="preserve">
+    <value>Эта база данных уже активна</value>
+  </data>
+  <data name="Library_DatabaseConnected" xml:space="preserve">
+    <value>Активная база данных изменена, нужно перезапустить Helium. 
+Нажмите «OK», чтобы перезапустить Helium.</value>
+  </data>
+  <data name="Library_InvalidDatabase" xml:space="preserve">
+    <value>Выбрана недопустимая база данных.</value>
+  </data>
+  <data name="Library_NewDatabaseCreate" xml:space="preserve">
+    <value>База данных создана, необходимо перезапустить Helium. 
+Нажмите «OK», чтобы перезапустить Helium.</value>
+  </data>
+  <data name="NewCommand" xml:space="preserve">
+    <value>Создать…</value>
+  </data>
+  <data name="OpenCommand" xml:space="preserve">
+    <value>Открыть…</value>
+  </data>
+  <data name="CreateSqlServerDatabase" xml:space="preserve">
+    <value>Создать базу данных SQL Server</value>
+  </data>
+  <data name="Error_CannotConnectToServer" xml:space="preserve">
+    <value>Не удается получить доступ к выбранному серверу.</value>
+  </data>
+  <data name="Error_DatabaseAlreadyExists" xml:space="preserve">
+    <value>База данных с выбранным именем уже существует.</value>
+  </data>
+  <data name="Library_CannotConnect" xml:space="preserve">
+    <value>Не удается подключиться к выбранной базе данных.</value>
+  </data>
+  <data name="CreateMySqlDatabase" xml:space="preserve">
+    <value>Создать базу данных MySql/MariaDb</value>
+  </data>
+  <data name="OpenMySqlDatabase" xml:space="preserve">
+    <value>Открыть базу данных MySql/MariaDb</value>
+  </data>
+  <data name="Database" xml:space="preserve">
+    <value>База данных</value>
+  </data>
+  <data name="MySqlServer" xml:space="preserve">
+    <value>Сервер MySql/MariaDb</value>
+  </data>
+  <data name="Port" xml:space="preserve">
+    <value>Порт</value>
+  </data>
+  <data name="SqlAuth" xml:space="preserve">
+    <value>Проверка подлинности SQL</value>
+  </data>
+  <data name="SqlServerInstance" xml:space="preserve">
+    <value>Имя экземпляра SQL Server</value>
+  </data>
+  <data name="Username" xml:space="preserve">
+    <value>Имя пользователя</value>
+  </data>
+  <data name="WindowsAuth" xml:space="preserve">
+    <value>Проверка подлинности Windows</value>
+  </data>
+  <data name="DAC_AddedFiles" xml:space="preserve">
+    <value>Добавление завершена.</value>
+  </data>
+  <data name="DAC_TaggedFiles" xml:space="preserve">
+    <value>Присвоение тегов завершено.</value>
+  </data>
+  <data name="DAT_AddedFiles" xml:space="preserve">
+    <value>Добавленные файлы</value>
+  </data>
+  <data name="DAT_TaggedFiles" xml:space="preserve">
+    <value>Присвоение тегов завершено</value>
+  </data>
+  <data name="ShowAlerts" xml:space="preserve">
+    <value>Оповещения на рабочем столе</value>
+  </data>
+  <data name="Visual" xml:space="preserve">
+    <value>Отображение</value>
+  </data>
+  <data name="DAC_Imported" xml:space="preserve">
+    <value>Выбранная база данных импортирована.</value>
+  </data>
+  <data name="DAC_Updated" xml:space="preserve">
+    <value>Обновление библиотеки завершено.</value>
+  </data>
+  <data name="DAT_Imported" xml:space="preserve">
+    <value>База данных импортирована</value>
+  </data>
+  <data name="DAT_Updated" xml:space="preserve">
+    <value>Библиотека обновлена</value>
+  </data>
+  <data name="SelectDatabaseTypeImport" xml:space="preserve">
+    <value>Выбор тип импортируемой базы данных</value>
+  </data>
+  <data name="ViewOriginal" xml:space="preserve">
+    <value>Просмотр оригинала…</value>
+  </data>
+  <data name="OpenSqlServerDatabase" xml:space="preserve">
+    <value>Открыть базу данных SQL Server</value>
+  </data>
+  <data name="Library_DatabaseImported" xml:space="preserve">
+    <value>Выбранная база данных импортирована. Необходимо перезапустить Helium. Чтобы закрыть Helium, нажмите «OK».</value>
+  </data>
+  <data name="AddToPlaylist" xml:space="preserve">
+    <value>Добавить в плей-лист…</value>
+  </data>
+  <data name="AddToPlaylistTitle" xml:space="preserve">
+    <value>Добавить в плей-лист</value>
+  </data>
+  <data name="ShowAlertsNotActive" xml:space="preserve">
+    <value>Показывать оповещения, только если окно приложения Helium неактивно</value>
+  </data>
+  <data name="MoveDown" xml:space="preserve">
+    <value>Переместить вниз</value>
+  </data>
+  <data name="MoveUp" xml:space="preserve">
+    <value>Переместить вверх</value>
+  </data>
+  <data name="Playlists" xml:space="preserve">
+    <value>Плей-листы</value>
+  </data>
+  <data name="RemoveTracks" xml:space="preserve">
+    <value>Удалить выбранные дорожки из вашей библиотеки?</value>
+  </data>
+  <data name="NewFolder" xml:space="preserve">
+    <value>Создать папку</value>
+  </data>
+  <data name="Rename" xml:space="preserve">
+    <value>Переименовать</value>
+  </data>
+  <data name="NoFilesSelected" xml:space="preserve">
+    <value>Файлы не выбраны</value>
+  </data>
+  <data name="Played" xml:space="preserve">
+    <value>Проигрывалось</value>
+  </data>
+  <data name="Statistics" xml:space="preserve">
+    <value>Статистика</value>
+  </data>
+  <data name="NewFolderMenu" xml:space="preserve">
+    <value>Новая папка…</value>
+  </data>
+  <data name="NewPlaylist" xml:space="preserve">
+    <value>Новый плей-лист…</value>
+  </data>
+  <data name="Play" xml:space="preserve">
+    <value>Проиграть</value>
+  </data>
+  <data name="GeneralStatistics" xml:space="preserve">
+    <value>Общая статистика</value>
+  </data>
+  <data name="MonthlyStatistics" xml:space="preserve">
+    <value>Месячная статистика</value>
+  </data>
+  <data name="MostPlayedArtists" xml:space="preserve">
+    <value>Самые популярные исполнители</value>
+  </data>
+  <data name="MostPlayedGenres" xml:space="preserve">
+    <value>Самые популярные жанры</value>
+  </data>
+  <data name="MostPlayedYears" xml:space="preserve">
+    <value>Самые популярные годы</value>
+  </data>
+  <data name="NumberOfAlbumsInLibrary" xml:space="preserve">
+    <value>Число альбомов в библиотеке</value>
+  </data>
+  <data name="NumberOfArtistsInLibrary" xml:space="preserve">
+    <value>Число исполнителей в библиотеке</value>
+  </data>
+  <data name="NumberOfGenresInLibrary" xml:space="preserve">
+    <value>Число жанров в библиотеке</value>
+  </data>
+  <data name="NumberOfLabelsInLibrary" xml:space="preserve">
+    <value>Число лейблов в библиотеке</value>
+  </data>
+  <data name="NumberOfTracksInLibrary" xml:space="preserve">
+    <value>Число дорожек в библиотеке</value>
+  </data>
+  <data name="PlayingStatistics" xml:space="preserve">
+    <value>Статистика проигрывания</value>
+  </data>
+  <data name="TopArtists" xml:space="preserve">
+    <value>Популярные исполнители</value>
+  </data>
+  <data name="TopGenres" xml:space="preserve">
+    <value>Популярные жанры</value>
+  </data>
+  <data name="TopYears" xml:space="preserve">
+    <value>Популярные годы</value>
+  </data>
+  <data name="TotalPlaytimeInLibrary" xml:space="preserve">
+    <value>Общее время проигрывания в библиотеке</value>
+  </data>
+  <data name="TotalTracksPlayed" xml:space="preserve">
+    <value>Всего дорожек проиграно</value>
+  </data>
+  <data name="TracksPlayedThisMonth" xml:space="preserve">
+    <value>Дорожек проиграно в этом месяце</value>
+  </data>
+  <data name="TracksPlayedThisWeek" xml:space="preserve">
+    <value>Дорожек проиграно на этой неделе</value>
+  </data>
+  <data name="TracksPlayedThisYear" xml:space="preserve">
+    <value>Дорожек проиграно в этом году</value>
+  </data>
+  <data name="TracksPlayedToday" xml:space="preserve">
+    <value>Дорожек проиграно сегодня</value>
+  </data>
+  <data name="AlbumArtist" xml:space="preserve">
+    <value>Исполнитель (альбом)</value>
+  </data>
+  <data name="Apply" xml:space="preserve">
+    <value>Применить</value>
+  </data>
+  <data name="ApplyDown" xml:space="preserve">
+    <value>Применить вниз</value>
+  </data>
+  <data name="CD" xml:space="preserve">
+    <value>CD</value>
+  </data>
+  <data name="ExtractArtistDashTitle" xml:space="preserve">
+    <value>Извлечь исполнитель-название</value>
+  </data>
+  <data name="ExtractArtistSlashTitle" xml:space="preserve">
+    <value>Извлечь исполнитель/название</value>
+  </data>
+  <data name="ExtractMultipleArtists" xml:space="preserve">
+    <value>Извлечь нескольких исполнителей</value>
+  </data>
+  <data name="ExtractTitleDashArtist" xml:space="preserve">
+    <value>Извлечь название-исполнитель</value>
+  </data>
+  <data name="ExtractTitleRemix" xml:space="preserve">
+    <value>Извлечь название (ремикс)</value>
+  </data>
+  <data name="ExtractTitleSlashArtist" xml:space="preserve">
+    <value>Извлечь название/исполнитель</value>
+  </data>
+  <data name="ExtractTitleSubtitle" xml:space="preserve">
+    <value>Извлечь название (подзаголовок)</value>
+  </data>
+  <data name="RecYear" xml:space="preserve">
+    <value>Год зап.</value>
+  </data>
+  <data name="RelYear" xml:space="preserve">
+    <value>Год вып.</value>
+  </data>
+  <data name="Remix" xml:space="preserve">
+    <value>Ремикс</value>
+  </data>
+  <data name="SelectColumns" xml:space="preserve">
+    <value>Выбор столбцов</value>
+  </data>
+  <data name="SelectColumnsMenu" xml:space="preserve">
+    <value>Выбор столбцов…</value>
+  </data>
+  <data name="Subtitle" xml:space="preserve">
+    <value>Подзаголовок</value>
+  </data>
+  <data name="Switch" xml:space="preserve">
+    <value>Поменять</value>
+  </data>
+  <data name="SwitchWithAlbum" xml:space="preserve">
+    <value>Поменять с альбомом</value>
+  </data>
+  <data name="SwitchWithArtist" xml:space="preserve">
+    <value>Поменять с исполнителем</value>
+  </data>
+  <data name="SwitchWithRemix" xml:space="preserve">
+    <value>Поменять с ремиксом</value>
+  </data>
+  <data name="SwitchWithSubtitle" xml:space="preserve">
+    <value>Поменять с подзаголовком</value>
+  </data>
+  <data name="SwitchWithTitle" xml:space="preserve">
+    <value>Поменять с заголовком</value>
+  </data>
+  <data name="Track" xml:space="preserve">
+    <value>Дорожка</value>
+  </data>
+  <data name="Aka" xml:space="preserve">
+    <value>Псевдоним</value>
+  </data>
+  <data name="TagEditor" xml:space="preserve">
+    <value>Редактор тегов</value>
+  </data>
+  <data name="InvolvedPeoples" xml:space="preserve">
+    <value>Причастные</value>
+  </data>
+  <data name="Label" xml:space="preserve">
+    <value>Лейбл</value>
+  </data>
+  <data name="Mcl" xml:space="preserve">
+    <value>Список состава группы</value>
+  </data>
+  <data name="ReleaseType" xml:space="preserve">
+    <value>Тип выпуска</value>
+  </data>
+  <data name="EditMultipleComments" xml:space="preserve">
+    <value>Изменить несколько комментариев</value>
+  </data>
+  <data name="Comments" xml:space="preserve">
+    <value>Комментарии</value>
+  </data>
+  <data name="EditBiography" xml:space="preserve">
+    <value>Изменить биографию</value>
+  </data>
+  <data name="EditLyrics" xml:space="preserve">
+    <value>Изменить текст</value>
+  </data>
+  <data name="AlbumArtistSortOrder" xml:space="preserve">
+    <value>Порядок исполнителей (альбом)</value>
+  </data>
+  <data name="AlbumSortOrder" xml:space="preserve">
+    <value>Порядок альбомов</value>
+  </data>
+  <data name="AlbumSubtitle" xml:space="preserve">
+    <value>Подзаголовок альбома</value>
+  </data>
+  <data name="AlbumVersion" xml:space="preserve">
+    <value>Версия альбома</value>
+  </data>
+  <data name="ArtistSortOrder" xml:space="preserve">
+    <value>Порядок исполнителей</value>
+  </data>
+  <data name="ArtistUrl" xml:space="preserve">
+    <value>Ссылка на исполнителя</value>
+  </data>
+  <data name="AudioFileUrl" xml:space="preserve">
+    <value>Ссылка на аудиофайл</value>
+  </data>
+  <data name="BandOrch" xml:space="preserve">
+    <value>Группа, оркестр</value>
+  </data>
+  <data name="Bpm" xml:space="preserve">
+    <value>Уд/мин</value>
+  </data>
+  <data name="BuyCdUrl" xml:space="preserve">
+    <value>Ссылка на покупку CD</value>
+  </data>
+  <data name="CatalogNumber" xml:space="preserve">
+    <value>Номер по каталогу</value>
+  </data>
+  <data name="Comment" xml:space="preserve">
+    <value>Комментарий</value>
+  </data>
+  <data name="Composer" xml:space="preserve">
+    <value>Композитор</value>
+  </data>
+  <data name="Conductor" xml:space="preserve">
+    <value>Дирижер</value>
+  </data>
+  <data name="Copyright" xml:space="preserve">
+    <value>Авторские права</value>
+  </data>
+  <data name="Custom1" xml:space="preserve">
+    <value>Свое 1</value>
+  </data>
+  <data name="Custom10" xml:space="preserve">
+    <value>Свое 10</value>
+  </data>
+  <data name="Custom2" xml:space="preserve">
+    <value>Свое 2</value>
+  </data>
+  <data name="Custom3" xml:space="preserve">
+    <value>Свое 3</value>
+  </data>
+  <data name="Custom4" xml:space="preserve">
+    <value>Свое 4</value>
+  </data>
+  <data name="Custom5" xml:space="preserve">
+    <value>Свое 5</value>
+  </data>
+  <data name="Custom6" xml:space="preserve">
+    <value>Свое 6</value>
+  </data>
+  <data name="Custom7" xml:space="preserve">
+    <value>Свое 7</value>
+  </data>
+  <data name="Custom8" xml:space="preserve">
+    <value>Свое 8</value>
+  </data>
+  <data name="Custom9" xml:space="preserve">
+    <value>Свое 9</value>
+  </data>
+  <data name="EncodedBy" xml:space="preserve">
+    <value>Кодирование:</value>
+  </data>
+  <data name="FileOwner" xml:space="preserve">
+    <value>Владелец файла</value>
+  </data>
+  <data name="Grouping" xml:space="preserve">
+    <value>Группировка</value>
+  </data>
+  <data name="InitialKey" xml:space="preserve">
+    <value>Начальный ключ</value>
+  </data>
+  <data name="Isrc" xml:space="preserve">
+    <value>Код ISRC</value>
+  </data>
+  <data name="LabelUrl" xml:space="preserve">
+    <value>Ссылка на лейбл</value>
+  </data>
+  <data name="Lyricist" xml:space="preserve">
+    <value>Автор текста</value>
+  </data>
+  <data name="Lyrics" xml:space="preserve">
+    <value>Текст</value>
+  </data>
+  <data name="Media" xml:space="preserve">
+    <value>Носитель</value>
+  </data>
+  <data name="Mood" xml:space="preserve">
+    <value>Настроение</value>
+  </data>
+  <data name="OrgArtist" xml:space="preserve">
+    <value>Перв. исполнитель</value>
+  </data>
+  <data name="OrgFilename" xml:space="preserve">
+    <value>Перв. имя файла</value>
+  </data>
+  <data name="OrgLyricist" xml:space="preserve">
+    <value>Перв. автор текста</value>
+  </data>
+  <data name="OrgTitle" xml:space="preserve">
+    <value>Перв. название</value>
+  </data>
+  <data name="OrgYear" xml:space="preserve">
+    <value>Перв. год</value>
+  </data>
+  <data name="PartOfSeries" xml:space="preserve">
+    <value>Номер в серии</value>
+  </data>
+  <data name="Popularity" xml:space="preserve">
+    <value>Популярность</value>
+  </data>
+  <data name="Preference" xml:space="preserve">
+    <value>Характеристика</value>
+  </data>
+  <data name="Produced" xml:space="preserve">
+    <value>Продюсер</value>
+  </data>
+  <data name="Quality" xml:space="preserve">
+    <value>Качество</value>
+  </data>
+  <data name="RadioUrl" xml:space="preserve">
+    <value>Ссылка на радио</value>
+  </data>
+  <data name="Situation" xml:space="preserve">
+    <value>Обстоятельства</value>
+  </data>
+  <data name="SoftwareSettings" xml:space="preserve">
+    <value>Настройки ПО</value>
+  </data>
+  <data name="Studio" xml:space="preserve">
+    <value>Студия</value>
+  </data>
+  <data name="Tempo" xml:space="preserve">
+    <value>Темп</value>
+  </data>
+  <data name="TitleSortOrder" xml:space="preserve">
+    <value>Порядок названий</value>
+  </data>
+  <data name="Txxx" xml:space="preserve">
+    <value>TXXX</value>
+  </data>
+  <data name="Favourite" xml:space="preserve">
+    <value>Избранное</value>
+  </data>
+  <data name="CurrentTrack" xml:space="preserve">
+    <value>Текущая дорожка</value>
+  </data>
+  <data name="Path" xml:space="preserve">
+    <value>Путь</value>
+  </data>
+  <data name="Pictures" xml:space="preserve">
+    <value>Изображения</value>
+  </data>
+  <data name="CapitalizationCapitalizeHelperText" xml:space="preserve">
+    <value>При включенном режиме прописных букв записывать прописными следующие поля:</value>
+  </data>
+  <data name="ActiveTagEditor" xml:space="preserve">
+    <value>Активный редактор тегов</value>
+  </data>
+  <data name="Capitalizer" xml:space="preserve">
+    <value>Прописные буквы</value>
+  </data>
+  <data name="General" xml:space="preserve">
+    <value>Общие</value>
+  </data>
+  <data name="LastFm" xml:space="preserve">
+    <value>Last.fm</value>
+  </data>
+  <data name="Lowercase" xml:space="preserve">
+    <value>Строчные</value>
+  </data>
+  <data name="None" xml:space="preserve">
+    <value>Нет</value>
+  </data>
+  <data name="Sentence" xml:space="preserve">
+    <value>Предложение</value>
+  </data>
+  <data name="Uppercase" xml:space="preserve">
+    <value>Прописные</value>
+  </data>
+  <data name="UserDefined" xml:space="preserve">
+    <value>Указано пользователем</value>
+  </data>
+  <data name="Word" xml:space="preserve">
+    <value>Слово</value>
+  </data>
+  <data name="AdvancedTagEditor" xml:space="preserve">
+    <value>Расширенный редактор тегов</value>
+  </data>
+  <data name="CustomCapitalizationHelperText" xml:space="preserve">
+    <value>Список выборочного написания прописными (каждое слово на новой строке)</value>
+  </data>
+  <data name="CustomCapitalization" xml:space="preserve">
+    <value>Выборочное написание прописными</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="Original" xml:space="preserve">
+    <value>Исходное</value>
+  </data>
+  <data name="OriginalCaseDoesNotMatter" xml:space="preserve">
+    <value>Исходное значение нечувствительно к регистру и будет показано в нижнем регистре</value>
+  </data>
+  <data name="Replacement" xml:space="preserve">
+    <value>Замена</value>
+  </data>
+  <data name="WordReplacement" xml:space="preserve">
+    <value>Замена слов</value>
+  </data>
+  <data name="WordReplacerHelperText" xml:space="preserve">
+    <value>Определения для замены слов</value>
+  </data>
+  <data name="Appearances" xml:space="preserve">
+    <value>Участие</value>
+  </data>
+  <data name="TheActiveDatabaseCannotBeDeleted" xml:space="preserve">
+    <value>Удалить активную базу данных нельзя</value>
+  </data>
+  <data name="WouldYouLikeToDeleteTheSelectedDatabase" xml:space="preserve">
+    <value>Удалить выбранную базу данных?</value>
+  </data>
+  <data name="AddedDateRoot" xml:space="preserve">
+    <value>Дата добавления</value>
+  </data>
+  <data name="AlbumArtistRoot" xml:space="preserve">
+    <value>Исполнители (альбом)</value>
+  </data>
+  <data name="AlbumRoot" xml:space="preserve">
+    <value>Выпуски</value>
+  </data>
+  <data name="ArtistRoot" xml:space="preserve">
+    <value>Исполнители</value>
+  </data>
+  <data name="EntireLibrary" xml:space="preserve">
+    <value>Вся библиотека</value>
+  </data>
+  <data name="FavouriteAlbumsRoot" xml:space="preserve">
+    <value>Избранные альбомы</value>
+  </data>
+  <data name="FavouriteArtistsRoot" xml:space="preserve">
+    <value>Избранные исполнители</value>
+  </data>
+  <data name="FavouriteRoot" xml:space="preserve">
+    <value>Избранные</value>
+  </data>
+  <data name="FavouriteTracksRoot" xml:space="preserve">
+    <value>Избранные дорожки</value>
+  </data>
+  <data name="FileDateRoot" xml:space="preserve">
+    <value>Даты файлов</value>
+  </data>
+  <data name="GenreRoot" xml:space="preserve">
+    <value>Жанры</value>
+  </data>
+  <data name="GroupingRoot" xml:space="preserve">
+    <value>Группировка</value>
+  </data>
+  <data name="LabelsRoot" xml:space="preserve">
+    <value>Лейблы</value>
+  </data>
+  <data name="LibraryVolumeRoot" xml:space="preserve">
+    <value>Библиотека</value>
+  </data>
+  <data name="MoodRoot" xml:space="preserve">
+    <value>Настроение</value>
+  </data>
+  <data name="PlayingHistoryRoot" xml:space="preserve">
+    <value>История проигрывания</value>
+  </data>
+  <data name="QualityRoot" xml:space="preserve">
+    <value>Качество</value>
+  </data>
+  <data name="RatingRoot" xml:space="preserve">
+    <value>Оценки</value>
+  </data>
+  <data name="RecYearRoot" xml:space="preserve">
+    <value>Годы записи</value>
+  </data>
+  <data name="ReleaseTypeRoot" xml:space="preserve">
+    <value>Типы выпуска</value>
+  </data>
+  <data name="RelYearRoot" xml:space="preserve">
+    <value>Годы выпуска</value>
+  </data>
+  <data name="SeriesRoot" xml:space="preserve">
+    <value>Серия</value>
+  </data>
+  <data name="SituationRoot" xml:space="preserve">
+    <value>Обстоятельства</value>
+  </data>
+  <data name="TitleRoot" xml:space="preserve">
+    <value>Названия</value>
+  </data>
+  <data name="UserDefinedRoot" xml:space="preserve">
+    <value>Указано пользователем</value>
+  </data>
+  <data name="UserDefinedRoot10" xml:space="preserve">
+    <value>Указано пользователем 10</value>
+  </data>
+  <data name="UserDefinedRoot2" xml:space="preserve">
+    <value>Указано пользователем 2</value>
+  </data>
+  <data name="UserDefinedRoot3" xml:space="preserve">
+    <value>Указано пользователем 3</value>
+  </data>
+  <data name="UserDefinedRoot4" xml:space="preserve">
+    <value>Указано пользователем 4</value>
+  </data>
+  <data name="UserDefinedRoot5" xml:space="preserve">
+    <value>Указано пользователем 5</value>
+  </data>
+  <data name="UserDefinedRoot6" xml:space="preserve">
+    <value>Указано пользователем 6</value>
+  </data>
+  <data name="UserDefinedRoot7" xml:space="preserve">
+    <value>Указано пользователем 7</value>
+  </data>
+  <data name="UserDefinedRoot8" xml:space="preserve">
+    <value>Указано пользователем 8</value>
+  </data>
+  <data name="UserDefinedRoot9" xml:space="preserve">
+    <value>Указано пользователем 9</value>
+  </data>
+  <data name="AddedDate" xml:space="preserve">
+    <value>Дата добавления</value>
+  </data>
+  <data name="AddNode" xml:space="preserve">
+    <value>&lt; Добавить</value>
+  </data>
+  <data name="AlbumArtistFirstLetter" xml:space="preserve">
+    <value>Первая буква исполнителя (альбом)</value>
+  </data>
+  <data name="AlbumFirstLetter" xml:space="preserve">
+    <value>Первая буква альбома</value>
+  </data>
+  <data name="AlbumRating" xml:space="preserve">
+    <value>Оценка альбома</value>
+  </data>
+  <data name="BandOrchestra" xml:space="preserve">
+    <value>Группа, оркестр</value>
+  </data>
+  <data name="CurrentCD" xml:space="preserve">
+    <value>Текущий CD</value>
+  </data>
+  <data name="Customize" xml:space="preserve">
+    <value>Настроить…</value>
+  </data>
+  <data name="CustomizeMusicBrowserNodes" xml:space="preserve">
+    <value>Настроить «Обзор музыки»</value>
+  </data>
+  <data name="Down" xml:space="preserve">
+    <value>Вниз</value>
+  </data>
+  <data name="HasLyrics" xml:space="preserve">
+    <value>С текстом</value>
+  </data>
+  <data name="IsVBR" xml:space="preserve">
+    <value>С VBR</value>
+  </data>
+  <data name="MusicExplorerOptions" xml:space="preserve">
+    <value>Параметры…</value>
+  </data>
+  <data name="Obscure" xml:space="preserve">
+    <value>Популярность</value>
+  </data>
+  <data name="OriginalArtist" xml:space="preserve">
+    <value>Первоначальный исполнитель</value>
+  </data>
+  <data name="OriginalLyricist" xml:space="preserve">
+    <value>Первоначальный автор текста</value>
+  </data>
+  <data name="OriginalTitle" xml:space="preserve">
+    <value>Первоначальное название</value>
+  </data>
+  <data name="OriginalYear" xml:space="preserve">
+    <value>Первоначальный год</value>
+  </data>
+  <data name="RecYearDecade" xml:space="preserve">
+    <value>Десятилетие года записи</value>
+  </data>
+  <data name="RelyearDecade" xml:space="preserve">
+    <value>Десятилетие года выпуска</value>
+  </data>
+  <data name="RemoveNode" xml:space="preserve">
+    <value>Удалить &gt;</value>
+  </data>
+  <data name="TitleFirstLetter" xml:space="preserve">
+    <value>Первая буква названия</value>
+  </data>
+  <data name="TotalCDs" xml:space="preserve">
+    <value>Всего CD</value>
+  </data>
+  <data name="TotalTracks" xml:space="preserve">
+    <value>Всего дорожек</value>
+  </data>
+  <data name="Up" xml:space="preserve">
+    <value>Вверх</value>
+  </data>
+  <data name="ArtistFirstLetter" xml:space="preserve">
+    <value>Первая буква исполнителя</value>
+  </data>
+  <data name="ReleasesOrdering" xml:space="preserve">
+    <value>Порядок выпусков</value>
+  </data>
+  <data name="ReleasesOrderingHelper" xml:space="preserve">
+    <value>Порядок сортировки выпусков по сведениям об исполнителе и лейбле</value>
+  </data>
+  <data name="CalculateBpm" xml:space="preserve">
+    <value>Подсчет уд/мин</value>
+  </data>
+  <data name="CalcBpmCloseWarning" xml:space="preserve">
+    <value>Выполняется операция подсчета уд/мин. 
+Инструмент может быть закрыт после завершения операции.</value>
+  </data>
+  <data name="Calculate" xml:space="preserve">
+    <value>Подсчет</value>
+  </data>
+  <data name="BpmCalculator" xml:space="preserve">
+    <value>Подсчет уд/мин</value>
+  </data>
+  <data name="Manual" xml:space="preserve">
+    <value>Вручную</value>
+  </data>
+  <data name="Beats" xml:space="preserve">
+    <value>Удары</value>
+  </data>
+  <data name="BpmCalculatorHelper" xml:space="preserve">
+    <value>Нажмите кнопку проигрывания, затем нажимайте «Удар» — будет увеличиваться счетчик ударов</value>
+  </data>
+  <data name="CalculatedBpm" xml:space="preserve">
+    <value>Расчетное число уд/мин</value>
+  </data>
+  <data name="ElapsedTime" xml:space="preserve">
+    <value>Прошло времени</value>
+  </data>
+  <data name="TappedBpm" xml:space="preserve">
+    <value>Уд/мин по нажатиям</value>
+  </data>
+  <data name="Beat" xml:space="preserve">
+    <value>Удар</value>
+  </data>
+  <data name="ManualBpm" xml:space="preserve">
+    <value>Подсчет уд/мин вручную…</value>
+  </data>
+  <data name="DownloadPictureTitle" xml:space="preserve">
+    <value>Скачать изображение</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Поиск</value>
+  </data>
+  <data name="CustomFieldsReleaseTypes" xml:space="preserve">
+    <value>Настройка типов выпуска, столбцов и полей</value>
+  </data>
+  <data name="CustomFields" xml:space="preserve">
+    <value>Настраиваемые поля</value>
+  </data>
+  <data name="DisplayName" xml:space="preserve">
+    <value>Отображаемое имя</value>
+  </data>
+  <data name="ReleaseTypes" xml:space="preserve">
+    <value>Типы выпуска</value>
+  </data>
+  <data name="Value" xml:space="preserve">
+    <value>Значение</value>
+  </data>
+  <data name="AddTheOutputFilesToTheLibrary" xml:space="preserve">
+    <value>Добавить выходные файлы в библиотеку</value>
+  </data>
+  <data name="AddTracks" xml:space="preserve">
+    <value>Добавить дорожки…</value>
+  </data>
+  <data name="OutputFormat" xml:space="preserve">
+    <value>Выходной формат</value>
+  </data>
+  <data name="OutputToSameFolderAsSourceFolder" xml:space="preserve">
+    <value>Сохранять в папку исходных файлов</value>
+  </data>
+  <data name="SaveToFolder" xml:space="preserve">
+    <value>Сохранить в папку</value>
+  </data>
+  <data name="SelectAll" xml:space="preserve">
+    <value>Выбрать все</value>
+  </data>
+  <data name="SelectedFile" xml:space="preserve">
+    <value>Выбранный файл</value>
+  </data>
+  <data name="SelectNone" xml:space="preserve">
+    <value>Отменить выбор</value>
+  </data>
+  <data name="Compression" xml:space="preserve">
+    <value>Сжатие</value>
+  </data>
+  <data name="ConstantBitrate" xml:space="preserve">
+    <value>Постоянный битрейт</value>
+  </data>
+  <data name="EncoderOptions" xml:space="preserve">
+    <value>Параметры кодировщика</value>
+  </data>
+  <data name="EndOffset" xml:space="preserve">
+    <value>Конечное смещение</value>
+  </data>
+  <data name="ExtractingFile" xml:space="preserve">
+    <value>Извлечение файла</value>
+  </data>
+  <data name="FastMode" xml:space="preserve">
+    <value>Быстрый режим</value>
+  </data>
+  <data name="HighQuality" xml:space="preserve">
+    <value>Высокое качество</value>
+  </data>
+  <data name="IsSelected" xml:space="preserve">
+    <value>Выбрано</value>
+  </data>
+  <data name="SplitFile" xml:space="preserve">
+    <value>Нарезка файла…</value>
+  </data>
+  <data name="SplitFileHeader" xml:space="preserve">
+    <value>Нарезка файла</value>
+  </data>
+  <data name="StartOffset" xml:space="preserve">
+    <value>Начальное смещение</value>
+  </data>
+  <data name="TrackLength" xml:space="preserve">
+    <value>Длина дорожки</value>
+  </data>
+  <data name="UseNormalization" xml:space="preserve">
+    <value>Использовать усиление громкости</value>
+  </data>
+  <data name="VariableBitrate" xml:space="preserve">
+    <value>Переменный битрейт</value>
+  </data>
+  <data name="DeleteTheSelectedTracks" xml:space="preserve">
+    <value>Удалить выбранные дорожки?</value>
+  </data>
+  <data name="AutoTrack" xml:space="preserve">
+    <value>Авт. номер дорожки</value>
+  </data>
+  <data name="RemoveFromLibraryAndDisc" xml:space="preserve">
+    <value>Удалить из библиотеки и с компьютера</value>
+  </data>
+  <data name="RemoveFromLibraryOnly" xml:space="preserve">
+    <value>Удалить только из библиотеки</value>
+  </data>
+  <data name="RemoveItemsTitle" xml:space="preserve">
+    <value>Удаление элементов</value>
+  </data>
+  <data name="RemoveTheSelectedItems" xml:space="preserve">
+    <value>Удалить выбранные элементы ({0})?</value>
+  </data>
+  <data name="CopyAlbumPictureToAlbumFolder" xml:space="preserve">
+    <value>Копировать изображение альбома в папку альбома</value>
+  </data>
+  <data name="CopyAlbumPictureToPicturesFolder" xml:space="preserve">
+    <value>Копировать изображение альбома в папку выше</value>
+  </data>
+  <data name="Minimize" xml:space="preserve">
+    <value>Свернуть</value>
+  </data>
+  <data name="MultipleArtists" xml:space="preserve">
+    <value>Несколько исполнителей</value>
+  </data>
+  <data name="MultipleArtistsCommandHelperText" xml:space="preserve">
+    <value>Каждая запись в списке будет считаться командой, разделяющей исполнителей. При необходимости исходный текст заменится на заменяющий текст.</value>
+  </data>
+  <data name="OutputFolder" xml:space="preserve">
+    <value>Папка вывода</value>
+  </data>
+  <data name="ConvertingFile" xml:space="preserve">
+    <value>Преобразование файла</value>
+  </data>
+  <data name="ConvertFiles" xml:space="preserve">
+    <value>Преобразовать файлы</value>
+  </data>
+  <data name="ConvertFilesMenu" xml:space="preserve">
+    <value>Преобразовать файлы…</value>
+  </data>
+  <data name="ConversionOptions" xml:space="preserve">
+    <value>Параметры преобразования</value>
+  </data>
+  <data name="XFilesSelected" xml:space="preserve">
+    <value>Выбрано файлов: {0}</value>
+  </data>
+  <data name="AlbumNormalization" xml:space="preserve">
+    <value>Усиление альбома</value>
+  </data>
+  <data name="NormalizingTrack" xml:space="preserve">
+    <value>Нормализация дорожки</value>
+  </data>
+  <data name="NormalizingTracks" xml:space="preserve">
+    <value>Нормализация дорожек</value>
+  </data>
+  <data name="TrackNormalization" xml:space="preserve">
+    <value>Усиление дорожки</value>
+  </data>
+  <data name="ApplyingTags" xml:space="preserve">
+    <value>Применение тегов, нормализация и перемещение файлов</value>
+  </data>
+  <data name="CalculatingAlbumGainForFiles" xml:space="preserve">
+    <value>Подсчет усиления альбома и дорожки для файлов ({0})</value>
+  </data>
+  <data name="NormalizationMode" xml:space="preserve">
+    <value>Режим усиления громкости</value>
+  </data>
+  <data name="NormalizeFiles" xml:space="preserve">
+    <value>Применение усиления</value>
+  </data>
+  <data name="NormalizeFilesMenu" xml:space="preserve">
+    <value>Применение усиления…</value>
+  </data>
+  <data name="NormalizingFile" xml:space="preserve">
+    <value>Применение усиления</value>
+  </data>
+  <data name="CalculateAlbumGain" xml:space="preserve">
+    <value>Рассчитать усиление альбома и дорожки</value>
+  </data>
+  <data name="CalculateTrackGain" xml:space="preserve">
+    <value>Рассчитать усиление дорожки</value>
+  </data>
+  <data name="CalculatingGainForFile" xml:space="preserve">
+    <value>Расчет усиления для файла</value>
+  </data>
+  <data name="UpdatingDatabaseFile" xml:space="preserve">
+    <value>Обновление база данных, файл</value>
+  </data>
+  <data name="VolumeGain" xml:space="preserve">
+    <value>Усиление громкости</value>
+  </data>
+  <data name="AppendNumber" xml:space="preserve">
+    <value>Добавить номер</value>
+  </data>
+  <data name="DeleteSourceFilesAfterConversion" xml:space="preserve">
+    <value>Удалить исходные файлы после преобразования</value>
+  </data>
+  <data name="HowShouldConflictingFilenamesBeHandled" xml:space="preserve">
+    <value>Что делать с конфликтующими именами файлов?</value>
+  </data>
+  <data name="OverwriteFile" xml:space="preserve">
+    <value>Перезаписать файл</value>
+  </data>
+  <data name="RemoveFilesFromLibrary" xml:space="preserve">
+    <value>Удалить файлы из библиотеки</value>
+  </data>
+  <data name="SkipConversion" xml:space="preserve">
+    <value>Пропустить преобразование</value>
+  </data>
+  <data name="EditSubtracksMenu" xml:space="preserve">
+    <value>Изменить вложенные дорожки…</value>
+  </data>
+  <data name="LoadCue" xml:space="preserve">
+    <value>Загрузить сигнал…</value>
+  </data>
+  <data name="SubtrackEditor" xml:space="preserve">
+    <value>Изменить вложенные дорожки</value>
+  </data>
+  <data name="OtherTracks" xml:space="preserve">
+    <value>Другие дорожки</value>
+  </data>
+  <data name="Library_LibraryImported" xml:space="preserve">
+    <value>Библиотека импортирована. Теперь необходимо перезапустить Helium. 
+Чтобы перезапустить, нажмите «OK».</value>
+  </data>
+  <data name="EditPicturesWindow" xml:space="preserve">
+    <value>Изменить изображения</value>
+  </data>
+  <data name="AlbumArtistSortOrderShort" xml:space="preserve">
+    <value>Порядок исп. (альбом)</value>
+  </data>
+  <data name="RecordingYear" xml:space="preserve">
+    <value>Год записи</value>
+  </data>
+  <data name="ReleaseYear" xml:space="preserve">
+    <value>Год выпуска</value>
+  </data>
+  <data name="PlayingHistory" xml:space="preserve">
+    <value>История проигрывания</value>
+  </data>
+  <data name="IsFavourite" xml:space="preserve">
+    <value>Это избранное</value>
+  </data>
+  <data name="MixMaster" xml:space="preserve">
+    <value>С вложенными дорожками</value>
+  </data>
+  <data name="OtherVersions" xml:space="preserve">
+    <value>Другие версии</value>
+  </data>
+  <data name="Pics" xml:space="preserve">
+    <value>Изображения</value>
+  </data>
+  <data name="Publisher" xml:space="preserve">
+    <value>Лейбл</value>
+  </data>
+  <data name="VbrCbr" xml:space="preserve">
+    <value>Переменный битрейт</value>
+  </data>
+  <data name="To" xml:space="preserve">
+    <value>до</value>
+  </data>
+  <data name="AdvancedSearch" xml:space="preserve">
+    <value>Расширенный поиск</value>
+  </data>
+  <data name="AdvancedSearchMenu" xml:space="preserve">
+    <value>Расширенный поиск…</value>
+  </data>
+  <data name="ArtistRating" xml:space="preserve">
+    <value>Оценка исполнителя</value>
+  </data>
+  <data name="ArtistTotalTracks" xml:space="preserve">
+    <value>Всего дорожек исполнителя</value>
+  </data>
+  <data name="AttachedPictures" xml:space="preserve">
+    <value>Вложенные изображения</value>
+  </data>
+  <data name="IsArtist" xml:space="preserve">
+    <value>Это человек</value>
+  </data>
+  <data name="IsFavouriteAlbum" xml:space="preserve">
+    <value>Это избранный альбом</value>
+  </data>
+  <data name="IsFavouriteArtist" xml:space="preserve">
+    <value>Это избранный исполнитель</value>
+  </data>
+  <data name="IsFavouriteTrack" xml:space="preserve">
+    <value>Это избранная дорожка</value>
+  </data>
+  <data name="IsVariableBitrate" xml:space="preserve">
+    <value>С переменным битрейтом</value>
+  </data>
+  <data name="OperatorContains" xml:space="preserve">
+    <value>Содержит</value>
+  </data>
+  <data name="OperatorDoesNotContain" xml:space="preserve">
+    <value>Не содержит</value>
+  </data>
+  <data name="OperatorEndsWith" xml:space="preserve">
+    <value>В конце содержит</value>
+  </data>
+  <data name="OperatorIs" xml:space="preserve">
+    <value>Равно</value>
+  </data>
+  <data name="OperatorIsAtLeast" xml:space="preserve">
+    <value>Не менее</value>
+  </data>
+  <data name="OperatorIsAtMost" xml:space="preserve">
+    <value>Не более</value>
+  </data>
+  <data name="OperatorIsEmpty" xml:space="preserve">
+    <value>Пусто</value>
+  </data>
+  <data name="OperatorIsInTheRange" xml:space="preserve">
+    <value>В диапазоне</value>
+  </data>
+  <data name="OperatorIsNot" xml:space="preserve">
+    <value>Не равно</value>
+  </data>
+  <data name="OperatorIsNotEmpty" xml:space="preserve">
+    <value>Не пусто</value>
+  </data>
+  <data name="OperatorStartsWith" xml:space="preserve">
+    <value>В начале содержит</value>
+  </data>
+  <data name="OrgRecordingYear" xml:space="preserve">
+    <value>Перв. год записи</value>
+  </data>
+  <data name="Subtracks" xml:space="preserve">
+    <value>Вложенные дорожки</value>
+  </data>
+  <data name="NoResultsAvailable" xml:space="preserve">
+    <value>Результатов нет</value>
+  </data>
+  <data name="LoadTemplate" xml:space="preserve">
+    <value>Загрузить шаблон</value>
+  </data>
+  <data name="RemoveSelectedTemplate" xml:space="preserve">
+    <value>Удалить выбранный шаблон?</value>
+  </data>
+  <data name="SaveTemplate" xml:space="preserve">
+    <value>Сохранить шаблон</value>
+  </data>
+  <data name="SelectATemplateFromTheList" xml:space="preserve">
+    <value>Выберите шаблон из списка ниже</value>
+  </data>
+  <data name="TemplateExistsOverwrite" xml:space="preserve">
+    <value>Шаблон с таким описанием существует.</value>
+  </data>
+  <data name="TemplateNameEmpty" xml:space="preserve">
+    <value>Необходимо указать описание шаблона.</value>
+  </data>
+  <data name="TheDefaultUserCannotBeRemoved" xml:space="preserve">
+    <value>Пользователя по умолчанию удалить нельзя</value>
+  </data>
+  <data name="EditUser" xml:space="preserve">
+    <value>Изменить пользователя</value>
+  </data>
+  <data name="NewUser" xml:space="preserve">
+    <value>Новый пользователь</value>
+  </data>
+  <data name="RemoveTheSelectedUser" xml:space="preserve">
+    <value>Удалить выбранного пользователя?</value>
+  </data>
+  <data name="Exit" xml:space="preserve">
+    <value>Выход</value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>Вход</value>
+  </data>
+  <data name="ManageUsersMenu" xml:space="preserve">
+    <value>Пользователи…</value>
+  </data>
+  <data name="NowPlaying" xml:space="preserve">
+    <value>Проигрывается</value>
+  </data>
+  <data name="RememberMe" xml:space="preserve">
+    <value>Запомнить меня</value>
+  </data>
+  <data name="New" xml:space="preserve">
+    <value>Создать</value>
+  </data>
+  <data name="PasswordsDoNotMatch" xml:space="preserve">
+    <value>Пароли не совпадают</value>
+  </data>
+  <data name="TagName" xml:space="preserve">
+    <value>Название тега</value>
+  </data>
+  <data name="TagNameMustBeUnique" xml:space="preserve">
+    <value>Название тега должно быть уникальным и не пустым</value>
+  </data>
+  <data name="UserDetails" xml:space="preserve">
+    <value>Сведения о пользователе</value>
+  </data>
+  <data name="UserNameMustBeUnique" xml:space="preserve">
+    <value>Имя пользователя должно быть уникальным</value>
+  </data>
+  <data name="ManageUsers" xml:space="preserve">
+    <value>Пользователи</value>
+  </data>
+  <data name="TheActiveUserCannotBeRemoved" xml:space="preserve">
+    <value>Активного пользователя удалить нельзя.</value>
+  </data>
+  <data name="Tasks" xml:space="preserve">
+    <value>Задачи</value>
+  </data>
+  <data name="Logout" xml:space="preserve">
+    <value>Выход</value>
+  </data>
+  <data name="LogoutAndRestart" xml:space="preserve">
+    <value>Выйти и перезапустить?</value>
+  </data>
+  <data name="LimitTo" xml:space="preserve">
+    <value>Ограничение</value>
+  </data>
+  <data name="SelectedBy" xml:space="preserve">
+    <value>критерий —</value>
+  </data>
+  <data name="SearchResults" xml:space="preserve">
+    <value>Результаты поиска</value>
+  </data>
+  <data name="Gigabytes" xml:space="preserve">
+    <value>гигабайт</value>
+  </data>
+  <data name="HighestRating" xml:space="preserve">
+    <value>Наивысшая оценка</value>
+  </data>
+  <data name="Hours" xml:space="preserve">
+    <value>ч.</value>
+  </data>
+  <data name="LeastPlayed" xml:space="preserve">
+    <value>Наименее популярное</value>
+  </data>
+  <data name="LeastRecentlyAdded" xml:space="preserve">
+    <value>Давно добавлено</value>
+  </data>
+  <data name="LeastRecentlyPlayed" xml:space="preserve">
+    <value>Давно проиграно</value>
+  </data>
+  <data name="LowestRating" xml:space="preserve">
+    <value>Низшая оценка</value>
+  </data>
+  <data name="Megabytes" xml:space="preserve">
+    <value>мегабайт</value>
+  </data>
+  <data name="Minutes" xml:space="preserve">
+    <value>Минуты</value>
+  </data>
+  <data name="MostPlayed" xml:space="preserve">
+    <value>Самое популярное</value>
+  </data>
+  <data name="MostRecentlyAdded" xml:space="preserve">
+    <value>Недавно добавлено</value>
+  </data>
+  <data name="MostRecentlyPlayed" xml:space="preserve">
+    <value>Недавно проиграно</value>
+  </data>
+  <data name="Random" xml:space="preserve">
+    <value>Случайно</value>
+  </data>
+  <data name="Songs" xml:space="preserve">
+    <value>Композиции</value>
+  </data>
+  <data name="CouldNotConnectToLastFm" xml:space="preserve">
+    <value>Не удалось авторизоваться на сервисе Last.fm. Проверьте учетные данные и повторите попытку.</value>
+  </data>
+  <data name="NavigateUp" xml:space="preserve">
+    <value>Вверх…</value>
+  </data>
+  <data name="EditSmartPlaylist" xml:space="preserve">
+    <value>Изменить умный плей-лист…</value>
+  </data>
+  <data name="NewSmartPlaylist" xml:space="preserve">
+    <value>Новый умный плей-лист…</value>
+  </data>
+  <data name="SmartPlaylist" xml:space="preserve">
+    <value>Умный плей-лист</value>
+  </data>
+  <data name="SmartPlaylists" xml:space="preserve">
+    <value>Умные плей-листы</value>
+  </data>
+  <data name="PlaylistName" xml:space="preserve">
+    <value>Название плей-листа</value>
+  </data>
+  <data name="ListeningHistory" xml:space="preserve">
+    <value>История прослушивания</value>
+  </data>
+  <data name="LastPlayedTime" xml:space="preserve">
+    <value>Время последнего проигрывания</value>
+  </data>
+  <data name="RemoveSelectedSyncItem" xml:space="preserve">
+    <value>Удалить выбранный элемент?</value>
+  </data>
+  <data name="Items" xml:space="preserve">
+    <value>элем.</value>
+  </data>
+  <data name="OfTotal" xml:space="preserve">
+    <value>из</value>
+  </data>
+  <data name="Plays" xml:space="preserve">
+    <value>Проигрывания</value>
+  </data>
+  <data name="LastThirtyDaysPlays" xml:space="preserve">
+    <value>Проиграно за последний месяц</value>
+  </data>
+  <data name="Shuffle" xml:space="preserve">
+    <value>Перемешать</value>
+  </data>
+  <data name="AllPlugins" xml:space="preserve">
+    <value>Все плагины</value>
+  </data>
+  <data name="Download" xml:space="preserve">
+    <value>Скачивать</value>
+  </data>
+  <data name="Copy" xml:space="preserve">
+    <value>Копировать</value>
+  </data>
+  <data name="Cut" xml:space="preserve">
+    <value>Вырезать</value>
+  </data>
+  <data name="Paste" xml:space="preserve">
+    <value>Вставить</value>
+  </data>
+  <data name="Genres" xml:space="preserve">
+    <value>Жанры</value>
+  </data>
+  <data name="PlayedThisDay" xml:space="preserve">
+    <value>Проиграно в этот день</value>
+  </data>
+  <data name="UseGlobalHotkeys" xml:space="preserve">
+    <value>Глобальные горячие клавиши</value>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>Далее</value>
+  </data>
+  <data name="Prev" xml:space="preserve">
+    <value>Назад</value>
+  </data>
+  <data name="SelectDate" xml:space="preserve">
+    <value>Выбор даты</value>
+  </data>
+  <data name="NavigationPaneFullWidth" xml:space="preserve">
+    <value>Панель навигации на всю ширину</value>
+  </data>
+  <data name="AddRandomAlbum" xml:space="preserve">
+    <value>Добавить случайный альбом</value>
+  </data>
+  <data name="AddRandomTracks" xml:space="preserve">
+    <value>Добавить случайные дорожки</value>
+  </data>
+  <data name="AddRandomTracksFromSameArtist" xml:space="preserve">
+    <value>Добавить случайные дорожки того же исполнителя</value>
+  </data>
+  <data name="AddRandomTracksFromSameGenre" xml:space="preserve">
+    <value>Добавить случайные дорожки того же жанра</value>
+  </data>
+  <data name="AddRandomTracksFromSameYear" xml:space="preserve">
+    <value>Добавить случайные дорожки того же года</value>
+  </data>
+  <data name="AddSimilarTracks" xml:space="preserve">
+    <value>Добавить похожие дорожки</value>
+  </data>
+  <data name="All" xml:space="preserve">
+    <value>Все</value>
+  </data>
+  <data name="AutoEnqueue" xml:space="preserve">
+    <value>Автоматическая очередь</value>
+  </data>
+  <data name="AutoEnqueueEnabled" xml:space="preserve">
+    <value>Автоматическая очередь включена</value>
+  </data>
+  <data name="AutoEnqueueOptionsMenu" xml:space="preserve">
+    <value>Параметры автоматической очереди…</value>
+  </data>
+  <data name="AutomaticallyMaintainAtLeast" xml:space="preserve">
+    <value>Автоматически оставлять минимум</value>
+  </data>
+  <data name="AutomaticallyRetainAtMost" xml:space="preserve">
+    <value>Автоматически оставлять максимум</value>
+  </data>
+  <data name="PreviousTracksInPlayQueue" xml:space="preserve">
+    <value>предыд. дорож. в очереди</value>
+  </data>
+  <data name="UpcomingTracksInPlayQueue" xml:space="preserve">
+    <value>предст. дорож. в очереди</value>
+  </data>
+  <data name="UpdateLibrary_RemoveUnavailableRoots" xml:space="preserve">
+    <value>Удалить недоступные корневые пути</value>
+  </data>
+  <data name="CenterActiveTrack" xml:space="preserve">
+    <value>Активная дорожка в очереди по центру</value>
+  </data>
+  <data name="EnableWebservice" xml:space="preserve">
+    <value>Включить веб-сервис</value>
+  </data>
+  <data name="Webservice" xml:space="preserve">
+    <value>Веб-сервис</value>
+  </data>
+  <data name="WebserviceStarted" xml:space="preserve">
+    <value>Веб-сервис запущен, порт: {0}</value>
+  </data>
+  <data name="YourIp" xml:space="preserve">
+    <value>Ваши IP-адреса:</value>
+  </data>
+  <data name="NumberOfItemsDiffer" xml:space="preserve">
+    <value>Число дорожек различается. Исходные — {0}, скачанные — {1}</value>
+  </data>
+  <data name="DownloadInformation" xml:space="preserve">
+    <value>Скачать сведения</value>
+  </data>
+  <data name="Duration" xml:space="preserve">
+    <value>Длительность</value>
+  </data>
+  <data name="NoOptionsAvailable" xml:space="preserve">
+    <value>Настроек нет</value>
+  </data>
+  <data name="AddFromSmartPlaylist" xml:space="preserve">
+    <value>Добавить из умного плей-листа</value>
+  </data>
+  <data name="NoSmartPlaylistSelected" xml:space="preserve">
+    <value>Умные плей-листы не выбраны</value>
+  </data>
+  <data name="SelectSmartPlaylist" xml:space="preserve">
+    <value>Выберите умный плей-лист</value>
+  </data>
+  <data name="ShowSortOrderValues" xml:space="preserve">
+    <value>Показать значения сортировки</value>
+  </data>
+  <data name="UseSortOrder" xml:space="preserve">
+    <value>Использовать сортировку</value>
+  </data>
+  <data name="Stop" xml:space="preserve">
+    <value>Стоп</value>
+  </data>
+  <data name="WordsUsedForAutoSortOrder" xml:space="preserve">
+    <value>Слова для автоматической сортировки</value>
+  </data>
+  <data name="Years" xml:space="preserve">
+    <value>год (лет)</value>
+  </data>
+  <data name="ArtistTitle" xml:space="preserve">
+    <value>Исполнитель - название</value>
+  </data>
+  <data name="CompareBy" xml:space="preserve">
+    <value>Критерий сравнения</value>
+  </data>
+  <data name="DuplicateFinder" xml:space="preserve">
+    <value>Поиск дубликатов</value>
+  </data>
+  <data name="DuplicateFinderMenu" xml:space="preserve">
+    <value>Поиск дубликатов…</value>
+  </data>
+  <data name="MatchRating" xml:space="preserve">
+    <value>Уровень совпадения</value>
+  </data>
+  <data name="SonglengthTolerance" xml:space="preserve">
+    <value>Допуск длительности композиции</value>
+  </data>
+  <data name="TagToFilenameMenu" xml:space="preserve">
+    <value>Переименовать файлы…</value>
+  </data>
+  <data name="SortOrder" xml:space="preserve">
+    <value>Сортировка</value>
+  </data>
+  <data name="DarkTheme" xml:space="preserve">
+    <value>Темная тема</value>
+  </data>
+  <data name="LightTheme" xml:space="preserve">
+    <value>Светлая тема</value>
+  </data>
+  <data name="ThemeChanged" xml:space="preserve">
+    <value>Тема изменена, нужно перезапустить Helium. Нажмите «OK», чтобы перезапустить Helium.</value>
+  </data>
+  <data name="DupeMatch10" xml:space="preserve">
+    <value>Совпадение 10% или ниже</value>
+  </data>
+  <data name="DupeMatch100" xml:space="preserve">
+    <value>Совпадение 100% или ниже</value>
+  </data>
+  <data name="DupeMatch20" xml:space="preserve">
+    <value>Совпадение 20% или ниже</value>
+  </data>
+  <data name="DupeMatch30" xml:space="preserve">
+    <value>Совпадение 30% или ниже</value>
+  </data>
+  <data name="DupeMatch40" xml:space="preserve">
+    <value>Совпадение 40% или ниже</value>
+  </data>
+  <data name="DupeMatch50" xml:space="preserve">
+    <value>Совпадение 50% или ниже</value>
+  </data>
+  <data name="DupeMatch60" xml:space="preserve">
+    <value>Совпадение 60% или ниже</value>
+  </data>
+  <data name="DupeMatch70" xml:space="preserve">
+    <value>Совпадение 70% или ниже</value>
+  </data>
+  <data name="DupeMatch80" xml:space="preserve">
+    <value>Совпадение 80% или ниже</value>
+  </data>
+  <data name="DupeMatch90" xml:space="preserve">
+    <value>Совпадение 90% или ниже</value>
+  </data>
+  <data name="FindDuplicatesIn" xml:space="preserve">
+    <value>Место поиска дубликатов</value>
+  </data>
+  <data name="SpecificFolder" xml:space="preserve">
+    <value>Конкретная папка</value>
+  </data>
+  <data name="UnknownAcoustId" xml:space="preserve">
+    <value>Неизвестный идентификатор Acoust</value>
+  </data>
+  <data name="CalculatingResult" xml:space="preserve">
+    <value>Подсчет результата</value>
+  </data>
+  <data name="CompareByAcoustId" xml:space="preserve">
+    <value>Сравнить по идентификаторам Acoust</value>
+  </data>
+  <data name="CompareByAcoustIdResults" xml:space="preserve">
+    <value>Результаты сравнения по идентификаторам Acoust</value>
+  </data>
+  <data name="EqualInGroup" xml:space="preserve">
+    <value>Группа подобных:</value>
+  </data>
+  <data name="RemoveSelectedFiles" xml:space="preserve">
+    <value>Удалить файлы ({0}) из библиотеки и с диска?</value>
+  </data>
+  <data name="RemoveCheckmarked" xml:space="preserve">
+    <value>Удалить отмеченные</value>
+  </data>
+  <data name="RenameAndCopy" xml:space="preserve">
+    <value>Переименовать и скопировать</value>
+  </data>
+  <data name="RenameAndMove" xml:space="preserve">
+    <value>Переименовать и переместить</value>
+  </data>
+  <data name="RenamingFileXofY" xml:space="preserve">
+    <value>Переименование файла {0} из {1}</value>
+  </data>
+  <data name="PleaseWait" xml:space="preserve">
+    <value>Подождите…</value>
+  </data>
+  <data name="RenamingFiles" xml:space="preserve">
+    <value>Переименование файлов</value>
+  </data>
+  <data name="Template" xml:space="preserve">
+    <value>Шаблон</value>
+  </data>
+  <data name="AudioDataSize" xml:space="preserve">
+    <value>Размер аудиоданных</value>
+  </data>
+  <data name="BitrateDistribution" xml:space="preserve">
+    <value>Распределение битрейта</value>
+  </data>
+  <data name="bytes" xml:space="preserve">
+    <value>байт</value>
+  </data>
+  <data name="CalculatedBitrate" xml:space="preserve">
+    <value>Расчетный битрейт</value>
+  </data>
+  <data name="CBR" xml:space="preserve">
+    <value>Постоянный битрейт</value>
+  </data>
+  <data name="Channels" xml:space="preserve">
+    <value>Каналы</value>
+  </data>
+  <data name="ContainsDoubledId3v1Tags" xml:space="preserve">
+    <value>Двойные теги Id3v1</value>
+  </data>
+  <data name="CorrectVbrHeader" xml:space="preserve">
+    <value>Правильный заголовок VBR</value>
+  </data>
+  <data name="Count" xml:space="preserve">
+    <value>Кол-во</value>
+  </data>
+  <data name="Details" xml:space="preserve">
+    <value>Сведения</value>
+  </data>
+  <data name="Emphasis" xml:space="preserve">
+    <value>Предыскажения</value>
+  </data>
+  <data name="EncoderGuessed" xml:space="preserve">
+    <value>Кодировщик (предположение)</value>
+  </data>
+  <data name="EncodingType" xml:space="preserve">
+    <value>Тип кодирования</value>
+  </data>
+  <data name="EndPosition" xml:space="preserve">
+    <value>Конечное положение</value>
+  </data>
+  <data name="ErrorPosition" xml:space="preserve">
+    <value>Положение ошибки</value>
+  </data>
+  <data name="ErrorSummary" xml:space="preserve">
+    <value>Сведения об ошибке</value>
+  </data>
+  <data name="FirstLocatedSync" xml:space="preserve">
+    <value>Первая синхронизация</value>
+  </data>
+  <data name="HasApev2Tag" xml:space="preserve">
+    <value>С тегом APEv2</value>
+  </data>
+  <data name="HasBadLeadingData" xml:space="preserve">
+    <value>С плохими предшествующими данными</value>
+  </data>
+  <data name="HasId3v1Tag" xml:space="preserve">
+    <value>С тегом Id3v1.x</value>
+  </data>
+  <data name="HasId3v2Tag" xml:space="preserve">
+    <value>С тегом Id3v2.x</value>
+  </data>
+  <data name="HasLyrics3Tag" xml:space="preserve">
+    <value>С тегом Lyrics3</value>
+  </data>
+  <data name="HasSyncErrors" xml:space="preserve">
+    <value>Ошибки синхронизации MPEG</value>
+  </data>
+  <data name="Id3v1TagSize" xml:space="preserve">
+    <value>Размер тега Id3v1.x</value>
+  </data>
+  <data name="Id3v2TagSize" xml:space="preserve">
+    <value>Размер тега Id3v2.x</value>
+  </data>
+  <data name="IsVBRButNotDetected" xml:space="preserve">
+    <value>С неправильным заголовком VBR</value>
+  </data>
+  <data name="MpegOverview" xml:space="preserve">
+    <value>Обзор данных MPEG</value>
+  </data>
+  <data name="MpegSyncErrors" xml:space="preserve">
+    <value>Ошибки синхронизации MPEG</value>
+  </data>
+  <data name="PercentOfTotal" xml:space="preserve">
+    <value>Процент от всего</value>
+  </data>
+  <data name="PlayFromThisPosition" xml:space="preserve">
+    <value>Проиграть отсюда</value>
+  </data>
+  <data name="RemoveApeTag" xml:space="preserve">
+    <value>Удалить тег APE</value>
+  </data>
+  <data name="RemoveDoubleId3v1Tags" xml:space="preserve">
+    <value>Удалить двойные теги Id3v1</value>
+  </data>
+  <data name="RemoveFile" xml:space="preserve">
+    <value>Удалить файл</value>
+  </data>
+  <data name="RemoveLeadingBytes" xml:space="preserve">
+    <value>Удалить предшествующие байты</value>
+  </data>
+  <data name="StartPosition" xml:space="preserve">
+    <value>Начальное положение</value>
+  </data>
+  <data name="SyncNumber" xml:space="preserve">
+    <value>Номер синхронизации</value>
+  </data>
+  <data name="TotalSyncs" xml:space="preserve">
+    <value>Всего синхронизаций</value>
+  </data>
+  <data name="Variables" xml:space="preserve">
+    <value>Переменные</value>
+  </data>
+  <data name="UnableToStartWebService" xml:space="preserve">
+    <value>Не удается запустить веб-сервис. Проверьте, не занят ли порт.</value>
+  </data>
+  <data name="IncorrectVbrHeader" xml:space="preserve">
+    <value>Неправильный заголовок VBR</value>
+  </data>
+  <data name="FilesWithErrors" xml:space="preserve">
+    <value>Файлы с ошибками</value>
+  </data>
+  <data name="FilesWithoutErrors" xml:space="preserve">
+    <value>Файлы без ошибок</value>
+  </data>
+  <data name="AnalyseFiles" xml:space="preserve">
+    <value>Анализ файлов</value>
+  </data>
+  <data name="AnalyseFilesMenu" xml:space="preserve">
+    <value>Анализ файлов…</value>
+  </data>
+  <data name="AnalysingFile" xml:space="preserve">
+    <value>Анализ файла {0} из {1}</value>
+  </data>
+  <data name="TimeOffset" xml:space="preserve">
+    <value>Смещение времени</value>
+  </data>
+  <data name="ClickToRestoreOriginalData" xml:space="preserve">
+    <value>Чтобы восстановить исходные данные, нажмите сюда</value>
+  </data>
+  <data name="OverwriteData" xml:space="preserve">
+    <value>Перезаписать данные</value>
+  </data>
+  <data name="UnknownNumberOfTracks" xml:space="preserve">
+    <value>Неизвестное число дорожек</value>
+  </data>
+  <data name="OutputDevice" xml:space="preserve">
+    <value>Устройство вывода</value>
+  </data>
+  <data name="OutputDeviceChangeWarning" xml:space="preserve">
+    <value>Если изменить устройство вывода, нужно будет перезапустить Helium.</value>
+  </data>
+  <data name="Player" xml:space="preserve">
+    <value>Проигрыватель</value>
+  </data>
+  <data name="Refine" xml:space="preserve">
+    <value>Уточнить</value>
+  </data>
+  <data name="RenameFiles" xml:space="preserve">
+    <value>Переименовать файлы</value>
+  </data>
+  <data name="Scripts" xml:space="preserve">
+    <value>Сценарии</value>
+  </data>
+  <data name="ScriptCompletedSuccessfully" xml:space="preserve">
+    <value>Сценарии выполнены</value>
+  </data>
+  <data name="ScriptCompletedWithErrors" xml:space="preserve">
+    <value>Сценарии выполнены с ошибками</value>
+  </data>
+  <data name="ScriptProgressWindow" xml:space="preserve">
+    <value>Выполнение сценариев</value>
+  </data>
+  <data name="RemoveAll" xml:space="preserve">
+    <value>Удалить все</value>
+  </data>
+  <data name="ExclusiveMode" xml:space="preserve">
+    <value>Исключительный режим</value>
+  </data>
+  <data name="MoveRemainingFiles" xml:space="preserve">
+    <value>Переместить оставшиеся файлы</value>
+  </data>
+  <data name="SelectItem" xml:space="preserve">
+    <value>Выбор элемента</value>
+  </data>
+  <data name="RunScriptMenu" xml:space="preserve">
+    <value>Запуск сценария…</value>
+  </data>
+  <data name="EditLabel" xml:space="preserve">
+    <value>Изменить лейбл…</value>
+  </data>
+  <data name="ParentLabel" xml:space="preserve">
+    <value>Родительский лейбл</value>
+  </data>
+  <data name="SelectScriptTitle" xml:space="preserve">
+    <value>Выберите сценарий для запуска</value>
+  </data>
+  <data name="PlaybackBuffer" xml:space="preserve">
+    <value>Буфер проигрывания (мс)</value>
+  </data>
+  <data name="PlaybackDeviceChanged" xml:space="preserve">
+    <value>Параметры проигрывателя изменены. Чтобы изменения вступили в силу, необходимо перезапустить Helium. Нажмите «OK», чтобы перезапустить Helium.</value>
+  </data>
+  <data name="UseWASAPI" xml:space="preserve">
+    <value>Использовать WASAPI</value>
+  </data>
+  <data name="ClickToSeeDetails" xml:space="preserve">
+    <value>Чтобы посмотреть подробнее, нажмите сюда</value>
+  </data>
+  <data name="HasIncorrectApicMime" xml:space="preserve">
+    <value>Неправильный MIME-тип APIC</value>
+  </data>
+  <data name="CalcKeyCloseWarning" xml:space="preserve">
+    <value>Выполняется операция вычисления ключа. Инструмент может быть закрыт после завершения операции.</value>
+  </data>
+  <data name="CalcMusicKey" xml:space="preserve">
+    <value>Вычислить ключ</value>
+  </data>
+  <data name="ActiveDatabase" xml:space="preserve">
+    <value>Активная база данных</value>
+  </data>
+  <data name="Backup" xml:space="preserve">
+    <value>Резервное копирование</value>
+  </data>
+  <data name="BackupCreatedWithNoProblems" xml:space="preserve">
+    <value>Операция резервного копирования выполнена без ошибок.</value>
+  </data>
+  <data name="BackupExistsOverwrite" xml:space="preserve">
+    <value>Резервная копия с таким именем уже есть. Перезаписать этот файл?</value>
+  </data>
+  <data name="BackupMenu" xml:space="preserve">
+    <value>Резервное копирование…</value>
+  </data>
+  <data name="CreatingBackup" xml:space="preserve">
+    <value>Создание резервной копии; подождите</value>
+  </data>
+  <data name="DestinationPath" xml:space="preserve">
+    <value>Целевой путь:</value>
+  </data>
+  <data name="Overwrite" xml:space="preserve">
+    <value>Перезаписать</value>
+  </data>
+  <data name="UserSettings" xml:space="preserve">
+    <value>Пользовательские настройки</value>
+  </data>
+  <data name="ShowVisualisations" xml:space="preserve">
+    <value>Показывать визуализацию</value>
+  </data>
+  <data name="MarkAsBadMatch" xml:space="preserve">
+    <value>Плохое совпадение</value>
+  </data>
+  <data name="Input" xml:space="preserve">
+    <value>Ввод</value>
+  </data>
+  <data name="PortChanged" xml:space="preserve">
+    <value>Вы изменили порт веб-сервиса, Helium нужно перезапустить. Нажмите «OK», чтобы перезапустить Helium.</value>
+  </data>
+  <data name="AcoustId" xml:space="preserve">
+    <value>Идентификатор Acoust</value>
+  </data>
+  <data name="AggregatedTitle" xml:space="preserve">
+    <value>Название, ремикс и подзаголовок</value>
+  </data>
+  <data name="InsertField" xml:space="preserve">
+    <value>Вставить поле</value>
+  </data>
+  <data name="EditTemplates" xml:space="preserve">
+    <value>Изменить шаблоны</value>
+  </data>
+  <data name="EditTemplatesEllipsed" xml:space="preserve">
+    <value>Изменить шаблоны…</value>
+  </data>
+  <data name="NoDatabaseSelected" xml:space="preserve">
+    <value>База данных не выбрана.</value>
+  </data>
+  <data name="SqlServerBackupRootInfo" xml:space="preserve">
+    <value>Убедитесь, что у учетной записи SQL Server есть доступ к папке, в которой находится файл резервной копии.</value>
+  </data>
+  <data name="MySqlOptions" xml:space="preserve">
+    <value>Параметры MySql</value>
+  </data>
+  <data name="RestoreFile" xml:space="preserve">
+    <value>Файл для восстановления</value>
+  </data>
+  <data name="RestoreMenu" xml:space="preserve">
+    <value>Восстановление…</value>
+  </data>
+  <data name="RestoreWindow" xml:space="preserve">
+    <value>Восстановление</value>
+  </data>
+  <data name="Server" xml:space="preserve">
+    <value>Сервер</value>
+  </data>
+  <data name="SqlServerCompactOptions" xml:space="preserve">
+    <value>Параметры SQL Server Compact</value>
+  </data>
+  <data name="SqlServerOptions" xml:space="preserve">
+    <value>Параметры SQL Server</value>
+  </data>
+  <data name="DatabaseExists" xml:space="preserve">
+    <value>База данных уже существует. 
+Выберите другое имя.</value>
+  </data>
+  <data name="Large" xml:space="preserve">
+    <value>Большой</value>
+  </data>
+  <data name="Medium" xml:space="preserve">
+    <value>Средний</value>
+  </data>
+  <data name="Small" xml:space="preserve">
+    <value>Малый</value>
+  </data>
+  <data name="ThumbnailSize" xml:space="preserve">
+    <value>Размер эскизов</value>
+  </data>
+  <data name="ThumbnailSizeChanged" xml:space="preserve">
+    <value>Размер эскизов изменен. Нажмите «OK», чтобы перезапустить Helium.</value>
+  </data>
+  <data name="DesktopAlerts" xml:space="preserve">
+    <value>Оповещения на рабочем столе</value>
+  </data>
+  <data name="Theme" xml:space="preserve">
+    <value>Тема</value>
+  </data>
+  <data name="Contact" xml:space="preserve">
+    <value>Контакты</value>
+  </data>
+  <data name="EditLabelWindow" xml:space="preserve">
+    <value>Изменить лейбл</value>
+  </data>
+  <data name="BackupRestoredNoProblems" xml:space="preserve">
+    <value>Резервная копия восстановлена без ошибок. 
+Нажмите «OK», чтобы перезапустить Helium.</value>
+  </data>
+  <data name="BackupRestoredWithProblems" xml:space="preserve">
+    <value>Резервная копия восстановлена с ошибками.</value>
+  </data>
+  <data name="DatabaseIsActive" xml:space="preserve">
+    <value>База данных, которую вы пытаетесь восстановить, сейчас активна. 
+Выберите для восстановления БД другое имя файла.</value>
+  </data>
+  <data name="ExtractingBackupFiles" xml:space="preserve">
+    <value>Извлечение файлов резервной копии</value>
+  </data>
+  <data name="RestoreOverwriteWarn" xml:space="preserve">
+    <value>Предупреждение: будут перезаписаны существующие настройки, изображения и сценарии. Чтобы продолжить, нажмите «OK».</value>
+  </data>
+  <data name="RestoringBackup" xml:space="preserve">
+    <value>Восстановление резервной копии</value>
+  </data>
+  <data name="RestoringPictures" xml:space="preserve">
+    <value>Восстановление изображений</value>
+  </data>
+  <data name="RestoringScripts" xml:space="preserve">
+    <value>Восстановление сценариев</value>
+  </data>
+  <data name="RestoringSettings" xml:space="preserve">
+    <value>Восстановление настроек</value>
+  </data>
+  <data name="Extreme" xml:space="preserve">
+    <value>Наивысшее</value>
+  </data>
+  <data name="Good" xml:space="preserve">
+    <value>Хорошее</value>
+  </data>
+  <data name="Low" xml:space="preserve">
+    <value>Низкое</value>
+  </data>
+  <data name="Spectrogram" xml:space="preserve">
+    <value>Спектрограмма</value>
+  </data>
+  <data name="SpectrogramInfo" xml:space="preserve">
+    <value>Настройки качества будут применены при следующем отрисовке спектрограммы. Чем выше качество, тем больше потребуется памяти и времени на отрисовку. Учитывайте это при использовании наивысшего качества.</value>
+  </data>
+  <data name="SpectrogramPalettes" xml:space="preserve">
+    <value>Палитры спектрограммы</value>
+  </data>
+  <data name="SpectrogramQuality" xml:space="preserve">
+    <value>Качество спектрограммы</value>
+  </data>
+  <data name="UntitledAlbum" xml:space="preserve">
+    <value>Альбом без названия</value>
+  </data>
+  <data name="WaveFormChannels" xml:space="preserve">
+    <value>Форма волны (два канала)</value>
+  </data>
+  <data name="WaveFormMixed" xml:space="preserve">
+    <value>Форма волны (смешанная)</value>
+  </data>
+  <data name="WaveFormMono" xml:space="preserve">
+    <value>Форма волны (моно)</value>
+  </data>
+  <data name="NoFileSelected" xml:space="preserve">
+    <value>Файлы не выбраны</value>
+  </data>
+  <data name="CleaningEmptyFolders" xml:space="preserve">
+    <value>Очистка пустых папок…</value>
+  </data>
+  <data name="ClickF2ToRename" xml:space="preserve">
+    <value>Чтобы переименовать элемент вручную, выберите его и нажмите F2.</value>
+  </data>
+  <data name="EnterNewFilename" xml:space="preserve">
+    <value>Введите новое имя файла</value>
+  </data>
+  <data name="FileExists" xml:space="preserve">
+    <value>Итоговый файл уже существует</value>
+  </data>
+  <data name="FilenameTooLong" xml:space="preserve">
+    <value>Итоговое имя файла длиннее 256 символов</value>
+  </data>
+  <data name="MovingRemainingFiles" xml:space="preserve">
+    <value>Перемещение оставшихся файлов…</value>
+  </data>
+  <data name="RippingTrack" xml:space="preserve">
+    <value>Копирование дорожки</value>
+  </data>
+  <data name="CdDrive" xml:space="preserve">
+    <value>Дисковод</value>
+  </data>
+  <data name="CdRipper" xml:space="preserve">
+    <value>Копирование CD</value>
+  </data>
+  <data name="CdRipperMenu" xml:space="preserve">
+    <value>Копирование CD…</value>
+  </data>
+  <data name="NoCdDrivesFound" xml:space="preserve">
+    <value>Дисководов не найдено.</value>
+  </data>
+  <data name="Refresh" xml:space="preserve">
+    <value>Обновить</value>
+  </data>
+  <data name="SelectTracksToRip" xml:space="preserve">
+    <value>Выберите дорожки для копирования</value>
+  </data>
+  <data name="EqualizerHeader" xml:space="preserve">
+    <value>Эквалайзер</value>
+  </data>
+  <data name="EqualizerMenu" xml:space="preserve">
+    <value>Эквалайзер…</value>
+  </data>
+  <data name="Presets" xml:space="preserve">
+    <value>Установки</value>
+  </data>
+  <data name="Equalizer" xml:space="preserve">
+    <value>Эквалайзер</value>
+  </data>
+  <data name="FilenameToTag" xml:space="preserve">
+    <value>Имя файла в тег</value>
+  </data>
+  <data name="ExtractTitleRemixSubtitle" xml:space="preserve">
+    <value>Извлечь название (ремикс)(подзаголовок)</value>
+  </data>
+  <data name="FilesAdded" xml:space="preserve">
+    <value>файл. добавл.</value>
+  </data>
+  <data name="FilesRemoved" xml:space="preserve">
+    <value>файл. удал.</value>
+  </data>
+  <data name="FilesUpdated" xml:space="preserve">
+    <value>файл. обновл.</value>
+  </data>
+  <data name="NoUpdatesPerformed" xml:space="preserve">
+    <value>Обновления не выполнены</value>
+  </data>
+  <data name="Playing" xml:space="preserve">
+    <value>Проигрывается</value>
+  </data>
+  <data name="AboutData" xml:space="preserve">
+    <value>Авторы Helium:
+
+Ведущий программист:
+Mikael Stalvik
+
+Дополнительное программирование:
+Fredrik Heidgert
+
+Система установки:
+Mikael Stalvik
+
+Особая благодарность:
+Всем пользователям, участвовавших в разработке новой версии Helium!
+
+
+Официальный веб-сайт Helium:
+http://www.helium-music-manager.com
+
+Авторское право © Imploded Software AB, 1997-2016. Все права защищены.</value>
+  </data>
+  <data name="Export" xml:space="preserve">
+    <value>Экспорт</value>
+  </data>
+  <data name="ExportToM3U" xml:space="preserve">
+    <value>Экспорт в M3U</value>
+  </data>
+  <data name="ExportToM3U8" xml:space="preserve">
+    <value>Экспорт в M3U8</value>
+  </data>
+  <data name="ExportToPLS" xml:space="preserve">
+    <value>Экспорт в PLS</value>
+  </data>
+  <data name="DownloadInput" xml:space="preserve">
+    <value>Ввод</value>
+  </data>
+  <data name="CopyFilesMenu" xml:space="preserve">
+    <value>Копировать файлы…</value>
+  </data>
+  <data name="MoveFilesMenu" xml:space="preserve">
+    <value>Переместить файлы…</value>
+  </data>
+  <data name="ProgressCopyFiles" xml:space="preserve">
+    <value>Копирование файла {0} из {1}</value>
+  </data>
+  <data name="ProgressCopyTitle" xml:space="preserve">
+    <value>Копирование файлов</value>
+  </data>
+  <data name="ProgressMoveFiles" xml:space="preserve">
+    <value>Перемещение файла {0} из {1}</value>
+  </data>
+  <data name="ProgressMoveTitle" xml:space="preserve">
+    <value>Перемещение файлов</value>
+  </data>
+  <data name="SelectDestinationFolder" xml:space="preserve">
+    <value>Выберите папку назначения</value>
+  </data>
+  <data name="ApplyChanges" xml:space="preserve">
+    <value>Применить изменения</value>
+  </data>
+  <data name="PendingChangesWarning" xml:space="preserve">
+    <value>Есть еще не примененные изменения. Чтобы применить их в библиотеке и тегах, нажмите кнопку «Применить изменения».</value>
+  </data>
+  <data name="ToggleEditMode" xml:space="preserve">
+    <value>Включение режима правки</value>
+  </data>
+  <data name="DestinationFolder" xml:space="preserve">
+    <value>Целевая папка</value>
+  </data>
+  <data name="ImplodedOnTheWeb" xml:space="preserve">
+    <value>Imploded Software в Интернете</value>
+  </data>
+  <data name="OfficialWebSite" xml:space="preserve">
+    <value>Официальный веб-сайт</value>
+  </data>
+  <data name="RemapPathMenu" xml:space="preserve">
+    <value>Переназначение пути…</value>
+  </data>
+  <data name="RemapPathTitle" xml:space="preserve">
+    <value>Переназначение пути</value>
+  </data>
+  <data name="SourceFolder" xml:space="preserve">
+    <value>Исходная папка</value>
+  </data>
+  <data name="Support" xml:space="preserve">
+    <value>Поддержка</value>
+  </data>
+  <data name="BackgroundOptions" xml:space="preserve">
+    <value>Параметры фона</value>
+  </data>
+  <data name="Blur" xml:space="preserve">
+    <value>Размытие</value>
+  </data>
+  <data name="Center" xml:space="preserve">
+    <value>Центр</value>
+  </data>
+  <data name="FillCenter" xml:space="preserve">
+    <value>Заливка центра</value>
+  </data>
+  <data name="FillTop" xml:space="preserve">
+    <value>Заливка сверху</value>
+  </data>
+  <data name="Opacity" xml:space="preserve">
+    <value>Непрозрачность</value>
+  </data>
+  <data name="TileByX" xml:space="preserve">
+    <value>Замостить сверху вниз</value>
+  </data>
+  <data name="TileByXy" xml:space="preserve">
+    <value>Замостить</value>
+  </data>
+  <data name="TileHalf" xml:space="preserve">
+    <value>Замостить сверху вниз (по всей высоте)</value>
+  </data>
+  <data name="PathsRemapped" xml:space="preserve">
+    <value>Пути переназначены. Необходимо перезапустить Helium.</value>
+  </data>
+  <data name="BlurWarning" xml:space="preserve">
+    <value>Внимание: при отрисовке с размытием может снижаться производительность</value>
+  </data>
+  <data name="FillAboveCenter" xml:space="preserve">
+    <value>Заливка выше центра</value>
+  </data>
+  <data name="FillBelowCenter" xml:space="preserve">
+    <value>Заливка ниже центра</value>
+  </data>
+  <data name="FillBottom" xml:space="preserve">
+    <value>Заливка снизу</value>
+  </data>
+  <data name="LibraryNeedsUpdate" xml:space="preserve">
+    <value>чтобы открыть выбранную базу данных, нужно ее обновить. 
+Чтобы обновить базу данных, нажмите «OK».</value>
+  </data>
+  <data name="Library_Hmm11Database" xml:space="preserve">
+    <value>Вы пытаетесь открыть базу данных Helium 11 или старшую версию.
+Чтобы использовать эту базу данных, необходимо импортировать ее в новую БД из «Управления библиотекой».</value>
+  </data>
+  <data name="Discard" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="DownloadAlbumPictures" xml:space="preserve">
+    <value>Скачать изображения альбомов</value>
+  </data>
+  <data name="DownloadAlbumPicturesMenu" xml:space="preserve">
+    <value>Скачать изображения альбомов…</value>
+  </data>
+  <data name="Select" xml:space="preserve">
+    <value>Выбор</value>
+  </data>
+  <data name="SelectAllWithoutPictures" xml:space="preserve">
+    <value>Выберите все без изображений</value>
+  </data>
+  <data name="DownloadArtistPictures" xml:space="preserve">
+    <value>Скачать изображения исполнителей</value>
+  </data>
+  <data name="DownloadArtistPicturesMenu" xml:space="preserve">
+    <value>Скачать изображения исполнителей…</value>
+  </data>
+  <data name="CheckForUpdatesMenu" xml:space="preserve">
+    <value>Проверка обновлений…</value>
+  </data>
+  <data name="DownloadingNewVersion" xml:space="preserve">
+    <value>Скачивание новой версии</value>
+  </data>
+  <data name="EnableAutomaticUpdateCheck" xml:space="preserve">
+    <value>Проверять обновления автоматически</value>
+  </data>
+  <data name="AvailablePlugins" xml:space="preserve">
+    <value>Доступные плагины</value>
+  </data>
+  <data name="Configure" xml:space="preserve">
+    <value>Конфигурация…</value>
+  </data>
+  <data name="Plugins" xml:space="preserve">
+    <value>Плагины</value>
+  </data>
+  <data name="BetaMessage" xml:space="preserve">
+    <value>Вас приветствует бета-версия Helium!
+
+Помните, что это бета-версия: в ней могут быть ошибки и недоработанные функции.
+Во избежание потери данных мы рекомендуем работать с копией файлов.
+
+Столкнувшись с ошибкой, воспользуйтесь встроенным инструментом отправки отчетов и не забудьте описать, как ее воспроизвести — это поможет нам решить проблему.</value>
+  </data>
+  <data name="BackgroundAlbumOptions" xml:space="preserve">
+    <value>Фон альбома</value>
+  </data>
+  <data name="BackgroundArtistsOptions" xml:space="preserve">
+    <value>Фон исполнителя</value>
+  </data>
+  <data name="ImportFromHelium11" xml:space="preserve">
+    <value>Импорт из Helium 11</value>
+  </data>
+  <data name="ImportFromHelium11Menu" xml:space="preserve">
+    <value>Импорт из Helium 11…</value>
+  </data>
+  <data name="MySql_IncorrectCase" xml:space="preserve">
+    <value>У вашего сервера MySql недопустимое значение для параметра lower_case_table_names.
+
+Параметр lower_case_table_names должен быть равен 1, что означает нечувствительность к регистру.
+Измените это значение в файле конфигурации MySQL и повторите попытку.</value>
+  </data>
+  <data name="ViewImage" xml:space="preserve">
+    <value>Просмотр изображения</value>
+  </data>
+  <data name="ShowAllItems" xml:space="preserve">
+    <value>Показать все элементы</value>
+  </data>
+  <data name="ShowItemsWithNoPictures" xml:space="preserve">
+    <value>Показывать только элементы, которым не назначены изображения</value>
+  </data>
+  <data name="ShowItemsWithPictures" xml:space="preserve">
+    <value>Показывать только элементы, которым изображения назначены</value>
+  </data>
+  <data name="ShowOnlyAlbumArtists" xml:space="preserve">
+    <value>Показывать только исполнителей альбомов</value>
+  </data>
+  <data name="Ascending" xml:space="preserve">
+    <value>По возрастанию</value>
+  </data>
+  <data name="Descending" xml:space="preserve">
+    <value>По убыванию</value>
+  </data>
+  <data name="NoSorting" xml:space="preserve">
+    <value>Без сортировки</value>
+  </data>
+  <data name="SortBy" xml:space="preserve">
+    <value>Сортировка</value>
+  </data>
+  <data name="ThenBy" xml:space="preserve">
+    <value>Затем</value>
+  </data>
+  <data name="TotalLength" xml:space="preserve">
+    <value>Общая длина</value>
+  </data>
+  <data name="Views" xml:space="preserve">
+    <value>Просмотр</value>
+  </data>
+  <data name="AvailableVisualizations" xml:space="preserve">
+    <value>Доступные визуализации</value>
+  </data>
+  <data name="DockInNowPlayingView" xml:space="preserve">
+    <value>Закрепить в окне «проигрывается»</value>
+  </data>
+  <data name="FullScreen" xml:space="preserve">
+    <value>Во весь экран</value>
+  </data>
+  <data name="ShowInVisualizationsView" xml:space="preserve">
+    <value>Режим полного окна</value>
+  </data>
+  <data name="StartStopVisualization" xml:space="preserve">
+    <value>Запустить визуализацию</value>
+  </data>
+  <data name="Visualizations" xml:space="preserve">
+    <value>Визуализация</value>
+  </data>
+  <data name="VisualizationView" xml:space="preserve">
+    <value>Просмотр визуализации</value>
+  </data>
+  <data name="ConfigVisualization" xml:space="preserve">
+    <value>Настроить визуализацию…</value>
+  </data>
+  <data name="ShowVisualPositionBar" xml:space="preserve">
+    <value>Показывать графическую панель положения</value>
+  </data>
+  <data name="DoNotShowAgain" xml:space="preserve">
+    <value>Больше не показывать</value>
+  </data>
+  <data name="Restore" xml:space="preserve">
+    <value>Восстановление</value>
+  </data>
+  <data name="StartVisDlg" xml:space="preserve">
+    <value>Запустить визуализацию</value>
+  </data>
+  <data name="VisualizationsWarningMessage" xml:space="preserve">
+    <value>Вы собираетесь запустить плагин визуализации от стороннего поставщика.
+
+Помните, что эта визуализация разработана не компанией Imploded Software и на разных машинах может работать по-разному.
+Также у визуализации могут быть конкретные зависимости, например, OpenGl и (или) конкретные версии DirectX или Direct3D.
+Это может приводить к нестабильной работе и сбоям.
+
+Продолжить?</value>
+  </data>
+  <data name="ClearPlayQueue" xml:space="preserve">
+    <value>Очистить очередь</value>
+  </data>
+  <data name="AddedTrends" xml:space="preserve">
+    <value>Тренды добавления</value>
+  </data>
+  <data name="Days" xml:space="preserve">
+    <value>сут.</value>
+  </data>
+  <data name="FiletypeTrends" xml:space="preserve">
+    <value>Тренды типов файлов</value>
+  </data>
+  <data name="InTheLast" xml:space="preserve">
+    <value>За последние</value>
+  </data>
+  <data name="Months" xml:space="preserve">
+    <value>мес.</value>
+  </data>
+  <data name="NotInTheLast" xml:space="preserve">
+    <value>Не за последние</value>
+  </data>
+  <data name="PlayingTrends" xml:space="preserve">
+    <value>Тренды прослушивания</value>
+  </data>
+  <data name="Weeks" xml:space="preserve">
+    <value>нед.</value>
+  </data>
+  <data name="EqualizerActive" xml:space="preserve">
+    <value>Эквалайзер включен</value>
+  </data>
+  <data name="FileTypeAddedTrends" xml:space="preserve">
+    <value>Тренды по добавляемым типам файлов</value>
+  </data>
+  <data name="BrowseFolderInMe" xml:space="preserve">
+    <value>Просмотр папки в «Обзоре музыки»</value>
+  </data>
+  <data name="AutoHideShowNowPlayingWhenStartingVis" xml:space="preserve">
+    <value>Показывать/скрывать «Проигрывается» при запуске визуализации 
+в закрепленном режиме и режиме полного окна</value>
+  </data>
+  <data name="MapToFrame" xml:space="preserve">
+    <value>Сопоставление с кадром</value>
+  </data>
+  <data name="AddToLibrary" xml:space="preserve">
+    <value>Добавить в библиотеку</value>
+  </data>
+  <data name="Command" xml:space="preserve">
+    <value>Команда</value>
+  </data>
+  <data name="Converter" xml:space="preserve">
+    <value>Преобразователь</value>
+  </data>
+  <data name="DefaultTagEditor" xml:space="preserve">
+    <value>Редактор тегов по умолчанию</value>
+  </data>
+  <data name="Key" xml:space="preserve">
+    <value>Клавиша</value>
+  </data>
+  <data name="Modifiers" xml:space="preserve">
+    <value>Модификаторы</value>
+  </data>
+  <data name="PlayNow" xml:space="preserve">
+    <value>Прослушать</value>
+  </data>
+  <data name="QueueLast" xml:space="preserve">
+    <value>В конец очереди</value>
+  </data>
+  <data name="QueueNext" xml:space="preserve">
+    <value>В начало очереди</value>
+  </data>
+  <data name="RunScript" xml:space="preserve">
+    <value>Запуск сценария</value>
+  </data>
+  <data name="Shortcuts" xml:space="preserve">
+    <value>Ярлыки</value>
+  </data>
+  <data name="Splitter" xml:space="preserve">
+    <value>Нарезка</value>
+  </data>
+  <data name="TagToFilename" xml:space="preserve">
+    <value>Тег в имя файла</value>
+  </data>
+  <data name="ArtistsView" xml:space="preserve">
+    <value>Просмотр исполнителей</value>
+  </data>
+  <data name="EditSubtracks" xml:space="preserve">
+    <value>Изменить вложенные дорожки</value>
+  </data>
+  <data name="GenresView" xml:space="preserve">
+    <value>Просмотр жанров</value>
+  </data>
+  <data name="LabelsView" xml:space="preserve">
+    <value>Просмотр лейблов</value>
+  </data>
+  <data name="PlaylistsView" xml:space="preserve">
+    <value>Просмотр плей-листов</value>
+  </data>
+  <data name="ReleasesView" xml:space="preserve">
+    <value>Просмотр выпусков</value>
+  </data>
+  <data name="StatisticsView" xml:space="preserve">
+    <value>Просмотр статистики</value>
+  </data>
+  <data name="ToggleGraphicPositionBar" xml:space="preserve">
+    <value>Включение графической панели положения</value>
+  </data>
+  <data name="ToggleNavigationPane" xml:space="preserve">
+    <value>Включение панели навигации на полную ширину</value>
+  </data>
+  <data name="TracksView" xml:space="preserve">
+    <value>Просмотр дорожек</value>
+  </data>
+  <data name="YearsView" xml:space="preserve">
+    <value>Просмотр лет</value>
+  </data>
+  <data name="ClearPqOnDoubleClick" xml:space="preserve">
+    <value>Очищать очередь проигрывания по двойному щелчку на дорожке</value>
+  </data>
+  <data name="Reload" xml:space="preserve">
+    <value>Перезагрузка</value>
+  </data>
+  <data name="Import_InvalidNeonDatabase" xml:space="preserve">
+    <value>Выбранная БД не является допустимой базой данных Helium.</value>
+  </data>
+  <data name="Import" xml:space="preserve">
+    <value>Импорт</value>
+  </data>
+  <data name="EqOptions" xml:space="preserve">
+    <value>Параметры эквалайзера</value>
+  </data>
+  <data name="ImportNeonCommand" xml:space="preserve">
+    <value>Импорт базы данных</value>
+  </data>
+  <data name="ToggleEq" xml:space="preserve">
+    <value>Включение эквалайзера</value>
+  </data>
+  <data name="ToggleNavigationPaneWidth" xml:space="preserve">
+    <value>Включение панели навигации на полную ширину</value>
+  </data>
+  <data name="ImportDbProgress25_Neon" xml:space="preserve">
+    <value>Импорт путей добавления</value>
+  </data>
+  <data name="ImportDbProgress26_Neon" xml:space="preserve">
+    <value>Импорт папок умного плей-листа</value>
+  </data>
+  <data name="ImportDbProgress27_Neon" xml:space="preserve">
+    <value>Импорт умных плей-листов</value>
+  </data>
+  <data name="ImportDbProgress28_Neon" xml:space="preserve">
+    <value>Импорт текстов</value>
+  </data>
+  <data name="OptimizeCommand" xml:space="preserve">
+    <value>Оптимизировать активную базу данных</value>
+  </data>
+  <data name="OpenPort" xml:space="preserve">
+    <value>Открыть порт в брандмауэре Windows</value>
+  </data>
+  <data name="DoNotUseRg" xml:space="preserve">
+    <value>Не использовать выравнивание громкости</value>
+  </data>
+  <data name="UseAlbumGain" xml:space="preserve">
+    <value>Использовать усиление альбома</value>
+  </data>
+  <data name="UseTrackGain" xml:space="preserve">
+    <value>Использовать усиление дорожки</value>
+  </data>
+  <data name="ReplayGain" xml:space="preserve">
+    <value>Выравнивание громкости</value>
+  </data>
+  <data name="UseRgWhenEqIsActive" xml:space="preserve">
+    <value>Выравнивание громкости при активном эквалайзере (переопределение предв. усиления)</value>
+  </data>
+  <data name="Stat_OneMonthAgo" xml:space="preserve">
+    <value>1 месяц назад…</value>
+  </data>
+  <data name="Stat_OneWeekAgo" xml:space="preserve">
+    <value>1 неделя назад…</value>
+  </data>
+  <data name="Stat_OneYearAgo" xml:space="preserve">
+    <value>1 год назад…</value>
+  </data>
+  <data name="Stat_XMonthsAgo" xml:space="preserve">
+    <value>{0} мес. назад…</value>
+  </data>
+  <data name="Stat_XWeeksAgo" xml:space="preserve">
+    <value>{0} нед. назад…</value>
+  </data>
+  <data name="Stat_XYearsAgo" xml:space="preserve">
+    <value>{0} г. назад…</value>
+  </data>
+  <data name="UserColumns" xml:space="preserve">
+    <value>Пользовательские столбцы</value>
+  </data>
+  <data name="FontSize" xml:space="preserve">
+    <value>Размер шрифта</value>
+  </data>
+  <data name="FontSizeChanged" xml:space="preserve">
+    <value>Общий размер шрифта изменен, нужно перезапустить Helium.
+Нажмите «OK», чтобы перезапустить Helium.</value>
+  </data>
+  <data name="Normal" xml:space="preserve">
+    <value>Обычный</value>
+  </data>
+  <data name="CustomColumns" xml:space="preserve">
+    <value>Настраиваемые столбцы</value>
+  </data>
+  <data name="CardView" xml:space="preserve">
+    <value>Карточки</value>
+  </data>
+  <data name="CollapseHeader" xml:space="preserve">
+    <value>Свернуть заголовок</value>
+  </data>
+  <data name="ExpandHeader" xml:space="preserve">
+    <value>Развернуть заголовок</value>
+  </data>
+  <data name="SplitView" xml:space="preserve">
+    <value>Раздельный режим</value>
+  </data>
+  <data name="Thumbnails" xml:space="preserve">
+    <value>Эскизы</value>
+  </data>
+  <data name="AllTracks" xml:space="preserve">
+    <value>Все дорожки</value>
+  </data>
+  <data name="UpgradeVersionTitle" xml:space="preserve">
+    <value>Переходите с бесплатной версии Helium на Helium Premium!</value>
+  </data>
+  <data name="LimitedInFree" xml:space="preserve">
+    <value>Бесплатная версия ограничена 20 элементами</value>
+  </data>
+  <data name="ChangeImagePathMessage" xml:space="preserve">
+    <value>После смены пути к кэшу изображений нужно будет перезапустить Helium.
+Продолжить?</value>
+  </data>
+  <data name="ChangeImagePathTitle" xml:space="preserve">
+    <value>Изменить кэш изображений</value>
+  </data>
+  <data name="ImageCacheFolder" xml:space="preserve">
+    <value>Папка кэша изображений</value>
+  </data>
+  <data name="DAT_ScriptExecuted" xml:space="preserve">
+    <value>Выбранный сценарий выполнен нормально</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>Эл. почта</value>
+  </data>
+  <data name="FullName" xml:space="preserve">
+    <value>Полное имя</value>
+  </data>
+  <data name="GetPremium" xml:space="preserve">
+    <value>Получить версию Premium</value>
+  </data>
+  <data name="GetPremiumInformation" xml:space="preserve">
+    <value>Подробнее о версии Premium</value>
+  </data>
+  <data name="InvalidDataEntered" xml:space="preserve">
+    <value>Введены недопустимые данные. 
+Помните, что все данные чувствительны к регистру и должны вводиться так, как они к вам пришли.</value>
+  </data>
+  <data name="LicenseKey" xml:space="preserve">
+    <value>Лицензионный ключ</value>
+  </data>
+  <data name="Purchase" xml:space="preserve">
+    <value>Купить</value>
+  </data>
+  <data name="ReadMore" xml:space="preserve">
+    <value>Подробнее</value>
+  </data>
+  <data name="RegisterHelium" xml:space="preserve">
+    <value>Разблокировать Premium</value>
+  </data>
+  <data name="RegisterHeliumTitle" xml:space="preserve">
+    <value>Разблокировка версии Premium</value>
+  </data>
+  <data name="SuccessFullRegistration" xml:space="preserve">
+    <value>Поздравляем!
+
+Вы зарегистрировали Helium.
+Нажмите «OK» — Helium перезапустится, и вы сможете пользоваться функциями Premium.</value>
+  </data>
+  <data name="FileNotFound" xml:space="preserve">
+    <value>Файл не найден ({0})</value>
+  </data>
+  <data name="Sublabels" xml:space="preserve">
+    <value>Подлейблы</value>
+  </data>
+  <data name="TopFileTypes" xml:space="preserve">
+    <value>Популярные типы файлов</value>
+  </data>
+  <data name="TopLabels" xml:space="preserve">
+    <value>Популярные лейблы</value>
+  </data>
+  <data name="TopReleaseTypes" xml:space="preserve">
+    <value>Популярные типы выпусков</value>
+  </data>
+  <data name="OnlyInPremium" xml:space="preserve">
+    <value>Эта функция есть только в версии Premium</value>
+  </data>
+  <data name="ListeningHabits" xml:space="preserve">
+    <value>Привычки слушания</value>
+  </data>
+  <data name="RatingStatistics" xml:space="preserve">
+    <value>Статистика оценок</value>
+  </data>
+  <data name="Tops" xml:space="preserve">
+    <value>Популярные</value>
+  </data>
+  <data name="AlbumRatings" xml:space="preserve">
+    <value>Оценки альбомов</value>
+  </data>
+  <data name="ArtistRatings" xml:space="preserve">
+    <value>Оценки исполнителей</value>
+  </data>
+  <data name="PlayedDays" xml:space="preserve">
+    <value>Дни прослушивания</value>
+  </data>
+  <data name="PlayedHours" xml:space="preserve">
+    <value>Часы прослушивания</value>
+  </data>
+  <data name="PlayedWeeks" xml:space="preserve">
+    <value>Недели прослушивания</value>
+  </data>
+  <data name="TrackRatings" xml:space="preserve">
+    <value>Оценки дорожек</value>
+  </data>
+  <data name="FreeVersionLimit" xml:space="preserve">
+    <value>В бесплатной версии Helium эта функция не работает.
+Чтобы использовать эту функцию, необходимо перейти на версию Helium Premium.</value>
+  </data>
+  <data name="SourceImageNotFound" xml:space="preserve">
+    <value>Исходное изображение не найдено</value>
+  </data>
+  <data name="ClearPicture" xml:space="preserve">
+    <value>Очистить изображение</value>
+  </data>
+  <data name="RemoveAlbumMenu" xml:space="preserve">
+    <value>Удалить альбом…</value>
+  </data>
+  <data name="AddBlank" xml:space="preserve">
+    <value>Добавить пробел</value>
+  </data>
+  <data name="AvailableFields" xml:space="preserve">
+    <value>Доступные поля</value>
+  </data>
+  <data name="Columns" xml:space="preserve">
+    <value>Столбцы</value>
+  </data>
+  <data name="FourColumns" xml:space="preserve">
+    <value>Четыре столбца</value>
+  </data>
+  <data name="OneColumn" xml:space="preserve">
+    <value>Один столбец</value>
+  </data>
+  <data name="SelectedFields" xml:space="preserve">
+    <value>Выбранные поля</value>
+  </data>
+  <data name="SelectedTab" xml:space="preserve">
+    <value>Выбранная вкладка</value>
+  </data>
+  <data name="ThreeColumns" xml:space="preserve">
+    <value>Три столбца</value>
+  </data>
+  <data name="TwoColumns" xml:space="preserve">
+    <value>Два столбца</value>
+  </data>
+  <data name="AteTemplateEditor" xml:space="preserve">
+    <value>Изменить шаблон</value>
+  </data>
+  <data name="SaveAs" xml:space="preserve">
+    <value>Сохранить как…</value>
+  </data>
+  <data name="EditTemplate" xml:space="preserve">
+    <value>Изменить шаблон…</value>
+  </data>
+  <data name="EditAteTabWindow" xml:space="preserve">
+    <value>Изменить вкладку</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Имя (название)</value>
+  </data>
+  <data name="Move" xml:space="preserve">
+    <value>Переместить</value>
+  </data>
+  <data name="CopyMenu" xml:space="preserve">
+    <value>Копировать…</value>
+  </data>
+  <data name="MoveMenu" xml:space="preserve">
+    <value>Переместить…</value>
+  </data>
+  <data name="RenameMenu" xml:space="preserve">
+    <value>Переименовать…</value>
+  </data>
+  <data name="RemoveAllFilesAndSubfolders" xml:space="preserve">
+    <value>Удалите все файлы в папке и все вложенные папки</value>
+  </data>
+  <data name="RemoveMenu" xml:space="preserve">
+    <value>Удалить…</value>
+  </data>
+  <data name="OverwritePictures" xml:space="preserve">
+    <value>Перезапись существующих изображений</value>
+  </data>
+  <data name="NoGrouping" xml:space="preserve">
+    <value>Без группировки</value>
+  </data>
+  <data name="CustomPictureName" xml:space="preserve">
+    <value>Свое название</value>
+  </data>
+  <data name="SelectedFiles" xml:space="preserve">
+    <value>Выбранные файлы</value>
+  </data>
+  <data name="SelectFiles" xml:space="preserve">
+    <value>Выбор файлов</value>
+  </data>
+  <data name="AlbumPictureNameFormat" xml:space="preserve">
+    <value>Формат имени для изображения альбома</value>
+  </data>
+  <data name="Codes" xml:space="preserve">
+    <value>Коды</value>
+  </data>
+  <data name="TracksPlayed" xml:space="preserve">
+    <value>дорож. прослуш.</value>
+  </data>
+  <data name="AlbumPicturePath" xml:space="preserve">
+    <value>Путь к изображению альбома</value>
+  </data>
+  <data name="ArtistPicturePath" xml:space="preserve">
+    <value>Путь к изображению исполнителя</value>
+  </data>
+  <data name="Imp11_ImportAlbumPictures" xml:space="preserve">
+    <value>-Импорт изображений альбомов</value>
+  </data>
+  <data name="Imp11_ImportArtistPictures" xml:space="preserve">
+    <value>-Импорт изображений исполнителей</value>
+  </data>
+  <data name="Imp11_ImportLabelPictures" xml:space="preserve">
+    <value>-Импорт изображений лейблов</value>
+  </data>
+  <data name="Imp11_SQLCEDesc" xml:space="preserve">
+    <value>-Импорт базы данных SQL Server Compact:</value>
+  </data>
+  <data name="ImportingData" xml:space="preserve">
+    <value>Импорт данных</value>
+  </data>
+  <data name="LabelPicturePath" xml:space="preserve">
+    <value>Путь к изображению лейбла</value>
+  </data>
+  <data name="TheActiveDatabaseIsNotEmpty" xml:space="preserve">
+    <value>Активная база данных не пустая!</value>
+  </data>
+  <data name="UserDefinedCapitaliazationChars" xml:space="preserve">
+    <value>Пользовательские символы-разделители (вводите символы друг за другом)</value>
+  </data>
+  <data name="And" xml:space="preserve">
+    <value>И</value>
+  </data>
+  <data name="Author" xml:space="preserve">
+    <value>Автор</value>
+  </data>
+  <data name="Expression1" xml:space="preserve">
+    <value>Выражение 1</value>
+  </data>
+  <data name="Expression2" xml:space="preserve">
+    <value>Выражение 2</value>
+  </data>
+  <data name="Expression3" xml:space="preserve">
+    <value>Выражение 3</value>
+  </data>
+  <data name="FilePath" xml:space="preserve">
+    <value>Путь к файлу:</value>
+  </data>
+  <data name="Initializing" xml:space="preserve">
+    <value>Инициализация…</value>
+  </data>
+  <data name="NoUpdatesAreAvailable" xml:space="preserve">
+    <value>Обновлений нет</value>
+  </data>
+  <data name="Off" xml:space="preserve">
+    <value>ВЫКЛ</value>
+  </data>
+  <data name="On" xml:space="preserve">
+    <value>ВКЛ</value>
+  </data>
+  <data name="Operator" xml:space="preserve">
+    <value>Оператор</value>
+  </data>
+  <data name="Or" xml:space="preserve">
+    <value>Или</value>
+  </data>
+  <data name="ScriptScope" xml:space="preserve">
+    <value>Область действия</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Настройки</value>
+  </data>
+  <data name="UnableToPerformUpdateCheck" xml:space="preserve">
+    <value>Не удается проверить обновления. Повторите попытку позже.</value>
+  </data>
+  <data name="ForceCopyPicturesOnAdd" xml:space="preserve">
+    <value>Принудительное копирование изображений в указанную папку при добавлении</value>
+  </data>
+  <data name="NoErrorsInFlacFile" xml:space="preserve">
+    <value>Ошибок не найдено</value>
+  </data>
+  <data name="Housekeep" xml:space="preserve">
+    <value>Очистка</value>
+  </data>
+  <data name="Information" xml:space="preserve">
+    <value>Информация</value>
+  </data>
+  <data name="NoFilesAvailable" xml:space="preserve">
+    <value>Файлов нет</value>
+  </data>
+  <data name="FilesLoaded" xml:space="preserve">
+    <value>файл. загруж.</value>
+  </data>
+  <data name="NewArtistName" xml:space="preserve">
+    <value>Новое имя исполнителя:</value>
+  </data>
+  <data name="HousekeepPaths" xml:space="preserve">
+    <value>При очистке дорожек все существующие пути будут удалены. 
+Продолжить?</value>
+  </data>
+  <data name="ToggleAutoIncTracks" xml:space="preserve">
+    <value>Вкл. автонум. дорожек</value>
+  </data>
+  <data name="ToggleAutoSort" xml:space="preserve">
+    <value>Включение автосортировки</value>
+  </data>
+  <data name="ToggleCapitalizer" xml:space="preserve">
+    <value>Включение режима прописных</value>
+  </data>
+  <data name="UL_RemovingFiles" xml:space="preserve">
+    <value>Удаление файлов, выполнено: {0}%</value>
+  </data>
+  <data name="UL_ScanningExistingFiles" xml:space="preserve">
+    <value>Сканирование существующих файлов, выполнено: {0}%</value>
+  </data>
+  <data name="UL_SearchingForNewFiles" xml:space="preserve">
+    <value>Поиск новых файлов, выполнено: {0}%</value>
+  </data>
+  <data name="UL_UpdatingExistingFiles" xml:space="preserve">
+    <value>Обновление существующих файлов, выполнено: {0}%</value>
+  </data>
+  <data name="UpdatingMetadata" xml:space="preserve">
+    <value>Обновление метаданных</value>
+  </data>
+  <data name="AlbumsArtistDetails" xml:space="preserve">
+    <value>Выпуски в сведениях об исполнителе</value>
+  </data>
+  <data name="DlAlbumsStatusBar" xml:space="preserve">
+    <value>Альбомов — {0}, выбрано — {1}</value>
+  </data>
+  <data name="DlArtistsStatusBar" xml:space="preserve">
+    <value>Исполнителей — {0}, выбрано — {1}</value>
+  </data>
+  <data name="DownloadingImage" xml:space="preserve">
+    <value>Скачивание изображения</value>
+  </data>
+  <data name="Contents" xml:space="preserve">
+    <value>Оглавление</value>
+  </data>
+  <data name="PlayerInfo" xml:space="preserve">
+    <value>Сведения о проигрывателе</value>
+  </data>
+  <data name="False" xml:space="preserve">
+    <value>Ложь</value>
+  </data>
+  <data name="True" xml:space="preserve">
+    <value>Истина</value>
+  </data>
+  <data name="Stars_0" xml:space="preserve">
+    <value>Без оценки</value>
+  </data>
+  <data name="Stars_0_5" xml:space="preserve">
+    <value>0,5 звезды</value>
+  </data>
+  <data name="Stars_1" xml:space="preserve">
+    <value>1 звезда</value>
+  </data>
+  <data name="Stars_1_5" xml:space="preserve">
+    <value>1,5 звезды</value>
+  </data>
+  <data name="Stars_2" xml:space="preserve">
+    <value>2 звезды</value>
+  </data>
+  <data name="Stars_2_5" xml:space="preserve">
+    <value>2,5 звезды</value>
+  </data>
+  <data name="Stars_3" xml:space="preserve">
+    <value>3 звезды</value>
+  </data>
+  <data name="Stars_3_5" xml:space="preserve">
+    <value>3,5 звезды</value>
+  </data>
+  <data name="Stars_4" xml:space="preserve">
+    <value>4 звезды</value>
+  </data>
+  <data name="Stars_4_5" xml:space="preserve">
+    <value>4,5 звезды</value>
+  </data>
+  <data name="Stars_5" xml:space="preserve">
+    <value>5 звезд</value>
+  </data>
+  <data name="OverwriteExistingPictures" xml:space="preserve">
+    <value>Перезапись существующих изображений</value>
+  </data>
+  <data name="OverwriteExistingPicturesInfo" xml:space="preserve">
+    <value>Если выбрана перезапись, существующие изображения лицевой стороны обложки будут заменены.</value>
+  </data>
+  <data name="SaveAlbumPictureToTags" xml:space="preserve">
+    <value>Сохранить изображение альбома в теги…</value>
+  </data>
+  <data name="SaveAlbumPictureToTagsTitle" xml:space="preserve">
+    <value>Сохранить изображение альбома в теги</value>
+  </data>
+  <data name="SaveAlbumPicturesToTags" xml:space="preserve">
+    <value>Сохранить изображения альбомов в теги…</value>
+  </data>
+  <data name="LinkType" xml:space="preserve">
+    <value>Тип ссылки</value>
+  </data>
+  <data name="ReleaseDetails" xml:space="preserve">
+    <value>Сведения о выпуске</value>
+  </data>
+  <data name="TrackDetails" xml:space="preserve">
+    <value>Сведения о дорожке</value>
+  </data>
+  <data name="ViewMode" xml:space="preserve">
+    <value>Режим просмотра</value>
+  </data>
+  <data name="ReleasesByRecordingYear" xml:space="preserve">
+    <value>Дорожки по году записи</value>
+  </data>
+  <data name="ReleasesByReleaseYear" xml:space="preserve">
+    <value>Выпуски по году выпуска</value>
+  </data>
+  <data name="Id3Tags" xml:space="preserve">
+    <value>Теги Id3v2</value>
+  </data>
+  <data name="SaveInCompatibleId3v2Mode" xml:space="preserve">
+    <value>Сохранить исполнителя альбома с полной внешней совместимостью</value>
+  </data>
+  <data name="DockPlayQueue" xml:space="preserve">
+    <value>Закрепить очередь проигрывания в правой панели</value>
+  </data>
+  <data name="Line1" xml:space="preserve">
+    <value>Строка 1</value>
+  </data>
+  <data name="Line2" xml:space="preserve">
+    <value>Строка 2</value>
+  </data>
+  <data name="Line3" xml:space="preserve">
+    <value>Строка 3</value>
+  </data>
+  <data name="NewAlbumName" xml:space="preserve">
+    <value>Новое название альбома</value>
+  </data>
+  <data name="DoubleClickToSeeMoreDetails" xml:space="preserve">
+    <value>Дважды нажмите на элемент — откроются сведения о конкретной дате</value>
+  </data>
+  <data name="DefaultScript" xml:space="preserve">
+    <value>Сценарий по умолчанию</value>
+  </data>
+  <data name="ExecuteDefaultScript" xml:space="preserve">
+    <value>Выполнить сценарий по умолчанию</value>
+  </data>
+  <data name="NoAlbumsAvailable" xml:space="preserve">
+    <value>Альбомов нет</value>
+  </data>
+  <data name="RenderDetailPageStatistics" xml:space="preserve">
+    <value>Показывать статистику страницы данных исполнителя и альбома (отрисовка может замедлиться)</value>
+  </data>
+  <data name="Undefined" xml:space="preserve">
+    <value>Не определено</value>
+  </data>
+  <data name="NoRating" xml:space="preserve">
+    <value>Без оценки</value>
+  </data>
+  <data name="BiographyHeight" xml:space="preserve">
+    <value>Высота биографии</value>
+  </data>
+  <data name="LyricsHeight" xml:space="preserve">
+    <value>Высота текста песни</value>
+  </data>
+  <data name="PicturesHeight" xml:space="preserve">
+    <value>Высота изображений</value>
+  </data>
+  <data name="RightSidebar" xml:space="preserve">
+    <value>Правая панель</value>
+  </data>
+  <data name="AlbumCollections" xml:space="preserve">
+    <value>Коллекции альбомов</value>
+  </data>
+  <data name="CollectionName" xml:space="preserve">
+    <value>Название коллекции</value>
+  </data>
+  <data name="CreateNewMenu" xml:space="preserve">
+    <value>Создать…</value>
+  </data>
+  <data name="ManageAlbumCollections" xml:space="preserve">
+    <value>Коллекции альбомов…</value>
+  </data>
+  <data name="ManageAlbumCollectionsWindow" xml:space="preserve">
+    <value>Коллекции альбомов</value>
+  </data>
+  <data name="NewCollectionWindow" xml:space="preserve">
+    <value>Новая коллекция альбомов</value>
+  </data>
+  <data name="NoCollection" xml:space="preserve">
+    <value>Коллекций нет</value>
+  </data>
+  <data name="SetReleaseType" xml:space="preserve">
+    <value>Задать тип выпуска</value>
+  </data>
+  <data name="MoveToAlbumMenu" xml:space="preserve">
+    <value>Переместить в альбом…</value>
+  </data>
+  <data name="SelectAlbum" xml:space="preserve">
+    <value>Выбор альбома</value>
+  </data>
+  <data name="EditAlbumReviewWindow" xml:space="preserve">
+    <value>Изменить отзыв на альбом</value>
+  </data>
+  <data name="EditReview" xml:space="preserve">
+    <value>Изменить отзыв на альбом</value>
+  </data>
+  <data name="AlbumReview" xml:space="preserve">
+    <value>Отзыва на альбом</value>
+  </data>
+  <data name="HasAlbumReview" xml:space="preserve">
+    <value>С отзывом на альбом</value>
+  </data>
+  <data name="Imp11_PerformJobsDesc" xml:space="preserve">
+    <value>Следующие данные будут импортированы из приложения Helium 11</value>
+  </data>
+  <data name="PendingJobs" xml:space="preserve">
+    <value>Заданий в очереди: {0}</value>
+  </data>
+  <data name="UpdateFolder" xml:space="preserve">
+    <value>Обновить папку…</value>
+  </data>
+  <data name="RemoveSourceFile" xml:space="preserve">
+    <value>Удалить исходный файл</value>
+  </data>
+  <data name="NoTracksSelected" xml:space="preserve">
+    <value>Дорожки не выбраны</value>
+  </data>
+  <data name="ThereAreErrors" xml:space="preserve">
+    <value>Есть одна или несколько ошибок, которые нужно проверить, прежде чем продолжать переименование.</value>
+  </data>
+  <data name="SuggestedTracks" xml:space="preserve">
+    <value>Рекомендуемые дорожки</value>
+  </data>
+  <data name="FavouriteTracks" xml:space="preserve">
+    <value>Избранные дорожки</value>
+  </data>
+  <data name="Fill" xml:space="preserve">
+    <value>Заливка</value>
+  </data>
+  <data name="Scale" xml:space="preserve">
+    <value>Масштаб</value>
+  </data>
+  <data name="CroppingChanged" xml:space="preserve">
+    <value>Режим обрезки изменен, нужно перезапустить Helium.</value>
+  </data>
+  <data name="CropThumbnails" xml:space="preserve">
+    <value>Обрезка эскизов</value>
+  </data>
+  <data name="Ta16To10" xml:space="preserve">
+    <value>16:10</value>
+  </data>
+  <data name="Ta16To9" xml:space="preserve">
+    <value>16:9</value>
+  </data>
+  <data name="Ta1To1" xml:space="preserve">
+    <value>1:1</value>
+  </data>
+  <data name="Ta4To3" xml:space="preserve">
+    <value>4:3</value>
+  </data>
+  <data name="ThumbnailAspectRatio" xml:space="preserve">
+    <value>Пропорции эскизов</value>
+  </data>
+  <data name="ThumbnailRatioChanged" xml:space="preserve">
+    <value>Пропорции эскизов изменены. Необходимо перезапустить Helium.</value>
+  </data>
+  <data name="DownloadLyricsWindow" xml:space="preserve">
+    <value>Скачать текст</value>
+  </data>
+  <data name="Bold" xml:space="preserve">
+    <value>Полужирный</value>
+  </data>
+  <data name="Italic" xml:space="preserve">
+    <value>Курсив</value>
+  </data>
+  <data name="Link" xml:space="preserve">
+    <value>Ссылка</value>
+  </data>
+  <data name="RemoveFormatting" xml:space="preserve">
+    <value>Удалить форматирование</value>
+  </data>
+  <data name="Underline" xml:space="preserve">
+    <value>Подчеркнутый</value>
+  </data>
+  <data name="Unlink" xml:space="preserve">
+    <value>Удалить ссылку</value>
+  </data>
+  <data name="ShowLetterNavigation" xml:space="preserve">
+    <value>Панель навигации с буквами</value>
+  </data>
+  <data name="AdvancedTagEditorAll" xml:space="preserve">
+    <value>Расширенный редактор тегов (все элементы в просмотре)</value>
+  </data>
+  <data name="AdvancedTagEditorSelected" xml:space="preserve">
+    <value>Расширенный редактор тегов (выбранные элементы)</value>
+  </data>
+  <data name="TagEditorAll" xml:space="preserve">
+    <value>Редактор тегов (все элементы в просмотре)</value>
+  </data>
+  <data name="TagEditorSelected" xml:space="preserve">
+    <value>Редактор тегов (выбранные элементы)</value>
+  </data>
+  <data name="LabelDetails" xml:space="preserve">
+    <value>Выпуски в сведениях о лейбле</value>
+  </data>
+  <data name="CopyToExternalFolder" xml:space="preserve">
+    <value>Скопировать в папку…</value>
+  </data>
+  <data name="SaveAsId3v23" xml:space="preserve">
+    <value>Сохранять теги ID3 v2.x в версии 2.3</value>
+  </data>
+  <data name="StopWhenTrackFinished" xml:space="preserve">
+    <value>Остановить после завершения проигрывания дорожки</value>
+  </data>
+  <data name="Seconds" xml:space="preserve">
+    <value>с</value>
+  </data>
+  <data name="ShowNavigationMenu" xml:space="preserve">
+    <value>Показать левое меню навигации</value>
+  </data>
+  <data name="UpdatePlaycounterAfter" xml:space="preserve">
+    <value>Обновлять счетчик проигрывания через</value>
+  </data>
+  <data name="CrossfadeLength" xml:space="preserve">
+    <value>Длительность перехода</value>
+  </data>
+  <data name="UseCrossfade" xml:space="preserve">
+    <value>Использовать плавный переход</value>
+  </data>
+  <data name="AddRoot" xml:space="preserve">
+    <value>Добавить корневой путь</value>
+  </data>
+  <data name="CannotRemoveRootPath" xml:space="preserve">
+    <value>Выбранный путь удалить нельзя: в библиотеке есть файлы, связанные с этим путем. 
+Чтобы удалить этот путь, нужно удалить соответствующие файлы из библиотеки.</value>
+  </data>
+  <data name="RemoveRoot" xml:space="preserve">
+    <value>Удалить корневой путь</value>
+  </data>
+  <data name="WasapiPlaybackBuffer" xml:space="preserve">
+    <value>Длина буфера устройства в секундах. Это минимум; драйвер может использовать больший буфер.</value>
+  </data>
+  <data name="PrioritizeFiles_AddPicturesFromTags" xml:space="preserve">
+    <value>Предпочитать изображения из тегов</value>
+  </data>
+  <data name="PlaybackTypeChanged" xml:space="preserve">
+    <value>Тип проигрывания изменен, нужно перезапустить Helium.</value>
+  </data>
+  <data name="EnableMultiSelect" xml:space="preserve">
+    <value>Включить множественный выбор</value>
+  </data>
+  <data name="LoadAlbumPictureFromTags" xml:space="preserve">
+    <value>Загрузить изображение из тегов</value>
+  </data>
+  <data name="Apev2TagSize" xml:space="preserve">
+    <value>Размер тега APEv2</value>
+  </data>
+  <data name="ActivePath" xml:space="preserve">
+    <value>Путь:</value>
+  </data>
+  <data name="NoPathSelected" xml:space="preserve">
+    <value>&lt;Путь не выбран&gt;</value>
+  </data>
+  <data name="InLibrary" xml:space="preserve">
+    <value>В библиотеке</value>
+  </data>
+  <data name="MyComputer" xml:space="preserve">
+    <value>Мой компьютер</value>
+  </data>
+  <data name="SaveAutomaticallyMyComputer" xml:space="preserve">
+    <value>Сохранять изменения автоматически</value>
+  </data>
+  <data name="SaveChanges" xml:space="preserve">
+    <value>Сохранить изменения</value>
+  </data>
+  <data name="ScanSubfolders" xml:space="preserve">
+    <value>Сканирование подпапок</value>
+  </data>
+  <data name="Library_OldSqlServer" xml:space="preserve">
+    <value>Ваша версия SQL Server не поддерживается. Поддерживаются версии не старше 12-й.</value>
+  </data>
+  <data name="QuickTagEditor" xml:space="preserve">
+    <value>Быстрое редактирование</value>
+  </data>
+  <data name="Crossfade" xml:space="preserve">
+    <value>Плавный переход</value>
+  </data>
+  <data name="QtClear" xml:space="preserve">
+    <value>-Очистить значение-</value>
+  </data>
+  <data name="QtKeep" xml:space="preserve">
+    <value>-Сохранить исходное значение-</value>
+  </data>
+  <data name="MyComputerView" xml:space="preserve">
+    <value>Мой компьютер</value>
+  </data>
+  <data name="ExportPlsWithRelativePaths" xml:space="preserve">
+    <value>Экспорт плей-листов с относительными путями</value>
+  </data>
+  <data name="NoResultsFound" xml:space="preserve">
+    <value>Результатов не найдено</value>
+  </data>
+  <data name="CrossfadeStart" xml:space="preserve">
+    <value>Начинать плавный переход за указанное число секунд до конца дорожки:</value>
+  </data>
+  <data name="TooltipFormat" xml:space="preserve">
+    <value>Формат подсказки</value>
+  </data>
+  <data name="FilesNotLoaded" xml:space="preserve">
+    <value>файл. не удается загрузить</value>
+  </data>
+  <data name="Confirm" xml:space="preserve">
+    <value>Подтвердить</value>
+  </data>
+  <data name="ThereAreRenameErrors" xml:space="preserve">
+    <value>Есть одна или несколько ошибок; продолжить?</value>
+  </data>
+  <data name="ExportPlaylistsWithExtendedInfo" xml:space="preserve">
+    <value>При экспорте плей-листов добавлять расширенные сведения</value>
+  </data>
+  <data name="CalculateUserColumns" xml:space="preserve">
+    <value>Вычисление столбцов пользователей (если отключить, работа плей-листов ускорится)</value>
+  </data>
+  <data name="MusicExplorerUserDefinedNames" xml:space="preserve">
+    <value>Пользовательские имена в «Обзоре музыки»</value>
+  </data>
+  <data name="Node" xml:space="preserve">
+    <value>Узел</value>
+  </data>
+  <data name="RemoveDuplicates" xml:space="preserve">
+    <value>Удалить повторы</value>
+  </data>
+  <data name="AddCancelled" xml:space="preserve">
+    <value>Операция добавления отменена</value>
+  </data>
+  <data name="Permissions" xml:space="preserve">
+    <value>Разрешения</value>
+  </data>
+  <data name="MoveFirst" xml:space="preserve">
+    <value>Перенести в начало</value>
+  </data>
+  <data name="MoveLast" xml:space="preserve">
+    <value>Переместить в конец</value>
+  </data>
+  <data name="HasAcoustId" xml:space="preserve">
+    <value>С идентификатором AcoustId</value>
+  </data>
+  <data name="BrowseSelectedAlbums" xml:space="preserve">
+    <value>Просмотр выбранных альбомов</value>
+  </data>
+  <data name="SkewItems" xml:space="preserve">
+    <value>Наклонять изображения</value>
+  </data>
+  <data name="FlatMode" xml:space="preserve">
+    <value>Плоский режим</value>
+  </data>
+  <data name="Position" xml:space="preserve">
+    <value>Положение</value>
+  </data>
+  <data name="DoubleClickADatabaseToOpenIt" xml:space="preserve">
+    <value>Чтобы активировать БД, дважды нажмите на нее</value>
+  </data>
+  <data name="String1" xml:space="preserve">
+    <value>Тип файла</value>
+  </data>
+  <data name="UseParenthesisForMultipleArtists" xml:space="preserve">
+    <value>Скобки для нескольких исполнителей</value>
+  </data>
+  <data name="QtTemplateEditorWindow" xml:space="preserve">
+    <value>Изменить шаблон</value>
+  </data>
+  <data name="ShowTrackListInSplitMode" xml:space="preserve">
+    <value>Список дорожек в разделенном режиме</value>
+  </data>
+  <data name="CarouselView" xml:space="preserve">
+    <value>Режим карусели</value>
+  </data>
+  <data name="GenreStyle" xml:space="preserve">
+    <value>Стиль музыки</value>
+  </data>
+  <data name="ManageGenresMenu" xml:space="preserve">
+    <value>Управление жанрами…</value>
+  </data>
+  <data name="ManageGenresWindow" xml:space="preserve">
+    <value>Управление жанрами</value>
+  </data>
+  <data name="MoveToStyle" xml:space="preserve">
+    <value>Переместить в стиль…</value>
+  </data>
+  <data name="NewStyle" xml:space="preserve">
+    <value>Новый стиль…</value>
+  </data>
+  <data name="EnterNameForStyle" xml:space="preserve">
+    <value>Введите название стиля</value>
+  </data>
+  <data name="HideStyles" xml:space="preserve">
+    <value>Скрыть стили</value>
+  </data>
+  <data name="SelectGenreStyle" xml:space="preserve">
+    <value>Выбор стиля</value>
+  </data>
+  <data name="CollapseStyles" xml:space="preserve">
+    <value>Свернуть стили</value>
+  </data>
+  <data name="UseExtendedLogging" xml:space="preserve">
+    <value>Расширенное ведение журнала (рекомендуется для целей тех. поддержки)</value>
+  </data>
+  <data name="AddFiles" xml:space="preserve">
+    <value>Добавить…</value>
+  </data>
+  <data name="CopyTags" xml:space="preserve">
+    <value>Копирование тегов…</value>
+  </data>
+  <data name="CopyTagsWindow" xml:space="preserve">
+    <value>Копирование тегов</value>
+  </data>
+  <data name="CTDestinationFiles" xml:space="preserve">
+    <value>ЦЕЛЕВЫЕ ФАЙЛЫ</value>
+  </data>
+  <data name="CTSourceFiles" xml:space="preserve">
+    <value>ИСХОДНЫЕ ФАЙЛЫ</value>
+  </data>
+  <data name="EditEllipsed" xml:space="preserve">
+    <value>Правка…</value>
+  </data>
+  <data name="ShowTopImageOnDetailPages" xml:space="preserve">
+    <value>Показывать изображение вверху страницы сведений</value>
+  </data>
+  <data name="LoadingApp" xml:space="preserve">
+    <value>Загрузка…</value>
+  </data>
+  <data name="CurrentProgress" xml:space="preserve">
+    <value>ДОРОЖКА</value>
+  </data>
+  <data name="TotalProgress" xml:space="preserve">
+    <value>ВСЕГО</value>
+  </data>
+  <data name="NewEllipsed" xml:space="preserve">
+    <value>Создать…</value>
+  </data>
+  <data name="AddedDates" xml:space="preserve">
+    <value>Даты добавления</value>
+  </data>
+  <data name="AlbumArtists" xml:space="preserve">
+    <value>Исполнители (альбом)</value>
+  </data>
+  <data name="Favourites" xml:space="preserve">
+    <value>Избранные</value>
+  </data>
+  <data name="FileDates" xml:space="preserve">
+    <value>Даты файлов</value>
+  </data>
+  <data name="Groupings" xml:space="preserve">
+    <value>Группировки</value>
+  </data>
+  <data name="Moods" xml:space="preserve">
+    <value>Настроения</value>
+  </data>
+  <data name="PlayedDates" xml:space="preserve">
+    <value>Даты проигрывания</value>
+  </data>
+  <data name="Ratings" xml:space="preserve">
+    <value>Оценки</value>
+  </data>
+  <data name="RecordingYears" xml:space="preserve">
+    <value>Годы записи</value>
+  </data>
+  <data name="ReleaseYears" xml:space="preserve">
+    <value>Годы выпуска</value>
+  </data>
+  <data name="Series" xml:space="preserve">
+    <value>Серия</value>
+  </data>
+  <data name="Situations" xml:space="preserve">
+    <value>Обстоятельства</value>
+  </data>
+  <data name="Titles" xml:space="preserve">
+    <value>Названия</value>
+  </data>
+  <data name="Library" xml:space="preserve">
+    <value>Библиотека</value>
+  </data>
+  <data name="ExtendedLoggingIsActive" xml:space="preserve">
+    <value>Включено расширенное ведение журнала.
+Чтобы повысить производительность, отключите эту настройку.</value>
+  </data>
+  <data name="MaxPicturesToDownload" xml:space="preserve">
+    <value>Максимум изображений на элемент при скачивании</value>
+  </data>
+  <data name="LastModified" xml:space="preserve">
+    <value>Последнее изменение</value>
+  </data>
+  <data name="MoveItems" xml:space="preserve">
+    <value>Переместить файлы…</value>
+  </data>
+  <data name="MoveToExternalFolder" xml:space="preserve">
+    <value>Переместить в папку…</value>
+  </data>
+  <data name="Rearrange" xml:space="preserve">
+    <value>Переставить</value>
+  </data>
+  <data name="DeletePlaylist" xml:space="preserve">
+    <value>Удалить выбранный плей-лист?</value>
+  </data>
+  <data name="DeletePlaylistFolder" xml:space="preserve">
+    <value>Удалить выбранную папку плей-листа?
+Все содержимое будет удалено.</value>
+  </data>
+  <data name="DeleteSmartPlaylist" xml:space="preserve">
+    <value>Удалить выбранный умный плей-лист?</value>
+  </data>
+  <data name="DeleteSmartPlaylistFolder" xml:space="preserve">
+    <value>Удалить выбранную папку умного плей-лист?
+Все содержимое будет удалено.</value>
+  </data>
+  <data name="Forums" xml:space="preserve">
+    <value>Форумы</value>
+  </data>
+  <data name="BrowseAlbumDetail" xml:space="preserve">
+    <value>Просмотр сведений о альбоме</value>
+  </data>
+  <data name="BrowseArtistDetails" xml:space="preserve">
+    <value>Просмотр сведений об исполнителе</value>
+  </data>
+  <data name="ToggleLock" xml:space="preserve">
+    <value>Заблокировать/разблокировать</value>
+  </data>
+  <data name="HideShowAlbum" xml:space="preserve">
+    <value>Включение видимости альбома</value>
+  </data>
+  <data name="HideAlbums" xml:space="preserve">
+    <value>Скрыть скрытые альбомы</value>
+  </data>
+  <data name="ShowHiddenAlbums" xml:space="preserve">
+    <value>Показать скрытые альбомы</value>
+  </data>
+  <data name="QuickEditorTitle" xml:space="preserve">
+    <value>БЫСТРОЕ РЕДАКТИРОВАНИЕ</value>
+  </data>
+  <data name="JoinerHelpText" xml:space="preserve">
+    <value>Чтобы задать начальное смещение, нажмите Shift + левую кнопку мыши,  конечное — Shift + правую кнопку мыши.</value>
+  </data>
+  <data name="JoinerTitleHelper" xml:space="preserve">
+    <value>Добавьте файлы кнопкой добавления, нажмите F2 и настройте смещение и измененное число уд/мин. Выберите дорожку для просмотра формы волны</value>
+  </data>
+  <data name="Join" xml:space="preserve">
+    <value>Объединить</value>
+  </data>
+  <data name="JoinerWindow" xml:space="preserve">
+    <value>Объединить аудиофайлы</value>
+  </data>
+  <data name="LoadJoinTemplate" xml:space="preserve">
+    <value>Загрузить сохраненный проект</value>
+  </data>
+  <data name="NewBpm" xml:space="preserve">
+    <value>Измененное число уд/мин</value>
+  </data>
+  <data name="Pitch" xml:space="preserve">
+    <value>Высота тона</value>
+  </data>
+  <data name="PlaySelection" xml:space="preserve">
+    <value>Проиграть выбранное</value>
+  </data>
+  <data name="SaveJoinTemplate" xml:space="preserve">
+    <value>Сохранить текущий проект</value>
+  </data>
+  <data name="ZoomIn" xml:space="preserve">
+    <value>Увеличение</value>
+  </data>
+  <data name="ZoomOut" xml:space="preserve">
+    <value>Уменьшение</value>
+  </data>
+  <data name="TagInformation" xml:space="preserve">
+    <value>Сведения о тегах</value>
+  </data>
+  <data name="JoinFiles" xml:space="preserve">
+    <value>Объединить файлы…</value>
+  </data>
+  <data name="YouMustSelectAFilename" xml:space="preserve">
+    <value>Необходимо выбрать имя файла</value>
+  </data>
+  <data name="Arguments" xml:space="preserve">
+    <value>Аргументы</value>
+  </data>
+  <data name="Field" xml:space="preserve">
+    <value>Поле</value>
+  </data>
+  <data name="ShowTrackListInAlbumView" xml:space="preserve">
+    <value>Показывать список дорожек в виде эскизов или карточек</value>
+  </data>
+  <data name="NavigationPaneViews" xml:space="preserve">
+    <value>Видимые представления навигации</value>
+  </data>
+  <data name="ViewFilter" xml:space="preserve">
+    <value>Фильтр просмотра</value>
+  </data>
+  <data name="AvailableCommands" xml:space="preserve">
+    <value>Доступные команды</value>
+  </data>
+  <data name="Caption" xml:space="preserve">
+    <value>Подпись</value>
+  </data>
+  <data name="Color" xml:space="preserve">
+    <value>Цвет</value>
+  </data>
+  <data name="SelectedCommands" xml:space="preserve">
+    <value>Выбранные команды</value>
+  </data>
+  <data name="Toolbar" xml:space="preserve">
+    <value>Панель инструментов</value>
+  </data>
+  <data name="ImportPlaylists" xml:space="preserve">
+    <value>Импорт плей-листов…</value>
+  </data>
+  <data name="ShowTrackListInLabelView" xml:space="preserve">
+    <value>Показать список дорожек</value>
+  </data>
+  <data name="ShowTrackListInArtistView" xml:space="preserve">
+    <value>Показать список дорожек</value>
+  </data>
+  <data name="ColVolume" xml:space="preserve">
+    <value>Колл./том</value>
+  </data>
+  <data name="Volume" xml:space="preserve">
+    <value>Тома</value>
+  </data>
+  <data name="SavePcntToTags" xml:space="preserve">
+    <value>Сохранять Счетчик проигрывания в тегах (только файлы MP3)</value>
+  </data>
+  <data name="NoVolumeSelected" xml:space="preserve">
+    <value>Том не выбран</value>
+  </data>
+  <data name="SelectedVolume" xml:space="preserve">
+    <value>Выбранный том:</value>
+  </data>
+  <data name="SelectVolume" xml:space="preserve">
+    <value>Выбрать том…</value>
+  </data>
+  <data name="DeleteTheSelectedCollection" xml:space="preserve">
+    <value>Удалить выбранную коллекцию?</value>
+  </data>
+  <data name="DeleteTheSelectedVolume" xml:space="preserve">
+    <value>Удалить выбранный том?</value>
+  </data>
+  <data name="NoVolumesSelected" xml:space="preserve">
+    <value>Тома не выбраны</value>
+  </data>
+  <data name="SelectMenu" xml:space="preserve">
+    <value>Выбор…</value>
+  </data>
+  <data name="CreateNewCollection" xml:space="preserve">
+    <value>Создать коллекцию</value>
+  </data>
+  <data name="CreateNewVolume" xml:space="preserve">
+    <value>Создать том</value>
+  </data>
+  <data name="NewCollection" xml:space="preserve">
+    <value>Новая коллекция…</value>
+  </data>
+  <data name="NewVolume" xml:space="preserve">
+    <value>Новый том…</value>
+  </data>
+  <data name="SelectVolumeWindow" xml:space="preserve">
+    <value>Выбор тома</value>
+  </data>
+  <data name="CollectionVolume" xml:space="preserve">
+    <value>Коллекция/том</value>
+  </data>
+  <data name="AssignToVolume" xml:space="preserve">
+    <value>Назначить том…</value>
+  </data>
+  <data name="ClearVolume" xml:space="preserve">
+    <value>Удалить назначенные тома</value>
+  </data>
+  <data name="UntaggedItems" xml:space="preserve">
+    <value>Элементы без тегов</value>
+  </data>
+  <data name="ContainedVolumes" xml:space="preserve">
+    <value>Содержащие дорожку тома</value>
+  </data>
+  <data name="ToggleVisualizations" xml:space="preserve">
+    <value>Включение визуализаций</value>
+  </data>
+  <data name="AlbumItemType" xml:space="preserve">
+    <value>Тип файла альбома</value>
+  </data>
+  <data name="HideFiltersInViews" xml:space="preserve">
+    <value>Скрыть расширенные фильтры</value>
+  </data>
+  <data name="ManageCollections" xml:space="preserve">
+    <value>Управление коллекциями/томами</value>
+  </data>
+  <data name="ManageCollectionsMenu" xml:space="preserve">
+    <value>Управление коллекциями/томами…</value>
+  </data>
+  <data name="NoPathMapped" xml:space="preserve">
+    <value>Тому не сопоставлен путь</value>
+  </data>
+  <data name="ApplySortOrderToFields" xml:space="preserve">
+    <value>Применить сортировку к полям</value>
+  </data>
+  <data name="SetRating" xml:space="preserve">
+    <value>Задать оценку</value>
+  </data>
+  <data name="AddAlbum" xml:space="preserve">
+    <value>Добавить альбом</value>
+  </data>
+  <data name="AddFolder" xml:space="preserve">
+    <value>Добавить папку</value>
+  </data>
+  <data name="AddPlaylist" xml:space="preserve">
+    <value>Добавить плей-лист</value>
+  </data>
+  <data name="FileSyncMenu" xml:space="preserve">
+    <value>Синхронизация файлов…</value>
+  </data>
+  <data name="FileSyncTitle" xml:space="preserve">
+    <value>Синхронизация файлов</value>
+  </data>
+  <data name="SelectPlaylist" xml:space="preserve">
+    <value>Выбор плей-листа</value>
+  </data>
+  <data name="SupportedAudioFileFormats" xml:space="preserve">
+    <value>Поддерживаемые форматы аудиофайлов</value>
+  </data>
+  <data name="SupportedFormatsHelperText" xml:space="preserve">
+    <value>Выберите, какие аудиоформаты поддерживаются целевой папкой.
+
+Неподдерживаемые форматы будут преобразованы в выбранный ниже выходной формат.</value>
+  </data>
+  <data name="Synchronize" xml:space="preserve">
+    <value>Синхронизация</value>
+  </data>
+  <data name="SyncStep_BuildWorkList" xml:space="preserve">
+    <value>Создание рабочего списка</value>
+  </data>
+  <data name="SyncStep_ReadAllSourceFiles" xml:space="preserve">
+    <value>Чтение исходных файлов</value>
+  </data>
+  <data name="SyncStep_ReadExistingFiles" xml:space="preserve">
+    <value>Чтение существующих файлов</value>
+  </data>
+  <data name="SyncStep_RemoveDestinationFiles" xml:space="preserve">
+    <value>Удаление файлов</value>
+  </data>
+  <data name="SyncStep_SynchronizeFiles" xml:space="preserve">
+    <value>Копирование файлов</value>
+  </data>
+  <data name="SyncStep_SynchronizeFilesTranscoding" xml:space="preserve">
+    <value>Копирование файлов (перекодирование)</value>
+  </data>
+  <data name="SelectedSynchronizationItems" xml:space="preserve">
+    <value>Выбранные элементы синхронизации</value>
+  </data>
+  <data name="BrowseAlbumDetails" xml:space="preserve">
+    <value>Просмотр сведений о альбоме</value>
+  </data>
+  <data name="ArtistCommands" xml:space="preserve">
+    <value>Команды исполнителя</value>
+  </data>
+  <data name="GeneralPlugins" xml:space="preserve">
+    <value>Обычные плагины</value>
+  </data>
+  <data name="Date" xml:space="preserve">
+    <value>Дата</value>
+  </data>
+  <data name="AddFilesNotInLibraryToLibraryDuringRename" xml:space="preserve">
+    <value>Добавлять файлы, которых нет в библиотеке, после их переименования</value>
+  </data>
+  <data name="MigrateSettingsMessage" xml:space="preserve">
+    <value>Перенести настройки и активную базу данных из старой версии Helium?
+Если выбрать «Да», все предыдущие настройки будут скопированы из старой версии в эту установку.
+После перезагрузки база данных будет обновлена.
+
+Обновленная база данных больше не может использоваться со старой версией, поэтому не забудьте заранее создать резервную копию.
+
+Начать перенос можно в любое время из меню «Файл».</value>
+  </data>
+  <data name="MigrateFromOlderVersion" xml:space="preserve">
+    <value>Перенести данные из старой версии Helium?</value>
+  </data>
+  <data name="ImportFromHelium12Menu" xml:space="preserve">
+    <value>Импорт данных из Helium 12…</value>
+  </data>
+  <data name="DestPath" xml:space="preserve">
+    <value>Целевой путь</value>
+  </data>
+  <data name="SqlServerAllAreRequired" xml:space="preserve">
+    <value>Проверьте, правильные ли данные вы ввели во всех обязательные поля.</value>
+  </data>
+  <data name="SqlServerDestinationInfo" xml:space="preserve">
+    <value>Выберите, в какую целевую папку требуется восстановить резервную копию.
+Рекомендуется выбрать папку, созданную текущим пользователем Windows, — чтобы не было проблем с доступом на чтение и запись.</value>
+  </data>
+</root>

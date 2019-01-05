@@ -1,0 +1,3999 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<!-- 
+		Microsoft ResX Schema
+
+		Version 1.3
+
+		The primary goals of this format is to allow a simple XML format 
+		that is mostly human readable. The generation and parsing of the 
+		various data types are done through the TypeConverter classes 
+		associated with the data types.
+
+		Example:
+
+		... ado.net/XML headers & schema ...
+		<resheader name="resmimetype">text/microsoft-resx</resheader>
+		<resheader name="version">1.3</resheader>
+		<resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+		<resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+		<data name="Name1">this is my long string</data>
+		<data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+		<data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+			[base64 mime encoded serialized .NET Framework object]
+		</data>
+		<data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+			[base64 mime encoded string representing a byte array form of the .NET Framework object]
+		</data>
+
+		There are any number of "resheader" rows that contain simple 
+		name/value pairs.
+
+		Each data row contains a name, and value. The row also contains a 
+		type or mimetype. Type corresponds to a .NET class that support 
+		text/value conversion through the TypeConverter architecture. 
+		Classes that don't support this are serialized and stored with the 
+		mimetype set.
+
+		The mimetype is used for serialized objects, and tells the 
+		ResXResourceReader how to depersist the object. This is currently not 
+		extensible. For a given mimetype the value must be set accordingly:
+
+		Note - application/x-microsoft.net.object.binary.base64 is the format 
+		that the ResXResourceWriter will generate, however the reader can 
+		read any of the formats listed below.
+
+		mimetype: application/x-microsoft.net.object.binary.base64
+		value   : The object must be serialized with 
+			: System.Serialization.Formatters.Binary.BinaryFormatter
+			: and then encoded with base64 encoding.
+
+		mimetype: application/x-microsoft.net.object.soap.base64
+		value   : The object must be serialized with 
+			: System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+			: and then encoded with base64 encoding.
+
+		mimetype: application/x-microsoft.net.object.bytearray.base64
+		value   : The object must be serialized into a byte array 
+			: using a System.ComponentModel.TypeConverter
+			: and then encoded with base64 encoding.
+	-->
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+							<xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+							<xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="resmimetype">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="version">
+		<value>1.3</value>
+	</resheader>
+	<resheader name="reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="About" xml:space="preserve">
+		<value>O programe...</value>
+	</data>
+	<data name="Discography" xml:space="preserve">
+		<value>Diskografia</value>
+	</data>
+	<data name="Format" xml:space="preserve">
+		<value>Formát</value>
+	</data>
+	<data name="Frequency" xml:space="preserve">
+		<value>Frekvencia</value>
+	</data>
+	<data name="CheckForUpdatesMenu" xml:space="preserve">
+		<value>Kontrola aktualizácií...</value>
+	</data>
+	<data name="AvailablePlugins" xml:space="preserve">
+		<value>Dostupné pluginy</value>
+	</data>
+	<data name="Configure" xml:space="preserve">
+		<value>Konfigurovať...</value>
+	</data>
+	<data name="Plugins" xml:space="preserve">
+		<value>Pluginy</value>
+	</data>
+	<data name="TotalLength" xml:space="preserve">
+		<value>Celková dĺžka</value>
+	</data>
+	<data name="AvailableVisualizations" xml:space="preserve">
+		<value>Dostupné vizualizácie</value>
+	</data>
+	<data name="Ascending" xml:space="preserve">
+		<value>Vzostupne</value>
+	</data>
+	<data name="Descending" xml:space="preserve">
+		<value>Zostupne</value>
+	</data>
+	<data name="NoSorting" xml:space="preserve">
+		<value>Bez triedenia</value>
+	</data>
+	<data name="SortBy" xml:space="preserve">
+		<value>Triediť podľa</value>
+	</data>
+	<data name="ThenBy" xml:space="preserve">
+		<value>Ďalej podľa</value>
+	</data>
+	<data name="FullScreen" xml:space="preserve">
+		<value>Celá obrazovka</value>
+	</data>
+	<data name="StartStopVisualization" xml:space="preserve">
+		<value>Spusti/ukonči vizualizáciu</value>
+	</data>
+	<data name="Visualizations" xml:space="preserve">
+		<value>Vizualizácie</value>
+	</data>
+	<data name="UnableToStartWebService" xml:space="preserve">
+		<value>Nieje možné spustiť webovú službu. Skontrolujte prosím port.</value>
+	</data>
+	<data name="IncorrectVbrHeader" xml:space="preserve">
+		<value>Nesprávna VBR hlavička</value>
+	</data>
+	<data name="FilesWithErrors" xml:space="preserve">
+		<value>Súbory s chybami</value>
+	</data>
+	<data name="FilesWithoutErrors" xml:space="preserve">
+		<value>Súbory bez chýb</value>
+	</data>
+	<data name="OutputDevice" xml:space="preserve">
+		<value>Výstupné zariadenie</value>
+	</data>
+	<data name="OutputDeviceChangeWarning" xml:space="preserve">
+		<value>Ak zmeníte výstupné zariadenie bude potrebné reštartovať Helium.</value>
+	</data>
+	<data name="UseWASAPI" xml:space="preserve">
+		<value>Použiť WASAPI</value>
+	</data>
+	<data name="HasIncorrectApicMime" xml:space="preserve">
+		<value>Nesprávne APIC MIME</value>
+	</data>
+	<data name="PortChanged" xml:space="preserve">
+		<value>Zmenili ste port webovej služby a Helium sa musí reštartovať. Kliknutím na OK sa Helium reštartuje.</value>
+	</data>
+	<data name="AcoustId" xml:space="preserve">
+		<value>AcoustID</value>
+	</data>
+	<data name="NoDatabaseSelected" xml:space="preserve">
+		<value>Nebola vybratá databáza.</value>
+	</data>
+	<data name="Server" xml:space="preserve">
+		<value>Server</value>
+	</data>
+	<data name="DatabaseExists" xml:space="preserve">
+		<value>Takáto databáza už existuje. Prosím vyberte nové meno.</value>
+	</data>
+	<data name="Spectrogram" xml:space="preserve">
+		<value>Spektrogram</value>
+	</data>
+	<data name="Add" xml:space="preserve">
+		<value>Pridať</value>
+	</data>
+	<data name="AddFilesToLibrary" xml:space="preserve">
+		<value>Pridať súbory do Knižnice...</value>
+	</data>
+	<data name="AddFiles_AdddingFiles" xml:space="preserve">
+		<value>Pridávanie súborov</value>
+	</data>
+	<data name="AddFiles_AddFilesToLibrary" xml:space="preserve">
+		<value>Pridať súbory do vašej knižnice</value>
+	</data>
+	<data name="AddFiles_AddingFolders" xml:space="preserve">
+		<value>Helium pridáva vybrané adresáre, počkajte prosím</value>
+	</data>
+	<data name="AddFiles_AddPicturesFromTags" xml:space="preserve">
+		<value>Pridať obrázky z tagov</value>
+	</data>
+	<data name="AddFiles_Header" xml:space="preserve">
+		<value>Pridať do knižnice</value>
+	</data>
+	<data name="AddMusic" xml:space="preserve">
+		<value>Pridať hudbu</value>
+	</data>
+	<data name="Albums" xml:space="preserve">
+		<value>Albumy</value>
+	</data>
+	<data name="Artists" xml:space="preserve">
+		<value>Interpréti</value>
+	</data>
+	<data name="Cancel" xml:space="preserve">
+		<value>Zrušiť</value>
+	</data>
+	<data name="LoadPicture" xml:space="preserve">
+		<value>Nahrať...</value>
+	</data>
+	<data name="CreateingDatabase" xml:space="preserve">
+		<value>Vytváram novú databázu, počkajte prosím</value>
+	</data>
+	<data name="File" xml:space="preserve">
+		<value>Súbor</value>
+	</data>
+	<data name="Filter" xml:space="preserve">
+		<value>Filter</value>
+	</data>
+	<data name="Help" xml:space="preserve">
+		<value>Pomoc</value>
+	</data>
+	<data name="LoadingData" xml:space="preserve">
+		<value>Nahrávam dáta, počkajte prosím...</value>
+	</data>
+	<data name="Options" xml:space="preserve">
+		<value>Možnosti...</value>
+	</data>
+	<data name="Bitrate" xml:space="preserve">
+		<value>Bitrate</value>
+	</data>
+	<data name="Close" xml:space="preserve">
+		<value>Zatvoriť</value>
+	</data>
+	<data name="Tags" xml:space="preserve">
+		<value>Tagy</value>
+	</data>
+	<data name="Time" xml:space="preserve">
+		<value>Čas</value>
+	</data>
+	<data name="Title" xml:space="preserve">
+		<value>Názov</value>
+	</data>
+	<data name="VBR" xml:space="preserve">
+		<value>VBR</value>
+	</data>
+	<data name="Version" xml:space="preserve">
+		<value>Verzia</value>
+	</data>
+	<data name="Yes" xml:space="preserve">
+		<value>Áno</value>
+	</data>
+	<data name="AddFiles_AddingFiles" xml:space="preserve">
+		<value>Pridávanie súborov, {0}% hotovo</value>
+	</data>
+	<data name="UpdateLibrary" xml:space="preserve">
+		<value>Aktualizovať knižnicu...</value>
+	</data>
+	<data name="Releases" xml:space="preserve">
+		<value>Vydania</value>
+	</data>
+	<data name="ActiveFile" xml:space="preserve">
+		<value>Aktívny súbor</value>
+	</data>
+	<data name="Recorded" xml:space="preserve">
+		<value>Nahrané</value>
+	</data>
+	<data name="Released" xml:space="preserve">
+		<value>Vydané</value>
+	</data>
+	<data name="RT_Album" xml:space="preserve">
+		<value>Album</value>
+	</data>
+	<data name="RT_Anthology" xml:space="preserve">
+		<value>Antológia</value>
+	</data>
+	<data name="RT_AudioBook" xml:space="preserve">
+		<value>Audio kniha</value>
+	</data>
+	<data name="RT_Bootleg" xml:space="preserve">
+		<value>Bootleg</value>
+	</data>
+	<data name="RT_Compilation" xml:space="preserve">
+		<value>Kompilácia</value>
+	</data>
+	<data name="RT_Digital" xml:space="preserve">
+		<value>Digital</value>
+	</data>
+	<data name="RT_DVD" xml:space="preserve">
+		<value>DVD</value>
+	</data>
+	<data name="RT_EP" xml:space="preserve">
+		<value>EP</value>
+	</data>
+	<data name="RT_Maxi" xml:space="preserve">
+		<value>Maxi</value>
+	</data>
+	<data name="RT_Sampler" xml:space="preserve">
+		<value>Sampler</value>
+	</data>
+	<data name="RT_SoundEffects" xml:space="preserve">
+		<value>Zvukové efekty</value>
+	</data>
+	<data name="DarkTheme" xml:space="preserve">
+		<value>Použiť tmavú tému</value>
+	</data>
+	<data name="LightTheme" xml:space="preserve">
+		<value>Použiť svetlú tému</value>
+	</data>
+	<data name="RemoveSelectedFiles" xml:space="preserve">
+		<value>Odstrániť {0} súborov z knižnice a disku?</value>
+	</data>
+	<data name="HasApev2Tag" xml:space="preserve">
+		<value>Má Apev2 tag</value>
+	</data>
+	<data name="HasId3v1Tag" xml:space="preserve">
+		<value>Má Id3v1.x tag</value>
+	</data>
+	<data name="HasId3v2Tag" xml:space="preserve">
+		<value>Má Id3v2.x tag</value>
+	</data>
+	<data name="HasLyrics3Tag" xml:space="preserve">
+		<value>Má Lyrics3 tag</value>
+	</data>
+	<data name="HasSyncErrors" xml:space="preserve">
+		<value>Mpeg synchronizačné chyby</value>
+	</data>
+	<data name="Id3v1TagSize" xml:space="preserve">
+		<value>Veľkosť Id3v1.x tagu</value>
+	</data>
+	<data name="Id3v2TagSize" xml:space="preserve">
+		<value>Veľkosť Id3v2.x tagu</value>
+	</data>
+	<data name="IsVBRButNotDetected" xml:space="preserve">
+		<value>Má nesprávnu VBR hlavičku</value>
+	</data>
+	<data name="MpegOverview" xml:space="preserve">
+		<value>Mpeg prehľad</value>
+	</data>
+	<data name="MpegSyncErrors" xml:space="preserve">
+		<value>Mpeg synchronizačné chyby</value>
+	</data>
+	<data name="AddFiles_CreateAccurateRipIds" xml:space="preserve">
+		<value>Vytváram AccurateRip ID, {0}% hotovo</value>
+	</data>
+	<data name="AddFiles_CreateAcoustIds" xml:space="preserve">
+		<value>Vytváram AcoustID, {0}% hotovo</value>
+	</data>
+	<data name="AddFiles_CreateMbids" xml:space="preserve">
+		<value>Vytváram MusicBrainz ID, {0}% hotovo</value>
+	</data>
+	<data name="AddFiles_CreatePuids" xml:space="preserve">
+		<value>Vytváram Puids, {0}% hotovo</value>
+	</data>
+	<data name="AddFiles_CreatingAlbums" xml:space="preserve">
+		<value>Vytváram albumy, {0}% hotovo</value>
+	</data>
+	<data name="AddFiles_DetailText" xml:space="preserve">
+		<value>Vyber adresáre, ktoré chceš pridať do tvojej knižnice.</value>
+	</data>
+	<data name="AddFiles_ScanningFiles" xml:space="preserve">
+		<value>Hladám súbory na pridanie, počkaj prosím...</value>
+	</data>
+	<data name="AddFiles_UpdateArtistInfo" xml:space="preserve">
+		<value>Aktualizujem informácie interpréta </value>
+	</data>
+	<data name="AddFiles_UpdatingAlbumInformation" xml:space="preserve">
+		<value>Aktualizujem informácie albumu, {0}% hotovo</value>
+	</data>
+	<data name="Theme" xml:space="preserve">
+		<value>Téma</value>
+	</data>
+	<data name="BackupRestoredNoProblems" xml:space="preserve">
+		<value>Záloha bola úspešne obnovená. Kliknite na OK pre reštart aplikácie Helium.</value>
+	</data>
+	<data name="BackupRestoredWithProblems" xml:space="preserve">
+		<value>Záloha bola obnovená s jedným alebo viacerými problémami.</value>
+	</data>
+	<data name="ExtractingBackupFiles" xml:space="preserve">
+		<value>Rozbaľujem záložné súbory</value>
+	</data>
+	<data name="WaveFormChannels" xml:space="preserve">
+		<value>Waveform (dva kanály)</value>
+	</data>
+	<data name="WaveFormMixed" xml:space="preserve">
+		<value>Waveform (zmiešané)</value>
+	</data>
+	<data name="WaveFormMono" xml:space="preserve">
+		<value>Waveform (mono)</value>
+	</data>
+	<data name="NoFileSelected" xml:space="preserve">
+		<value>Žiadne súbory neboli vybrané</value>
+	</data>
+	<data name="CleaningEmptyFolders" xml:space="preserve">
+		<value>Odstraňujem prázdne adresáre...</value>
+	</data>
+	<data name="FileExists" xml:space="preserve">
+		<value>Výsledný súbor už existuje</value>
+	</data>
+	<data name="FilenameTooLong" xml:space="preserve">
+		<value>Meno výsledného súboru je dlhšie ako 256 znakov</value>
+	</data>
+	<data name="NoCdDrivesFound" xml:space="preserve">
+		<value>Žiadne CD mechaniky sa nenašli.</value>
+	</data>
+	<data name="Refresh" xml:space="preserve">
+		<value>Obnoviť</value>
+	</data>
+	<data name="EqualizerHeader" xml:space="preserve">
+		<value>Ekvalizér</value>
+	</data>
+	<data name="EqualizerMenu" xml:space="preserve">
+		<value>Ekvalizér...</value>
+	</data>
+	<data name="Equalizer" xml:space="preserve">
+		<value>Ekvalizér</value>
+	</data>
+	<data name="FilesAdded" xml:space="preserve">
+		<value>pridané súbory</value>
+	</data>
+	<data name="FilesRemoved" xml:space="preserve">
+		<value>odstránené súbory </value>
+	</data>
+	<data name="FilesUpdated" xml:space="preserve">
+		<value>aktualizované súbory</value>
+	</data>
+	<data name="AboutData" xml:space="preserve">
+		<value>Helium Credits:
+
+Hlavné Programovanie:
+Mikael Stalvik
+
+Pomocné Programovanie:
+Fredrik Heidgert
+
+Inštalačný Systém:
+Mikael Stalvik
+
+Špeciálne poďakovanie:
+Všetci uživatelia, ktorí prispeli k vývoju novej verzie Helium!
+
+
+Helium oficiálny web:
+http://www.helium-music-manager.com
+
+Copyright © 1997-2016 Imploded Software AB. All permissions reserved.</value>
+	</data>
+	<data name="Export" xml:space="preserve">
+		<value>Exportovať</value>
+	</data>
+	<data name="ExportToM3U" xml:space="preserve">
+		<value>Esportovať do M3U</value>
+	</data>
+	<data name="ExportToM3U8" xml:space="preserve">
+		<value>Exportovať do M3U8</value>
+	</data>
+	<data name="ExportToPLS" xml:space="preserve">
+		<value>Exportovať do PLS</value>
+	</data>
+	<data name="DownloadInput" xml:space="preserve">
+		<value>Vstup</value>
+	</data>
+	<data name="DestinationFolder" xml:space="preserve">
+		<value>Cieľový adresár</value>
+	</data>
+	<data name="ImplodedOnTheWeb" xml:space="preserve">
+		<value>Imploded software na webe</value>
+	</data>
+	<data name="OfficialWebSite" xml:space="preserve">
+		<value>Oficiálny web</value>
+	</data>
+	<data name="LibraryNeedsUpdate" xml:space="preserve">
+		<value>Vybraná databáza musí byť pred otvorením aktualizovaná. Klikni na OK pre aktualizáciu databázy.</value>
+	</data>
+	<data name="Discard" xml:space="preserve">
+		<value>Zahodiť</value>
+	</data>
+	<data name="AddFiles_CreateArtists" xml:space="preserve">
+		<value>Vytváram interprétov a ich hodnotenia</value>
+	</data>
+	<data name="Advanced" xml:space="preserve">
+		<value>Rozšírené</value>
+	</data>
+	<data name="AdvancedMode" xml:space="preserve">
+		<value>Rozšírený mód</value>
+	</data>
+	<data name="CachingAlbums" xml:space="preserve">
+		<value>Kešujem albumy</value>
+	</data>
+	<data name="CachingArtists" xml:space="preserve">
+		<value>Kešujem interprétov</value>
+	</data>
+	<data name="CachingData" xml:space="preserve">
+		<value>Kešujem dáta, počkajte prosím</value>
+	</data>
+	<data name="CachingTracks" xml:space="preserve">
+		<value>Kešujem skladby</value>
+	</data>
+	<data name="EnqueueLast" xml:space="preserve">
+		<value>Zaradiť nakoniec</value>
+	</data>
+	<data name="EnqueueNext" xml:space="preserve">
+		<value>Zaradiť ako následujúce</value>
+	</data>
+	<data name="ExploreFolder" xml:space="preserve">
+		<value>Prehľadať adresár</value>
+	</data>
+	<data name="MusicExplorer" xml:space="preserve">
+		<value>Hudobný explorer</value>
+	</data>
+	<data name="NoTrackPlaying" xml:space="preserve">
+		<value>Žiadna skladba sa neprehráva</value>
+	</data>
+	<data name="Properties" xml:space="preserve">
+		<value>Možnosti...</value>
+	</data>
+	<data name="Remove" xml:space="preserve">
+		<value>Odstrániť</value>
+	</data>
+	<data name="RemoveAlbum" xml:space="preserve">
+		<value>Odstrániť album z knižnice?</value>
+	</data>
+	<data name="Reset" xml:space="preserve">
+		<value>Resetovať</value>
+	</data>
+	<data name="SelectFolder" xml:space="preserve">
+		<value>Vybrať adresár</value>
+	</data>
+	<data name="Step" xml:space="preserve">
+		<value>Krok</value>
+	</data>
+	<data name="SuggestedAlbums" xml:space="preserve">
+		<value>Odporúčané albumy</value>
+	</data>
+	<data name="Tools" xml:space="preserve">
+		<value>Nástroje</value>
+	</data>
+	<data name="Tracks" xml:space="preserve">
+		<value>Skladby</value>
+	</data>
+	<data name="User" xml:space="preserve">
+		<value>Uživateľ</value>
+	</data>
+	<data name="VariousArtists" xml:space="preserve">
+		<value>Rôzni interpréti</value>
+	</data>
+	<data name="Album" xml:space="preserve">
+		<value>Album</value>
+	</data>
+	<data name="AlbumGain" xml:space="preserve">
+		<value>Zosilnenie albumu</value>
+	</data>
+	<data name="Artist" xml:space="preserve">
+		<value>Interprét</value>
+	</data>
+	<data name="Available" xml:space="preserve">
+		<value>Dostupné</value>
+	</data>
+	<data name="Biography" xml:space="preserve">
+		<value>Biografia</value>
+	</data>
+	<data name="Created" xml:space="preserve">
+		<value>Vytvorené</value>
+	</data>
+	<data name="Explore" xml:space="preserve">
+		<value>Prehľadať...</value>
+	</data>
+	<data name="Filename" xml:space="preserve">
+		<value>Názov súboru</value>
+	</data>
+	<data name="FileProperties_Title" xml:space="preserve">
+		<value>Možnosti súboru</value>
+	</data>
+	<data name="FileSize" xml:space="preserve">
+		<value>Veľkosť súboru</value>
+	</data>
+	<data name="FileTime" xml:space="preserve">
+		<value>Čas súboru</value>
+	</data>
+	<data name="FileType" xml:space="preserve">
+		<value>Typ súboru</value>
+	</data>
+	<data name="LastPlayed" xml:space="preserve">
+		<value>Naposledy prehrané</value>
+	</data>
+	<data name="Modified" xml:space="preserve">
+		<value>Upravené</value>
+	</data>
+	<data name="NeverPlayed" xml:space="preserve">
+		<value>Ešte nehralo</value>
+	</data>
+	<data name="No" xml:space="preserve">
+		<value>Nie</value>
+	</data>
+	<data name="Overview" xml:space="preserve">
+		<value>Prehľad</value>
+	</data>
+	<data name="PlayCounter" xml:space="preserve">
+		<value>Počítadlo prehraní</value>
+	</data>
+	<data name="Profile" xml:space="preserve">
+		<value>Profil</value>
+	</data>
+	<data name="Rating" xml:space="preserve">
+		<value>Hodnotenie</value>
+	</data>
+	<data name="ReadOnly" xml:space="preserve">
+		<value>Len na čítanie</value>
+	</data>
+	<data name="SongLength" xml:space="preserve">
+		<value>Dĺžka skladby</value>
+	</data>
+	<data name="TrackGain" xml:space="preserve">
+		<value>Zosilnenie skladby</value>
+	</data>
+	<data name="Year" xml:space="preserve">
+		<value>Rok</value>
+	</data>
+	<data name="UpdateLibrary_Header" xml:space="preserve">
+		<value>Aktualizácia knižnice</value>
+	</data>
+	<data name="UpdateLibrary_ProgressDetail" xml:space="preserve">
+		<value>Všetky novoobjavené súbory budú pridané po ukončení skenovania</value>
+	</data>
+	<data name="UpdateLibrary_ProgressHeader" xml:space="preserve">
+		<value>Vybrané súbory budú aktualizované</value>
+	</data>
+	<data name="MySql_IncorrectCase" xml:space="preserve">
+		<value>Váš MySql server obsahuje chybnú hodnotu pre lower_case_table_names.
+
+Hodnota pre lower_case_table_names musí byť nastavená na 1, case insensitive mode.
+Zmente prosím túto hodnotu v konfiguračnom súbore mysql a skúste znova.</value>
+	</data>
+	<data name="ConfigVisualization" xml:space="preserve">
+		<value>Konfigurovať vizualizácie...</value>
+	</data>
+	<data name="XFilesSelected" xml:space="preserve">
+		<value>{0} vybraných súborov</value>
+	</data>
+	<data name="RunScriptMenu" xml:space="preserve">
+		<value>Spustiť skript...</value>
+	</data>
+	<data name="RestoreFile" xml:space="preserve">
+		<value>Obnoviť názov súboru</value>
+	</data>
+	<data name="RestoreMenu" xml:space="preserve">
+		<value>Obnoviť...</value>
+	</data>
+	<data name="RestoreWindow" xml:space="preserve">
+		<value>Obnovenie</value>
+	</data>
+	<data name="RestoringBackup" xml:space="preserve">
+		<value>Obnovujem zálohu</value>
+	</data>
+	<data name="RestoringPictures" xml:space="preserve">
+		<value>Obnovujem obrázky</value>
+	</data>
+	<data name="RestoringScripts" xml:space="preserve">
+		<value>Obnovujem skripty</value>
+	</data>
+	<data name="RestoringSettings" xml:space="preserve">
+		<value>Obnovujem nastavenia</value>
+	</data>
+	<data name="Extreme" xml:space="preserve">
+		<value>Extrémna</value>
+	</data>
+	<data name="Good" xml:space="preserve">
+		<value>Dobrá</value>
+	</data>
+	<data name="Low" xml:space="preserve">
+		<value>Nízka</value>
+	</data>
+	<data name="CdDrive" xml:space="preserve">
+		<value>Cd-mechanika</value>
+	</data>
+	<data name="CdRipper" xml:space="preserve">
+		<value>Cd-ripper</value>
+	</data>
+	<data name="CdRipperMenu" xml:space="preserve">
+		<value>Cd-ripper...</value>
+	</data>
+	<data name="FilenameToTag" xml:space="preserve">
+		<value>Názov do tagu</value>
+	</data>
+	<data name="SourceFolder" xml:space="preserve">
+		<value>Zdrojový adresár</value>
+	</data>
+	<data name="Support" xml:space="preserve">
+		<value>Podpora</value>
+	</data>
+	<data name="BackgroundOptions" xml:space="preserve">
+		<value>Možnosti pozadia</value>
+	</data>
+	<data name="Blur" xml:space="preserve">
+		<value>Rozmazanie</value>
+	</data>
+	<data name="Center" xml:space="preserve">
+		<value>Centrovať</value>
+	</data>
+	<data name="FillCenter" xml:space="preserve">
+		<value>Vyplniť</value>
+	</data>
+	<data name="PreviousArrow" xml:space="preserve">
+		<value>&lt; Predchádzajúci</value>
+	</data>
+	<data name="AddNode" xml:space="preserve">
+		<value>&lt; Pridať</value>
+	</data>
+	<data name="CalcBpmCloseWarning" xml:space="preserve">
+		<value>Operácia výpočtu BPM práve beží. Nástroj sa dá ukončiť ked operácia skončí.</value>
+	</data>
+	<data name="CalcKeyCloseWarning" xml:space="preserve">
+		<value>Operácia výpočtu Kľúča práve beží. Nástroj sa dá ukončiť ked operácia skončí.</value>
+	</data>
+	<data name="BackupExistsOverwrite" xml:space="preserve">
+		<value>Záloha s týmto názvom už existuje. Želáte si tento súbor prepísať?</value>
+	</data>
+	<data name="Accessed" xml:space="preserve">
+		<value>Otvorené</value>
+	</data>
+	<data name="Added" xml:space="preserve">
+		<value>Pridané</value>
+	</data>
+	<data name="AddFiles_Completed" xml:space="preserve">
+		<value>Pridávanie hotových súborov</value>
+	</data>
+	<data name="AboutNeon" xml:space="preserve">
+		<value>O programe Helium </value>
+	</data>
+	<data name="ImportDbProgress28" xml:space="preserve">
+		<value>Pridávanie koreňových adresárov </value>
+	</data>
+	<data name="AddEditComment" xml:space="preserve">
+		<value>Pridať/upraviť komentár</value>
+	</data>
+	<data name="AddEditTxxx" xml:space="preserve">
+		<value>Pridať/upraviť txxx</value>
+	</data>
+	<data name="AddEditPicture" xml:space="preserve">
+		<value>Pridať/upraviť obrázok</value>
+	</data>
+	<data name="Error_DatabaseAlreadyExists" xml:space="preserve">
+		<value>Databáza s vybraným menom už existuje.</value>
+	</data>
+	<data name="DAT_AddedFiles" xml:space="preserve">
+		<value>Pridané súbory</value>
+	</data>
+	<data name="AddToPlaylist" xml:space="preserve">
+		<value>Pridať do playlistu...</value>
+	</data>
+	<data name="AddToPlaylistTitle" xml:space="preserve">
+		<value>Pridanie do playlistu</value>
+	</data>
+	<data name="ActiveTagEditor" xml:space="preserve">
+		<value>Aktívny editor tagov</value>
+	</data>
+	<data name="AddedDateRoot" xml:space="preserve">
+		<value>Dátum pridania</value>
+	</data>
+	<data name="AddedDate" xml:space="preserve">
+		<value>Dátum pridania</value>
+	</data>
+	<data name="AddTheOutputFilesToTheLibrary" xml:space="preserve">
+		<value>Pridať výsledné súbory do Knižnice</value>
+	</data>
+	<data name="AddTracks" xml:space="preserve">
+		<value>Pridať skladby...</value>
+	</data>
+	<data name="TemplateExistsOverwrite" xml:space="preserve">
+		<value>Šablóna s takýmto popisom už existuje.</value>
+	</data>
+	<data name="AddRandomAlbum" xml:space="preserve">
+		<value>Pridať náhodný album</value>
+	</data>
+	<data name="AddRandomTracks" xml:space="preserve">
+		<value>Pridať náhodné skladby</value>
+	</data>
+	<data name="AddRandomTracksFromSameArtist" xml:space="preserve">
+		<value>Pridať náhodné skladby od rovnákeho interpréta</value>
+	</data>
+	<data name="AddRandomTracksFromSameGenre" xml:space="preserve">
+		<value>Pridať náhodné skladby rovnakého žánru</value>
+	</data>
+	<data name="AddRandomTracksFromSameYear" xml:space="preserve">
+		<value>Pridať náhodné skladby z rovnakého roku</value>
+	</data>
+	<data name="AddSimilarTracks" xml:space="preserve">
+		<value>Pridať podobné skladby</value>
+	</data>
+	<data name="AddFromSmartPlaylist" xml:space="preserve">
+		<value>Pridať zo smart playlistu</value>
+	</data>
+	<data name="ActiveDatabase" xml:space="preserve">
+		<value>Aktívna databáza</value>
+	</data>
+	<data name="LangChanged" xml:space="preserve">
+		<value>Zmenili ste jazyk a Helium sa musí reštartovať. Kliknutím na OK sa Helium reštartuje.</value>
+	</data>
+	<data name="LastFm_NeedToRegister" xml:space="preserve">
+		<value>Potrebujete zaregistrovať Helium aby mohol používať Last.fm</value>
+	</data>
+	<data name="Import_DatabaseIsNotEmpty" xml:space="preserve">
+		<value>Môžete uskutočniť len Import do prázdnej databázy.</value>
+	</data>
+	<data name="Library_CannotOverwriteActive" xml:space="preserve">
+		<value>Nemôžete prepísať aktívnu databázu</value>
+	</data>
+	<data name="Word" xml:space="preserve">
+		<value>Slovo</value>
+	</data>
+	<data name="YourIp" xml:space="preserve">
+		<value>Vaša IP adresa je:</value>
+	</data>
+	<data name="Years" xml:space="preserve">
+		<value>Roky</value>
+	</data>
+	<data name="RemapPathMenu" xml:space="preserve">
+		<value>Premapovať cestu...</value>
+	</data>
+	<data name="ImportFromHelium11" xml:space="preserve">
+		<value>Import z Helium 11</value>
+	</data>
+	<data name="ImportFromHelium11Menu" xml:space="preserve">
+		<value>Importovať z Helium 11...</value>
+	</data>
+	<data name="Akas" xml:space="preserve">
+		<value>Akas</value>
+	</data>
+	<data name="BitsPerSample" xml:space="preserve">
+		<value>Bitov na vzorku</value>
+	</data>
+	<data name="AllReleaseTypes" xml:space="preserve">
+		<value>Vsetky typy vydaní</value>
+	</data>
+	<data name="AllYears" xml:space="preserve">
+		<value>Všetky roky</value>
+	</data>
+	<data name="Born" xml:space="preserve">
+		<value>Narodený</value>
+	</data>
+	<data name="Browse" xml:space="preserve">
+		<value>Prehliadať</value>
+	</data>
+	<data name="te_album" xml:space="preserve">
+		<value>Album</value>
+	</data>
+	<data name="te_albumartist" xml:space="preserve">
+		<value>Interprét albumu</value>
+	</data>
+	<data name="te_albumartistsortorder" xml:space="preserve">
+		<value>Poradie podľa interpréta albumu</value>
+	</data>
+	<data name="te_albumsortorder" xml:space="preserve">
+		<value>Poradie podľa albumu</value>
+	</data>
+	<data name="te_albumsubtitle" xml:space="preserve">
+		<value>Podnázov albumu</value>
+	</data>
+	<data name="te_albumversion" xml:space="preserve">
+		<value>Verzia albumu</value>
+	</data>
+	<data name="te_bandorch" xml:space="preserve">
+		<value>Skupina/orchester</value>
+	</data>
+	<data name="te_biography" xml:space="preserve">
+		<value>Biografia</value>
+	</data>
+	<data name="te_blank" xml:space="preserve">
+		<value>Prázdny</value>
+	</data>
+	<data name="te_bpm" xml:space="preserve">
+		<value>BPM</value>
+	</data>
+	<data name="te_buycdurl" xml:space="preserve">
+		<value>Adresa pre nákup CD</value>
+	</data>
+	<data name="BornName" xml:space="preserve">
+		<value>Rodné meno</value>
+	</data>
+	<data name="AlbumArtist" xml:space="preserve">
+		<value>Interprét albumu</value>
+	</data>
+	<data name="Aka" xml:space="preserve">
+		<value>Aka</value>
+	</data>
+	<data name="AlbumArtistSortOrder" xml:space="preserve">
+		<value>Poradie podľa interpréta albumu</value>
+	</data>
+	<data name="AlbumSortOrder" xml:space="preserve">
+		<value>Poradie podľa albumu</value>
+	</data>
+	<data name="AlbumSubtitle" xml:space="preserve">
+		<value>Podnázov albumu</value>
+	</data>
+	<data name="AlbumVersion" xml:space="preserve">
+		<value>Verzia albumu</value>
+	</data>
+	<data name="BandOrch" xml:space="preserve">
+		<value>Skupina/orchester</value>
+	</data>
+	<data name="Bpm" xml:space="preserve">
+		<value>Bpm</value>
+	</data>
+	<data name="BuyCdUrl" xml:space="preserve">
+		<value>Adresa pre nákup cd</value>
+	</data>
+	<data name="AdvancedTagEditor" xml:space="preserve">
+		<value>Rozšírený editor tagov</value>
+	</data>
+	<data name="AlbumArtistRoot" xml:space="preserve">
+		<value>Interpréti albumu</value>
+	</data>
+	<data name="AlbumArtistFirstLetter" xml:space="preserve">
+		<value>Prvé písmeno interpréta albumu</value>
+	</data>
+	<data name="AlbumFirstLetter" xml:space="preserve">
+		<value>Prvé písmeno albumu</value>
+	</data>
+	<data name="AlbumRating" xml:space="preserve">
+		<value>Hodnotenie albumu</value>
+	</data>
+	<data name="BandOrchestra" xml:space="preserve">
+		<value>Skupina/orchester</value>
+	</data>
+	<data name="BpmCalculator" xml:space="preserve">
+		<value>Bpm kalkulačka</value>
+	</data>
+	<data name="Beats" xml:space="preserve">
+		<value>Beatov</value>
+	</data>
+	<data name="Beat" xml:space="preserve">
+		<value>Beat</value>
+	</data>
+	<data name="AlbumNormalization" xml:space="preserve">
+		<value>Zosilnenie albumu</value>
+	</data>
+	<data name="AppendNumber" xml:space="preserve">
+		<value>Pridané číslo</value>
+	</data>
+	<data name="AlbumArtistSortOrderShort" xml:space="preserve">
+		<value>Poradie podľa obrazkov albumu</value>
+	</data>
+	<data name="AdvancedSearch" xml:space="preserve">
+		<value>Rozšírené vyhľadávanie</value>
+	</data>
+	<data name="AdvancedSearchMenu" xml:space="preserve">
+		<value>Rozšírené vyhľadávanie...</value>
+	</data>
+	<data name="AllPlugins" xml:space="preserve">
+		<value>Všetky pluginy</value>
+	</data>
+	<data name="All" xml:space="preserve">
+		<value>Všetko</value>
+	</data>
+	<data name="BitrateDistribution" xml:space="preserve">
+		<value>Bitrate</value>
+	</data>
+	<data name="bytes" xml:space="preserve">
+		<value>bytes</value>
+	</data>
+	<data name="AnalyseFiles" xml:space="preserve">
+		<value>Analýza súborov</value>
+	</data>
+	<data name="AnalyseFilesMenu" xml:space="preserve">
+		<value>Analýza súborov...</value>
+	</data>
+	<data name="AnalysingFile" xml:space="preserve">
+		<value>Analýza súboru {0} z {1}</value>
+	</data>
+	<data name="BackupMenu" xml:space="preserve">
+		<value>Zálohovať...</value>
+	</data>
+	<data name="MarkAsBadMatch" xml:space="preserve">
+		<value>Zlá zhoda</value>
+	</data>
+	<data name="BackgroundAlbumOptions" xml:space="preserve">
+		<value>Pozadie albumu</value>
+	</data>
+	<data name="Clear" xml:space="preserve">
+		<value>Odobrať</value>
+	</data>
+	<data name="CurrentStep" xml:space="preserve">
+		<value>Aktuálny krok</value>
+	</data>
+	<data name="Edit" xml:space="preserve">
+		<value>Editovať</value>
+	</data>
+	<data name="Followers" xml:space="preserve">
+		<value>Následovníci</value>
+	</data>
+	<data name="InfluencedBy" xml:space="preserve">
+		<value>Ovplyvnený</value>
+	</data>
+	<data name="PlayQueue" xml:space="preserve">
+		<value>Prehrať poradie</value>
+	</data>
+	<data name="ReadingPlayQueue" xml:space="preserve">
+		<value>Načítavam Poradie prehrávania</value>
+	</data>
+	<data name="SeeAlso" xml:space="preserve">
+		<value>Pozri tiež</value>
+	</data>
+	<data name="Shown" xml:space="preserve">
+		<value>Ukázané</value>
+	</data>
+	<data name="Similar" xml:space="preserve">
+		<value>Podobné</value>
+	</data>
+	<data name="TotalSteps" xml:space="preserve">
+		<value>Celkovo krokov</value>
+	</data>
+	<data name="View" xml:space="preserve">
+		<value>Náhľad</value>
+	</data>
+	<data name="AudioProperties" xml:space="preserve">
+		<value>Audio možnosti</value>
+	</data>
+	<data name="Hidden" xml:space="preserve">
+		<value>Skryté</value>
+	</data>
+	<data name="NextArrow" xml:space="preserve">
+		<value>Ďalej &gt;</value>
+	</data>
+	<data name="SimilarArtists" xml:space="preserve">
+		<value>Podobní interpréti</value>
+	</data>
+	<data name="Cds" xml:space="preserve">
+		<value>CD</value>
+	</data>
+	<data name="Died" xml:space="preserve">
+		<value>Zomrel</value>
+	</data>
+	<data name="Disbanded" xml:space="preserve">
+		<value>Rozpustená</value>
+	</data>
+	<data name="Formed" xml:space="preserve">
+		<value>Založená</value>
+	</data>
+	<data name="From" xml:space="preserve">
+		<value>Z</value>
+	</data>
+	<data name="Group" xml:space="preserve">
+		<value>Skupina</value>
+	</data>
+	<data name="UntitledArtist" xml:space="preserve">
+		<value>Neznámy interprét</value>
+	</data>
+	<data name="RT_LivePerformance" xml:space="preserve">
+		<value>Živé predstavenie</value>
+	</data>
+	<data name="RT_Soundtrack" xml:space="preserve">
+		<value>Soundtrack</value>
+	</data>
+	<data name="RT_Undefined" xml:space="preserve">
+		<value>Nedefinované</value>
+	</data>
+	<data name="RT_Video" xml:space="preserve">
+		<value>Video</value>
+	</data>
+	<data name="Language" xml:space="preserve">
+		<value>Jazyk</value>
+	</data>
+	<data name="LastFm_Completed" xml:space="preserve">
+		<value>Kliknite na OK ak ste ukončili Last.fm autentifikáciu</value>
+	</data>
+	<data name="LastFm_Grant" xml:space="preserve">
+		<value>Kliknite na OK ak chete aby Helium mohlo používať Last.fm</value>
+	</data>
+	<data name="Password" xml:space="preserve">
+		<value>Heslo</value>
+	</data>
+	<data name="Register" xml:space="preserve">
+		<value>Registrovať</value>
+	</data>
+	<data name="UseLastFm" xml:space="preserve">
+		<value>Použiť Last.fm</value>
+	</data>
+	<data name="OptionsTitle" xml:space="preserve">
+		<value>Možnosti</value>
+	</data>
+	<data name="EditTags" xml:space="preserve">
+		<value>Editovať tagy...</value>
+	</data>
+	<data name="UpdatingDatabase" xml:space="preserve">
+		<value>Aktualizujem databázu</value>
+	</data>
+	<data name="UpdatingFileStatus" xml:space="preserve">
+		<value>Aktualizujem súbor {0}/{1}</value>
+	</data>
+	<data name="GroupMembers" xml:space="preserve">
+		<value>Členovia skupiny</value>
+	</data>
+	<data name="ImportHelium11Db" xml:space="preserve">
+		<value>Import databázy z Helium 11...</value>
+	</data>
+	<data name="MemberOf" xml:space="preserve">
+		<value>Člen</value>
+	</data>
+	<data name="ImportingHelium11Database" xml:space="preserve">
+		<value>Importujem databázu z Helium 11</value>
+	</data>
+	<data name="ImportDbProgress1" xml:space="preserve">
+		<value>Importujem uživateľov</value>
+	</data>
+	<data name="ImportDbProgress10" xml:space="preserve">
+		<value>Importujem interprétov</value>
+	</data>
+	<data name="ImportDbProgress11" xml:space="preserve">
+		<value>Importujem hodnotenia interprétov</value>
+	</data>
+	<data name="ImportDbProgress12" xml:space="preserve">
+		<value>Importujem albumy</value>
+	</data>
+	<data name="ImportDbProgress13" xml:space="preserve">
+		<value>Importujem hodnotenia albumov</value>
+	</data>
+	<data name="ImportDbProgress14" xml:space="preserve">
+		<value>Importujem vzťahy</value>
+	</data>
+	<data name="ImportDbProgress16" xml:space="preserve">
+		<value>Importujem hodnotenia</value>
+	</data>
+	<data name="ImportDbProgress18" xml:space="preserve">
+		<value>Importujem komentáre</value>
+	</data>
+	<data name="ImportDbProgress19" xml:space="preserve">
+		<value>Importujem texty</value>
+	</data>
+	<data name="ImportDbProgress2" xml:space="preserve">
+		<value>Importujem užívateľské skupiny</value>
+	</data>
+	<data name="ImportDbProgress20" xml:space="preserve">
+		<value>Importujem históriu</value>
+	</data>
+	<data name="te_currentcd" xml:space="preserve">
+		<value>Aktuálne CD</value>
+	</data>
+	<data name="te_currenttrack" xml:space="preserve">
+		<value>Aktuálna skladba</value>
+	</data>
+	<data name="te_custom1" xml:space="preserve">
+		<value>Vlastné 1</value>
+	</data>
+	<data name="te_custom10" xml:space="preserve">
+		<value>Vlastné 10 </value>
+	</data>
+	<data name="te_custom2" xml:space="preserve">
+		<value>Vlastné 2</value>
+	</data>
+	<data name="te_custom4" xml:space="preserve">
+		<value>Vlastné 4</value>
+	</data>
+	<data name="te_custom6" xml:space="preserve">
+		<value>Vlastné 6</value>
+	</data>
+	<data name="te_custom8" xml:space="preserve">
+		<value>Vlastné 8</value>
+	</data>
+	<data name="Library_Hmm11Database" xml:space="preserve">
+		<value>Databáza, ktorú sa pokúšate otvoriť je z verzie Helium 11 alebo staršej.
+Aby ste ju mohli používať je nutné importovať ju do novej databázy cez Manažment kniznice.</value>
+	</data>
+	<data name="DownloadingNewVersion" xml:space="preserve">
+		<value>Sťahujem novú verziu</value>
+	</data>
+	<data name="EnableAutomaticUpdateCheck" xml:space="preserve">
+		<value>Povoliť automatickú kontrolu aktualizácií</value>
+	</data>
+	<data name="BetaMessage" xml:space="preserve">
+		<value>Vítame Vás v ďalšej beta verzii Neon!
+
+Majte prosím na pamäti, že je to stále beta verzia, ktorá može obsahovať chyby a veci, ktoré ešte niesú hotové.
+Odporúčame Vám používať  kópiu Vašich súborov, aby sa zabránilo prípadnej strate dát.
+
+Ak objavíte nejakú chybu, použite prosím zabudovaný nástroj na jej report a aby ste nám s jej opravou pomohli tak aj postup ako k nej došlo.</value>
+	</data>
+	<data name="Content" xml:space="preserve">
+		<value>Obsah</value>
+	</data>
+	<data name="Description" xml:space="preserve">
+		<value>Popis</value>
+	</data>
+	<data name="Load" xml:space="preserve">
+		<value>Nahrať</value>
+	</data>
+	<data name="Save" xml:space="preserve">
+		<value>Uložiť</value>
+	</data>
+	<data name="Picture" xml:space="preserve">
+		<value>Obrázok</value>
+	</data>
+	<data name="PictureType" xml:space="preserve">
+		<value>Typ obrázku</value>
+	</data>
+	<data name="Finish" xml:space="preserve">
+		<value>Ukončiť</value>
+	</data>
+	<data name="te_artist" xml:space="preserve">
+		<value>Interprét</value>
+	</data>
+	<data name="te_artistsortorder" xml:space="preserve">
+		<value>Triedenie podľa interprétov</value>
+	</data>
+	<data name="te_artisturl" xml:space="preserve">
+		<value>Url interpréta</value>
+	</data>
+	<data name="te_audiofileurl" xml:space="preserve">
+		<value>Url audio súboru</value>
+	</data>
+	<data name="te_catalognumber" xml:space="preserve">
+		<value>Katalógové číslo</value>
+	</data>
+	<data name="te_composer" xml:space="preserve">
+		<value>Skladateľ</value>
+	</data>
+	<data name="te_conductor" xml:space="preserve">
+		<value>Dirigent</value>
+	</data>
+	<data name="te_copyright" xml:space="preserve">
+		<value>Copyright</value>
+	</data>
+	<data name="te_custom3" xml:space="preserve">
+		<value>Vlastné 3</value>
+	</data>
+	<data name="te_custom5" xml:space="preserve">
+		<value>Vlastné 5</value>
+	</data>
+	<data name="te_custom7" xml:space="preserve">
+		<value>Vlastné 7</value>
+	</data>
+	<data name="te_custom9" xml:space="preserve">
+		<value>Vlastné 9</value>
+	</data>
+	<data name="te_encodedby" xml:space="preserve">
+		<value>Enkódoval</value>
+	</data>
+	<data name="te_fileowner" xml:space="preserve">
+		<value>Vlastník súboru</value>
+	</data>
+	<data name="te_ipls" xml:space="preserve">
+		<value>Zainteresovaní ľudia</value>
+	</data>
+	<data name="te_isrc" xml:space="preserve">
+		<value>ISRC</value>
+	</data>
+	<data name="te_language" xml:space="preserve">
+		<value>Jazyk</value>
+	</data>
+	<data name="te_lyricist" xml:space="preserve">
+		<value>Textár</value>
+	</data>
+	<data name="te_lyrics" xml:space="preserve">
+		<value>Text</value>
+	</data>
+	<data name="te_mood" xml:space="preserve">
+		<value>Nálada</value>
+	</data>
+	<data name="te_multiplecomments" xml:space="preserve">
+		<value>Viacnásobné komentáre</value>
+	</data>
+	<data name="te_orgartist" xml:space="preserve">
+		<value>Originálny interprét</value>
+	</data>
+	<data name="te_orgfilename" xml:space="preserve">
+		<value>Originálny názov súboru</value>
+	</data>
+	<data name="te_orglyricist" xml:space="preserve">
+		<value>Originálny textár</value>
+	</data>
+	<data name="te_orgtitle" xml:space="preserve">
+		<value>Originálny názov</value>
+	</data>
+	<data name="te_orgyear" xml:space="preserve">
+		<value>Originálny rok</value>
+	</data>
+	<data name="te_partofseries" xml:space="preserve">
+		<value>Časť série</value>
+	</data>
+	<data name="te_pictures" xml:space="preserve">
+		<value>Priložené obrázky</value>
+	</data>
+	<data name="te_popularity" xml:space="preserve">
+		<value>Popularita</value>
+	</data>
+	<data name="te_produced" xml:space="preserve">
+		<value>Produkoval</value>
+	</data>
+	<data name="te_quality" xml:space="preserve">
+		<value>Kvalita</value>
+	</data>
+	<data name="te_radiourl" xml:space="preserve">
+		<value>Url rádia</value>
+	</data>
+	<data name="te_rating" xml:space="preserve">
+		<value>Hodnotenie</value>
+	</data>
+	<data name="te_recordingyear" xml:space="preserve">
+		<value>Rok nahrávania</value>
+	</data>
+	<data name="te_releasetype" xml:space="preserve">
+		<value>Typ vydania</value>
+	</data>
+	<data name="te_releaseyear" xml:space="preserve">
+		<value>Rok vydania</value>
+	</data>
+	<data name="te_remix" xml:space="preserve">
+		<value>Remix</value>
+	</data>
+	<data name="te_singlecomment" xml:space="preserve">
+		<value>Komentár</value>
+	</data>
+	<data name="te_situation" xml:space="preserve">
+		<value>Situácia</value>
+	</data>
+	<data name="te_softwaresettings" xml:space="preserve">
+		<value>Softwarové nastavenia</value>
+	</data>
+	<data name="te_studio" xml:space="preserve">
+		<value>Štúdio</value>
+	</data>
+	<data name="te_subtitle" xml:space="preserve">
+		<value>Titulky</value>
+	</data>
+	<data name="te_tempo" xml:space="preserve">
+		<value>Tempo</value>
+	</data>
+	<data name="te_title" xml:space="preserve">
+		<value>Názov</value>
+	</data>
+	<data name="te_titlesortorder" xml:space="preserve">
+		<value>Poradie podľa názvu</value>
+	</data>
+	<data name="te_totalcds" xml:space="preserve">
+		<value>Celkovo CD</value>
+	</data>
+	<data name="te_totaltracks" xml:space="preserve">
+		<value>Celkovo skladieb</value>
+	</data>
+	<data name="te_txxx" xml:space="preserve">
+		<value>Niekoľko txxx</value>
+	</data>
+	<data name="EditArtist" xml:space="preserve">
+		<value>Editovať interpréta...</value>
+	</data>
+	<data name="Country" xml:space="preserve">
+		<value>Krajina</value>
+	</data>
+	<data name="EditArtistInformation" xml:space="preserve">
+		<value>Upraviť info interpréta</value>
+	</data>
+	<data name="IsGroup" xml:space="preserve">
+		<value>Je skupina</value>
+	</data>
+	<data name="IsSingleArtist" xml:space="preserve">
+		<value>Je interprét</value>
+	</data>
+	<data name="WebPage" xml:space="preserve">
+		<value>Webová stránka</value>
+	</data>
+	<data name="ImportDbProgress24" xml:space="preserve">
+		<value>Importovanie ids</value>
+	</data>
+	<data name="ApplyToAll" xml:space="preserve">
+		<value>Aplikovať na všetko &gt;&gt;</value>
+	</data>
+	<data name="ChangePicture" xml:space="preserve">
+		<value>Zmeniť obrázok...</value>
+	</data>
+	<data name="DownloadingData" xml:space="preserve">
+		<value>Sťahujem informácie</value>
+	</data>
+	<data name="DownloadPicture" xml:space="preserve">
+		<value>Stiahnúť...</value>
+	</data>
+	<data name="ImportHelium11Command" xml:space="preserve">
+		<value>Importovať z Helium 11...</value>
+	</data>
+	<data name="Import_InvalidDatabase" xml:space="preserve">
+		<value>Vybraná databáza nieje platnou databázou Helium 11. Uistite sa prosím, že databáza je aktualizovaná do formátu pre Helium 11.4.</value>
+	</data>
+	<data name="LibraryManagement" xml:space="preserve">
+		<value>Správa knižnice...</value>
+	</data>
+	<data name="LibraryManagmentTitle" xml:space="preserve">
+		<value>Správa knižnice</value>
+	</data>
+	<data name="Library_DatabaseAlreadyActive" xml:space="preserve">
+		<value>Databáza už je aktívna</value>
+	</data>
+	<data name="Library_DatabaseConnected" xml:space="preserve">
+		<value>Aktívna databáza bola zmenená, takže Helium sa potrebuje reštartovať. Kliknite OK pre reštartovanie programu.</value>
+	</data>
+	<data name="DuplicateFinder" xml:space="preserve">
+		<value>Vyhľadanie duplikátov</value>
+	</data>
+	<data name="DuplicateFinderMenu" xml:space="preserve">
+		<value>Vyhľadať duplikáty...</value>
+	</data>
+	<data name="SonglengthTolerance" xml:space="preserve">
+		<value>Tolerancia dĺžky skladby</value>
+	</data>
+	<data name="TagToFilenameMenu" xml:space="preserve">
+		<value>Premenovať súbory...</value>
+	</data>
+	<data name="ThemeChanged" xml:space="preserve">
+		<value>Téma bola zmenená, Helium sa potrebuje reštartovať. Kliknite OK pre reštart programu.</value>
+	</data>
+	<data name="DupeMatch10" xml:space="preserve">
+		<value>Skóre súhlasí na 10% alebo menej</value>
+	</data>
+	<data name="DupeMatch100" xml:space="preserve">
+		<value>Skóre súhlasí na 100% alebo menej</value>
+	</data>
+	<data name="DupeMatch20" xml:space="preserve">
+		<value>Skóre súhlasí na 20% alebo menej</value>
+	</data>
+	<data name="DupeMatch30" xml:space="preserve">
+		<value>Skóre súhlasí na 30% alebo menej</value>
+	</data>
+	<data name="DupeMatch40" xml:space="preserve">
+		<value>Skóre súhlasí na 40% alebo menej</value>
+	</data>
+	<data name="DupeMatch50" xml:space="preserve">
+		<value>Skóre súhlasí na 50% alebo menej</value>
+	</data>
+	<data name="DupeMatch60" xml:space="preserve">
+		<value>Skóre súhlasí na 60% alebo menej</value>
+	</data>
+	<data name="DupeMatch70" xml:space="preserve">
+		<value>Skóre súhlasí na 70% alebo menej</value>
+	</data>
+	<data name="DupeMatch80" xml:space="preserve">
+		<value>Skóre súhlasí na 80% alebo menej</value>
+	</data>
+	<data name="DupeMatch90" xml:space="preserve">
+		<value>Skóre súhlasí na 90% alebo menej</value>
+	</data>
+	<data name="FindDuplicatesIn" xml:space="preserve">
+		<value>Nájdi duplikáty v</value>
+	</data>
+	<data name="SpecificFolder" xml:space="preserve">
+		<value>Špecifický adresár</value>
+	</data>
+	<data name="UnknownAcoustId" xml:space="preserve">
+		<value>Neznáme AcoustId</value>
+	</data>
+	<data name="CalculatingResult" xml:space="preserve">
+		<value>Počítam výsledok</value>
+	</data>
+	<data name="CompareByAcoustId" xml:space="preserve">
+		<value>Porovnať podľa Acoust Id</value>
+	</data>
+	<data name="CompareByAcoustIdResults" xml:space="preserve">
+		<value>Porovnať podľa Acoust Id výsledkov</value>
+	</data>
+	<data name="RenameAndCopy" xml:space="preserve">
+		<value>Premenovať a kopírovať</value>
+	</data>
+	<data name="RenameAndMove" xml:space="preserve">
+		<value>Premenovať a presunúť</value>
+	</data>
+	<data name="RenamingFileXofY" xml:space="preserve">
+		<value>Premenúvam súbor {0}/{1}</value>
+	</data>
+	<data name="PleaseWait" xml:space="preserve">
+		<value>Čakajte prosím...</value>
+	</data>
+	<data name="Template" xml:space="preserve">
+		<value>Šablóna</value>
+	</data>
+	<data name="AudioDataSize" xml:space="preserve">
+		<value>Veľkosť audio dát</value>
+	</data>
+	<data name="Channels" xml:space="preserve">
+		<value>Kanály</value>
+	</data>
+	<data name="CorrectVbrHeader" xml:space="preserve">
+		<value>Správna VBR hlavička</value>
+	</data>
+	<data name="Details" xml:space="preserve">
+		<value>Detaily</value>
+	</data>
+	<data name="Comment" xml:space="preserve">
+		<value>Komentár</value>
+	</data>
+	<data name="Composer" xml:space="preserve">
+		<value>Skladateľ</value>
+	</data>
+	<data name="Conductor" xml:space="preserve">
+		<value>Dirigent</value>
+	</data>
+	<data name="Copyright" xml:space="preserve">
+		<value>Copyright</value>
+	</data>
+	<data name="Custom1" xml:space="preserve">
+		<value>Vlastné 1</value>
+	</data>
+	<data name="Custom10" xml:space="preserve">
+		<value>Vlastné 10</value>
+	</data>
+	<data name="Custom2" xml:space="preserve">
+		<value>Vlastné 2</value>
+	</data>
+	<data name="Custom3" xml:space="preserve">
+		<value>Vlastné 3</value>
+	</data>
+	<data name="Custom4" xml:space="preserve">
+		<value>Vlastné 4</value>
+	</data>
+	<data name="Custom5" xml:space="preserve">
+		<value>Vlastné 5</value>
+	</data>
+	<data name="Custom6" xml:space="preserve">
+		<value>Vlastné 6</value>
+	</data>
+	<data name="Custom7" xml:space="preserve">
+		<value>Vlastné 7</value>
+	</data>
+	<data name="Custom8" xml:space="preserve">
+		<value>Vlastné 8</value>
+	</data>
+	<data name="Custom9" xml:space="preserve">
+		<value>Vlastné 9</value>
+	</data>
+	<data name="EncodedBy" xml:space="preserve">
+		<value>Enkódoval</value>
+	</data>
+	<data name="FileOwner" xml:space="preserve">
+		<value>Vlastník súboru</value>
+	</data>
+	<data name="Isrc" xml:space="preserve">
+		<value>ISRC</value>
+	</data>
+	<data name="LabelUrl" xml:space="preserve">
+		<value>Url vydavateľa</value>
+	</data>
+	<data name="Lyricist" xml:space="preserve">
+		<value>Textár</value>
+	</data>
+	<data name="Lyrics" xml:space="preserve">
+		<value>Text</value>
+	</data>
+	<data name="Mood" xml:space="preserve">
+		<value>Nálada</value>
+	</data>
+	<data name="PartOfSeries" xml:space="preserve">
+		<value>Časť série</value>
+	</data>
+	<data name="Popularity" xml:space="preserve">
+		<value>Popularita</value>
+	</data>
+	<data name="Preference" xml:space="preserve">
+		<value>Preferencia</value>
+	</data>
+	<data name="Produced" xml:space="preserve">
+		<value>Produkoval</value>
+	</data>
+	<data name="Quality" xml:space="preserve">
+		<value>Kvalita</value>
+	</data>
+	<data name="RadioUrl" xml:space="preserve">
+		<value>Url rádia</value>
+	</data>
+	<data name="Situation" xml:space="preserve">
+		<value>Situácia</value>
+	</data>
+	<data name="SoftwareSettings" xml:space="preserve">
+		<value>Softwarové nastavenia</value>
+	</data>
+	<data name="Studio" xml:space="preserve">
+		<value>Štúdio</value>
+	</data>
+	<data name="Tempo" xml:space="preserve">
+		<value>Tempo</value>
+	</data>
+	<data name="TitleSortOrder" xml:space="preserve">
+		<value>Poradie podľa názvu</value>
+	</data>
+	<data name="Txxx" xml:space="preserve">
+		<value>TXXX</value>
+	</data>
+	<data name="Favourite" xml:space="preserve">
+		<value>Obľúbené</value>
+	</data>
+	<data name="CurrentTrack" xml:space="preserve">
+		<value>Aktuálna skladba</value>
+	</data>
+	<data name="Path" xml:space="preserve">
+		<value>Cesta</value>
+	</data>
+	<data name="Pictures" xml:space="preserve">
+		<value>Obrázky</value>
+	</data>
+	<data name="Capitalizer" xml:space="preserve">
+		<value>Kapitalizér</value>
+	</data>
+	<data name="LastFm" xml:space="preserve">
+		<value>Last.fm</value>
+	</data>
+	<data name="Labels" xml:space="preserve">
+		<value>Vydavatelia</value>
+	</data>
+	<data name="PerformedSongsBy" xml:space="preserve">
+		<value>Skladby interpretované </value>
+	</data>
+	<data name="DetailedFileAndTagInfo" xml:space="preserve">
+		<value>Detailné tagy a informácie súboru</value>
+	</data>
+	<data name="Genre" xml:space="preserve">
+		<value>Žáner</value>
+	</data>
+	<data name="UpdateLibrary_DetailText" xml:space="preserve">
+		<value>Vybrať adresáre, ktoré chcete aktualizovať</value>
+	</data>
+	<data name="UpdateLibrary_ForceSync" xml:space="preserve">
+		<value>Vynútiť synchronizáciu všetkých súborov</value>
+	</data>
+	<data name="UpdateLibrary_RemoveUnavailable" xml:space="preserve">
+		<value>Odstrániť nedostupné súbory</value>
+	</data>
+	<data name="AllGenres" xml:space="preserve">
+		<value>Všetky žánre</value>
+	</data>
+	<data name="Long" xml:space="preserve">
+		<value>Dĺžka</value>
+	</data>
+	<data name="Parent" xml:space="preserve">
+		<value>Rodič</value>
+	</data>
+	<data name="UntitledLabel" xml:space="preserve">
+		<value>Vydavateľ nezadaný</value>
+	</data>
+	<data name="RebuildingCache" xml:space="preserve">
+		<value>Rebuildujem cache</value>
+	</data>
+	<data name="FileExistsInQueue" xml:space="preserve">
+		<value>Súbory sa práve spracovávajú. Vyskúšajte prosím neskôr, keď sa operácia ukončí.</value>
+	</data>
+	<data name="EditMultipleGenresHelper" xml:space="preserve">
+		<value>Rozdeliť žánre na osobitné riadky</value>
+	</data>
+	<data name="EditMultipleGenresTitle" xml:space="preserve">
+		<value>Editovať viac žánrov</value>
+	</data>
+	<data name="EditMultipleLabelsHelper" xml:space="preserve">
+		<value>Rozdeliť vydavateľov na osobitné riadky</value>
+	</data>
+	<data name="EditMultipleLabelsTitle" xml:space="preserve">
+		<value>Editovať viac vydavateľov</value>
+	</data>
+	<data name="ImportDbProgress15" xml:space="preserve">
+		<value>Importujem detaily</value>
+	</data>
+	<data name="ImportDbProgress17" xml:space="preserve">
+		<value>Importujem detaily x interpréta</value>
+	</data>
+	<data name="ImportDbProgress21" xml:space="preserve">
+		<value>Importujem položky playlistu</value>
+	</data>
+	<data name="ImportDbProgress22" xml:space="preserve">
+		<value>Importujem žánre x položiek</value>
+	</data>
+	<data name="ImportDbProgress23" xml:space="preserve">
+		<value>Importujem vydavateľov x položiek</value>
+	</data>
+	<data name="ImportDbProgress26" xml:space="preserve">
+		<value>Upracujem dĺžky subskladieb</value>
+	</data>
+	<data name="ImportDbProgress27" xml:space="preserve">
+		<value>Odstraňujem opustené albumy</value>
+	</data>
+	<data name="ImportDbProgress3" xml:space="preserve">
+		<value>Importujem užívateľské nastavenia</value>
+	</data>
+	<data name="ImportDbProgress4" xml:space="preserve">
+		<value>Importujem služby</value>
+	</data>
+	<data name="ImportDbProgress5" xml:space="preserve">
+		<value>Importujem krajiny</value>
+	</data>
+	<data name="ImportDbProgress6" xml:space="preserve">
+		<value>Importujem žánre</value>
+	</data>
+	<data name="ImportDbProgress7" xml:space="preserve">
+		<value>Importujem adresáre playlistov</value>
+	</data>
+	<data name="ImportDbProgress8" xml:space="preserve">
+		<value>Importujem playlisty</value>
+	</data>
+	<data name="ImportDbProgress9" xml:space="preserve">
+		<value>Importujem vydavateľov</value>
+	</data>
+	<data name="EditMultipleArtists" xml:space="preserve">
+		<value>Editovať viac interprétov</value>
+	</data>
+	<data name="EditIplTitle" xml:space="preserve">
+		<value>Editovať zapojených ľudí</value>
+	</data>
+	<data name="EditMclTitle" xml:space="preserve">
+		<value>Editovať kredity interprétov</value>
+	</data>
+	<data name="te_genre" xml:space="preserve">
+		<value>Žáner</value>
+	</data>
+	<data name="te_grouping" xml:space="preserve">
+		<value>Zoskupovanie</value>
+	</data>
+	<data name="te_label" xml:space="preserve">
+		<value>Vydavateľ</value>
+	</data>
+	<data name="te_labelurl" xml:space="preserve">
+		<value>Url vydavateľa</value>
+	</data>
+	<data name="te_mcl" xml:space="preserve">
+		<value>Kredity hudobníkov</value>
+	</data>
+	<data name="te_media" xml:space="preserve">
+		<value>Médiá</value>
+	</data>
+	<data name="te_preference" xml:space="preserve">
+		<value>Preferencie</value>
+	</data>
+	<data name="Borned" xml:space="preserve">
+		<value>Narodený</value>
+	</data>
+	<data name="Library_InvalidDatabase" xml:space="preserve">
+		<value>Vybraná databáza nieje platná</value>
+	</data>
+	<data name="ShowAllItems" xml:space="preserve">
+		<value>Ukázať všetky položky</value>
+	</data>
+	<data name="ShowItemsWithNoPictures" xml:space="preserve">
+		<value>Ukázať len položky bez priradených obrázkov</value>
+	</data>
+	<data name="ShowItemsWithPictures" xml:space="preserve">
+		<value>Ukázať len položky s priradenými obrázkami</value>
+	</data>
+	<data name="ShowOnlyAlbumArtists" xml:space="preserve">
+		<value>Ukázať len interprétov albumu</value>
+	</data>
+	<data name="Library_NewDatabaseCreate" xml:space="preserve">
+		<value>Databáza bola úspešne vytvorená, je potrebné reštartovať Helium. Kliknite OK pre reštartovanie.</value>
+	</data>
+	<data name="NewCommand" xml:space="preserve">
+		<value>Nový...</value>
+	</data>
+	<data name="OpenCommand" xml:space="preserve">
+		<value>Otvoriť...</value>
+	</data>
+	<data name="CreateSqlServerDatabase" xml:space="preserve">
+		<value>Vytvoriť Sql Server databázu</value>
+	</data>
+	<data name="Error_CannotConnectToServer" xml:space="preserve">
+		<value>Vybraný server neodpovedá.</value>
+	</data>
+	<data name="Library_CannotConnect" xml:space="preserve">
+		<value>Neviem sa pripojiť k vybranej databáze.</value>
+	</data>
+	<data name="CreateMySqlDatabase" xml:space="preserve">
+		<value>Vytvoriť MySql/MariaDb databázu</value>
+	</data>
+	<data name="OpenMySqlDatabase" xml:space="preserve">
+		<value>Otvoriť MySql/MariaDb databázu</value>
+	</data>
+	<data name="Database" xml:space="preserve">
+		<value>Databáza</value>
+	</data>
+	<data name="MySqlServer" xml:space="preserve">
+		<value>MySql/MariaDb server</value>
+	</data>
+	<data name="Port" xml:space="preserve">
+		<value>Port</value>
+	</data>
+	<data name="SqlAuth" xml:space="preserve">
+		<value>Sql autentikácia</value>
+	</data>
+	<data name="SqlServerInstance" xml:space="preserve">
+		<value>Meno inštancie Sql Servera</value>
+	</data>
+	<data name="Username" xml:space="preserve">
+		<value>Uživateľské meno</value>
+	</data>
+	<data name="WindowsAuth" xml:space="preserve">
+		<value>Windows autentifikácia</value>
+	</data>
+	<data name="DAC_AddedFiles" xml:space="preserve">
+		<value>Operácia pridávania je hotová.</value>
+	</data>
+	<data name="DAC_TaggedFiles" xml:space="preserve">
+		<value>Operácia tagovania je hotová.</value>
+	</data>
+	<data name="DAT_TaggedFiles" xml:space="preserve">
+		<value>Tagovanie ukončené</value>
+	</data>
+	<data name="DAC_Imported" xml:space="preserve">
+		<value>Vybraná databáza bola importovaná.</value>
+	</data>
+	<data name="DAC_Updated" xml:space="preserve">
+		<value>Aktualizácia knižnice je hotová.</value>
+	</data>
+	<data name="DAT_Imported" xml:space="preserve">
+		<value>Databáza importovaná</value>
+	</data>
+	<data name="DAT_Updated" xml:space="preserve">
+		<value>Knižnica aktualizovaná</value>
+	</data>
+	<data name="SelectDatabaseTypeImport" xml:space="preserve">
+		<value>Vyber typu databázy na import</value>
+	</data>
+	<data name="ViewOriginal" xml:space="preserve">
+		<value>Pozrieť originál...</value>
+	</data>
+	<data name="OpenSqlServerDatabase" xml:space="preserve">
+		<value>Otvoriť databázu Sql Servera</value>
+	</data>
+	<data name="Library_DatabaseImported" xml:space="preserve">
+		<value>Vybraná databáza bola importovaná. Kliknutím na OK sa Helium ukončí.</value>
+	</data>
+	<data name="MoveDown" xml:space="preserve">
+		<value>Posunúť hore</value>
+	</data>
+	<data name="MoveUp" xml:space="preserve">
+		<value>Posunúť dole</value>
+	</data>
+	<data name="Playlists" xml:space="preserve">
+		<value>Playlisty</value>
+	</data>
+	<data name="RemoveTracks" xml:space="preserve">
+		<value>Želáte si odstrániť vybrané skladby z vašej knižnice?</value>
+	</data>
+	<data name="NewFolder" xml:space="preserve">
+		<value>Vytvoriť nový adresár</value>
+	</data>
+	<data name="Rename" xml:space="preserve">
+		<value>Premenovať</value>
+	</data>
+	<data name="NoFilesSelected" xml:space="preserve">
+		<value>Neboli vybrané žiadne súbory</value>
+	</data>
+	<data name="Played" xml:space="preserve">
+		<value>Prehrané</value>
+	</data>
+	<data name="Statistics" xml:space="preserve">
+		<value>Štatistiky</value>
+	</data>
+	<data name="NewFolderMenu" xml:space="preserve">
+		<value>Nový adresár...</value>
+	</data>
+	<data name="NewPlaylist" xml:space="preserve">
+		<value>Nový playlist...</value>
+	</data>
+	<data name="Play" xml:space="preserve">
+		<value>Prehrať</value>
+	</data>
+	<data name="GeneralStatistics" xml:space="preserve">
+		<value>Celkové štatistiky</value>
+	</data>
+	<data name="MonthlyStatistics" xml:space="preserve">
+		<value>Mesačné štatistiky</value>
+	</data>
+	<data name="MostPlayedArtists" xml:space="preserve">
+		<value>Najhranejší interpréti</value>
+	</data>
+	<data name="MostPlayedGenres" xml:space="preserve">
+		<value>Najhranejšie žánre</value>
+	</data>
+	<data name="MostPlayedYears" xml:space="preserve">
+		<value>Najhranejšie roky</value>
+	</data>
+	<data name="NumberOfAlbumsInLibrary" xml:space="preserve">
+		<value>Počet albumov v knižnici</value>
+	</data>
+	<data name="NumberOfArtistsInLibrary" xml:space="preserve">
+		<value>Počet interprétov v knižnici</value>
+	</data>
+	<data name="NumberOfGenresInLibrary" xml:space="preserve">
+		<value>Počet žánrov v knižnici</value>
+	</data>
+	<data name="NumberOfLabelsInLibrary" xml:space="preserve">
+		<value>Počet vydavateľov v knižnici</value>
+	</data>
+	<data name="NumberOfTracksInLibrary" xml:space="preserve">
+		<value>Počet skladieb v knižnici</value>
+	</data>
+	<data name="PlayingStatistics" xml:space="preserve">
+		<value>Štatistiky prehrávania</value>
+	</data>
+	<data name="TopArtists" xml:space="preserve">
+		<value>Top interpréti</value>
+	</data>
+	<data name="TopGenres" xml:space="preserve">
+		<value>Top žánre</value>
+	</data>
+	<data name="TopYears" xml:space="preserve">
+		<value>Top roky</value>
+	</data>
+	<data name="TotalPlaytimeInLibrary" xml:space="preserve">
+		<value>Celkový hrací čas knižnice</value>
+	</data>
+	<data name="TotalTracksPlayed" xml:space="preserve">
+		<value>Celkovo prehraných skladieb</value>
+	</data>
+	<data name="TracksPlayedThisMonth" xml:space="preserve">
+		<value>Skladby prehrané tento mesiac</value>
+	</data>
+	<data name="TracksPlayedThisWeek" xml:space="preserve">
+		<value>Skladby prehrané tento týždeň</value>
+	</data>
+	<data name="TracksPlayedThisYear" xml:space="preserve">
+		<value>Skladby prehrané tento rok</value>
+	</data>
+	<data name="TracksPlayedToday" xml:space="preserve">
+		<value>Skladby prehrané dnes</value>
+	</data>
+	<data name="Apply" xml:space="preserve">
+		<value>Aplikovať</value>
+	</data>
+	<data name="ApplyDown" xml:space="preserve">
+		<value>Aplikovať nadol</value>
+	</data>
+	<data name="CD" xml:space="preserve">
+		<value>CD</value>
+	</data>
+	<data name="None" xml:space="preserve">
+		<value>Nič</value>
+	</data>
+	<data name="Sentence" xml:space="preserve">
+		<value>Veta</value>
+	</data>
+	<data name="UserDefined" xml:space="preserve">
+		<value>Vlastné</value>
+	</data>
+	<data name="UserDefinedRoot" xml:space="preserve">
+		<value>Vlastné</value>
+	</data>
+	<data name="UserDefinedRoot10" xml:space="preserve">
+		<value>Vlastné 10</value>
+	</data>
+	<data name="UserDefinedRoot2" xml:space="preserve">
+		<value>Vlastné 2</value>
+	</data>
+	<data name="UserDefinedRoot3" xml:space="preserve">
+		<value>Vlastné 3</value>
+	</data>
+	<data name="UserDefinedRoot4" xml:space="preserve">
+		<value>Vlastné 4</value>
+	</data>
+	<data name="UserDefinedRoot5" xml:space="preserve">
+		<value>Vlastné 5</value>
+	</data>
+	<data name="UserDefinedRoot6" xml:space="preserve">
+		<value>Vlastné 6</value>
+	</data>
+	<data name="UserDefinedRoot7" xml:space="preserve">
+		<value>Vlastné 7</value>
+	</data>
+	<data name="UserDefinedRoot8" xml:space="preserve">
+		<value>Vlastné 8</value>
+	</data>
+	<data name="UserDefinedRoot9" xml:space="preserve">
+		<value>Vlastné 9</value>
+	</data>
+	<data name="CurrentCD" xml:space="preserve">
+		<value>Aktuálne Cd</value>
+	</data>
+	<data name="Customize" xml:space="preserve">
+		<value>Prispôsobiť...</value>
+	</data>
+	<data name="CustomizeMusicBrowserNodes" xml:space="preserve">
+		<value>Prispôsobiť Hudobný prehliadač</value>
+	</data>
+	<data name="Down" xml:space="preserve">
+		<value>dole</value>
+	</data>
+	<data name="HasLyrics" xml:space="preserve">
+		<value>Má text</value>
+	</data>
+	<data name="IsVBR" xml:space="preserve">
+		<value>Je VBR</value>
+	</data>
+	<data name="MusicExplorerOptions" xml:space="preserve">
+		<value>Možnosti...</value>
+	</data>
+	<data name="Obscure" xml:space="preserve">
+		<value>Popularita</value>
+	</data>
+	<data name="OriginalArtist" xml:space="preserve">
+		<value>Originálny interprét</value>
+	</data>
+	<data name="OriginalLyricist" xml:space="preserve">
+		<value>Originálny textár</value>
+	</data>
+	<data name="OriginalTitle" xml:space="preserve">
+		<value>Originálny názov</value>
+	</data>
+	<data name="OriginalYear" xml:space="preserve">
+		<value>Originálny rok</value>
+	</data>
+	<data name="RecYearDecade" xml:space="preserve">
+		<value>Dekáda roku nahrania</value>
+	</data>
+	<data name="RelyearDecade" xml:space="preserve">
+		<value>Dekáda roku vydania</value>
+	</data>
+	<data name="RemoveNode" xml:space="preserve">
+		<value>Odstrániť &gt;</value>
+	</data>
+	<data name="TitleFirstLetter" xml:space="preserve">
+		<value>Prvé písmeno názvu</value>
+	</data>
+	<data name="TotalCDs" xml:space="preserve">
+		<value>Celkovo Cd</value>
+	</data>
+	<data name="TotalTracks" xml:space="preserve">
+		<value>Celkovo skladieb</value>
+	</data>
+	<data name="Up" xml:space="preserve">
+		<value>Hore</value>
+	</data>
+	<data name="ReleasesOrdering" xml:space="preserve">
+		<value>Poradie vydaní</value>
+	</data>
+	<data name="ReleasesOrderingHelper" xml:space="preserve">
+		<value>Definuje ako budú vydania triedené pod detailami interpréta a vydavateľa</value>
+	</data>
+	<data name="CalculateBpm" xml:space="preserve">
+		<value>Výpočet BPM</value>
+	</data>
+	<data name="Calculate" xml:space="preserve">
+		<value>Výpočet</value>
+	</data>
+	<data name="Manual" xml:space="preserve">
+		<value>Manuálne</value>
+	</data>
+	<data name="CalculatedBpm" xml:space="preserve">
+		<value>Vypočítanie Bpm</value>
+	</data>
+	<data name="ManualBpm" xml:space="preserve">
+		<value>Manuálny výpočet Bpm...</value>
+	</data>
+	<data name="ReleaseTypes" xml:space="preserve">
+		<value>Typy vydaní</value>
+	</data>
+	<data name="Value" xml:space="preserve">
+		<value>Hodnota</value>
+	</data>
+	<data name="OutputFormat" xml:space="preserve">
+		<value>Výstupný formát</value>
+	</data>
+	<data name="OutputToSameFolderAsSourceFolder" xml:space="preserve">
+		<value>Výstup do rovnakého adresára ako zdrojové súbory</value>
+	</data>
+	<data name="SaveToFolder" xml:space="preserve">
+		<value>Uložiť do adresára</value>
+	</data>
+	<data name="SelectAll" xml:space="preserve">
+		<value>Všetky</value>
+	</data>
+	<data name="SelectedFile" xml:space="preserve">
+		<value>Vybraný súbor</value>
+	</data>
+	<data name="SelectNone" xml:space="preserve">
+		<value>Zruš výber</value>
+	</data>
+	<data name="Compression" xml:space="preserve">
+		<value>Kompresia</value>
+	</data>
+	<data name="ConstantBitrate" xml:space="preserve">
+		<value>Konštantný bitrate</value>
+	</data>
+	<data name="EncoderOptions" xml:space="preserve">
+		<value>Možnosti enkódera</value>
+	</data>
+	<data name="EndOffset" xml:space="preserve">
+		<value>Koniec posunu</value>
+	</data>
+	<data name="FastMode" xml:space="preserve">
+		<value>Rýchly mód</value>
+	</data>
+	<data name="HighQuality" xml:space="preserve">
+		<value>Vysoká kvalita</value>
+	</data>
+	<data name="IsSelected" xml:space="preserve">
+		<value>Vybrané</value>
+	</data>
+	<data name="SplitFile" xml:space="preserve">
+		<value>Rozdeliť súbor...</value>
+	</data>
+	<data name="SplitFileHeader" xml:space="preserve">
+		<value>Rozdelenie súboru</value>
+	</data>
+	<data name="StartOffset" xml:space="preserve">
+		<value>Začiatok posunu</value>
+	</data>
+	<data name="TrackLength" xml:space="preserve">
+		<value>Dĺžka skladby</value>
+	</data>
+	<data name="UseNormalization" xml:space="preserve">
+		<value>Použiť zosilnenie hlasitosti</value>
+	</data>
+	<data name="VariableBitrate" xml:space="preserve">
+		<value>Premenný bitrate</value>
+	</data>
+	<data name="DeleteTheSelectedTracks" xml:space="preserve">
+		<value>Odstrániť vybrané skladby?</value>
+	</data>
+	<data name="AutoTrack" xml:space="preserve">
+		<value>Automatické skladby</value>
+	</data>
+	<data name="RemoveFromLibraryAndDisc" xml:space="preserve">
+		<value>Odstrániť z knižnice a počítača</value>
+	</data>
+	<data name="RemoveFromLibraryOnly" xml:space="preserve">
+		<value>Odstrániť len z knižnice</value>
+	</data>
+	<data name="RemoveItemsTitle" xml:space="preserve">
+		<value>Odstránenie položiek</value>
+	</data>
+	<data name="RemoveTheSelectedItems" xml:space="preserve">
+		<value>Odstrániť {0} vybraných položiek?</value>
+	</data>
+	<data name="CopyAlbumPictureToAlbumFolder" xml:space="preserve">
+		<value>Kopírovať obrázok albumu do adresára albumu</value>
+	</data>
+	<data name="CopyAlbumPictureToPicturesFolder" xml:space="preserve">
+		<value>Kopírovať obrázok albumu do nadradeného adresára</value>
+	</data>
+	<data name="AddFiles_CreatingGenres" xml:space="preserve">
+		<value>Vytváram žánre, {0}% hotovo</value>
+	</data>
+	<data name="AddFiles_CreatingLabels" xml:space="preserve">
+		<value>Vytváram vydavateľov, {0}% hotovo</value>
+	</data>
+	<data name="RecYear" xml:space="preserve">
+		<value>Rok nahrania</value>
+	</data>
+	<data name="RelYear" xml:space="preserve">
+		<value>Rok vydania</value>
+	</data>
+	<data name="Remix" xml:space="preserve">
+		<value>Remix</value>
+	</data>
+	<data name="SelectColumns" xml:space="preserve">
+		<value>Výber stĺpcov</value>
+	</data>
+	<data name="SelectColumnsMenu" xml:space="preserve">
+		<value>Vybrať stĺpce...</value>
+	</data>
+	<data name="Subtitle" xml:space="preserve">
+		<value>Titulky</value>
+	</data>
+	<data name="Track" xml:space="preserve">
+		<value>Skladba</value>
+	</data>
+	<data name="TagEditor" xml:space="preserve">
+		<value>Editor tagov</value>
+	</data>
+	<data name="InvolvedPeoples" xml:space="preserve">
+		<value>Zapojení ľudia</value>
+	</data>
+	<data name="Label" xml:space="preserve">
+		<value>Vydavateľ</value>
+	</data>
+	<data name="Mcl" xml:space="preserve">
+		<value>Zoznam hudobníckych kreditov</value>
+	</data>
+	<data name="ReleaseType" xml:space="preserve">
+		<value>Typ vydania</value>
+	</data>
+	<data name="EditMultipleComments" xml:space="preserve">
+		<value>Editovať viac komentárov</value>
+	</data>
+	<data name="Comments" xml:space="preserve">
+		<value>Komentáre</value>
+	</data>
+	<data name="EditBiography" xml:space="preserve">
+		<value>Editovať biografiu</value>
+	</data>
+	<data name="EditLyrics" xml:space="preserve">
+		<value>Editovať text</value>
+	</data>
+	<data name="ArtistUrl" xml:space="preserve">
+		<value>Url interpréta</value>
+	</data>
+	<data name="AudioFileUrl" xml:space="preserve">
+		<value>Url audio súboru</value>
+	</data>
+	<data name="CatalogNumber" xml:space="preserve">
+		<value>Katalógové číslo</value>
+	</data>
+	<data name="Grouping" xml:space="preserve">
+		<value>Zoskupovanie</value>
+	</data>
+	<data name="Media" xml:space="preserve">
+		<value>Média</value>
+	</data>
+	<data name="OrgArtist" xml:space="preserve">
+		<value>Orig. interprét</value>
+	</data>
+	<data name="OrgFilename" xml:space="preserve">
+		<value>Orig. názov súboru</value>
+	</data>
+	<data name="OrgLyricist" xml:space="preserve">
+		<value>Orig. textár</value>
+	</data>
+	<data name="OrgTitle" xml:space="preserve">
+		<value>Orig. názov</value>
+	</data>
+	<data name="OrgYear" xml:space="preserve">
+		<value>Orig. rok</value>
+	</data>
+	<data name="ClickToSeeDetails" xml:space="preserve">
+		<value>Pre viac detailov klikni sem</value>
+	</data>
+	<data name="Backup" xml:space="preserve">
+		<value>Záloha</value>
+	</data>
+	<data name="BackupCreatedWithNoProblems" xml:space="preserve">
+		<value>Zálohovanie prebehlo bez problémov.</value>
+	</data>
+	<data name="CreatingBackup" xml:space="preserve">
+		<value>Vytvára sa záloha, počkajte prosím</value>
+	</data>
+	<data name="DestinationPath" xml:space="preserve">
+		<value>Cieľová cesta:</value>
+	</data>
+	<data name="Overwrite" xml:space="preserve">
+		<value>Prepísať</value>
+	</data>
+	<data name="UserSettings" xml:space="preserve">
+		<value>Uživateľské nastavenia</value>
+	</data>
+	<data name="Input" xml:space="preserve">
+		<value>Vstup</value>
+	</data>
+	<data name="AggregatedTitle" xml:space="preserve">
+		<value>Názov, Remix a Titulok</value>
+	</data>
+	<data name="InsertField" xml:space="preserve">
+		<value>Vložiť pole</value>
+	</data>
+	<data name="EditTemplates" xml:space="preserve">
+		<value>Editácia šablón</value>
+	</data>
+	<data name="EditTemplatesEllipsed" xml:space="preserve">
+		<value>Editovať šablóny...</value>
+	</data>
+	<data name="MySqlOptions" xml:space="preserve">
+		<value>Mysql možnosti</value>
+	</data>
+	<data name="SqlServerCompactOptions" xml:space="preserve">
+		<value>Sql server compact možnosti</value>
+	</data>
+	<data name="SqlServerOptions" xml:space="preserve">
+		<value>Sql server moznosti</value>
+	</data>
+	<data name="Large" xml:space="preserve">
+		<value>Veľký </value>
+	</data>
+	<data name="Medium" xml:space="preserve">
+		<value>Stredný</value>
+	</data>
+	<data name="Small" xml:space="preserve">
+		<value>Malý</value>
+	</data>
+	<data name="ThumbnailSize" xml:space="preserve">
+		<value>Veľkosť náhľadu</value>
+	</data>
+	<data name="ThumbnailSizeChanged" xml:space="preserve">
+		<value>Veľkosť náhľadu sa zmenila. Kliknite na OK, aby sa Helium reštartoval.</value>
+	</data>
+	<data name="DesktopAlerts" xml:space="preserve">
+		<value>Upozornenia na desktope</value>
+	</data>
+	<data name="Contact" xml:space="preserve">
+		<value>Kontakt</value>
+	</data>
+	<data name="EditLabelWindow" xml:space="preserve">
+		<value>Editácia vydavateľa</value>
+	</data>
+	<data name="EditPicturesWindow" xml:space="preserve">
+		<value>Editácia obrázkov</value>
+	</data>
+	<data name="RecordingYear" xml:space="preserve">
+		<value>Rok nahrania</value>
+	</data>
+	<data name="ReleaseYear" xml:space="preserve">
+		<value>Rok vydania</value>
+	</data>
+	<data name="PlayingHistory" xml:space="preserve">
+		<value>História prehrávania</value>
+	</data>
+	<data name="IsFavourite" xml:space="preserve">
+		<value>Je obľúbený</value>
+	</data>
+	<data name="MixMaster" xml:space="preserve">
+		<value>Má podstopy</value>
+	</data>
+	<data name="OtherVersions" xml:space="preserve">
+		<value>Iné verzie</value>
+	</data>
+	<data name="Pics" xml:space="preserve">
+		<value>Obrázky</value>
+	</data>
+	<data name="Publisher" xml:space="preserve">
+		<value>Vydavateľ</value>
+	</data>
+	<data name="VbrCbr" xml:space="preserve">
+		<value>Variabilný bitrate</value>
+	</data>
+	<data name="ArtistRating" xml:space="preserve">
+		<value>Hodnotenie interpréta</value>
+	</data>
+	<data name="ArtistTotalTracks" xml:space="preserve">
+		<value>Celkovo skladieb interpréta</value>
+	</data>
+	<data name="AttachedPictures" xml:space="preserve">
+		<value>Priložené obrázky</value>
+	</data>
+	<data name="IsArtist" xml:space="preserve">
+		<value>Je interprét</value>
+	</data>
+	<data name="IsFavouriteAlbum" xml:space="preserve">
+		<value>Je obľúbený album</value>
+	</data>
+	<data name="IsFavouriteArtist" xml:space="preserve">
+		<value>Je obľúbený interprét</value>
+	</data>
+	<data name="IsFavouriteTrack" xml:space="preserve">
+		<value>Je obľúbená skladba</value>
+	</data>
+	<data name="IsVariableBitrate" xml:space="preserve">
+		<value>Má variabilný bitrate</value>
+	</data>
+	<data name="OperatorContains" xml:space="preserve">
+		<value>Obsahuje</value>
+	</data>
+	<data name="OperatorDoesNotContain" xml:space="preserve">
+		<value>Neobsahuje</value>
+	</data>
+	<data name="OperatorEndsWith" xml:space="preserve">
+		<value>Končí na</value>
+	</data>
+	<data name="OperatorIs" xml:space="preserve">
+		<value>Je</value>
+	</data>
+	<data name="OperatorIsAtLeast" xml:space="preserve">
+		<value>Je minimálne</value>
+	</data>
+	<data name="OperatorIsAtMost" xml:space="preserve">
+		<value>Je najmenej</value>
+	</data>
+	<data name="OperatorIsEmpty" xml:space="preserve">
+		<value>Je prázdny</value>
+	</data>
+	<data name="OperatorIsInTheRange" xml:space="preserve">
+		<value>Je v rozsahu</value>
+	</data>
+	<data name="OperatorIsNot" xml:space="preserve">
+		<value>Nieje</value>
+	</data>
+	<data name="OperatorIsNotEmpty" xml:space="preserve">
+		<value>Nieje prázdny</value>
+	</data>
+	<data name="OperatorStartsWith" xml:space="preserve">
+		<value>Začína na</value>
+	</data>
+	<data name="OrgRecordingYear" xml:space="preserve">
+		<value>Orig. rok nahrania </value>
+	</data>
+	<data name="Subtracks" xml:space="preserve">
+		<value>Podskladby</value>
+	</data>
+	<data name="NoResultsAvailable" xml:space="preserve">
+		<value>Žiadne dostupné výsledky </value>
+	</data>
+	<data name="LoadTemplate" xml:space="preserve">
+		<value>Nahrať šablónu</value>
+	</data>
+	<data name="RemoveSelectedTemplate" xml:space="preserve">
+		<value>Želáte si odstrániť vybranú šablónu?</value>
+	</data>
+	<data name="SaveTemplate" xml:space="preserve">
+		<value>Uložiť šablónu</value>
+	</data>
+	<data name="SelectATemplateFromTheList" xml:space="preserve">
+		<value>Vyberte šablónu zo zoznamu nižšie</value>
+	</data>
+	<data name="TemplateNameEmpty" xml:space="preserve">
+		<value>Popis šablóny nesmie byť prázdny.</value>
+	</data>
+	<data name="TheDefaultUserCannotBeRemoved" xml:space="preserve">
+		<value>Prednastavený užívateľ nemože byť odstránený</value>
+	</data>
+	<data name="EditUser" xml:space="preserve">
+		<value>Upraviť užívateľa</value>
+	</data>
+	<data name="NewUser" xml:space="preserve">
+		<value>Nový uživateľ</value>
+	</data>
+	<data name="RemoveTheSelectedUser" xml:space="preserve">
+		<value>Odstrániť vybraného uživateľa?</value>
+	</data>
+	<data name="Exit" xml:space="preserve">
+		<value>Ukončiť</value>
+	</data>
+	<data name="Login" xml:space="preserve">
+		<value>Prihlásenie</value>
+	</data>
+	<data name="ManageUsersMenu" xml:space="preserve">
+		<value>Spravovať uživateľov...</value>
+	</data>
+	<data name="NowPlaying" xml:space="preserve">
+		<value>Práve hrá</value>
+	</data>
+	<data name="RememberMe" xml:space="preserve">
+		<value>Zapamätaj si ma</value>
+	</data>
+	<data name="New" xml:space="preserve">
+		<value>Nový</value>
+	</data>
+	<data name="PasswordsDoNotMatch" xml:space="preserve">
+		<value>Heslá nesúhlasia</value>
+	</data>
+	<data name="TagName" xml:space="preserve">
+		<value>Meno tagu</value>
+	</data>
+	<data name="TagNameMustBeUnique" xml:space="preserve">
+		<value>Meno tagu musí byť unikátne a nie prázdne</value>
+	</data>
+	<data name="SpectrogramPalettes" xml:space="preserve">
+		<value>Palety spektrogramu</value>
+	</data>
+	<data name="SpectrogramQuality" xml:space="preserve">
+		<value>Kvalita spektrogramu</value>
+	</data>
+	<data name="UntitledAlbum" xml:space="preserve">
+		<value>Neznámy album</value>
+	</data>
+	<data name="ClickF2ToRename" xml:space="preserve">
+		<value>Vyber položku a stlač F2 pre manuálne premenovanie</value>
+	</data>
+	<data name="EnterNewFilename" xml:space="preserve">
+		<value>Zadaj nové meno súboru</value>
+	</data>
+	<data name="MovingRemainingFiles" xml:space="preserve">
+		<value>Presunúť zostávajúce súbory...</value>
+	</data>
+	<data name="RippingTrack" xml:space="preserve">
+		<value>Ripovanie skladby</value>
+	</data>
+	<data name="SelectTracksToRip" xml:space="preserve">
+		<value>Vyberte skladby pre ripovanie</value>
+	</data>
+	<data name="Presets" xml:space="preserve">
+		<value>Prednastavenia</value>
+	</data>
+	<data name="NoUpdatesPerformed" xml:space="preserve">
+		<value>Žiadne aktualizácie neprebehli</value>
+	</data>
+	<data name="Playing" xml:space="preserve">
+		<value>Hrá</value>
+	</data>
+	<data name="CopyFilesMenu" xml:space="preserve">
+		<value>Kopírovať súbory...</value>
+	</data>
+	<data name="MoveFilesMenu" xml:space="preserve">
+		<value>Presunúť súbory...</value>
+	</data>
+	<data name="ProgressCopyFiles" xml:space="preserve">
+		<value>Kopírujem súbor {0}/{1}</value>
+	</data>
+	<data name="ShowAlerts" xml:space="preserve">
+		<value>Ukázať upozornenia na desktope</value>
+	</data>
+	<data name="ShowAlertsNotActive" xml:space="preserve">
+		<value>Ukázať upozornenia len ked okno Helium nieje aktívne</value>
+	</data>
+	<data name="Variables" xml:space="preserve">
+		<value>Premenné</value>
+	</data>
+	<data name="TimeOffset" xml:space="preserve">
+		<value>Časový posun</value>
+	</data>
+	<data name="OverwriteData" xml:space="preserve">
+		<value>Prepísať dáta</value>
+	</data>
+	<data name="UnknownNumberOfTracks" xml:space="preserve">
+		<value>Neznámy počet skladieb</value>
+	</data>
+	<data name="RenameFiles" xml:space="preserve">
+		<value>Premenovať súbory</value>
+	</data>
+	<data name="Scripts" xml:space="preserve">
+		<value>Skripty</value>
+	</data>
+	<data name="ScriptCompletedSuccessfully" xml:space="preserve">
+		<value>Skripty úspešne ukončené</value>
+	</data>
+	<data name="ScriptCompletedWithErrors" xml:space="preserve">
+		<value>Skripty ukončené s chybami</value>
+	</data>
+	<data name="ScriptProgressWindow" xml:space="preserve">
+		<value>Spúštanie skriptov</value>
+	</data>
+	<data name="RemoveAll" xml:space="preserve">
+		<value>Odstrániť všetko</value>
+	</data>
+	<data name="ExclusiveMode" xml:space="preserve">
+		<value>Použiť exkluzívny mód</value>
+	</data>
+	<data name="GlobalFilterWindow" xml:space="preserve">
+		<value>Globálny filter</value>
+	</data>
+	<data name="MoveRemainingFiles" xml:space="preserve">
+		<value>Presunúť zostávajúce súbory</value>
+	</data>
+	<data name="SelectItem" xml:space="preserve">
+		<value>Výber položiek</value>
+	</data>
+	<data name="EditLabel" xml:space="preserve">
+		<value>Editovať vydavateľa...</value>
+	</data>
+	<data name="ParentLabel" xml:space="preserve">
+		<value>Rodičovský vydavateľ</value>
+	</data>
+	<data name="PlaybackBuffer" xml:space="preserve">
+		<value>Buffer prehrávania (ms)</value>
+	</data>
+	<data name="AddFiles_CalculatingAlbums" xml:space="preserve">
+		<value>Prepočítavam albumy a prislúchajúce obrázky</value>
+	</data>
+	<data name="AddFiles_PrecalcArtistInfo" xml:space="preserve">
+		<value>Prepočítavam informácie o intrerprétovi </value>
+	</data>
+	<data name="TypeToFilter" xml:space="preserve">
+		<value>Napíš čo chceš filtrovať...</value>
+	</data>
+	<data name="TypeToSearch" xml:space="preserve">
+		<value>Napíš čo hľadáš...</value>
+	</data>
+	<data name="ImportDbProgress25" xml:space="preserve">
+		<value>Opravujem interprétov, obsahujúcich substopy</value>
+	</data>
+	<data name="TheActiveDatabaseCannotBeDeleted" xml:space="preserve">
+		<value>Aktívna databáza nemôže byť odstránená</value>
+	</data>
+	<data name="WouldYouLikeToDeleteTheSelectedDatabase" xml:space="preserve">
+		<value>Želáte si odstrániť vybranú databázu?</value>
+	</data>
+	<data name="AlbumRoot" xml:space="preserve">
+		<value>Vydania</value>
+	</data>
+	<data name="ArtistRoot" xml:space="preserve">
+		<value>Interpréti</value>
+	</data>
+	<data name="EntireLibrary" xml:space="preserve">
+		<value>Celá knižnica</value>
+	</data>
+	<data name="FavouriteAlbumsRoot" xml:space="preserve">
+		<value>Obľúbené albumy</value>
+	</data>
+	<data name="FavouriteArtistsRoot" xml:space="preserve">
+		<value>Obĺúbení interpréti</value>
+	</data>
+	<data name="FavouriteRoot" xml:space="preserve">
+		<value>Obľúbené</value>
+	</data>
+	<data name="FavouriteTracksRoot" xml:space="preserve">
+		<value>Obľúbené skladby</value>
+	</data>
+	<data name="FileDateRoot" xml:space="preserve">
+		<value>Dátumy súborov</value>
+	</data>
+	<data name="GenreRoot" xml:space="preserve">
+		<value>Žánre</value>
+	</data>
+	<data name="GroupingRoot" xml:space="preserve">
+		<value>Zoskupovanie</value>
+	</data>
+	<data name="LabelsRoot" xml:space="preserve">
+		<value>Vydavatelia</value>
+	</data>
+	<data name="LibraryVolumeRoot" xml:space="preserve">
+		<value>Knižnica</value>
+	</data>
+	<data name="MoodRoot" xml:space="preserve">
+		<value>Nálada</value>
+	</data>
+	<data name="PlayingHistoryRoot" xml:space="preserve">
+		<value>História prehrávania</value>
+	</data>
+	<data name="QualityRoot" xml:space="preserve">
+		<value>Kvalita</value>
+	</data>
+	<data name="RatingRoot" xml:space="preserve">
+		<value>Hodnotenia</value>
+	</data>
+	<data name="RecYearRoot" xml:space="preserve">
+		<value>Roky nahrávania</value>
+	</data>
+	<data name="ReleaseTypeRoot" xml:space="preserve">
+		<value>Typy vydaní</value>
+	</data>
+	<data name="RelYearRoot" xml:space="preserve">
+		<value>Rok vydania</value>
+	</data>
+	<data name="SeriesRoot" xml:space="preserve">
+		<value>Série</value>
+	</data>
+	<data name="SituationRoot" xml:space="preserve">
+		<value>Situácia</value>
+	</data>
+	<data name="OutputFolder" xml:space="preserve">
+		<value>Cieľový adresár</value>
+	</data>
+	<data name="ConvertingFile" xml:space="preserve">
+		<value>Konvertujem súbor</value>
+	</data>
+	<data name="ConvertFiles" xml:space="preserve">
+		<value>Konverzia súborov</value>
+	</data>
+	<data name="ConvertFilesMenu" xml:space="preserve">
+		<value>Konvertovať súbory...</value>
+	</data>
+	<data name="ConversionOptions" xml:space="preserve">
+		<value>Možnosti konverzie</value>
+	</data>
+	<data name="NormalizingTrack" xml:space="preserve">
+		<value>Normalizujem skladbu</value>
+	</data>
+	<data name="NormalizingTracks" xml:space="preserve">
+		<value>Normalizujem skladby</value>
+	</data>
+	<data name="ApplyingTags" xml:space="preserve">
+		<value>Aplikujem tagy, normalizujem a presúvam súbory</value>
+	</data>
+	<data name="CalculatingAlbumGainForFiles" xml:space="preserve">
+		<value>Počítam zosilnenie albumu a skladieb pre {0} súborov</value>
+	</data>
+	<data name="OverwriteFile" xml:space="preserve">
+		<value>Prepísať súbor</value>
+	</data>
+	<data name="RemoveFilesFromLibrary" xml:space="preserve">
+		<value>Odstrániť súbory z knižnice</value>
+	</data>
+	<data name="SkipConversion" xml:space="preserve">
+		<value>Preskočiť konverziu</value>
+	</data>
+	<data name="EditSubtracksMenu" xml:space="preserve">
+		<value>Editovať substopy...</value>
+	</data>
+	<data name="LoadCue" xml:space="preserve">
+		<value>Nahrať Cue...</value>
+	</data>
+	<data name="SubtrackEditor" xml:space="preserve">
+		<value>Editovať substopy</value>
+	</data>
+	<data name="OtherTracks" xml:space="preserve">
+		<value>Iné stopy</value>
+	</data>
+	<data name="Library_LibraryImported" xml:space="preserve">
+		<value>Knižnica bola importovaná. Helium je potrebné reštartovať. Kliknite na OK pre reštart.</value>
+	</data>
+	<data name="UserDetails" xml:space="preserve">
+		<value>Uživateľské detaily</value>
+	</data>
+	<data name="UserNameMustBeUnique" xml:space="preserve">
+		<value>Uživateľské meno musí byť unikátne</value>
+	</data>
+	<data name="ManageUsers" xml:space="preserve">
+		<value>Správa uživateľov</value>
+	</data>
+	<data name="TheActiveUserCannotBeRemoved" xml:space="preserve">
+		<value>Aktívny uživateľ nemôže byť odstránený.</value>
+	</data>
+	<data name="Tasks" xml:space="preserve">
+		<value>Úlohy</value>
+	</data>
+	<data name="Logout" xml:space="preserve">
+		<value>Odhlásiť</value>
+	</data>
+	<data name="LogoutAndRestart" xml:space="preserve">
+		<value>Želáte si odhlásiť sa a reštartovať?</value>
+	</data>
+	<data name="LimitTo" xml:space="preserve">
+		<value>Obmedziť na</value>
+	</data>
+	<data name="SelectedBy" xml:space="preserve">
+		<value>vybrané</value>
+	</data>
+	<data name="SearchResults" xml:space="preserve">
+		<value>Výsledky vyhľadávania</value>
+	</data>
+	<data name="Gigabytes" xml:space="preserve">
+		<value>Giga bytes</value>
+	</data>
+	<data name="HighestRating" xml:space="preserve">
+		<value>Najvyššie hodnotenie</value>
+	</data>
+	<data name="Hours" xml:space="preserve">
+		<value>Hodiny</value>
+	</data>
+	<data name="LeastPlayed" xml:space="preserve">
+		<value>Najmenej hrané</value>
+	</data>
+	<data name="LowestRating" xml:space="preserve">
+		<value>Najnižšie hodnotenie</value>
+	</data>
+	<data name="Megabytes" xml:space="preserve">
+		<value>Mega bytes</value>
+	</data>
+	<data name="Minutes" xml:space="preserve">
+		<value>Minúty</value>
+	</data>
+	<data name="MostPlayed" xml:space="preserve">
+		<value>Najhranejšie</value>
+	</data>
+	<data name="Random" xml:space="preserve">
+		<value>Náhodne</value>
+	</data>
+	<data name="Songs" xml:space="preserve">
+		<value>Skladby</value>
+	</data>
+	<data name="CouldNotConnectToLastFm" xml:space="preserve">
+		<value>Neviem sa prihlásiť do Last.fm. Skontrolujte prosím prihlasovacie údaje.</value>
+	</data>
+	<data name="NavigateUp" xml:space="preserve">
+		<value>Hore...</value>
+	</data>
+	<data name="EditSmartPlaylist" xml:space="preserve">
+		<value>Editovať smart playlist...</value>
+	</data>
+	<data name="NewSmartPlaylist" xml:space="preserve">
+		<value>Nový smart playlist...</value>
+	</data>
+	<data name="SmartPlaylist" xml:space="preserve">
+		<value>Smart playlist</value>
+	</data>
+	<data name="SmartPlaylists" xml:space="preserve">
+		<value>Smart playlisty</value>
+	</data>
+	<data name="PlaylistName" xml:space="preserve">
+		<value>Meno playlistu</value>
+	</data>
+	<data name="ListeningHistory" xml:space="preserve">
+		<value>História počúvania</value>
+	</data>
+	<data name="RemoveSelectedSyncItem" xml:space="preserve">
+		<value>Odstrániť vybrané položky?</value>
+	</data>
+	<data name="Items" xml:space="preserve">
+		<value>Položky</value>
+	</data>
+	<data name="OfTotal" xml:space="preserve">
+		<value>z celkovo</value>
+	</data>
+	<data name="Shuffle" xml:space="preserve">
+		<value>Premiešať</value>
+	</data>
+	<data name="Download" xml:space="preserve">
+		<value>Stiahnúť</value>
+	</data>
+	<data name="Copy" xml:space="preserve">
+		<value>Kopírovať</value>
+	</data>
+	<data name="Cut" xml:space="preserve">
+		<value>Vybrať</value>
+	</data>
+	<data name="Paste" xml:space="preserve">
+		<value>Vložiť</value>
+	</data>
+	<data name="Genres" xml:space="preserve">
+		<value>Žánre</value>
+	</data>
+	<data name="PlayedThisDay" xml:space="preserve">
+		<value>Dnes prehrané</value>
+	</data>
+	<data name="Next" xml:space="preserve">
+		<value>Ďalej</value>
+	</data>
+	<data name="Prev" xml:space="preserve">
+		<value>Predchádzajúci</value>
+	</data>
+	<data name="SelectDate" xml:space="preserve">
+		<value>Vybrať dátum</value>
+	</data>
+	<data name="NavigationPaneFullWidth" xml:space="preserve">
+		<value>Plná šírka navigačného panela</value>
+	</data>
+	<data name="AutoEnqueue" xml:space="preserve">
+		<value>Auto poradie</value>
+	</data>
+	<data name="AutoEnqueueEnabled" xml:space="preserve">
+		<value>Auto poradie povolené</value>
+	</data>
+	<data name="AutoEnqueueOptionsMenu" xml:space="preserve">
+		<value>Možnosti auto poradia...</value>
+	</data>
+	<data name="PreviousTracksInPlayQueue" xml:space="preserve">
+		<value>predchádzajúcich skladieb v poradí prehrávania</value>
+	</data>
+	<data name="UpcomingTracksInPlayQueue" xml:space="preserve">
+		<value>následujúcich skladieb v poradí prehrávania</value>
+	</data>
+	<data name="UpdateLibrary_RemoveUnavailableRoots" xml:space="preserve">
+		<value>Odstrániť nedostupné koreňové cesty</value>
+	</data>
+	<data name="CenterActiveTrack" xml:space="preserve">
+		<value>Centrovať aktívnu skladbu v Poradí prehrávania</value>
+	</data>
+	<data name="EnableWebservice" xml:space="preserve">
+		<value>Povoliť webovú službu</value>
+	</data>
+	<data name="Webservice" xml:space="preserve">
+		<value>Webová služba</value>
+	</data>
+	<data name="WebserviceStarted" xml:space="preserve">
+		<value>Webová služba spustená na porte: {0}</value>
+	</data>
+	<data name="NumberOfItemsDiffer" xml:space="preserve">
+		<value>Počet skladieb je rozdielny. Zdrojové skladby: {0}, stiahnuté skladby:{1}</value>
+	</data>
+	<data name="DownloadInformation" xml:space="preserve">
+		<value>Stiahnutie informácií</value>
+	</data>
+	<data name="Duration" xml:space="preserve">
+		<value>Trvanie</value>
+	</data>
+	<data name="NoOptionsAvailable" xml:space="preserve">
+		<value>Niesú dostupné žiadne možnosti</value>
+	</data>
+	<data name="NoSmartPlaylistSelected" xml:space="preserve">
+		<value>Nebol vybraný žiadny smart playlist</value>
+	</data>
+	<data name="SelectSmartPlaylist" xml:space="preserve">
+		<value>Vybraný smart playlist</value>
+	</data>
+	<data name="ShowSortOrderValues" xml:space="preserve">
+		<value>Ukáž hodnoty triedenia poradia</value>
+	</data>
+	<data name="Stop" xml:space="preserve">
+		<value>Stop</value>
+	</data>
+	<data name="CompareBy" xml:space="preserve">
+		<value>Porovnať s</value>
+	</data>
+	<data name="MatchRating" xml:space="preserve">
+		<value>Hodnotenie zhody</value>
+	</data>
+	<data name="SortOrder" xml:space="preserve">
+		<value>Poradie triedenia</value>
+	</data>
+	<data name="EqualInGroup" xml:space="preserve">
+		<value>Rovnaká skupina:</value>
+	</data>
+	<data name="RemoveCheckmarked" xml:space="preserve">
+		<value>Odstrániť označené</value>
+	</data>
+	<data name="RenamingFiles" xml:space="preserve">
+		<value>Premenovanie súborov</value>
+	</data>
+	<data name="CalculatedBitrate" xml:space="preserve">
+		<value>Vypočítana bitrate</value>
+	</data>
+	<data name="CBR" xml:space="preserve">
+		<value>Konštantná bitrate</value>
+	</data>
+	<data name="ContainsDoubledId3v1Tags" xml:space="preserve">
+		<value>Má zdvojené Id3v1 tagy</value>
+	</data>
+	<data name="ArtistTitle" xml:space="preserve">
+		<value>Interprét - názov</value>
+	</data>
+	<data name="Count" xml:space="preserve">
+		<value>Počet</value>
+	</data>
+	<data name="Emphasis" xml:space="preserve">
+		<value>Emphasis</value>
+	</data>
+	<data name="EncoderGuessed" xml:space="preserve">
+		<value>Enkóder (odhad)</value>
+	</data>
+	<data name="EncodingType" xml:space="preserve">
+		<value>Typ enkódovania</value>
+	</data>
+	<data name="EndPosition" xml:space="preserve">
+		<value>Koncová pozícia</value>
+	</data>
+	<data name="ErrorPosition" xml:space="preserve">
+		<value>Pozícia konca</value>
+	</data>
+	<data name="ErrorSummary" xml:space="preserve">
+		<value>Zhrnutie chýb</value>
+	</data>
+	<data name="FirstLocatedSync" xml:space="preserve">
+		<value>Prvý najdený sync</value>
+	</data>
+	<data name="HasBadLeadingData" xml:space="preserve">
+		<value>Má chybné úvodné dáta</value>
+	</data>
+	<data name="PercentOfTotal" xml:space="preserve">
+		<value>Percent z celkovo</value>
+	</data>
+	<data name="PlayFromThisPosition" xml:space="preserve">
+		<value>Prehrať od tejto pozície</value>
+	</data>
+	<data name="RemoveApeTag" xml:space="preserve">
+		<value>Odstrániť Ape tag</value>
+	</data>
+	<data name="RemoveDoubleId3v1Tags" xml:space="preserve">
+		<value>Odstrániť dvojité Id3v1 tagy</value>
+	</data>
+	<data name="RemoveFile" xml:space="preserve">
+		<value>Odstrániť súbor</value>
+	</data>
+	<data name="RemoveLeadingBytes" xml:space="preserve">
+		<value>Odstrániť uvodné bity</value>
+	</data>
+	<data name="StartPosition" xml:space="preserve">
+		<value>Začiatočná pozícia</value>
+	</data>
+	<data name="ClickToRestoreOriginalData" xml:space="preserve">
+		<value>Klikni pre obnovenie originálnych dát</value>
+	</data>
+	<data name="Player" xml:space="preserve">
+		<value>Prehrávač</value>
+	</data>
+	<data name="SelectScriptTitle" xml:space="preserve">
+		<value>Výber skriptu na spustenie</value>
+	</data>
+	<data name="ProgressCopyTitle" xml:space="preserve">
+		<value>Kopírujem súbory</value>
+	</data>
+	<data name="ProgressMoveFiles" xml:space="preserve">
+		<value>Presúvam súbor {0}/{1}</value>
+	</data>
+	<data name="ProgressMoveTitle" xml:space="preserve">
+		<value>Presúvam súbory</value>
+	</data>
+	<data name="SelectDestinationFolder" xml:space="preserve">
+		<value>Výber cieľového adresára</value>
+	</data>
+	<data name="ApplyChanges" xml:space="preserve">
+		<value>Aplikovať zmeny</value>
+	</data>
+	<data name="ToggleEditMode" xml:space="preserve">
+		<value>Prepnúť editovací mód</value>
+	</data>
+	<data name="Opacity" xml:space="preserve">
+		<value>Priehľadnosť</value>
+	</data>
+	<data name="PathsRemapped" xml:space="preserve">
+		<value>Cesty boli zmenené. Hélium je nutné reštartovať.</value>
+	</data>
+	<data name="DownloadAlbumPictures" xml:space="preserve">
+		<value>Stiahnutie obrázkov albumov</value>
+	</data>
+	<data name="DownloadAlbumPicturesMenu" xml:space="preserve">
+		<value>Stiahnúť obrázky albumov...</value>
+	</data>
+	<data name="Select" xml:space="preserve">
+		<value>Výber</value>
+	</data>
+	<data name="SelectAllWithoutPictures" xml:space="preserve">
+		<value>Vybrať všetky bez obrázkov</value>
+	</data>
+	<data name="DownloadArtistPictures" xml:space="preserve">
+		<value>Sťahovanie obrázkov interprétov</value>
+	</data>
+	<data name="DownloadArtistPicturesMenu" xml:space="preserve">
+		<value>Stiahnúť obrázky interprétov...</value>
+	</data>
+	<data name="SampleRate" xml:space="preserve">
+		<value>Sample rate</value>
+	</data>
+	<data name="Extract" xml:space="preserve">
+		<value>Extrahovať</value>
+	</data>
+	<data name="Visual" xml:space="preserve">
+		<value>Vizuál</value>
+	</data>
+	<data name="ExtractArtistDashTitle" xml:space="preserve">
+		<value>Extrahovať interprét-názov</value>
+	</data>
+	<data name="ExtractArtistSlashTitle" xml:space="preserve">
+		<value>Extrahovať interprét/názov</value>
+	</data>
+	<data name="ExtractMultipleArtists" xml:space="preserve">
+		<value>Extrahovať viac interprétov</value>
+	</data>
+	<data name="ExtractTitleDashArtist" xml:space="preserve">
+		<value>Extrahovať názov-interprét</value>
+	</data>
+	<data name="ExtractTitleRemix" xml:space="preserve">
+		<value>Extrahovať názov (remix)</value>
+	</data>
+	<data name="ExtractTitleSlashArtist" xml:space="preserve">
+		<value>Extrahovať názov/interprét</value>
+	</data>
+	<data name="ExtractTitleSubtitle" xml:space="preserve">
+		<value>Extrahovať názov (podnázov)</value>
+	</data>
+	<data name="ArtistSortOrder" xml:space="preserve">
+		<value>Poradie triedenia interprétov</value>
+	</data>
+	<data name="CapitalizationCapitalizeHelperText" xml:space="preserve">
+		<value>Zmeň následovné polia na veľké písmená keď je Capitalizer aktívny</value>
+	</data>
+	<data name="Lowercase" xml:space="preserve">
+		<value>Malé písmo</value>
+	</data>
+	<data name="Uppercase" xml:space="preserve">
+		<value>Veľké písmo</value>
+	</data>
+	<data name="CustomCapitalizationHelperText" xml:space="preserve">
+		<value>Vlastný zoznam kapitáliek (každé slovo do nového riadku)</value>
+	</data>
+	<data name="Delete" xml:space="preserve">
+		<value>Odstrániť</value>
+	</data>
+	<data name="Original" xml:space="preserve">
+		<value>Originál</value>
+	</data>
+	<data name="OriginalCaseDoesNotMatter" xml:space="preserve">
+		<value>Originálna hodnota nieje case sensitive a bude zobrazená malým písmom</value>
+	</data>
+	<data name="Replacement" xml:space="preserve">
+		<value>Náhrada</value>
+	</data>
+	<data name="CustomCapitalization" xml:space="preserve">
+		<value>Vlastná kapitalizácia</value>
+	</data>
+	<data name="WordReplacement" xml:space="preserve">
+		<value>Náhrada slov</value>
+	</data>
+	<data name="WordReplacerHelperText" xml:space="preserve">
+		<value>Definície náhrady slov</value>
+	</data>
+	<data name="TitleRoot" xml:space="preserve">
+		<value>Názvy</value>
+	</data>
+	<data name="ArtistFirstLetter" xml:space="preserve">
+		<value>Prvé písmeno interpréta</value>
+	</data>
+	<data name="BpmCalculatorHelper" xml:space="preserve">
+		<value>Klikni play pre spustenie prehrávania a potom tlačítko Beat pre zvýsenie počtu beatov.</value>
+	</data>
+	<data name="TappedBpm" xml:space="preserve">
+		<value>Tapped Bpm</value>
+	</data>
+	<data name="DownloadPictureTitle" xml:space="preserve">
+		<value>Stiahnutie obrázku</value>
+	</data>
+	<data name="Search" xml:space="preserve">
+		<value>Vyhľadať</value>
+	</data>
+	<data name="CustomFieldsReleaseTypes" xml:space="preserve">
+		<value>Vlastné polia &amp; typy vydaní </value>
+	</data>
+	<data name="CustomFields" xml:space="preserve">
+		<value>Vlastné polia</value>
+	</data>
+	<data name="ExtractingFile" xml:space="preserve">
+		<value>Extrahujem súbor</value>
+	</data>
+	<data name="Minimize" xml:space="preserve">
+		<value>Minimalizovať</value>
+	</data>
+	<data name="MultipleArtists" xml:space="preserve">
+		<value>Viac interprétov</value>
+	</data>
+	<data name="TrackNormalization" xml:space="preserve">
+		<value>Zosilnenie skladby</value>
+	</data>
+	<data name="NormalizationMode" xml:space="preserve">
+		<value>Mód zosilnenia hlasitosti</value>
+	</data>
+	<data name="NormalizeFiles" xml:space="preserve">
+		<value>Aplikovanie zosilnenia hlasitosti</value>
+	</data>
+	<data name="NormalizeFilesMenu" xml:space="preserve">
+		<value>Aplikovať zosilnenie hlasitosti...</value>
+	</data>
+	<data name="NormalizingFile" xml:space="preserve">
+		<value>Aplikujem zosilnenie</value>
+	</data>
+	<data name="CalculateAlbumGain" xml:space="preserve">
+		<value>Výpočet zosilnenia albumu a skladby</value>
+	</data>
+	<data name="CalculateTrackGain" xml:space="preserve">
+		<value>Výpočet zosilnenia skladby</value>
+	</data>
+	<data name="CalculatingGainForFile" xml:space="preserve">
+		<value>Výpočet zosilnenia</value>
+	</data>
+	<data name="VolumeGain" xml:space="preserve">
+		<value>Zosilnenie hlasitosti</value>
+	</data>
+	<data name="DeleteSourceFilesAfterConversion" xml:space="preserve">
+		<value>Odstrániť zdrojové súbory po konverzii</value>
+	</data>
+	<data name="HowShouldConflictingFilenamesBeHandled" xml:space="preserve">
+		<value>Ako sa majú vyriešiť konfliktné názvy súborov?</value>
+	</data>
+	<data name="To" xml:space="preserve">
+		<value>to</value>
+	</data>
+	<data name="UseGlobalHotkeys" xml:space="preserve">
+		<value>Použi globálne "horúce klávesy"</value>
+	</data>
+	<data name="UseSortOrder" xml:space="preserve">
+		<value>Použi triedenie poradia</value>
+	</data>
+	<data name="WordsUsedForAutoSortOrder" xml:space="preserve">
+		<value>Slová používané pre automatické triedenie poradia</value>
+	</data>
+	<data name="CalcMusicKey" xml:space="preserve">
+		<value>Výpočet kľúča</value>
+	</data>
+	<data name="te_initialkey" xml:space="preserve">
+		<value>Úodný kľúč</value>
+	</data>
+	<data name="Switch" xml:space="preserve">
+		<value>Vymeniť</value>
+	</data>
+	<data name="SwitchWithAlbum" xml:space="preserve">
+		<value>Vymeniť s albumom</value>
+	</data>
+	<data name="SwitchWithArtist" xml:space="preserve">
+		<value>Vymeniť s interprétom</value>
+	</data>
+	<data name="SwitchWithRemix" xml:space="preserve">
+		<value>Vymeniť s remixom</value>
+	</data>
+	<data name="SwitchWithSubtitle" xml:space="preserve">
+		<value>Vymeniť s podnázvom</value>
+	</data>
+	<data name="SwitchWithTitle" xml:space="preserve">
+		<value>Vymeniť s názvom</value>
+	</data>
+	<data name="InitialKey" xml:space="preserve">
+		<value>Úvodný kľúč</value>
+	</data>
+	<data name="General" xml:space="preserve">
+		<value>Všeobecné</value>
+	</data>
+	<data name="Appearances" xml:space="preserve">
+		<value>Hosťovania</value>
+	</data>
+	<data name="ElapsedTime" xml:space="preserve">
+		<value>Uplynulý čas</value>
+	</data>
+	<data name="DisplayName" xml:space="preserve">
+		<value>Zobrazované meno</value>
+	</data>
+	<data name="MultipleArtistsCommandHelperText" xml:space="preserve">
+		<value>Každá položka v zozname bude ošetrená ako príkaz, použitý pri delení viacerých interprétov. Ak to bude potrebné, tak originálny text bude nahradený náhradným textom.</value>
+	</data>
+	<data name="UpdatingDatabaseFile" xml:space="preserve">
+		<value>Aktualizujem databázu, súbor</value>
+	</data>
+	<data name="LeastRecentlyAdded" xml:space="preserve">
+		<value>Najmenej aktuálne pridané</value>
+	</data>
+	<data name="LeastRecentlyPlayed" xml:space="preserve">
+		<value>Najmenej aktuálne prehrané</value>
+	</data>
+	<data name="MostRecentlyAdded" xml:space="preserve">
+		<value>Najviac aktuálne pridané</value>
+	</data>
+	<data name="MostRecentlyPlayed" xml:space="preserve">
+		<value>Najviac aktuálne prehrané</value>
+	</data>
+	<data name="LastPlayedTime" xml:space="preserve">
+		<value>Posledný čas prehratia</value>
+	</data>
+	<data name="Plays" xml:space="preserve">
+		<value>Prehratí</value>
+	</data>
+	<data name="LastThirtyDaysPlays" xml:space="preserve">
+		<value>Prehrané za posledných 30 dní</value>
+	</data>
+	<data name="AutomaticallyMaintainAtLeast" xml:space="preserve">
+		<value>Automaticky zachovať minimálne</value>
+	</data>
+	<data name="AutomaticallyRetainAtMost" xml:space="preserve">
+		<value>Autoamticky uchovať najviac</value>
+	</data>
+	<data name="SyncNumber" xml:space="preserve">
+		<value>Počet synchronizácií</value>
+	</data>
+	<data name="TotalSyncs" xml:space="preserve">
+		<value>Celkovo synchronizácií</value>
+	</data>
+	<data name="Refine" xml:space="preserve">
+		<value>Vyčistit</value>
+	</data>
+	<data name="PlaybackDeviceChanged" xml:space="preserve">
+		<value>Parametre prehrávača boli zmenené. Helium sa potrebuje reštartovať aby sa mohli zmeny použiť. Kliknite na OK aby sa Helium mohol reštartovať.</value>
+	</data>
+	<data name="ShowVisualisations" xml:space="preserve">
+		<value>Ukáž vizualizácie</value>
+	</data>
+	<data name="SqlServerBackupRootInfo" xml:space="preserve">
+		<value>Ubezpečte sa prosím, že účet na Sql serveri má prístup do adresára, kde je uložený záložný súbor. </value>
+	</data>
+	<data name="DatabaseIsActive" xml:space="preserve">
+		<value>Databáza, ktorú sa snažíte obnoviť, sa aktuálne používa. Vyberte prosím iný názov pre obnovenie databázy.</value>
+	</data>
+	<data name="RestoreOverwriteWarn" xml:space="preserve">
+		<value>Upozornenie: Existujúce nastavenia, obrázky a skripty budú počas tejto operácie prepísané. Pre pokračovanie kliknite na OK.</value>
+	</data>
+	<data name="SpectrogramInfo" xml:space="preserve">
+		<value>Kvalita bude nastavená pri ďalšom renderovaní spektrogramu. Čím lepšia kvalita bude nastavená, tým viac času a pamäte sa použije. Dávajte pozor pri použití extrémnych nastavení.</value>
+	</data>
+	<data name="ExtractTitleRemixSubtitle" xml:space="preserve">
+		<value>Extrahovať názov (remix)(podnázov)</value>
+	</data>
+	<data name="PendingChangesWarning" xml:space="preserve">
+		<value>Niektoré zmeny stále čakajú. Kliknite na tlačítko Aplikovať, aby sa zmeny uložili do knižnice a súborov.</value>
+	</data>
+	<data name="RemapPathTitle" xml:space="preserve">
+		<value>Zmena cesty</value>
+	</data>
+	<data name="FillTop" xml:space="preserve">
+		<value>Vyplň vrch</value>
+	</data>
+	<data name="BlurWarning" xml:space="preserve">
+		<value>Nezabudnite, že pri použití blur renderovania môže byť ovplyvnený výkon.</value>
+	</data>
+	<data name="FillAboveCenter" xml:space="preserve">
+		<value>Vyplň nad stredom</value>
+	</data>
+	<data name="FillBelowCenter" xml:space="preserve">
+		<value>Vyplň pod stredom</value>
+	</data>
+	<data name="FillBottom" xml:space="preserve">
+		<value>Vyplň spodok</value>
+	</data>
+	<data name="BackgroundArtistsOptions" xml:space="preserve">
+		<value>Pozadie interpréta</value>
+	</data>
+	<data name="ViewImage" xml:space="preserve">
+		<value>Zobraz obrázok</value>
+	</data>
+	<data name="Views" xml:space="preserve">
+		<value>Prehľady</value>
+	</data>
+	<data name="DockInNowPlayingView" xml:space="preserve">
+		<value>Dock v prehľade prehrávania</value>
+	</data>
+	<data name="ShowInVisualizationsView" xml:space="preserve">
+		<value>Ukázať vo vizualizačnom pohľade</value>
+	</data>
+	<data name="VisualizationView" xml:space="preserve">
+		<value>Vizualizačný pohľad</value>
+	</data>
+	<data name="ShowVisualPositionBar" xml:space="preserve">
+		<value>Zobraz pozíciu prehrávania graficky</value>
+	</data>
+	<data name="TileByX" xml:space="preserve">
+		<value>Vyplniť obraz horizontálne</value>
+	</data>
+	<data name="TileByXy" xml:space="preserve">
+		<value>Vyplniť obraz</value>
+	</data>
+	<data name="TileHalf" xml:space="preserve">
+		<value>Vyplniť obraz horizontálne (použiť plnú výšku)</value>
+	</data>
+	<data name="DoNotShowAgain" xml:space="preserve">
+		<value>Znovu nezobrazovať</value>
+	</data>
+	<data name="Restore" xml:space="preserve">
+		<value>Obnoviť</value>
+	</data>
+	<data name="StartVisDlg" xml:space="preserve">
+		<value>Spustiť vizualizáciu</value>
+	</data>
+	<data name="Days" xml:space="preserve">
+		<value>Dni</value>
+	</data>
+	<data name="Months" xml:space="preserve">
+		<value>Mesiace</value>
+	</data>
+	<data name="Weeks" xml:space="preserve">
+		<value>Týždne</value>
+	</data>
+	<data name="Name" xml:space="preserve">
+		<value>Názov</value>
+	</data>
+	<data name="Move" xml:space="preserve">
+		<value>Presun</value>
+	</data>
+	<data name="CopyMenu" xml:space="preserve">
+		<value>Kopírovať...</value>
+	</data>
+	<data name="MoveMenu" xml:space="preserve">
+		<value>Presunúť...</value>
+	</data>
+	<data name="RenameMenu" xml:space="preserve">
+		<value>Premenovať...</value>
+	</data>
+	<data name="RemoveMenu" xml:space="preserve">
+		<value>Odstrániť...</value>
+	</data>
+	<data name="ImportNeonCommand" xml:space="preserve">
+		<value>Importovať databázu</value>
+	</data>
+	<data name="OptimizeCommand" xml:space="preserve">
+		<value>Optimalizovať databázu</value>
+	</data>
+	<data name="VisualizationsWarningMessage" xml:space="preserve">
+		<value>Ste pripravený spustiť vyzualizačný plug-in vytvorený treťou stranou.
+
+Chceme len upozorniť, že vyzualizácie vytvorené inou spoločnosťou ako Imploded Software môžu na roznych počítačoch fungovať rozdielne.
+Visualizácie tiež môžu vyžadovať špecifickú podporu, napríklad OpenGl a/alebo rôzne verzie DirectX/Direct-3D.
+Tieto podmienky môžu generovať nestability alebo pády programu.
+
+Želáte si aj napriek tomu pokračovať?</value>
+	</data>
+	<data name="ClearPlayQueue" xml:space="preserve">
+		<value>Vyčistiť Poradie prehrávania</value>
+	</data>
+	<data name="AddedTrends" xml:space="preserve">
+		<value>Pridané trendy</value>
+	</data>
+	<data name="FiletypeTrends" xml:space="preserve">
+		<value>Súbory trendov</value>
+	</data>
+	<data name="InTheLast" xml:space="preserve">
+		<value>V posledných</value>
+	</data>
+	<data name="NotInTheLast" xml:space="preserve">
+		<value>Nie v posledných</value>
+	</data>
+	<data name="PlayingTrends" xml:space="preserve">
+		<value>Trendy prehrávania</value>
+	</data>
+	<data name="EqualizerActive" xml:space="preserve">
+		<value>Ekvalizér je aktívny</value>
+	</data>
+	<data name="BrowseFolderInMe" xml:space="preserve">
+		<value>Prehliadať adresár v Hudobnom prehliadači</value>
+	</data>
+	<data name="AddToLibrary" xml:space="preserve">
+		<value>Pridať do knižnice</value>
+	</data>
+	<data name="Command" xml:space="preserve">
+		<value>Príkaz</value>
+	</data>
+	<data name="Converter" xml:space="preserve">
+		<value>Konvertor</value>
+	</data>
+	<data name="DefaultTagEditor" xml:space="preserve">
+		<value>Defaultný editor tagov</value>
+	</data>
+	<data name="Key" xml:space="preserve">
+		<value>Kľúč</value>
+	</data>
+	<data name="PlayNow" xml:space="preserve">
+		<value>Prehrať teraz</value>
+	</data>
+	<data name="QueueLast" xml:space="preserve">
+		<value>Zaradiť na koniec</value>
+	</data>
+	<data name="QueueNext" xml:space="preserve">
+		<value>Zaradiť ako ďalšie</value>
+	</data>
+	<data name="RunScript" xml:space="preserve">
+		<value>Spustiť skript</value>
+	</data>
+	<data name="Shortcuts" xml:space="preserve">
+		<value>Skratky</value>
+	</data>
+	<data name="Splitter" xml:space="preserve">
+		<value>Rozdeľovač</value>
+	</data>
+	<data name="TagToFilename" xml:space="preserve">
+		<value>Tag do názvu súboru</value>
+	</data>
+	<data name="ArtistsView" xml:space="preserve">
+		<value>Prehľad interprétov</value>
+	</data>
+	<data name="GenresView" xml:space="preserve">
+		<value>Prehľad žánrov</value>
+	</data>
+	<data name="LabelsView" xml:space="preserve">
+		<value>Prehľad vydavateľov</value>
+	</data>
+	<data name="PlaylistsView" xml:space="preserve">
+		<value>Prehľad playlistov</value>
+	</data>
+	<data name="ReleasesView" xml:space="preserve">
+		<value>Prehľad vydaní</value>
+	</data>
+	<data name="StatisticsView" xml:space="preserve">
+		<value>Prehľad štatistík</value>
+	</data>
+	<data name="TracksView" xml:space="preserve">
+		<value>Prehľad skladieb</value>
+	</data>
+	<data name="YearsView" xml:space="preserve">
+		<value>Prehľad rokov</value>
+	</data>
+	<data name="Reload" xml:space="preserve">
+		<value>Obnoviť</value>
+	</data>
+	<data name="Import_InvalidNeonDatabase" xml:space="preserve">
+		<value>Vybraná databáza nieje platnou Helium databázou.</value>
+	</data>
+	<data name="Import" xml:space="preserve">
+		<value>Import</value>
+	</data>
+	<data name="EqOptions" xml:space="preserve">
+		<value>Moznosti ekvalizéra</value>
+	</data>
+	<data name="ImportDbProgress25_Neon" xml:space="preserve">
+		<value>Importujem cesty pridávania</value>
+	</data>
+	<data name="ImportDbProgress26_Neon" xml:space="preserve">
+		<value>Importujem adresár smart playlistov </value>
+	</data>
+	<data name="ImportDbProgress27_Neon" xml:space="preserve">
+		<value>Importujem smart playlisty</value>
+	</data>
+	<data name="ImportDbProgress28_Neon" xml:space="preserve">
+		<value>Importujem texty</value>
+	</data>
+	<data name="OpenPort" xml:space="preserve">
+		<value>Otvoriť port vo Windows firewall </value>
+	</data>
+	<data name="Stat_OneMonthAgo" xml:space="preserve">
+		<value>pred mesiacom...</value>
+	</data>
+	<data name="Stat_OneWeekAgo" xml:space="preserve">
+		<value>pred týždňom</value>
+	</data>
+	<data name="Stat_OneYearAgo" xml:space="preserve">
+		<value>pred rokom...</value>
+	</data>
+	<data name="Stat_XMonthsAgo" xml:space="preserve">
+		<value>pred {0} mesiacom/mi...</value>
+	</data>
+	<data name="Stat_XWeeksAgo" xml:space="preserve">
+		<value>pred {0} týždňom/ami...</value>
+	</data>
+	<data name="Stat_XYearsAgo" xml:space="preserve">
+		<value>pred {0} rokom/mi...</value>
+	</data>
+	<data name="UserColumns" xml:space="preserve">
+		<value>Vlastné stĺpce</value>
+	</data>
+	<data name="FontSize" xml:space="preserve">
+		<value>Veľkosť písma</value>
+	</data>
+	<data name="FontSizeChanged" xml:space="preserve">
+		<value>Globálna veľkosť písma bola zmenená a Helium je potrebné reštartovať.
+Po kliknutí na OK sa Helium reštartuje.</value>
+	</data>
+	<data name="Normal" xml:space="preserve">
+		<value>Normál</value>
+	</data>
+	<data name="CustomColumns" xml:space="preserve">
+		<value>Vlastné stĺpce</value>
+	</data>
+	<data name="CardView" xml:space="preserve">
+		<value>Karty</value>
+	</data>
+	<data name="Email" xml:space="preserve">
+		<value>Email</value>
+	</data>
+	<data name="FullName" xml:space="preserve">
+		<value>Celé meno</value>
+	</data>
+	<data name="GetPremium" xml:space="preserve">
+		<value>Získať premium verziu</value>
+	</data>
+	<data name="GetPremiumInformation" xml:space="preserve">
+		<value>Viac informácií o premium verzii</value>
+	</data>
+	<data name="LicenseKey" xml:space="preserve">
+		<value>Licenčný kľúč</value>
+	</data>
+	<data name="Purchase" xml:space="preserve">
+		<value>Zakúpiť</value>
+	</data>
+	<data name="ReadMore" xml:space="preserve">
+		<value>Čítať viac</value>
+	</data>
+	<data name="RegisterHelium" xml:space="preserve">
+		<value>Helium registrácia</value>
+	</data>
+	<data name="RegisterHeliumTitle" xml:space="preserve">
+		<value>Zaregistrujte si svoju kopiu programu Helium</value>
+	</data>
+	<data name="UseAlbumGain" xml:space="preserve">
+		<value>Použiť zosilnenie albumu</value>
+	</data>
+	<data name="UseTrackGain" xml:space="preserve">
+		<value>Použit zosilnenie skladby</value>
+	</data>
+	<data name="ReplayGain" xml:space="preserve">
+		<value>ReplayGain</value>
+	</data>
+	<data name="UseRgWhenEqIsActive" xml:space="preserve">
+		<value>Použiť ReplayGain keď je aktívny ekvalizér (obísť predzosilnenie)</value>
+	</data>
+	<data name="CollapseHeader" xml:space="preserve">
+		<value>Zatvoriť hlavičku</value>
+	</data>
+	<data name="ExpandHeader" xml:space="preserve">
+		<value>Otvoriť hlavičku</value>
+	</data>
+	<data name="SplitView" xml:space="preserve">
+		<value>Delený pohľad</value>
+	</data>
+	<data name="Thumbnails" xml:space="preserve">
+		<value>Náhľady</value>
+	</data>
+	<data name="AllTracks" xml:space="preserve">
+		<value>Všetky skladby</value>
+	</data>
+	<data name="UpgradeVersionTitle" xml:space="preserve">
+		<value>Vylepšite si Helium Free na Helium Premium!</value>
+	</data>
+	<data name="LimitedInFree" xml:space="preserve">
+		<value>Nástroj je vo verzii zdarma limitovaný na 20 položiek</value>
+	</data>
+	<data name="ChangeImagePathMessage" xml:space="preserve">
+		<value>Zmena cesty obrázkovej cache si vyžaduje reštartovanie programu.
+Želáte si pokračovať?</value>
+	</data>
+	<data name="OverwritePictures" xml:space="preserve">
+		<value>Prepísať existujúce obrázky</value>
+	</data>
+	<data name="NoGrouping" xml:space="preserve">
+		<value>Bez zlučovania</value>
+	</data>
+	<data name="CustomPictureName" xml:space="preserve">
+		<value>Vlastné meno</value>
+	</data>
+	<data name="SelectedFiles" xml:space="preserve">
+		<value>Vybrané súbory</value>
+	</data>
+	<data name="SelectFiles" xml:space="preserve">
+		<value>Výber súborov</value>
+	</data>
+	<data name="AlbumPictureNameFormat" xml:space="preserve">
+		<value>Formát mena obrázku albumu</value>
+	</data>
+	<data name="Codes" xml:space="preserve">
+		<value>Kódy</value>
+	</data>
+	<data name="TracksPlayed" xml:space="preserve">
+		<value>prehraných skladieb</value>
+	</data>
+	<data name="AlbumPicturePath" xml:space="preserve">
+		<value>Cesta pre obrázky albumov</value>
+	</data>
+	<data name="ArtistPicturePath" xml:space="preserve">
+		<value>Cesta pre obrázky interprétov</value>
+	</data>
+	<data name="ImportingData" xml:space="preserve">
+		<value>Importujem dáta</value>
+	</data>
+	<data name="TheActiveDatabaseIsNotEmpty" xml:space="preserve">
+		<value>Aktívna databáza nieje prázdna!</value>
+	</data>
+	<data name="DoNotUseRg" xml:space="preserve">
+		<value>Nepoužiť ReplayGain</value>
+	</data>
+	<data name="ChangeImagePathTitle" xml:space="preserve">
+		<value>Zmena obrázkovej cache</value>
+	</data>
+	<data name="ImageCacheFolder" xml:space="preserve">
+		<value>Adresár obrázkovej cache</value>
+	</data>
+	<data name="DAT_ScriptExecuted" xml:space="preserve">
+		<value>Vybraný skript prebehol v poriadku</value>
+	</data>
+	<data name="InvalidDataEntered" xml:space="preserve">
+		<value>Vložené neplatné dáta.
+Nezabudnite, že všetky dáta sú citlivé na veľkosť písma a musia byť zadané presne tak ako vám boli zaslané.</value>
+	</data>
+	<data name="SuccessFullRegistration" xml:space="preserve">
+		<value>Gratulujeme!
+
+Úspešne ste si zaregistrovali Helium.
+Kliknite na OK pre reštart a užite si všetky prémiové funkcie.</value>
+	</data>
+	<data name="AutoHideShowNowPlayingWhenStartingVis" xml:space="preserve">
+		<value>Automaticky ukázať/ukryť Práve hrá po spustení vizualizácie v ukotvenom/plnooknovom móde</value>
+	</data>
+	<data name="MapToFrame" xml:space="preserve">
+		<value>Map-to-frame</value>
+	</data>
+	<data name="Modifiers" xml:space="preserve">
+		<value>Modifikátory</value>
+	</data>
+	<data name="EditSubtracks" xml:space="preserve">
+		<value>Editovať substopy</value>
+	</data>
+	<data name="ToggleGraphicPositionBar" xml:space="preserve">
+		<value>Prepnúť grafickú lištu pozície</value>
+	</data>
+	<data name="ToggleNavigationPane" xml:space="preserve">
+		<value>Prepnúť navigačnú lištu na celú šírku</value>
+	</data>
+	<data name="ClearPqOnDoubleClick" xml:space="preserve">
+		<value>Vyprázdniť Poradie prehrávania po dvojkliku na skladbu</value>
+	</data>
+	<data name="ToggleEq" xml:space="preserve">
+		<value>Prepnúť ekvalizér</value>
+	</data>
+	<data name="ToggleNavigationPaneWidth" xml:space="preserve">
+		<value>Prepnúť navigačnú lištu na plnú šírku</value>
+	</data>
+	<data name="FileNotFound" xml:space="preserve">
+		<value>Súbor sa nenašiel ({0})</value>
+	</data>
+	<data name="Sublabels" xml:space="preserve">
+		<value>Pod-vydavatelia</value>
+	</data>
+	<data name="TopFileTypes" xml:space="preserve">
+		<value>Top typy súborov</value>
+	</data>
+	<data name="TopLabels" xml:space="preserve">
+		<value>Top vydavatelia</value>
+	</data>
+	<data name="TopReleaseTypes" xml:space="preserve">
+		<value>Top typy vydania</value>
+	</data>
+	<data name="OnlyInPremium" xml:space="preserve">
+		<value>Táto funkcia je dostupná len v Prémium verzii programu</value>
+	</data>
+	<data name="RatingStatistics" xml:space="preserve">
+		<value>Štatistiky hodnotenia</value>
+	</data>
+	<data name="Tops" xml:space="preserve">
+		<value>Tops</value>
+	</data>
+	<data name="AlbumRatings" xml:space="preserve">
+		<value>Hodnotenia albumu</value>
+	</data>
+	<data name="ArtistRatings" xml:space="preserve">
+		<value>Hodnotenia interpréta</value>
+	</data>
+	<data name="PlayedDays" xml:space="preserve">
+		<value>Hrané víkendov </value>
+	</data>
+	<data name="PlayedHours" xml:space="preserve">
+		<value>Hrané hodín</value>
+	</data>
+	<data name="PlayedWeeks" xml:space="preserve">
+		<value>Hrané týždňov</value>
+	</data>
+	<data name="TrackRatings" xml:space="preserve">
+		<value>Hodnotenia skladby</value>
+	</data>
+	<data name="FreeVersionLimit" xml:space="preserve">
+		<value>Táto funkcia nieje dostupná vo free verzii programu Helium.
+Aby ste mohli funkciu využiť, potrebujete prejsť na Premium verziu programu Helium.</value>
+	</data>
+	<data name="SourceImageNotFound" xml:space="preserve">
+		<value>Zdrojový obrázok sa nenašiel</value>
+	</data>
+	<data name="ClearPicture" xml:space="preserve">
+		<value>Odstrániť obrázok</value>
+	</data>
+	<data name="RemoveAlbumMenu" xml:space="preserve">
+		<value>Odstrániť album...</value>
+	</data>
+	<data name="AddBlank" xml:space="preserve">
+		<value>Pridať prázdne</value>
+	</data>
+	<data name="AvailableFields" xml:space="preserve">
+		<value>Dostupné polia</value>
+	</data>
+	<data name="Columns" xml:space="preserve">
+		<value>Stĺpce</value>
+	</data>
+	<data name="FourColumns" xml:space="preserve">
+		<value>Štyri stĺpce</value>
+	</data>
+	<data name="OneColumn" xml:space="preserve">
+		<value>Jeden stĺpec</value>
+	</data>
+	<data name="SelectedFields" xml:space="preserve">
+		<value>Vybrané polia</value>
+	</data>
+	<data name="SelectedTab" xml:space="preserve">
+		<value>Vybraná záložka</value>
+	</data>
+	<data name="ThreeColumns" xml:space="preserve">
+		<value>Tri stĺpce</value>
+	</data>
+	<data name="TwoColumns" xml:space="preserve">
+		<value>Dva stĺpce</value>
+	</data>
+	<data name="AteTemplateEditor" xml:space="preserve">
+		<value>Editácia šablóny</value>
+	</data>
+	<data name="SaveAs" xml:space="preserve">
+		<value>Uložiť ako...</value>
+	</data>
+	<data name="EditTemplate" xml:space="preserve">
+		<value>Editovať šablónu...</value>
+	</data>
+	<data name="EditAteTabWindow" xml:space="preserve">
+		<value>editovať záložku</value>
+	</data>
+	<data name="RemoveAllFilesAndSubfolders" xml:space="preserve">
+		<value>Odstrániť všetky súbory v adresári a všetkých podadresároch</value>
+	</data>
+	<data name="Imp11_ImportAlbumPictures" xml:space="preserve">
+		<value>-Import obrázkov albumov</value>
+	</data>
+	<data name="Imp11_ImportArtistPictures" xml:space="preserve">
+		<value>-Import obrázkov interpréta</value>
+	</data>
+	<data name="Imp11_ImportLabelPictures" xml:space="preserve">
+		<value>-Import obrázkov štítkov</value>
+	</data>
+	<data name="Imp11_SQLCEDesc" xml:space="preserve">
+		<value>-Import Sql Server Compact databázy:</value>
+	</data>
+	<data name="UserDefinedCapitaliazationChars" xml:space="preserve">
+		<value>Uživateľom definovaný oddeľovací znak (zadajte znaky jeden za druhým)</value>
+	</data>
+	<data name="LabelPicturePath" xml:space="preserve">
+		<value>Cesta k obrázku vydavateľa</value>
+	</data>
+	<data name="ListeningHabits" xml:space="preserve">
+		<value>Zvyky počúvania</value>
+	</data>
+	<data name="And" xml:space="preserve">
+		<value>A</value>
+	</data>
+	<data name="Author" xml:space="preserve">
+		<value>Autor</value>
+	</data>
+	<data name="Expression1" xml:space="preserve">
+		<value>Výraz 1</value>
+	</data>
+	<data name="Expression2" xml:space="preserve">
+		<value>Výraz 2</value>
+	</data>
+	<data name="Expression3" xml:space="preserve">
+		<value>Výraz 3</value>
+	</data>
+	<data name="FilePath" xml:space="preserve">
+		<value>Cesta k súboru:</value>
+	</data>
+	<data name="Initializing" xml:space="preserve">
+		<value>Spúšťanie...</value>
+	</data>
+	<data name="NoUpdatesAreAvailable" xml:space="preserve">
+		<value>Vaša verzia je aktuálna</value>
+	</data>
+	<data name="Off" xml:space="preserve">
+		<value>Vyp.</value>
+	</data>
+	<data name="On" xml:space="preserve">
+		<value>Zap.</value>
+	</data>
+	<data name="Operator" xml:space="preserve">
+		<value>Operátor</value>
+	</data>
+	<data name="Or" xml:space="preserve">
+		<value>Alebo</value>
+	</data>
+	<data name="ScriptScope" xml:space="preserve">
+		<value>Script-scope</value>
+	</data>
+	<data name="Settings" xml:space="preserve">
+		<value>Nastavenia</value>
+	</data>
+	<data name="UnableToPerformUpdateCheck" xml:space="preserve">
+		<value>Nieje možné skontrolovať aktualizácie. Vyskúšajte neskôr prosím.</value>
+	</data>
+	<data name="ForceCopyPicturesOnAdd" xml:space="preserve">
+		<value>Vynútiť kopírovanie obrázkov do špecifikovaného adresára počas pridávania</value>
+	</data>
+	<data name="NoErrorsInFlacFile" xml:space="preserve">
+		<value>Nenašli sa chyby</value>
+	</data>
+	<data name="Housekeep" xml:space="preserve">
+		<value>Údržba</value>
+	</data>
+	<data name="Information" xml:space="preserve">
+		<value>Informácia</value>
+	</data>
+	<data name="NoFilesAvailable" xml:space="preserve">
+		<value>Žiadne súbory niesú dostupné</value>
+	</data>
+	<data name="FilesLoaded" xml:space="preserve">
+		<value>načítaných súborov</value>
+	</data>
+	<data name="FileTypeAddedTrends" xml:space="preserve">
+		<value>File type and added trends</value>
+	</data>
+	<data name="NewArtistName" xml:space="preserve">
+		<value>Nové meno interpréta:</value>
+	</data>
+	<data name="HousekeepPaths" xml:space="preserve">
+		<value>Pri reorganizácií ciest budú všetky prítomné cesty odstránené. 
+Želáte si pokračovať?</value>
+	</data>
+	<data name="ToggleAutoIncTracks" xml:space="preserve">
+		<value>Prepnúť auto inc. skladby</value>
+	</data>
+	<data name="ToggleAutoSort" xml:space="preserve">
+		<value>Prepnúť automatické triedenie poradia</value>
+	</data>
+	<data name="ToggleCapitalizer" xml:space="preserve">
+		<value>Prepnúť kapitalizér</value>
+	</data>
+	<data name="UL_RemovingFiles" xml:space="preserve">
+		<value>Odstrňujem súbory, {0} % hotovo</value>
+	</data>
+	<data name="UL_ScanningExistingFiles" xml:space="preserve">
+		<value>Skenujem existujúce súbory, {0} % hotovo</value>
+	</data>
+	<data name="UL_SearchingForNewFiles" xml:space="preserve">
+		<value>Vyhľadávam nové súbory, {0} % hotovo</value>
+	</data>
+	<data name="UL_UpdatingExistingFiles" xml:space="preserve">
+		<value>Aktualizujem existujúce súbory, {0} % hotovo</value>
+	</data>
+	<data name="UpdatingMetadata" xml:space="preserve">
+		<value>Aktualizujem meta dáta</value>
+	</data>
+	<data name="AlbumsArtistDetails" xml:space="preserve">
+		<value>Vydania v rámci detailov interpréta</value>
+	</data>
+	<data name="DlAlbumsStatusBar" xml:space="preserve">
+		<value>{0} albumov, {1} vybraných</value>
+	</data>
+	<data name="DlArtistsStatusBar" xml:space="preserve">
+		<value>{0} interprétov, {1} vybraných</value>
+	</data>
+	<data name="DownloadingImage" xml:space="preserve">
+		<value>Sťahujem obrázok</value>
+	</data>
+	<data name="Contents" xml:space="preserve">
+		<value>Obsahy</value>
+	</data>
+	<data name="PlayerInfo" xml:space="preserve">
+		<value>Informácie prehrávača</value>
+	</data>
+	<data name="False" xml:space="preserve">
+		<value>Nepravda</value>
+	</data>
+	<data name="True" xml:space="preserve">
+		<value>Pravda</value>
+	</data>
+	<data name="Stars_0" xml:space="preserve">
+		<value>Bez hodnotenia</value>
+	</data>
+	<data name="Stars_0_5" xml:space="preserve">
+		<value>0.5 hviezdy</value>
+	</data>
+	<data name="Stars_1" xml:space="preserve">
+		<value>1 hviezda</value>
+	</data>
+	<data name="Stars_1_5" xml:space="preserve">
+		<value>1.5 hviezdy</value>
+	</data>
+	<data name="Stars_2" xml:space="preserve">
+		<value>2 hviezdy</value>
+	</data>
+	<data name="Stars_2_5" xml:space="preserve">
+		<value>2.5 hviezdy</value>
+	</data>
+	<data name="Stars_3" xml:space="preserve">
+		<value>3 hviezdy</value>
+	</data>
+	<data name="Stars_3_5" xml:space="preserve">
+		<value>3.5 hviezdy</value>
+	</data>
+	<data name="Stars_4" xml:space="preserve">
+		<value>4 hviezdy</value>
+	</data>
+	<data name="Stars_4_5" xml:space="preserve">
+		<value>4.5 hviezdy</value>
+	</data>
+	<data name="Stars_5" xml:space="preserve">
+		<value>5 hviezd</value>
+	</data>
+	<data name="OverwriteExistingPictures" xml:space="preserve">
+		<value>Prepísať existujúce obrázky</value>
+	</data>
+	<data name="OverwriteExistingPicturesInfo" xml:space="preserve">
+		<value>Ak je vybrané prepísanie, všetky obrázky typu Cover Front budú nahradené.</value>
+	</data>
+	<data name="SaveAlbumPictureToTags" xml:space="preserve">
+		<value>Uložiť obrázok albumu do tagov...</value>
+	</data>
+	<data name="SaveAlbumPictureToTagsTitle" xml:space="preserve">
+		<value>Uloženie obrázku albumu do tagu</value>
+	</data>
+	<data name="SaveAlbumPicturesToTags" xml:space="preserve">
+		<value>Uložiť obrázky albumov do tagov...</value>
+	</data>
+	<data name="LinkType" xml:space="preserve">
+		<value>Typ linku</value>
+	</data>
+	<data name="ReleaseDetails" xml:space="preserve">
+		<value>Detaily vydania</value>
+	</data>
+	<data name="TrackDetails" xml:space="preserve">
+		<value>Detaily skladby</value>
+	</data>
+	<data name="ReleasesByRecordingYear" xml:space="preserve">
+		<value>Skladby podľa roku nahrávky</value>
+	</data>
+	<data name="ReleasesByReleaseYear" xml:space="preserve">
+		<value>Vydania podľa roku vydania</value>
+	</data>
+	<data name="Id3Tags" xml:space="preserve">
+		<value>Id3 v2 tagy</value>
+	</data>
+	<data name="SaveInCompatibleId3v2Mode" xml:space="preserve">
+		<value>Uložiť interpréta albumu s plnou externou kompatibilitou</value>
+	</data>
+	<data name="Line1" xml:space="preserve">
+		<value>Riadok 1</value>
+	</data>
+	<data name="Line2" xml:space="preserve">
+		<value>Riadok 2</value>
+	</data>
+	<data name="Line3" xml:space="preserve">
+		<value>Riadok 3</value>
+	</data>
+	<data name="DefaultScript" xml:space="preserve">
+		<value>Dafultný skript</value>
+	</data>
+	<data name="ExecuteDefaultScript" xml:space="preserve">
+		<value>Spustenie defaultného skriptu </value>
+	</data>
+	<data name="NoAlbumsAvailable" xml:space="preserve">
+		<value>Žiadne albumy niesú dostupné</value>
+	</data>
+	<data name="Undefined" xml:space="preserve">
+		<value>Nedefinované</value>
+	</data>
+	<data name="NoRating" xml:space="preserve">
+		<value>Bez hodnotenia</value>
+	</data>
+	<data name="BiographyHeight" xml:space="preserve">
+		<value>Výška biografií</value>
+	</data>
+	<data name="LyricsHeight" xml:space="preserve">
+		<value>Výška textov</value>
+	</data>
+	<data name="PicturesHeight" xml:space="preserve">
+		<value>Výška obrázkov</value>
+	</data>
+	<data name="RightSidebar" xml:space="preserve">
+		<value>Pravý bočný panel</value>
+	</data>
+	<data name="ViewMode" xml:space="preserve">
+		<value>Mód pohľadu</value>
+	</data>
+	<data name="DockPlayQueue" xml:space="preserve">
+		<value>Zobraz Poradie prehrávania v pravom bočnom paneli</value>
+	</data>
+	<data name="NewAlbumName" xml:space="preserve">
+		<value>Nové meno albumu</value>
+	</data>
+	<data name="DoubleClickToSeeMoreDetails" xml:space="preserve">
+		<value>Dvojklik na položku pre zobrazenie viac detailov o specifickom dátume</value>
+	</data>
+	<data name="RenderDetailPageStatistics" xml:space="preserve">
+		<value>Renderovanie statistík interpréta a detailu albumu (môžš spomaliť renderovanie)</value>
+	</data>
+</root>

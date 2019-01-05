@@ -1,0 +1,3854 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AddFilesToLibrary" xml:space="preserve">
+    <value>Lägg till filer i biblioteket...</value>
+  </data>
+  <data name="AddMusic" xml:space="preserve">
+    <value>Lägg till musik</value>
+  </data>
+  <data name="Akas" xml:space="preserve">
+    <value>Akas</value>
+  </data>
+  <data name="Albums" xml:space="preserve">
+    <value>Album</value>
+  </data>
+  <data name="Artists" xml:space="preserve">
+    <value>Artister</value>
+  </data>
+  <data name="CachingAlbums" xml:space="preserve">
+    <value>Cachar album</value>
+  </data>
+  <data name="CachingArtists" xml:space="preserve">
+    <value>Cachar artister</value>
+  </data>
+  <data name="CachingData" xml:space="preserve">
+    <value>Cachar data, vänligen vänta</value>
+  </data>
+  <data name="CachingTracks" xml:space="preserve">
+    <value>Cachar låtar</value>
+  </data>
+  <data name="CreateingDatabase" xml:space="preserve">
+    <value>Skapar ny databas, vänligen vänta</value>
+  </data>
+  <data name="File" xml:space="preserve">
+    <value>Arkiv</value>
+  </data>
+  <data name="Filter" xml:space="preserve">
+    <value>Filter</value>
+  </data>
+  <data name="Followers" xml:space="preserve">
+    <value>Följare</value>
+  </data>
+  <data name="InfluencedBy" xml:space="preserve">
+    <value>Influerad av</value>
+  </data>
+  <data name="Labels" xml:space="preserve">
+    <value>Utgivare</value>
+  </data>
+  <data name="LoadingData" xml:space="preserve">
+    <value>Laddar, vänligen vänta...</value>
+  </data>
+  <data name="PerformedSongsBy" xml:space="preserve">
+    <value>Spelat låtar från</value>
+  </data>
+  <data name="Reset" xml:space="preserve">
+    <value>Rensa</value>
+  </data>
+  <data name="SeeAlso" xml:space="preserve">
+    <value>Se också</value>
+  </data>
+  <data name="Shown" xml:space="preserve">
+    <value>Visas</value>
+  </data>
+  <data name="Similar" xml:space="preserve">
+    <value>Liknande</value>
+  </data>
+  <data name="User" xml:space="preserve">
+    <value>Användare</value>
+  </data>
+  <data name="VariousArtists" xml:space="preserve">
+    <value>Blandade artister</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>Om..</value>
+  </data>
+  <data name="Add" xml:space="preserve">
+    <value>Lägg till</value>
+  </data>
+  <data name="AddFiles_AdddingFiles" xml:space="preserve">
+    <value>Lägger till filer</value>
+  </data>
+  <data name="AddFiles_AddFilesToLibrary" xml:space="preserve">
+    <value>Lägger till filer till ditt bibliotek</value>
+  </data>
+  <data name="AddFiles_AddingFolders" xml:space="preserve">
+    <value>Helium lägger till de valda mapparna, vänligen vänta</value>
+  </data>
+  <data name="AddFiles_AddPicturesFromTags" xml:space="preserve">
+    <value>Lägg till bilder från taggar</value>
+  </data>
+  <data name="AddFiles_CalculatingAlbums" xml:space="preserve">
+    <value>Beräknar album och matchande bilder</value>
+  </data>
+  <data name="AddFiles_CreateAccurateRipIds" xml:space="preserve">
+    <value>Skapar AccurateRip idn, {0}% klart</value>
+  </data>
+  <data name="AddFiles_CreateAcoustIds" xml:space="preserve">
+    <value>Skapar Acoust idn, {0}% klart</value>
+  </data>
+  <data name="AddFiles_CreateArtists" xml:space="preserve">
+    <value>Skapar artister och artist betyg</value>
+  </data>
+  <data name="AddFiles_CreateMbids" xml:space="preserve">
+    <value>Skapar MusicBrainz idn, {0}% klart</value>
+  </data>
+  <data name="AddFiles_CreatePuids" xml:space="preserve">
+    <value>Skapar Puids idn, {0}% klart</value>
+  </data>
+  <data name="AddFiles_CreatingAlbums" xml:space="preserve">
+    <value>Skapar album, {0}% klart</value>
+  </data>
+  <data name="AddFiles_CreatingGenres" xml:space="preserve">
+    <value>Skapar genres, {0}% klart</value>
+  </data>
+  <data name="AddFiles_CreatingLabels" xml:space="preserve">
+    <value>Skapar utgivare, {0}% klart</value>
+  </data>
+  <data name="AddFiles_DetailText" xml:space="preserve">
+    <value>Välj de mappar du vill lägga till ditt bibliotek</value>
+  </data>
+  <data name="AddFiles_Header" xml:space="preserve">
+    <value>Lägg till till bibliotek</value>
+  </data>
+  <data name="AddFiles_PrecalcArtistInfo" xml:space="preserve">
+    <value>Beräknar artist information</value>
+  </data>
+  <data name="AddFiles_ScanningFiles" xml:space="preserve">
+    <value>Söker efter filer att lägga till, vänligen vänta...</value>
+  </data>
+  <data name="AddFiles_UpdateArtistInfo" xml:space="preserve">
+    <value>Uppdaterar artist information</value>
+  </data>
+  <data name="AddFiles_UpdatingAlbumInformation" xml:space="preserve">
+    <value>Uppdaterar album information, {0}% klart</value>
+  </data>
+  <data name="Advanced" xml:space="preserve">
+    <value>Avancerat</value>
+  </data>
+  <data name="AdvancedMode" xml:space="preserve">
+    <value>Avancerat läge</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Avbryt</value>
+  </data>
+  <data name="LoadPicture" xml:space="preserve">
+    <value>Öppna...</value>
+  </data>
+  <data name="Clear" xml:space="preserve">
+    <value>Rensa</value>
+  </data>
+  <data name="CurrentStep" xml:space="preserve">
+    <value>Aktuellt steg</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Ändra</value>
+  </data>
+  <data name="EnqueueLast" xml:space="preserve">
+    <value>Köa sist</value>
+  </data>
+  <data name="EnqueueNext" xml:space="preserve">
+    <value>Köa nästa</value>
+  </data>
+  <data name="ExploreFolder" xml:space="preserve">
+    <value>Utforska mapp</value>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>Hjälp</value>
+  </data>
+  <data name="MusicExplorer" xml:space="preserve">
+    <value>Musikutforskare</value>
+  </data>
+  <data name="NoTrackPlaying" xml:space="preserve">
+    <value>Ingen låt spelas</value>
+  </data>
+  <data name="Options" xml:space="preserve">
+    <value>Inställningar...</value>
+  </data>
+  <data name="PlayQueue" xml:space="preserve">
+    <value>Spelkö</value>
+  </data>
+  <data name="Properties" xml:space="preserve">
+    <value>Egenskaper...</value>
+  </data>
+  <data name="ReadingPlayQueue" xml:space="preserve">
+    <value>Läser spelkö</value>
+  </data>
+  <data name="Remove" xml:space="preserve">
+    <value>Ta bort</value>
+  </data>
+  <data name="RemoveAlbum" xml:space="preserve">
+    <value>Ta bort album från bibliotek?</value>
+  </data>
+  <data name="SelectFolder" xml:space="preserve">
+    <value>Välj mapp</value>
+  </data>
+  <data name="Step" xml:space="preserve">
+    <value>Steg</value>
+  </data>
+  <data name="SuggestedAlbums" xml:space="preserve">
+    <value>Föreslagna album</value>
+  </data>
+  <data name="Tools" xml:space="preserve">
+    <value>Verktyg</value>
+  </data>
+  <data name="TotalSteps" xml:space="preserve">
+    <value>Totalt antal steg</value>
+  </data>
+  <data name="Tracks" xml:space="preserve">
+    <value>Spår</value>
+  </data>
+  <data name="View" xml:space="preserve">
+    <value>Visa</value>
+  </data>
+  <data name="Accessed" xml:space="preserve">
+    <value>Använd</value>
+  </data>
+  <data name="Album" xml:space="preserve">
+    <value>Album</value>
+  </data>
+  <data name="AlbumGain" xml:space="preserve">
+    <value>Album gain</value>
+  </data>
+  <data name="Artist" xml:space="preserve">
+    <value>Artist</value>
+  </data>
+  <data name="AudioProperties" xml:space="preserve">
+    <value>Ljudattribut</value>
+  </data>
+  <data name="Available" xml:space="preserve">
+    <value>Tillgänglig</value>
+  </data>
+  <data name="Biography" xml:space="preserve">
+    <value>Biografi</value>
+  </data>
+  <data name="Bitrate" xml:space="preserve">
+    <value>Bitrate</value>
+  </data>
+  <data name="BitsPerSample" xml:space="preserve">
+    <value>Bitar-per-sampling</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Stäng</value>
+  </data>
+  <data name="Created" xml:space="preserve">
+    <value>Skapad</value>
+  </data>
+  <data name="DetailedFileAndTagInfo" xml:space="preserve">
+    <value>Detaljerad tagg &amp; filinformation</value>
+  </data>
+  <data name="Discography" xml:space="preserve">
+    <value>Diskografi</value>
+  </data>
+  <data name="Explore" xml:space="preserve">
+    <value>Utforska...</value>
+  </data>
+  <data name="Filename" xml:space="preserve">
+    <value>Filnamn</value>
+  </data>
+  <data name="FileProperties_Title" xml:space="preserve">
+    <value>Filegenskaper</value>
+  </data>
+  <data name="FileSize" xml:space="preserve">
+    <value>Filstorlek</value>
+  </data>
+  <data name="FileTime" xml:space="preserve">
+    <value>Filtid</value>
+  </data>
+  <data name="FileType" xml:space="preserve">
+    <value>Filtyp</value>
+  </data>
+  <data name="Format" xml:space="preserve">
+    <value>Format</value>
+  </data>
+  <data name="Frequency" xml:space="preserve">
+    <value>Frekvens</value>
+  </data>
+  <data name="Genre" xml:space="preserve">
+    <value>Genre</value>
+  </data>
+  <data name="Hidden" xml:space="preserve">
+    <value>Dold</value>
+  </data>
+  <data name="LastPlayed" xml:space="preserve">
+    <value>Senast spelad</value>
+  </data>
+  <data name="Modified" xml:space="preserve">
+    <value>Ändrad</value>
+  </data>
+  <data name="NeverPlayed" xml:space="preserve">
+    <value>Aldrig spelad</value>
+  </data>
+  <data name="NextArrow" xml:space="preserve">
+    <value>Nästa &gt; </value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>Nej</value>
+  </data>
+  <data name="Overview" xml:space="preserve">
+    <value>Översikt</value>
+  </data>
+  <data name="PlayCounter" xml:space="preserve">
+    <value>Spelräknare</value>
+  </data>
+  <data name="PreviousArrow" xml:space="preserve">
+    <value>&lt; Tidigare</value>
+  </data>
+  <data name="Profile" xml:space="preserve">
+    <value>Profil</value>
+  </data>
+  <data name="Rating" xml:space="preserve">
+    <value>Betyg</value>
+  </data>
+  <data name="ReadOnly" xml:space="preserve">
+    <value>Skrivskyddad</value>
+  </data>
+  <data name="SampleRate" xml:space="preserve">
+    <value>Sample nivå</value>
+  </data>
+  <data name="SimilarArtists" xml:space="preserve">
+    <value>Liknande artister</value>
+  </data>
+  <data name="SongLength" xml:space="preserve">
+    <value>Låtlängd</value>
+  </data>
+  <data name="Tags" xml:space="preserve">
+    <value>Taggar</value>
+  </data>
+  <data name="Time" xml:space="preserve">
+    <value>Tid</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>Titel</value>
+  </data>
+  <data name="TrackGain" xml:space="preserve">
+    <value>Track gain</value>
+  </data>
+  <data name="VBR" xml:space="preserve">
+    <value>VBR</value>
+  </data>
+  <data name="Version" xml:space="preserve">
+    <value>Version</value>
+  </data>
+  <data name="Year" xml:space="preserve">
+    <value>År</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Ja</value>
+  </data>
+  <data name="AddFiles_AddingFiles" xml:space="preserve">
+    <value>Lägger till filer, {0}% klart</value>
+  </data>
+  <data name="UpdateLibrary_Header" xml:space="preserve">
+    <value>Uppdaterar bibliotek</value>
+  </data>
+  <data name="UpdateLibrary_DetailText" xml:space="preserve">
+    <value>Välj vilka mappar du vill uppdatera</value>
+  </data>
+  <data name="UpdateLibrary_ForceSync" xml:space="preserve">
+    <value>Tvångsuppdatera alla filer</value>
+  </data>
+  <data name="UpdateLibrary_ProgressDetail" xml:space="preserve">
+    <value>Nya filer som hittas kommer bli tillagda efter sökningen är genomförd</value>
+  </data>
+  <data name="UpdateLibrary_ProgressHeader" xml:space="preserve">
+    <value>De valda mapparna uppdateras</value>
+  </data>
+  <data name="UpdateLibrary_RemoveUnavailable" xml:space="preserve">
+    <value>Ta bort ej tillgängliga filer</value>
+  </data>
+  <data name="UpdateLibrary" xml:space="preserve">
+    <value>Uppdatera bibliotek</value>
+  </data>
+  <data name="Releases" xml:space="preserve">
+    <value>Utgåvor</value>
+  </data>
+  <data name="ActiveFile" xml:space="preserve">
+    <value>Aktiv fil</value>
+  </data>
+  <data name="AllReleaseTypes" xml:space="preserve">
+    <value>Alla utgivningstyper</value>
+  </data>
+  <data name="AllYears" xml:space="preserve">
+    <value>Alla år</value>
+  </data>
+  <data name="AllGenres" xml:space="preserve">
+    <value>Alla genres</value>
+  </data>
+  <data name="Added" xml:space="preserve">
+    <value>Tillagd</value>
+  </data>
+  <data name="Cds" xml:space="preserve">
+    <value>CDs</value>
+  </data>
+  <data name="Recorded" xml:space="preserve">
+    <value>Inspelad</value>
+  </data>
+  <data name="Released" xml:space="preserve">
+    <value>Släppt</value>
+  </data>
+  <data name="Long" xml:space="preserve">
+    <value>Lång</value>
+  </data>
+  <data name="Born" xml:space="preserve">
+    <value>Född</value>
+  </data>
+  <data name="Died" xml:space="preserve">
+    <value>Död</value>
+  </data>
+  <data name="Disbanded" xml:space="preserve">
+    <value>Nedlagd</value>
+  </data>
+  <data name="Formed" xml:space="preserve">
+    <value>Skapad</value>
+  </data>
+  <data name="From" xml:space="preserve">
+    <value>Från</value>
+  </data>
+  <data name="Group" xml:space="preserve">
+    <value>Grupp</value>
+  </data>
+  <data name="UntitledArtist" xml:space="preserve">
+    <value>Ospecifik artist</value>
+  </data>
+  <data name="Parent" xml:space="preserve">
+    <value>Förälder</value>
+  </data>
+  <data name="UntitledLabel" xml:space="preserve">
+    <value>Ospecifik etikett</value>
+  </data>
+  <data name="RebuildingCache" xml:space="preserve">
+    <value>Skapar om cache</value>
+  </data>
+  <data name="TypeToFilter" xml:space="preserve">
+    <value>Skriv för att filtera...</value>
+  </data>
+  <data name="RT_Album" xml:space="preserve">
+    <value>Album</value>
+  </data>
+  <data name="RT_Anthology" xml:space="preserve">
+    <value>Antologi</value>
+  </data>
+  <data name="RT_AudioBook" xml:space="preserve">
+    <value>Ljudbok</value>
+  </data>
+  <data name="RT_Bootleg" xml:space="preserve">
+    <value>Piratkopia/bootleg</value>
+  </data>
+  <data name="RT_Compilation" xml:space="preserve">
+    <value>Samling</value>
+  </data>
+  <data name="RT_Digital" xml:space="preserve">
+    <value>Digital</value>
+  </data>
+  <data name="RT_DVD" xml:space="preserve">
+    <value>DVD</value>
+  </data>
+  <data name="RT_EP" xml:space="preserve">
+    <value>EP</value>
+  </data>
+  <data name="RT_LivePerformance" xml:space="preserve">
+    <value>Live uppträdande</value>
+  </data>
+  <data name="RT_Maxi" xml:space="preserve">
+    <value>Maxi</value>
+  </data>
+  <data name="RT_Sampler" xml:space="preserve">
+    <value>Demo</value>
+  </data>
+  <data name="RT_SoundEffects" xml:space="preserve">
+    <value>Ljudeffekter</value>
+  </data>
+  <data name="RT_Soundtrack" xml:space="preserve">
+    <value>Soundtrack</value>
+  </data>
+  <data name="RT_Undefined" xml:space="preserve">
+    <value>Odefinierad</value>
+  </data>
+  <data name="RT_Video" xml:space="preserve">
+    <value>Video</value>
+  </data>
+  <data name="TypeToSearch" xml:space="preserve">
+    <value>Skriv för att söka...</value>
+  </data>
+  <data name="LangChanged" xml:space="preserve">
+    <value>Du har ändrat språk så Helium måste startas om.
+Klicka på OK för att starta om.</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>Språk</value>
+  </data>
+  <data name="LastFm_Completed" xml:space="preserve">
+    <value>Klicka på OK när du har slutfört Last.fm autentiseringen.</value>
+  </data>
+  <data name="LastFm_Grant" xml:space="preserve">
+    <value>Klicka på OK för att tillåta Helium att använda Last.fm</value>
+  </data>
+  <data name="LastFm_NeedToRegister" xml:space="preserve">
+    <value>Du måste registrera Helium att använda Last.fm</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Lösenord</value>
+  </data>
+  <data name="Register" xml:space="preserve">
+    <value>Registrera</value>
+  </data>
+  <data name="UseLastFm" xml:space="preserve">
+    <value>Använd Last.fm</value>
+  </data>
+  <data name="AddFiles_Completed" xml:space="preserve">
+    <value>Adderingen av filer slutfördes</value>
+  </data>
+  <data name="AboutNeon" xml:space="preserve">
+    <value>Om Helium</value>
+  </data>
+  <data name="OptionsTitle" xml:space="preserve">
+    <value>Inställningar</value>
+  </data>
+  <data name="Import_DatabaseIsNotEmpty" xml:space="preserve">
+    <value>Du kan bara utföra en import till en tom databas.</value>
+  </data>
+  <data name="EditTags" xml:space="preserve">
+    <value>Ändra taggar...</value>
+  </data>
+  <data name="FileExistsInQueue" xml:space="preserve">
+    <value>En eller flera filer används av en annan process.
+Försök igen senare.</value>
+  </data>
+  <data name="UpdatingDatabase" xml:space="preserve">
+    <value>Uppdaterar databas</value>
+  </data>
+  <data name="UpdatingFileStatus" xml:space="preserve">
+    <value>Uppdaterar fil {0}/{1}</value>
+  </data>
+  <data name="GroupMembers" xml:space="preserve">
+    <value>Gruppmedlemmar</value>
+  </data>
+  <data name="ImportHelium11Db" xml:space="preserve">
+    <value>Importera Helium 11 databas...</value>
+  </data>
+  <data name="MemberOf" xml:space="preserve">
+    <value>Medlem av</value>
+  </data>
+  <data name="ImportingHelium11Database" xml:space="preserve">
+    <value>Importerar Helium 11 databas</value>
+  </data>
+  <data name="EditMultipleGenresHelper" xml:space="preserve">
+    <value>Dela genres på separata rader</value>
+  </data>
+  <data name="EditMultipleGenresTitle" xml:space="preserve">
+    <value>Ändra multipla genres</value>
+  </data>
+  <data name="EditMultipleLabelsHelper" xml:space="preserve">
+    <value>Dela utgivare på separata rader</value>
+  </data>
+  <data name="EditMultipleLabelsTitle" xml:space="preserve">
+    <value>Ändra multipla utgivare</value>
+  </data>
+  <data name="ImportDbProgress1" xml:space="preserve">
+    <value>Importerar användare</value>
+  </data>
+  <data name="ImportDbProgress10" xml:space="preserve">
+    <value>Importerar artister</value>
+  </data>
+  <data name="ImportDbProgress11" xml:space="preserve">
+    <value>Importerar artistbetyg</value>
+  </data>
+  <data name="ImportDbProgress12" xml:space="preserve">
+    <value>Importerar album</value>
+  </data>
+  <data name="ImportDbProgress13" xml:space="preserve">
+    <value>Importerar albumbetyg</value>
+  </data>
+  <data name="ImportDbProgress14" xml:space="preserve">
+    <value>Importerar relationer</value>
+  </data>
+  <data name="ImportDbProgress15" xml:space="preserve">
+    <value>Importerar låtar</value>
+  </data>
+  <data name="ImportDbProgress16" xml:space="preserve">
+    <value>Importerar betyg</value>
+  </data>
+  <data name="ImportDbProgress17" xml:space="preserve">
+    <value>Importerar artist/låt relationer</value>
+  </data>
+  <data name="ImportDbProgress18" xml:space="preserve">
+    <value>Importerar kommentarer</value>
+  </data>
+  <data name="ImportDbProgress19" xml:space="preserve">
+    <value>Importerar låttexter</value>
+  </data>
+  <data name="ImportDbProgress2" xml:space="preserve">
+    <value>Importerar användargrupper</value>
+  </data>
+  <data name="ImportDbProgress20" xml:space="preserve">
+    <value>Importerar historik</value>
+  </data>
+  <data name="ImportDbProgress21" xml:space="preserve">
+    <value>Importerar innehåll till spellistor</value>
+  </data>
+  <data name="ImportDbProgress22" xml:space="preserve">
+    <value>Importerar genre/låt relationer</value>
+  </data>
+  <data name="ImportDbProgress23" xml:space="preserve">
+    <value>Importerar utgivare/låt relationer</value>
+  </data>
+  <data name="ImportDbProgress25" xml:space="preserve">
+    <value>Korrigerar artister med underspår</value>
+  </data>
+  <data name="ImportDbProgress26" xml:space="preserve">
+    <value>Korrigerar underspår längder</value>
+  </data>
+  <data name="ImportDbProgress27" xml:space="preserve">
+    <value>Tar bort överflödiga album</value>
+  </data>
+  <data name="ImportDbProgress28" xml:space="preserve">
+    <value>Lägger till rotmappar</value>
+  </data>
+  <data name="ImportDbProgress3" xml:space="preserve">
+    <value>Importerar användarkopplingar</value>
+  </data>
+  <data name="ImportDbProgress4" xml:space="preserve">
+    <value>Importerar tjänster</value>
+  </data>
+  <data name="ImportDbProgress5" xml:space="preserve">
+    <value>Importerar länder</value>
+  </data>
+  <data name="ImportDbProgress6" xml:space="preserve">
+    <value>Importerar genres</value>
+  </data>
+  <data name="ImportDbProgress7" xml:space="preserve">
+    <value>Importerar spellistemappar</value>
+  </data>
+  <data name="ImportDbProgress8" xml:space="preserve">
+    <value>Importerar spellistor</value>
+  </data>
+  <data name="ImportDbProgress9" xml:space="preserve">
+    <value>Importerar utgivare</value>
+  </data>
+  <data name="Extract" xml:space="preserve">
+    <value>Extrahera</value>
+  </data>
+  <data name="EditMultipleArtists" xml:space="preserve">
+    <value>Ändra multipla artister</value>
+  </data>
+  <data name="EditIplTitle" xml:space="preserve">
+    <value>Ändra inblandade personer</value>
+  </data>
+  <data name="EditMclTitle" xml:space="preserve">
+    <value>Ändra musiker</value>
+  </data>
+  <data name="AddEditComment" xml:space="preserve">
+    <value>Lägg till/ändra kommentar</value>
+  </data>
+  <data name="AddEditTxxx" xml:space="preserve">
+    <value>Lägg till/ändra txxx</value>
+  </data>
+  <data name="Content" xml:space="preserve">
+    <value>Innehåll</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Beskrivning</value>
+  </data>
+  <data name="Load" xml:space="preserve">
+    <value>Ladda</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Spara</value>
+  </data>
+  <data name="AddEditPicture" xml:space="preserve">
+    <value>Lägg till/ändra bild</value>
+  </data>
+  <data name="Browse" xml:space="preserve">
+    <value>Bläddra</value>
+  </data>
+  <data name="Picture" xml:space="preserve">
+    <value>Bild</value>
+  </data>
+  <data name="PictureType" xml:space="preserve">
+    <value>Bildtyp</value>
+  </data>
+  <data name="Finish" xml:space="preserve">
+    <value>Avsluta</value>
+  </data>
+  <data name="te_album" xml:space="preserve">
+    <value>Album</value>
+  </data>
+  <data name="te_albumartist" xml:space="preserve">
+    <value>Albumartist</value>
+  </data>
+  <data name="te_albumartistsortorder" xml:space="preserve">
+    <value>Album artist sortering</value>
+  </data>
+  <data name="te_albumsortorder" xml:space="preserve">
+    <value>Album sortering</value>
+  </data>
+  <data name="te_albumsubtitle" xml:space="preserve">
+    <value>Album undertitel</value>
+  </data>
+  <data name="te_albumversion" xml:space="preserve">
+    <value>Album version</value>
+  </data>
+  <data name="te_artist" xml:space="preserve">
+    <value>Artist</value>
+  </data>
+  <data name="te_artistsortorder" xml:space="preserve">
+    <value>Artist sortering</value>
+  </data>
+  <data name="te_artisturl" xml:space="preserve">
+    <value>Artist url</value>
+  </data>
+  <data name="te_audiofileurl" xml:space="preserve">
+    <value>Ljudfil url</value>
+  </data>
+  <data name="te_bandorch" xml:space="preserve">
+    <value>Band/orkester</value>
+  </data>
+  <data name="te_biography" xml:space="preserve">
+    <value>Biografi</value>
+  </data>
+  <data name="te_blank" xml:space="preserve">
+    <value>Tom</value>
+  </data>
+  <data name="te_bpm" xml:space="preserve">
+    <value>BPM</value>
+  </data>
+  <data name="te_buycdurl" xml:space="preserve">
+    <value>Köp CD länk</value>
+  </data>
+  <data name="te_catalognumber" xml:space="preserve">
+    <value>Katalognummer</value>
+  </data>
+  <data name="te_composer" xml:space="preserve">
+    <value>Kompositör</value>
+  </data>
+  <data name="te_conductor" xml:space="preserve">
+    <value>Dirigent</value>
+  </data>
+  <data name="te_copyright" xml:space="preserve">
+    <value>Copyright</value>
+  </data>
+  <data name="te_currentcd" xml:space="preserve">
+    <value>Aktuell CD</value>
+  </data>
+  <data name="te_currenttrack" xml:space="preserve">
+    <value>Aktuell låt</value>
+  </data>
+  <data name="te_custom1" xml:space="preserve">
+    <value>Custom 1</value>
+  </data>
+  <data name="te_custom10" xml:space="preserve">
+    <value>Custom 10</value>
+  </data>
+  <data name="te_custom2" xml:space="preserve">
+    <value>Custom 2</value>
+  </data>
+  <data name="te_custom3" xml:space="preserve">
+    <value>Custom 3</value>
+  </data>
+  <data name="te_custom4" xml:space="preserve">
+    <value>Custom 4</value>
+  </data>
+  <data name="te_custom5" xml:space="preserve">
+    <value>Custom 5</value>
+  </data>
+  <data name="te_custom6" xml:space="preserve">
+    <value>Custom 6</value>
+  </data>
+  <data name="te_custom7" xml:space="preserve">
+    <value>Custom 7</value>
+  </data>
+  <data name="te_custom8" xml:space="preserve">
+    <value>Custom 8</value>
+  </data>
+  <data name="te_custom9" xml:space="preserve">
+    <value>Custom 9</value>
+  </data>
+  <data name="te_encodedby" xml:space="preserve">
+    <value>Kodad av</value>
+  </data>
+  <data name="te_fileowner" xml:space="preserve">
+    <value>Filägare</value>
+  </data>
+  <data name="te_genre" xml:space="preserve">
+    <value>Genre</value>
+  </data>
+  <data name="te_grouping" xml:space="preserve">
+    <value>Gruppering</value>
+  </data>
+  <data name="te_initialkey" xml:space="preserve">
+    <value>Initial nyckel</value>
+  </data>
+  <data name="te_ipls" xml:space="preserve">
+    <value>Inblandade personer</value>
+  </data>
+  <data name="te_isrc" xml:space="preserve">
+    <value>ISRC</value>
+  </data>
+  <data name="te_label" xml:space="preserve">
+    <value>Utgivare</value>
+  </data>
+  <data name="te_labelurl" xml:space="preserve">
+    <value>Utgivarlänk</value>
+  </data>
+  <data name="te_language" xml:space="preserve">
+    <value>Språk</value>
+  </data>
+  <data name="te_lyricist" xml:space="preserve">
+    <value>Textförfattare</value>
+  </data>
+  <data name="te_lyrics" xml:space="preserve">
+    <value>Låttexter</value>
+  </data>
+  <data name="te_mcl" xml:space="preserve">
+    <value>Musiker</value>
+  </data>
+  <data name="te_media" xml:space="preserve">
+    <value>Media</value>
+  </data>
+  <data name="te_mood" xml:space="preserve">
+    <value>Humör</value>
+  </data>
+  <data name="te_multiplecomments" xml:space="preserve">
+    <value>Multipla kommentarer</value>
+  </data>
+  <data name="te_orgartist" xml:space="preserve">
+    <value>Ursprunglig artist</value>
+  </data>
+  <data name="te_orgfilename" xml:space="preserve">
+    <value>Ursprungligt filnamn</value>
+  </data>
+  <data name="te_orglyricist" xml:space="preserve">
+    <value>Ursprunglig textförfattare</value>
+  </data>
+  <data name="te_orgtitle" xml:space="preserve">
+    <value>Ursprunglig titel</value>
+  </data>
+  <data name="te_orgyear" xml:space="preserve">
+    <value>Ursprungligt år</value>
+  </data>
+  <data name="te_partofseries" xml:space="preserve">
+    <value>Del av serie</value>
+  </data>
+  <data name="te_pictures" xml:space="preserve">
+    <value>Kopplade bilder</value>
+  </data>
+  <data name="te_popularity" xml:space="preserve">
+    <value>Popularitet</value>
+  </data>
+  <data name="te_preference" xml:space="preserve">
+    <value>Preferens</value>
+  </data>
+  <data name="te_produced" xml:space="preserve">
+    <value>Producent</value>
+  </data>
+  <data name="te_quality" xml:space="preserve">
+    <value>Kvalitet</value>
+  </data>
+  <data name="te_radiourl" xml:space="preserve">
+    <value>Radio url</value>
+  </data>
+  <data name="te_rating" xml:space="preserve">
+    <value>Betyg</value>
+  </data>
+  <data name="te_recordingyear" xml:space="preserve">
+    <value>Inspelningsår</value>
+  </data>
+  <data name="te_releasetype" xml:space="preserve">
+    <value>Utgivningstyp</value>
+  </data>
+  <data name="te_releaseyear" xml:space="preserve">
+    <value>År</value>
+  </data>
+  <data name="te_remix" xml:space="preserve">
+    <value>Remix</value>
+  </data>
+  <data name="te_singlecomment" xml:space="preserve">
+    <value>Kommentar</value>
+  </data>
+  <data name="te_situation" xml:space="preserve">
+    <value>Situation</value>
+  </data>
+  <data name="te_softwaresettings" xml:space="preserve">
+    <value>Mjukvaruinställningar</value>
+  </data>
+  <data name="te_studio" xml:space="preserve">
+    <value>Studio</value>
+  </data>
+  <data name="te_subtitle" xml:space="preserve">
+    <value>Undertitel</value>
+  </data>
+  <data name="te_tempo" xml:space="preserve">
+    <value>Tempo</value>
+  </data>
+  <data name="te_title" xml:space="preserve">
+    <value>Titel</value>
+  </data>
+  <data name="te_titlesortorder" xml:space="preserve">
+    <value>Titel sorteringsordning</value>
+  </data>
+  <data name="te_totalcds" xml:space="preserve">
+    <value>Totala CDs</value>
+  </data>
+  <data name="te_totaltracks" xml:space="preserve">
+    <value>Totala låtar</value>
+  </data>
+  <data name="te_txxx" xml:space="preserve">
+    <value>Multipla txxx</value>
+  </data>
+  <data name="Borned" xml:space="preserve">
+    <value>Född</value>
+  </data>
+  <data name="EditArtist" xml:space="preserve">
+    <value>Ändra artist...</value>
+  </data>
+  <data name="BornName" xml:space="preserve">
+    <value>Född som</value>
+  </data>
+  <data name="Country" xml:space="preserve">
+    <value>Land</value>
+  </data>
+  <data name="EditArtistInformation" xml:space="preserve">
+    <value>Ändra artist information</value>
+  </data>
+  <data name="IsGroup" xml:space="preserve">
+    <value>Är grupp</value>
+  </data>
+  <data name="IsSingleArtist" xml:space="preserve">
+    <value>Är artist</value>
+  </data>
+  <data name="WebPage" xml:space="preserve">
+    <value>Webbsida</value>
+  </data>
+  <data name="ImportDbProgress24" xml:space="preserve">
+    <value>Importerar idn</value>
+  </data>
+  <data name="ApplyToAll" xml:space="preserve">
+    <value>Applicera &gt;&gt;</value>
+  </data>
+  <data name="ChangePicture" xml:space="preserve">
+    <value>Ändra bild...</value>
+  </data>
+  <data name="DownloadingData" xml:space="preserve">
+    <value>Laddar ner information</value>
+  </data>
+  <data name="DownloadPicture" xml:space="preserve">
+    <value>Ladda ner...</value>
+  </data>
+  <data name="ImportHelium11Command" xml:space="preserve">
+    <value>Importera från Helium 11...</value>
+  </data>
+  <data name="Import_InvalidDatabase" xml:space="preserve">
+    <value>Den valda databasen är inte en giltig Helium 11 databas.
+Vänligen kontrollera att databasen är uppdaterad till den senaste Helium 11 versionen.</value>
+  </data>
+  <data name="LibraryManagement" xml:space="preserve">
+    <value>Hantera bibliotek...</value>
+  </data>
+  <data name="LibraryManagmentTitle" xml:space="preserve">
+    <value>Hantera bibliotek</value>
+  </data>
+  <data name="Library_CannotOverwriteActive" xml:space="preserve">
+    <value>Du kan inte skriva över den aktiva databasen</value>
+  </data>
+  <data name="Library_DatabaseAlreadyActive" xml:space="preserve">
+    <value>Denna databas är aktiv</value>
+  </data>
+  <data name="Library_DatabaseConnected" xml:space="preserve">
+    <value>Den aktiva databasen har ändrats så Helium måste startas om.
+Klicka på OK för att starta om Helium.</value>
+  </data>
+  <data name="Library_InvalidDatabase" xml:space="preserve">
+    <value>Den valda databasen är inte giltig.</value>
+  </data>
+  <data name="Library_NewDatabaseCreate" xml:space="preserve">
+    <value>Databasen skapades utan problem.
+Klicka på OK för att starta om Helium.</value>
+  </data>
+  <data name="NewCommand" xml:space="preserve">
+    <value>Ny...</value>
+  </data>
+  <data name="OpenCommand" xml:space="preserve">
+    <value>Öppna...</value>
+  </data>
+  <data name="CreateSqlServerDatabase" xml:space="preserve">
+    <value>Skapa Sql Server databas</value>
+  </data>
+  <data name="Error_CannotConnectToServer" xml:space="preserve">
+    <value>Kan inte nå den valda servern</value>
+  </data>
+  <data name="Error_DatabaseAlreadyExists" xml:space="preserve">
+    <value>En databas med detta namn finns redan.</value>
+  </data>
+  <data name="Library_CannotConnect" xml:space="preserve">
+    <value>Kan inte ansluta till den valda databasen.</value>
+  </data>
+  <data name="CreateMySqlDatabase" xml:space="preserve">
+    <value>Skapa MySql/MariaDb databas</value>
+  </data>
+  <data name="OpenMySqlDatabase" xml:space="preserve">
+    <value>Öppna MySql/MariaDb databas</value>
+  </data>
+  <data name="Database" xml:space="preserve">
+    <value>Databas</value>
+  </data>
+  <data name="MySqlServer" xml:space="preserve">
+    <value>MySql/MariaDb server</value>
+  </data>
+  <data name="Port" xml:space="preserve">
+    <value>Port</value>
+  </data>
+  <data name="SqlAuth" xml:space="preserve">
+    <value>Sql authentisering</value>
+  </data>
+  <data name="SqlServerInstance" xml:space="preserve">
+    <value>Sql sever instansnamn</value>
+  </data>
+  <data name="Username" xml:space="preserve">
+    <value>Användarnamn</value>
+  </data>
+  <data name="WindowsAuth" xml:space="preserve">
+    <value>Windows autentisering</value>
+  </data>
+  <data name="DAC_AddedFiles" xml:space="preserve">
+    <value>Lägg till filer slutfördes.</value>
+  </data>
+  <data name="DAC_TaggedFiles" xml:space="preserve">
+    <value>Tagging kommandot slutfördes.</value>
+  </data>
+  <data name="DAT_AddedFiles" xml:space="preserve">
+    <value>La till filer</value>
+  </data>
+  <data name="DAT_TaggedFiles" xml:space="preserve">
+    <value>Tagging slutförd</value>
+  </data>
+  <data name="ShowAlerts" xml:space="preserve">
+    <value>Visa skrivbordsnotifikationer</value>
+  </data>
+  <data name="Visual" xml:space="preserve">
+    <value>Visuellt</value>
+  </data>
+  <data name="DAC_Imported" xml:space="preserve">
+    <value>Den valda databasen har importerats.</value>
+  </data>
+  <data name="DAC_Updated" xml:space="preserve">
+    <value>Uppdateringen av databasen slutfördes.</value>
+  </data>
+  <data name="DAT_Imported" xml:space="preserve">
+    <value>Databasen importerades</value>
+  </data>
+  <data name="DAT_Updated" xml:space="preserve">
+    <value>Biblioteket uppdaterades</value>
+  </data>
+  <data name="SelectDatabaseTypeImport" xml:space="preserve">
+    <value>Välj databas att importera</value>
+  </data>
+  <data name="ViewOriginal" xml:space="preserve">
+    <value>Visa orginal...</value>
+  </data>
+  <data name="OpenSqlServerDatabase" xml:space="preserve">
+    <value>Öppna Sql server databas</value>
+  </data>
+  <data name="Library_DatabaseImported" xml:space="preserve">
+    <value>Den valda databasen imporerades. Helium behöver nu startas om.
+Klicka på OK för att starta om Helium.</value>
+  </data>
+  <data name="AddToPlaylist" xml:space="preserve">
+    <value>Lägg till i spellista...</value>
+  </data>
+  <data name="AddToPlaylistTitle" xml:space="preserve">
+    <value>Lägg till i spellista</value>
+  </data>
+  <data name="ShowAlertsNotActive" xml:space="preserve">
+    <value>Visa notifikationer endast när Helium är aktivt</value>
+  </data>
+  <data name="MoveDown" xml:space="preserve">
+    <value>Flytta ner</value>
+  </data>
+  <data name="MoveUp" xml:space="preserve">
+    <value>Flytta upp</value>
+  </data>
+  <data name="Playlists" xml:space="preserve">
+    <value>Spellistor</value>
+  </data>
+  <data name="RemoveTracks" xml:space="preserve">
+    <value>Vill du ta bort de valda låtarna från bibliotektet?</value>
+  </data>
+  <data name="NewFolder" xml:space="preserve">
+    <value>Skapa ny mapp</value>
+  </data>
+  <data name="Rename" xml:space="preserve">
+    <value>Byt namn</value>
+  </data>
+  <data name="NoFilesSelected" xml:space="preserve">
+    <value>Inga valda filer</value>
+  </data>
+  <data name="Played" xml:space="preserve">
+    <value>Spelad</value>
+  </data>
+  <data name="Statistics" xml:space="preserve">
+    <value>Statistik</value>
+  </data>
+  <data name="NewFolderMenu" xml:space="preserve">
+    <value>Ny mapp...</value>
+  </data>
+  <data name="NewPlaylist" xml:space="preserve">
+    <value>Ny spellista...</value>
+  </data>
+  <data name="Play" xml:space="preserve">
+    <value>Spela</value>
+  </data>
+  <data name="GeneralStatistics" xml:space="preserve">
+    <value>Generell statistik</value>
+  </data>
+  <data name="MonthlyStatistics" xml:space="preserve">
+    <value>Månadsvisstatistik</value>
+  </data>
+  <data name="MostPlayedArtists" xml:space="preserve">
+    <value>Mest spelade artister</value>
+  </data>
+  <data name="MostPlayedGenres" xml:space="preserve">
+    <value>Mest spelade genres</value>
+  </data>
+  <data name="MostPlayedYears" xml:space="preserve">
+    <value>Mest spelade år</value>
+  </data>
+  <data name="NumberOfAlbumsInLibrary" xml:space="preserve">
+    <value>Antal album i biblioteket</value>
+  </data>
+  <data name="NumberOfArtistsInLibrary" xml:space="preserve">
+    <value>Antal artister i biblioteket</value>
+  </data>
+  <data name="NumberOfGenresInLibrary" xml:space="preserve">
+    <value>Antal genres i biblioteket</value>
+  </data>
+  <data name="NumberOfLabelsInLibrary" xml:space="preserve">
+    <value>Antal utgivare i biblioteket</value>
+  </data>
+  <data name="NumberOfTracksInLibrary" xml:space="preserve">
+    <value>Antal låtar i biblioteket</value>
+  </data>
+  <data name="PlayingStatistics" xml:space="preserve">
+    <value>Uppspelningsstatistik</value>
+  </data>
+  <data name="TopArtists" xml:space="preserve">
+    <value>Topp-artister</value>
+  </data>
+  <data name="TopGenres" xml:space="preserve">
+    <value>Topp-genres</value>
+  </data>
+  <data name="TopYears" xml:space="preserve">
+    <value>Topp-år</value>
+  </data>
+  <data name="TotalPlaytimeInLibrary" xml:space="preserve">
+    <value>Total speltid i biblioteket</value>
+  </data>
+  <data name="TotalTracksPlayed" xml:space="preserve">
+    <value>Totalt antal spelade låtar</value>
+  </data>
+  <data name="TracksPlayedThisMonth" xml:space="preserve">
+    <value>Låtar spelade denna månad</value>
+  </data>
+  <data name="TracksPlayedThisWeek" xml:space="preserve">
+    <value>Låtar spelade denna vecka</value>
+  </data>
+  <data name="TracksPlayedThisYear" xml:space="preserve">
+    <value>Låtar spelade detta år</value>
+  </data>
+  <data name="TracksPlayedToday" xml:space="preserve">
+    <value>Låtar spelade idag</value>
+  </data>
+  <data name="AlbumArtist" xml:space="preserve">
+    <value>Albumartist</value>
+  </data>
+  <data name="Apply" xml:space="preserve">
+    <value>Applicera</value>
+  </data>
+  <data name="ApplyDown" xml:space="preserve">
+    <value>Applicera nedåt</value>
+  </data>
+  <data name="CD" xml:space="preserve">
+    <value>CD</value>
+  </data>
+  <data name="ExtractArtistDashTitle" xml:space="preserve">
+    <value>Extrahera artist-titel</value>
+  </data>
+  <data name="ExtractArtistSlashTitle" xml:space="preserve">
+    <value>Extrahera artist/titel</value>
+  </data>
+  <data name="ExtractMultipleArtists" xml:space="preserve">
+    <value>Extrahera multipla artister</value>
+  </data>
+  <data name="ExtractTitleDashArtist" xml:space="preserve">
+    <value>Extrahera titel-artist</value>
+  </data>
+  <data name="ExtractTitleRemix" xml:space="preserve">
+    <value>Extrahera titlel (remix)</value>
+  </data>
+  <data name="ExtractTitleSlashArtist" xml:space="preserve">
+    <value>Extrahera titel/artist</value>
+  </data>
+  <data name="ExtractTitleSubtitle" xml:space="preserve">
+    <value>Extrahera titel (undertitel)</value>
+  </data>
+  <data name="RecYear" xml:space="preserve">
+    <value>Insp. år</value>
+  </data>
+  <data name="RelYear" xml:space="preserve">
+    <value>Utg. år</value>
+  </data>
+  <data name="Remix" xml:space="preserve">
+    <value>Remix</value>
+  </data>
+  <data name="SelectColumns" xml:space="preserve">
+    <value>Välj kolumner</value>
+  </data>
+  <data name="SelectColumnsMenu" xml:space="preserve">
+    <value>Välj kolumner...</value>
+  </data>
+  <data name="Subtitle" xml:space="preserve">
+    <value>Undertitel</value>
+  </data>
+  <data name="Switch" xml:space="preserve">
+    <value>Byt</value>
+  </data>
+  <data name="SwitchWithAlbum" xml:space="preserve">
+    <value>Byt med album</value>
+  </data>
+  <data name="SwitchWithArtist" xml:space="preserve">
+    <value>Byt med artist</value>
+  </data>
+  <data name="SwitchWithRemix" xml:space="preserve">
+    <value>Byt med remix</value>
+  </data>
+  <data name="SwitchWithSubtitle" xml:space="preserve">
+    <value>Byt med undertitel</value>
+  </data>
+  <data name="SwitchWithTitle" xml:space="preserve">
+    <value>Byt med titel</value>
+  </data>
+  <data name="Track" xml:space="preserve">
+    <value>Spår</value>
+  </data>
+  <data name="Aka" xml:space="preserve">
+    <value>Aka</value>
+  </data>
+  <data name="TagEditor" xml:space="preserve">
+    <value>Taggredigerare</value>
+  </data>
+  <data name="InvolvedPeoples" xml:space="preserve">
+    <value>Inblandade personer</value>
+  </data>
+  <data name="Label" xml:space="preserve">
+    <value>Utgivare</value>
+  </data>
+  <data name="Mcl" xml:space="preserve">
+    <value>Musiker</value>
+  </data>
+  <data name="ReleaseType" xml:space="preserve">
+    <value>Utgivningstyp</value>
+  </data>
+  <data name="EditMultipleComments" xml:space="preserve">
+    <value>Ändra multipla kommentarer</value>
+  </data>
+  <data name="Comments" xml:space="preserve">
+    <value>Kommentarer</value>
+  </data>
+  <data name="EditBiography" xml:space="preserve">
+    <value>Ändra biografi</value>
+  </data>
+  <data name="EditLyrics" xml:space="preserve">
+    <value>Ändra låttexter</value>
+  </data>
+  <data name="AlbumArtistSortOrder" xml:space="preserve">
+    <value>Albumartist sortering</value>
+  </data>
+  <data name="AlbumSortOrder" xml:space="preserve">
+    <value>Album sortering</value>
+  </data>
+  <data name="AlbumSubtitle" xml:space="preserve">
+    <value>Album undertitel</value>
+  </data>
+  <data name="AlbumVersion" xml:space="preserve">
+    <value>Album version</value>
+  </data>
+  <data name="ArtistSortOrder" xml:space="preserve">
+    <value>Artist sortering</value>
+  </data>
+  <data name="ArtistUrl" xml:space="preserve">
+    <value>Artist url</value>
+  </data>
+  <data name="AudioFileUrl" xml:space="preserve">
+    <value>Ljudfil url</value>
+  </data>
+  <data name="BandOrch" xml:space="preserve">
+    <value>Band/orkester</value>
+  </data>
+  <data name="Bpm" xml:space="preserve">
+    <value>Bpm</value>
+  </data>
+  <data name="BuyCdUrl" xml:space="preserve">
+    <value>Köp CD url</value>
+  </data>
+  <data name="CatalogNumber" xml:space="preserve">
+    <value>Katalognummer</value>
+  </data>
+  <data name="Comment" xml:space="preserve">
+    <value>Kommentar</value>
+  </data>
+  <data name="Composer" xml:space="preserve">
+    <value>Kompositör</value>
+  </data>
+  <data name="Conductor" xml:space="preserve">
+    <value>Dirigent</value>
+  </data>
+  <data name="Copyright" xml:space="preserve">
+    <value>Copyright</value>
+  </data>
+  <data name="Custom1" xml:space="preserve">
+    <value>Custom 1</value>
+  </data>
+  <data name="Custom10" xml:space="preserve">
+    <value>Custom 10</value>
+  </data>
+  <data name="Custom2" xml:space="preserve">
+    <value>Custom 2</value>
+  </data>
+  <data name="Custom3" xml:space="preserve">
+    <value>Custom 3</value>
+  </data>
+  <data name="Custom4" xml:space="preserve">
+    <value>Custom 4</value>
+  </data>
+  <data name="Custom5" xml:space="preserve">
+    <value>Custom 5</value>
+  </data>
+  <data name="Custom6" xml:space="preserve">
+    <value>Custom 6</value>
+  </data>
+  <data name="Custom7" xml:space="preserve">
+    <value>Custom 7</value>
+  </data>
+  <data name="Custom8" xml:space="preserve">
+    <value>Custom 8</value>
+  </data>
+  <data name="Custom9" xml:space="preserve">
+    <value>Custom 9</value>
+  </data>
+  <data name="EncodedBy" xml:space="preserve">
+    <value>Kodad av</value>
+  </data>
+  <data name="FileOwner" xml:space="preserve">
+    <value>Filägare</value>
+  </data>
+  <data name="Grouping" xml:space="preserve">
+    <value>Gruppering</value>
+  </data>
+  <data name="InitialKey" xml:space="preserve">
+    <value>Initial nyckel</value>
+  </data>
+  <data name="Isrc" xml:space="preserve">
+    <value>ISRC</value>
+  </data>
+  <data name="LabelUrl" xml:space="preserve">
+    <value>Utgivare url</value>
+  </data>
+  <data name="Lyricist" xml:space="preserve">
+    <value>Textförfattare</value>
+  </data>
+  <data name="Lyrics" xml:space="preserve">
+    <value>Sångtext</value>
+  </data>
+  <data name="Media" xml:space="preserve">
+    <value>Media</value>
+  </data>
+  <data name="Mood" xml:space="preserve">
+    <value>Humör</value>
+  </data>
+  <data name="OrgArtist" xml:space="preserve">
+    <value>Ursprunglig artist</value>
+  </data>
+  <data name="OrgFilename" xml:space="preserve">
+    <value>Ursprungligt filnamn</value>
+  </data>
+  <data name="OrgLyricist" xml:space="preserve">
+    <value>Ursprunglig textförfattare</value>
+  </data>
+  <data name="OrgTitle" xml:space="preserve">
+    <value>Ursprunglig titel</value>
+  </data>
+  <data name="OrgYear" xml:space="preserve">
+    <value>Ursprungligt år</value>
+  </data>
+  <data name="PartOfSeries" xml:space="preserve">
+    <value>Del av serie</value>
+  </data>
+  <data name="Popularity" xml:space="preserve">
+    <value>Popularitet</value>
+  </data>
+  <data name="Preference" xml:space="preserve">
+    <value>Preferens</value>
+  </data>
+  <data name="Produced" xml:space="preserve">
+    <value>Producent</value>
+  </data>
+  <data name="Quality" xml:space="preserve">
+    <value>Kvalitet</value>
+  </data>
+  <data name="RadioUrl" xml:space="preserve">
+    <value>Radio url</value>
+  </data>
+  <data name="Situation" xml:space="preserve">
+    <value>Situation</value>
+  </data>
+  <data name="SoftwareSettings" xml:space="preserve">
+    <value>Mjukvaruinställningar</value>
+  </data>
+  <data name="Studio" xml:space="preserve">
+    <value>Studio</value>
+  </data>
+  <data name="Tempo" xml:space="preserve">
+    <value>Tempo</value>
+  </data>
+  <data name="TitleSortOrder" xml:space="preserve">
+    <value>Titel sortering</value>
+  </data>
+  <data name="Txxx" xml:space="preserve">
+    <value>Txxx</value>
+  </data>
+  <data name="Favourite" xml:space="preserve">
+    <value>Favorit</value>
+  </data>
+  <data name="CurrentTrack" xml:space="preserve">
+    <value>Aktuellt spår</value>
+  </data>
+  <data name="Path" xml:space="preserve">
+    <value>Sökväg</value>
+  </data>
+  <data name="Pictures" xml:space="preserve">
+    <value>Bilder</value>
+  </data>
+  <data name="CapitalizationCapitalizeHelperText" xml:space="preserve">
+    <value>Kapitalisera följande fält om kapitalisering är aktivt</value>
+  </data>
+  <data name="ActiveTagEditor" xml:space="preserve">
+    <value>Aktiv taggredigerare</value>
+  </data>
+  <data name="Capitalizer" xml:space="preserve">
+    <value>Kaptaliserare</value>
+  </data>
+  <data name="General" xml:space="preserve">
+    <value>Generellt</value>
+  </data>
+  <data name="LastFm" xml:space="preserve">
+    <value>Last.fm</value>
+  </data>
+  <data name="Lowercase" xml:space="preserve">
+    <value>Små bokstäver</value>
+  </data>
+  <data name="None" xml:space="preserve">
+    <value>Inget</value>
+  </data>
+  <data name="Sentence" xml:space="preserve">
+    <value>Mening</value>
+  </data>
+  <data name="Uppercase" xml:space="preserve">
+    <value>Stora bokstäver</value>
+  </data>
+  <data name="UserDefined" xml:space="preserve">
+    <value>Användarstyrt</value>
+  </data>
+  <data name="Word" xml:space="preserve">
+    <value>Ord</value>
+  </data>
+  <data name="AdvancedTagEditor" xml:space="preserve">
+    <value>Avancerad taggredigerare</value>
+  </data>
+  <data name="CustomCapitalizationHelperText" xml:space="preserve">
+    <value>Användarstyrd kapitaliseringslista (skriv nya ord på nya rader)</value>
+  </data>
+  <data name="CustomCapitalization" xml:space="preserve">
+    <value>Användarstyrd kapitalisering</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Ta bort</value>
+  </data>
+  <data name="Original" xml:space="preserve">
+    <value>Orginal</value>
+  </data>
+  <data name="OriginalCaseDoesNotMatter" xml:space="preserve">
+    <value>Orginalvärdet visas alltid med små bokstäver</value>
+  </data>
+  <data name="Replacement" xml:space="preserve">
+    <value>Ersättning</value>
+  </data>
+  <data name="WordReplacement" xml:space="preserve">
+    <value>Ord ersättning</value>
+  </data>
+  <data name="WordReplacerHelperText" xml:space="preserve">
+    <value>Ord ersättningsdefinitioner</value>
+  </data>
+  <data name="Appearances" xml:space="preserve">
+    <value>Förekomster</value>
+  </data>
+  <data name="TheActiveDatabaseCannotBeDeleted" xml:space="preserve">
+    <value>Den aktiva databasen kan inte tas bort</value>
+  </data>
+  <data name="WouldYouLikeToDeleteTheSelectedDatabase" xml:space="preserve">
+    <value>Vill du ta bort den valda databasen?</value>
+  </data>
+  <data name="AddedDateRoot" xml:space="preserve">
+    <value>Tillagd datum</value>
+  </data>
+  <data name="AlbumArtistRoot" xml:space="preserve">
+    <value>Albumartist</value>
+  </data>
+  <data name="AlbumRoot" xml:space="preserve">
+    <value>Utgåvor</value>
+  </data>
+  <data name="ArtistRoot" xml:space="preserve">
+    <value>Artister</value>
+  </data>
+  <data name="EntireLibrary" xml:space="preserve">
+    <value>Hela biblioteket</value>
+  </data>
+  <data name="FavouriteAlbumsRoot" xml:space="preserve">
+    <value>Favoritalbum</value>
+  </data>
+  <data name="FavouriteArtistsRoot" xml:space="preserve">
+    <value>Favoritartister</value>
+  </data>
+  <data name="FavouriteRoot" xml:space="preserve">
+    <value>Favoriter</value>
+  </data>
+  <data name="FavouriteTracksRoot" xml:space="preserve">
+    <value>Favoritlåtar</value>
+  </data>
+  <data name="FileDateRoot" xml:space="preserve">
+    <value>Fildatum</value>
+  </data>
+  <data name="GenreRoot" xml:space="preserve">
+    <value>Genres</value>
+  </data>
+  <data name="GroupingRoot" xml:space="preserve">
+    <value>Gruppering</value>
+  </data>
+  <data name="LabelsRoot" xml:space="preserve">
+    <value>Utgivare</value>
+  </data>
+  <data name="LibraryVolumeRoot" xml:space="preserve">
+    <value>Bibliotek</value>
+  </data>
+  <data name="MoodRoot" xml:space="preserve">
+    <value>Humör</value>
+  </data>
+  <data name="PlayingHistoryRoot" xml:space="preserve">
+    <value>Spelhistorik</value>
+  </data>
+  <data name="QualityRoot" xml:space="preserve">
+    <value>Kvalitet</value>
+  </data>
+  <data name="RatingRoot" xml:space="preserve">
+    <value>Betyg</value>
+  </data>
+  <data name="RecYearRoot" xml:space="preserve">
+    <value>Inspelningsår</value>
+  </data>
+  <data name="ReleaseTypeRoot" xml:space="preserve">
+    <value>Utgivningstyper</value>
+  </data>
+  <data name="RelYearRoot" xml:space="preserve">
+    <value>Utgivningsår</value>
+  </data>
+  <data name="SeriesRoot" xml:space="preserve">
+    <value>Serier</value>
+  </data>
+  <data name="SituationRoot" xml:space="preserve">
+    <value>Situation</value>
+  </data>
+  <data name="TitleRoot" xml:space="preserve">
+    <value>Titlar</value>
+  </data>
+  <data name="UserDefinedRoot" xml:space="preserve">
+    <value>Användar definierad</value>
+  </data>
+  <data name="UserDefinedRoot10" xml:space="preserve">
+    <value>Användar definierad 10</value>
+  </data>
+  <data name="UserDefinedRoot2" xml:space="preserve">
+    <value>Användar definierad 2</value>
+  </data>
+  <data name="UserDefinedRoot3" xml:space="preserve">
+    <value>Användar definierad 3</value>
+  </data>
+  <data name="UserDefinedRoot4" xml:space="preserve">
+    <value>Användar definierad 4</value>
+  </data>
+  <data name="UserDefinedRoot5" xml:space="preserve">
+    <value>Användar definierad 5</value>
+  </data>
+  <data name="UserDefinedRoot6" xml:space="preserve">
+    <value>Användar definierad 6</value>
+  </data>
+  <data name="UserDefinedRoot7" xml:space="preserve">
+    <value>Användar definierad 7</value>
+  </data>
+  <data name="UserDefinedRoot8" xml:space="preserve">
+    <value>Användar definierad 8</value>
+  </data>
+  <data name="UserDefinedRoot9" xml:space="preserve">
+    <value>Användar definierad 9</value>
+  </data>
+  <data name="AddedDate" xml:space="preserve">
+    <value>Tillagd datum</value>
+  </data>
+  <data name="AddNode" xml:space="preserve">
+    <value>&lt; Lägg till</value>
+  </data>
+  <data name="OperatorIs" xml:space="preserve">
+    <value>Är</value>
+  </data>
+  <data name="OperatorIsAtLeast" xml:space="preserve">
+    <value>Är åtminstonne</value>
+  </data>
+  <data name="OperatorIsAtMost" xml:space="preserve">
+    <value>Är som mest</value>
+  </data>
+  <data name="OperatorIsEmpty" xml:space="preserve">
+    <value>Är tom</value>
+  </data>
+  <data name="OperatorIsInTheRange" xml:space="preserve">
+    <value>Är i intervallet</value>
+  </data>
+  <data name="OperatorIsNot" xml:space="preserve">
+    <value>Är inte</value>
+  </data>
+  <data name="OperatorIsNotEmpty" xml:space="preserve">
+    <value>Är inte tom</value>
+  </data>
+  <data name="OperatorStartsWith" xml:space="preserve">
+    <value>Startar med</value>
+  </data>
+  <data name="OrgRecordingYear" xml:space="preserve">
+    <value>Ursprungligt inspelningsår</value>
+  </data>
+  <data name="Subtracks" xml:space="preserve">
+    <value>Underspår</value>
+  </data>
+  <data name="NoResultsAvailable" xml:space="preserve">
+    <value>Inget resultat</value>
+  </data>
+  <data name="LoadTemplate" xml:space="preserve">
+    <value>Ladda mall</value>
+  </data>
+  <data name="RemoveSelectedTemplate" xml:space="preserve">
+    <value>Vill du ta bort den valda mallen?</value>
+  </data>
+  <data name="SaveTemplate" xml:space="preserve">
+    <value>Spara mall</value>
+  </data>
+  <data name="SelectATemplateFromTheList" xml:space="preserve">
+    <value>Välj en mall från listan</value>
+  </data>
+  <data name="TemplateExistsOverwrite" xml:space="preserve">
+    <value>En mall med den beskrivningen finns redan.</value>
+  </data>
+  <data name="TemplateNameEmpty" xml:space="preserve">
+    <value>Beskrivningen får ej vara tom.</value>
+  </data>
+  <data name="TheDefaultUserCannotBeRemoved" xml:space="preserve">
+    <value>Standardanvändaren kan ej tas bort</value>
+  </data>
+  <data name="EditUser" xml:space="preserve">
+    <value>Ändra användare</value>
+  </data>
+  <data name="NewUser" xml:space="preserve">
+    <value>Ny användare</value>
+  </data>
+  <data name="RemoveTheSelectedUser" xml:space="preserve">
+    <value>Ta bort vald användare?</value>
+  </data>
+  <data name="Exit" xml:space="preserve">
+    <value>Avsluta</value>
+  </data>
+  <data name="AlbumArtistFirstLetter" xml:space="preserve">
+    <value>Albumartist första bokstav</value>
+  </data>
+  <data name="AlbumFirstLetter" xml:space="preserve">
+    <value>Album första bokstav</value>
+  </data>
+  <data name="AlbumRating" xml:space="preserve">
+    <value>Albumbetyg</value>
+  </data>
+  <data name="BandOrchestra" xml:space="preserve">
+    <value>Band/orkester</value>
+  </data>
+  <data name="CurrentCD" xml:space="preserve">
+    <value>Aktuell Cd</value>
+  </data>
+  <data name="Customize" xml:space="preserve">
+    <value>Ändra...</value>
+  </data>
+  <data name="CustomizeMusicBrowserNodes" xml:space="preserve">
+    <value>Ändra musikutforskare</value>
+  </data>
+  <data name="Down" xml:space="preserve">
+    <value>Ner</value>
+  </data>
+  <data name="HasLyrics" xml:space="preserve">
+    <value>Har låttexter</value>
+  </data>
+  <data name="IsVBR" xml:space="preserve">
+    <value>Är VBR</value>
+  </data>
+  <data name="MusicExplorerOptions" xml:space="preserve">
+    <value>Inställningar...</value>
+  </data>
+  <data name="Obscure" xml:space="preserve">
+    <value>Popularitet</value>
+  </data>
+  <data name="OriginalArtist" xml:space="preserve">
+    <value>Ursprunglig artist</value>
+  </data>
+  <data name="OriginalLyricist" xml:space="preserve">
+    <value>Ursprunglig textförfattare</value>
+  </data>
+  <data name="OriginalTitle" xml:space="preserve">
+    <value>Ursprunglig titel</value>
+  </data>
+  <data name="OriginalYear" xml:space="preserve">
+    <value>Ursprungligt år</value>
+  </data>
+  <data name="RecYearDecade" xml:space="preserve">
+    <value>Inspelningsårtionde</value>
+  </data>
+  <data name="RelyearDecade" xml:space="preserve">
+    <value>Utgivningsårtionde</value>
+  </data>
+  <data name="RemoveNode" xml:space="preserve">
+    <value>Ta bort &gt; </value>
+  </data>
+  <data name="TitleFirstLetter" xml:space="preserve">
+    <value>Titel första bokstav</value>
+  </data>
+  <data name="TotalCDs" xml:space="preserve">
+    <value>Totala Cds</value>
+  </data>
+  <data name="TotalTracks" xml:space="preserve">
+    <value>Totala låtar</value>
+  </data>
+  <data name="Up" xml:space="preserve">
+    <value>Upp</value>
+  </data>
+  <data name="ArtistFirstLetter" xml:space="preserve">
+    <value>Artist första bokstav</value>
+  </data>
+  <data name="ReleasesOrdering" xml:space="preserve">
+    <value>Utgivningar ordning</value>
+  </data>
+  <data name="ReleasesOrderingHelper" xml:space="preserve">
+    <value>Definiera hur utgivningar skall sorteras under artist och utgivare detaljsidor</value>
+  </data>
+  <data name="CalculateBpm" xml:space="preserve">
+    <value>Beräkna Bpm</value>
+  </data>
+  <data name="CalcBpmCloseWarning" xml:space="preserve">
+    <value>Beräkning av Bpm är aktiv. 
+Verktyget kan stängas först när denna operation är slutförd.</value>
+  </data>
+  <data name="Calculate" xml:space="preserve">
+    <value>Beräkna</value>
+  </data>
+  <data name="BpmCalculator" xml:space="preserve">
+    <value>Beräkna Bpm</value>
+  </data>
+  <data name="Manual" xml:space="preserve">
+    <value>Manuell</value>
+  </data>
+  <data name="Beats" xml:space="preserve">
+    <value>Slag</value>
+  </data>
+  <data name="BpmCalculatorHelper" xml:space="preserve">
+    <value>Klicka på spela upp för att starta uppspelningen och sedan på slag knappen för att öka antalet slag.</value>
+  </data>
+  <data name="CalculatedBpm" xml:space="preserve">
+    <value>Beräknad Bpm</value>
+  </data>
+  <data name="ElapsedTime" xml:space="preserve">
+    <value>Förfluten tid</value>
+  </data>
+  <data name="TappedBpm" xml:space="preserve">
+    <value>"Knackad" bpm</value>
+  </data>
+  <data name="Beat" xml:space="preserve">
+    <value>Slag</value>
+  </data>
+  <data name="ManualBpm" xml:space="preserve">
+    <value>Manuell Bpm beräkning...</value>
+  </data>
+  <data name="DownloadPictureTitle" xml:space="preserve">
+    <value>Ladda ner bild</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Sök</value>
+  </data>
+  <data name="CustomFieldsReleaseTypes" xml:space="preserve">
+    <value>Egendefinierade fält, kolumner &amp; utgivningsformat</value>
+  </data>
+  <data name="CustomFields" xml:space="preserve">
+    <value>Egendefinierade fält</value>
+  </data>
+  <data name="DisplayName" xml:space="preserve">
+    <value>Visningsnamn</value>
+  </data>
+  <data name="ReleaseTypes" xml:space="preserve">
+    <value>Utgivningsformat</value>
+  </data>
+  <data name="Value" xml:space="preserve">
+    <value>Värde</value>
+  </data>
+  <data name="AddTheOutputFilesToTheLibrary" xml:space="preserve">
+    <value>Lägg till resulterande filer till bibliotek</value>
+  </data>
+  <data name="AddTracks" xml:space="preserve">
+    <value>Lägg till låtar...</value>
+  </data>
+  <data name="OutputFormat" xml:space="preserve">
+    <value>Output format</value>
+  </data>
+  <data name="OutputToSameFolderAsSourceFolder" xml:space="preserve">
+    <value>Spara resulterande i samma mapp som källfilerna</value>
+  </data>
+  <data name="SaveToFolder" xml:space="preserve">
+    <value>Spara till mapp</value>
+  </data>
+  <data name="SelectAll" xml:space="preserve">
+    <value>Välj alla</value>
+  </data>
+  <data name="SelectedFile" xml:space="preserve">
+    <value>Vald fil</value>
+  </data>
+  <data name="SelectNone" xml:space="preserve">
+    <value>Välj inga</value>
+  </data>
+  <data name="Compression" xml:space="preserve">
+    <value>Kompression</value>
+  </data>
+  <data name="ConstantBitrate" xml:space="preserve">
+    <value>Konstant bitrate</value>
+  </data>
+  <data name="EncoderOptions" xml:space="preserve">
+    <value>Kodningsalternativ</value>
+  </data>
+  <data name="EndOffset" xml:space="preserve">
+    <value>Slut-offset</value>
+  </data>
+  <data name="ExtractingFile" xml:space="preserve">
+    <value>Extraherar fil</value>
+  </data>
+  <data name="FastMode" xml:space="preserve">
+    <value>Snabbt läge</value>
+  </data>
+  <data name="HighQuality" xml:space="preserve">
+    <value>Hög kvalitet</value>
+  </data>
+  <data name="IsSelected" xml:space="preserve">
+    <value>Vald</value>
+  </data>
+  <data name="SplitFile" xml:space="preserve">
+    <value>Dela fil...</value>
+  </data>
+  <data name="SplitFileHeader" xml:space="preserve">
+    <value>Dela fil</value>
+  </data>
+  <data name="StartOffset" xml:space="preserve">
+    <value>Start-offset</value>
+  </data>
+  <data name="TrackLength" xml:space="preserve">
+    <value>Spårlängd</value>
+  </data>
+  <data name="UseNormalization" xml:space="preserve">
+    <value>Använd volym-gain</value>
+  </data>
+  <data name="VariableBitrate" xml:space="preserve">
+    <value>Variabel bitrate</value>
+  </data>
+  <data name="DeleteTheSelectedTracks" xml:space="preserve">
+    <value>Ta bort de valda låtarna?</value>
+  </data>
+  <data name="RemoveFromLibraryAndDisc" xml:space="preserve">
+    <value>Ta bort från bibliotek och datorn</value>
+  </data>
+  <data name="RemoveFromLibraryOnly" xml:space="preserve">
+    <value>Ta bort endast från biblioteket</value>
+  </data>
+  <data name="RemoveItemsTitle" xml:space="preserve">
+    <value>Ta bort poster</value>
+  </data>
+  <data name="RemoveTheSelectedItems" xml:space="preserve">
+    <value>Ta bort {0} valda poster?</value>
+  </data>
+  <data name="CopyAlbumPictureToAlbumFolder" xml:space="preserve">
+    <value>Kopiera album bild till album mapp</value>
+  </data>
+  <data name="CopyAlbumPictureToPicturesFolder" xml:space="preserve">
+    <value>Kopiera album bild till den ovan valda mappen</value>
+  </data>
+  <data name="Minimize" xml:space="preserve">
+    <value>Minimera</value>
+  </data>
+  <data name="MultipleArtists" xml:space="preserve">
+    <value>Multipla artister</value>
+  </data>
+  <data name="MultipleArtistsCommandHelperText" xml:space="preserve">
+    <value>Varje post i listan räknas som ett kommando vilket används för att separera artister. Vid behov kommer orginaltexten ersättas med ersättningstexten.</value>
+  </data>
+  <data name="OutputFolder" xml:space="preserve">
+    <value>Destinationsmapp</value>
+  </data>
+  <data name="ConvertingFile" xml:space="preserve">
+    <value>Konverterar fil</value>
+  </data>
+  <data name="ConvertFiles" xml:space="preserve">
+    <value>Konverterar filer</value>
+  </data>
+  <data name="ConvertFilesMenu" xml:space="preserve">
+    <value>Konvertera filer...</value>
+  </data>
+  <data name="ConversionOptions" xml:space="preserve">
+    <value>Konverteringsinställningar</value>
+  </data>
+  <data name="XFilesSelected" xml:space="preserve">
+    <value>{0} valda filer</value>
+  </data>
+  <data name="AlbumNormalization" xml:space="preserve">
+    <value>Album gain</value>
+  </data>
+  <data name="NormalizingTrack" xml:space="preserve">
+    <value>Normaliserar låt</value>
+  </data>
+  <data name="NormalizingTracks" xml:space="preserve">
+    <value>Normaliserar låtar</value>
+  </data>
+  <data name="TrackNormalization" xml:space="preserve">
+    <value>Låt gain</value>
+  </data>
+  <data name="ApplyingTags" xml:space="preserve">
+    <value>Applicerar tags, normalisering och flyttar filer</value>
+  </data>
+  <data name="CalculatingAlbumGainForFiles" xml:space="preserve">
+    <value>Beräknar album och track gain för {0} filer</value>
+  </data>
+  <data name="NormalizationMode" xml:space="preserve">
+    <value>Volym-gain läge</value>
+  </data>
+  <data name="NormalizeFiles" xml:space="preserve">
+    <value>Applicera volym-gain</value>
+  </data>
+  <data name="NormalizeFilesMenu" xml:space="preserve">
+    <value>Applicera volym-gain...</value>
+  </data>
+  <data name="NormalizingFile" xml:space="preserve">
+    <value>Applicerar gain</value>
+  </data>
+  <data name="CalculateAlbumGain" xml:space="preserve">
+    <value>Beräknar album och track gain</value>
+  </data>
+  <data name="CalculateTrackGain" xml:space="preserve">
+    <value>Beräknar track gain</value>
+  </data>
+  <data name="CalculatingGainForFile" xml:space="preserve">
+    <value>Beräknar gain för fil</value>
+  </data>
+  <data name="UpdatingDatabaseFile" xml:space="preserve">
+    <value>Uppdaterar databas, fil</value>
+  </data>
+  <data name="VolumeGain" xml:space="preserve">
+    <value>Volym gain</value>
+  </data>
+  <data name="AppendNumber" xml:space="preserve">
+    <value>Bifoga nummer</value>
+  </data>
+  <data name="DeleteSourceFilesAfterConversion" xml:space="preserve">
+    <value>Ta bort källfiler efter konvertering</value>
+  </data>
+  <data name="HowShouldConflictingFilenamesBeHandled" xml:space="preserve">
+    <value>Hur skall kolliderande filnamn hanteras?</value>
+  </data>
+  <data name="OverwriteFile" xml:space="preserve">
+    <value>Skriv över</value>
+  </data>
+  <data name="RemoveFilesFromLibrary" xml:space="preserve">
+    <value>Ta bort filer from bibliotek</value>
+  </data>
+  <data name="SkipConversion" xml:space="preserve">
+    <value>Hoppa över konvertering</value>
+  </data>
+  <data name="EditSubtracksMenu" xml:space="preserve">
+    <value>Ändra underspår...</value>
+  </data>
+  <data name="LoadCue" xml:space="preserve">
+    <value>Ladda Cue-fil...</value>
+  </data>
+  <data name="SubtrackEditor" xml:space="preserve">
+    <value>Ändra underspår</value>
+  </data>
+  <data name="OtherTracks" xml:space="preserve">
+    <value>Andra låtar</value>
+  </data>
+  <data name="Library_LibraryImported" xml:space="preserve">
+    <value>Det valda biblioteket importerades. Helium behöver nu startas om.
+Klicka på OK för att starta om.</value>
+  </data>
+  <data name="EditPicturesWindow" xml:space="preserve">
+    <value>Ändra bilder</value>
+  </data>
+  <data name="AlbumArtistSortOrderShort" xml:space="preserve">
+    <value>Alb. art. sortering</value>
+  </data>
+  <data name="RecordingYear" xml:space="preserve">
+    <value>Inspelningsår</value>
+  </data>
+  <data name="ReleaseYear" xml:space="preserve">
+    <value>Utgivningsår</value>
+  </data>
+  <data name="PlayingHistory" xml:space="preserve">
+    <value>Uppspelningshistorik</value>
+  </data>
+  <data name="IsFavourite" xml:space="preserve">
+    <value>Favorit</value>
+  </data>
+  <data name="MixMaster" xml:space="preserve">
+    <value>Har underspår</value>
+  </data>
+  <data name="OtherVersions" xml:space="preserve">
+    <value>Andra versioner</value>
+  </data>
+  <data name="Pics" xml:space="preserve">
+    <value>Bilder</value>
+  </data>
+  <data name="Publisher" xml:space="preserve">
+    <value>Utgivare</value>
+  </data>
+  <data name="VbrCbr" xml:space="preserve">
+    <value>Variabel bitrate</value>
+  </data>
+  <data name="To" xml:space="preserve">
+    <value>till</value>
+  </data>
+  <data name="AdvancedSearch" xml:space="preserve">
+    <value>Avancerad sök</value>
+  </data>
+  <data name="AdvancedSearchMenu" xml:space="preserve">
+    <value>Avancerad sök...</value>
+  </data>
+  <data name="ArtistRating" xml:space="preserve">
+    <value>Artistbetyg</value>
+  </data>
+  <data name="ArtistTotalTracks" xml:space="preserve">
+    <value>Totalt antal låtar från artist</value>
+  </data>
+  <data name="AttachedPictures" xml:space="preserve">
+    <value>Bifogade bilder</value>
+  </data>
+  <data name="IsArtist" xml:space="preserve">
+    <value>Är artist</value>
+  </data>
+  <data name="IsFavouriteAlbum" xml:space="preserve">
+    <value>Är favoritalbum</value>
+  </data>
+  <data name="IsFavouriteArtist" xml:space="preserve">
+    <value>Är favoritartist</value>
+  </data>
+  <data name="IsFavouriteTrack" xml:space="preserve">
+    <value>Är favoritlåt</value>
+  </data>
+  <data name="IsVariableBitrate" xml:space="preserve">
+    <value>Är variabel bitrate</value>
+  </data>
+  <data name="OperatorContains" xml:space="preserve">
+    <value>Innehåller</value>
+  </data>
+  <data name="OperatorDoesNotContain" xml:space="preserve">
+    <value>Innehåller inte</value>
+  </data>
+  <data name="OperatorEndsWith" xml:space="preserve">
+    <value>Slutar med</value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>Logga in</value>
+  </data>
+  <data name="ManageUsersMenu" xml:space="preserve">
+    <value>Hantera användare...</value>
+  </data>
+  <data name="NowPlaying" xml:space="preserve">
+    <value>Nu spelas</value>
+  </data>
+  <data name="RememberMe" xml:space="preserve">
+    <value>Kom ihåg mig</value>
+  </data>
+  <data name="New" xml:space="preserve">
+    <value>Ny</value>
+  </data>
+  <data name="PasswordsDoNotMatch" xml:space="preserve">
+    <value>Lösenorden stämmer inte</value>
+  </data>
+  <data name="TagName" xml:space="preserve">
+    <value>Taggnamn</value>
+  </data>
+  <data name="TagNameMustBeUnique" xml:space="preserve">
+    <value>Taggnamn måste vara unikt och inte tomt</value>
+  </data>
+  <data name="UserDetails" xml:space="preserve">
+    <value>Användardetaljer</value>
+  </data>
+  <data name="UserNameMustBeUnique" xml:space="preserve">
+    <value>Användarnamnet måste vara unikt</value>
+  </data>
+  <data name="ManageUsers" xml:space="preserve">
+    <value>Hantera användare</value>
+  </data>
+  <data name="TheActiveUserCannotBeRemoved" xml:space="preserve">
+    <value>Den aktiva användaren kan ej tas bort.</value>
+  </data>
+  <data name="Tasks" xml:space="preserve">
+    <value>Uppgifter</value>
+  </data>
+  <data name="Logout" xml:space="preserve">
+    <value>Logga ut</value>
+  </data>
+  <data name="LogoutAndRestart" xml:space="preserve">
+    <value>Vill du logga ut och starta om?</value>
+  </data>
+  <data name="LimitTo" xml:space="preserve">
+    <value>Begränsa till</value>
+  </data>
+  <data name="SelectedBy" xml:space="preserve">
+    <value>utvalt av</value>
+  </data>
+  <data name="SearchResults" xml:space="preserve">
+    <value>Sök resultat</value>
+  </data>
+  <data name="Gigabytes" xml:space="preserve">
+    <value>Gigabytes</value>
+  </data>
+  <data name="HighestRating" xml:space="preserve">
+    <value>Högsta betyg</value>
+  </data>
+  <data name="Hours" xml:space="preserve">
+    <value>Timmar</value>
+  </data>
+  <data name="LeastPlayed" xml:space="preserve">
+    <value>Minst spelad</value>
+  </data>
+  <data name="LeastRecentlyAdded" xml:space="preserve">
+    <value>Minst nyligen tillagd</value>
+  </data>
+  <data name="LeastRecentlyPlayed" xml:space="preserve">
+    <value>Minst nyligen spelad</value>
+  </data>
+  <data name="LowestRating" xml:space="preserve">
+    <value>Lägst betyg</value>
+  </data>
+  <data name="Megabytes" xml:space="preserve">
+    <value>Megabytes</value>
+  </data>
+  <data name="Minutes" xml:space="preserve">
+    <value>Minuter</value>
+  </data>
+  <data name="MostPlayed" xml:space="preserve">
+    <value>Mest spelad</value>
+  </data>
+  <data name="MostRecentlyAdded" xml:space="preserve">
+    <value>Senast tillagd</value>
+  </data>
+  <data name="MostRecentlyPlayed" xml:space="preserve">
+    <value>Senast spelad</value>
+  </data>
+  <data name="Random" xml:space="preserve">
+    <value>Slumpvis</value>
+  </data>
+  <data name="Songs" xml:space="preserve">
+    <value>Låtar</value>
+  </data>
+  <data name="CouldNotConnectToLastFm" xml:space="preserve">
+    <value>Kunde inte autentisera med Last.fm. Kontrollera dina uppgifter och försök igen.</value>
+  </data>
+  <data name="NavigateUp" xml:space="preserve">
+    <value>Upp...</value>
+  </data>
+  <data name="EditSmartPlaylist" xml:space="preserve">
+    <value>Ändra smart spellista...</value>
+  </data>
+  <data name="NewSmartPlaylist" xml:space="preserve">
+    <value>Ny smart spellista...</value>
+  </data>
+  <data name="SmartPlaylist" xml:space="preserve">
+    <value>Smart spellista</value>
+  </data>
+  <data name="SmartPlaylists" xml:space="preserve">
+    <value>Smarta spellistor</value>
+  </data>
+  <data name="PlaylistName" xml:space="preserve">
+    <value>Namn på spellista</value>
+  </data>
+  <data name="ListeningHistory" xml:space="preserve">
+    <value>Uppspelningshistorik</value>
+  </data>
+  <data name="LastPlayedTime" xml:space="preserve">
+    <value>Senast spelad</value>
+  </data>
+  <data name="RemoveSelectedSyncItem" xml:space="preserve">
+    <value>Ta bort valda poster?</value>
+  </data>
+  <data name="Items" xml:space="preserve">
+    <value>Poster</value>
+  </data>
+  <data name="OfTotal" xml:space="preserve">
+    <value>av totalt</value>
+  </data>
+  <data name="Plays" xml:space="preserve">
+    <value>Spelningar</value>
+  </data>
+  <data name="LastThirtyDaysPlays" xml:space="preserve">
+    <value>Spelad de senaste trettio dagarna</value>
+  </data>
+  <data name="Shuffle" xml:space="preserve">
+    <value>Blanda</value>
+  </data>
+  <data name="AllPlugins" xml:space="preserve">
+    <value>Alla plug-ins</value>
+  </data>
+  <data name="Download" xml:space="preserve">
+    <value>Ladda ned</value>
+  </data>
+  <data name="Copy" xml:space="preserve">
+    <value>Kopiera</value>
+  </data>
+  <data name="Cut" xml:space="preserve">
+    <value>Klipp ut</value>
+  </data>
+  <data name="Paste" xml:space="preserve">
+    <value>Klistra in</value>
+  </data>
+  <data name="Genres" xml:space="preserve">
+    <value>Genres</value>
+  </data>
+  <data name="PlayedThisDay" xml:space="preserve">
+    <value>Spelad denna dag</value>
+  </data>
+  <data name="UseGlobalHotkeys" xml:space="preserve">
+    <value>Använd globala snabbtangenter</value>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>Nästa</value>
+  </data>
+  <data name="Prev" xml:space="preserve">
+    <value>Föregående</value>
+  </data>
+  <data name="SelectDate" xml:space="preserve">
+    <value>Välj datum</value>
+  </data>
+  <data name="NavigationPaneFullWidth" xml:space="preserve">
+    <value>Fullbredd på navigationsmeny</value>
+  </data>
+  <data name="AddRandomAlbum" xml:space="preserve">
+    <value>Lägg till slumpat album</value>
+  </data>
+  <data name="AddRandomTracks" xml:space="preserve">
+    <value>Lägg till slumpade låtar</value>
+  </data>
+  <data name="AddRandomTracksFromSameArtist" xml:space="preserve">
+    <value>Lägg till slumpade låtar från samma artist</value>
+  </data>
+  <data name="AddRandomTracksFromSameGenre" xml:space="preserve">
+    <value>Lägg till slumpade låtar från samma genre</value>
+  </data>
+  <data name="AddRandomTracksFromSameYear" xml:space="preserve">
+    <value>Lägg till slumpade låtar från samma år</value>
+  </data>
+  <data name="AddSimilarTracks" xml:space="preserve">
+    <value>Lägg till liknande låtar</value>
+  </data>
+  <data name="All" xml:space="preserve">
+    <value>Alla</value>
+  </data>
+  <data name="AutoEnqueue" xml:space="preserve">
+    <value>Auto-köa</value>
+  </data>
+  <data name="AutoEnqueueEnabled" xml:space="preserve">
+    <value>Auto-kö aktiv</value>
+  </data>
+  <data name="AutoEnqueueOptionsMenu" xml:space="preserve">
+    <value>Auto-kö inställningar</value>
+  </data>
+  <data name="AutomaticallyMaintainAtLeast" xml:space="preserve">
+    <value>Behåll minst</value>
+  </data>
+  <data name="AutomaticallyRetainAtMost" xml:space="preserve">
+    <value>Behåll som mest</value>
+  </data>
+  <data name="PreviousTracksInPlayQueue" xml:space="preserve">
+    <value>tidigare spår i spelkön</value>
+  </data>
+  <data name="UpcomingTracksInPlayQueue" xml:space="preserve">
+    <value>kommande spår i spelkön</value>
+  </data>
+  <data name="UpdateLibrary_RemoveUnavailableRoots" xml:space="preserve">
+    <value>Ta bort ej tillgängliga rot-sökvägar</value>
+  </data>
+  <data name="CenterActiveTrack" xml:space="preserve">
+    <value>Centrera aktivt spår i spelkön</value>
+  </data>
+  <data name="EnableWebservice" xml:space="preserve">
+    <value>Aktivera webbtjänst</value>
+  </data>
+  <data name="Webservice" xml:space="preserve">
+    <value>Webbtjänst</value>
+  </data>
+  <data name="WebserviceStarted" xml:space="preserve">
+    <value>Webbtjänst startad på port: {0}</value>
+  </data>
+  <data name="YourIp" xml:space="preserve">
+    <value>Dina IP-adresser är:</value>
+  </data>
+  <data name="NumberOfItemsDiffer" xml:space="preserve">
+    <value>Antal spår skiljer sig. Källspår: {0}, nedladdade spår: {1}</value>
+  </data>
+  <data name="DownloadInformation" xml:space="preserve">
+    <value>Ladda ner information</value>
+  </data>
+  <data name="Duration" xml:space="preserve">
+    <value>Längd</value>
+  </data>
+  <data name="NoOptionsAvailable" xml:space="preserve">
+    <value>Inga tillgängliga inställningar</value>
+  </data>
+  <data name="AddFromSmartPlaylist" xml:space="preserve">
+    <value>Lägg till från smart spellista</value>
+  </data>
+  <data name="NoSmartPlaylistSelected" xml:space="preserve">
+    <value>Ingen smart spellista vald</value>
+  </data>
+  <data name="SelectSmartPlaylist" xml:space="preserve">
+    <value>Välj smart spellista</value>
+  </data>
+  <data name="ShowSortOrderValues" xml:space="preserve">
+    <value>Visa sorteringsvärden</value>
+  </data>
+  <data name="UseSortOrder" xml:space="preserve">
+    <value>Använd sorteringsvärden</value>
+  </data>
+  <data name="Stop" xml:space="preserve">
+    <value>Stoppa</value>
+  </data>
+  <data name="WordsUsedForAutoSortOrder" xml:space="preserve">
+    <value>Ord som används för automatisk sorteringsordning</value>
+  </data>
+  <data name="Years" xml:space="preserve">
+    <value>År</value>
+  </data>
+  <data name="ArtistTitle" xml:space="preserve">
+    <value>Artist - titel</value>
+  </data>
+  <data name="CompareBy" xml:space="preserve">
+    <value>Jämför med</value>
+  </data>
+  <data name="DuplicateFinder" xml:space="preserve">
+    <value>Hitta dubbletter</value>
+  </data>
+  <data name="DuplicateFinderMenu" xml:space="preserve">
+    <value>Hitta dubbletter...</value>
+  </data>
+  <data name="MatchRating" xml:space="preserve">
+    <value>Matcha-betyg</value>
+  </data>
+  <data name="SonglengthTolerance" xml:space="preserve">
+    <value>Låtlängdstolerans</value>
+  </data>
+  <data name="TagToFilenameMenu" xml:space="preserve">
+    <value>Byt namn på filer...</value>
+  </data>
+  <data name="SortOrder" xml:space="preserve">
+    <value>Sorteringsordning</value>
+  </data>
+  <data name="DarkTheme" xml:space="preserve">
+    <value>Mörkt tema</value>
+  </data>
+  <data name="LightTheme" xml:space="preserve">
+    <value>Ljust tema</value>
+  </data>
+  <data name="ThemeChanged" xml:space="preserve">
+    <value>Temat har ändrats, Helium behöver startas om. Klicka på OK för att starta om Helium.</value>
+  </data>
+  <data name="DupeMatch10" xml:space="preserve">
+    <value>Matchning, 10% eller lägre</value>
+  </data>
+  <data name="DupeMatch100" xml:space="preserve">
+    <value>Matchning, 100% eller lägre</value>
+  </data>
+  <data name="DupeMatch20" xml:space="preserve">
+    <value>Matchning, 20% eller lägre</value>
+  </data>
+  <data name="DupeMatch30" xml:space="preserve">
+    <value>Matchning, 30% eller lägre</value>
+  </data>
+  <data name="DupeMatch40" xml:space="preserve">
+    <value>Matchning, 40% eller lägre</value>
+  </data>
+  <data name="DupeMatch50" xml:space="preserve">
+    <value>Matchning, 50% eller lägre</value>
+  </data>
+  <data name="DupeMatch60" xml:space="preserve">
+    <value>Matchning, 60% eller lägre</value>
+  </data>
+  <data name="DupeMatch70" xml:space="preserve">
+    <value>Matchning, 70% eller lägre</value>
+  </data>
+  <data name="DupeMatch80" xml:space="preserve">
+    <value>Matchning, 80% eller lägre</value>
+  </data>
+  <data name="DupeMatch90" xml:space="preserve">
+    <value>Matchning, 90% eller lägre</value>
+  </data>
+  <data name="FindDuplicatesIn" xml:space="preserve">
+    <value>Hitta dubbletter i</value>
+  </data>
+  <data name="SpecificFolder" xml:space="preserve">
+    <value>Specifik mapp</value>
+  </data>
+  <data name="UnknownAcoustId" xml:space="preserve">
+    <value>Okänt AcoustId</value>
+  </data>
+  <data name="CalculatingResult" xml:space="preserve">
+    <value>Beräknar resultat</value>
+  </data>
+  <data name="CompareByAcoustId" xml:space="preserve">
+    <value>Jämför med AcoustId</value>
+  </data>
+  <data name="CompareByAcoustIdResults" xml:space="preserve">
+    <value>Jämför AcoustId resultat</value>
+  </data>
+  <data name="EqualInGroup" xml:space="preserve">
+    <value>Likvärdig grupp:</value>
+  </data>
+  <data name="AutoTrack" xml:space="preserve">
+    <value>Auto-numrera</value>
+  </data>
+  <data name="RemoveSelectedFiles" xml:space="preserve">
+    <value>Ta bort de {0} filerna från biblioteket och disken?</value>
+  </data>
+  <data name="RemoveCheckmarked" xml:space="preserve">
+    <value>Ta bort markerade</value>
+  </data>
+  <data name="RenameAndCopy" xml:space="preserve">
+    <value>Byt namn och kopiera</value>
+  </data>
+  <data name="RenameAndMove" xml:space="preserve">
+    <value>Byt namn och flytta</value>
+  </data>
+  <data name="RenamingFileXofY" xml:space="preserve">
+    <value>Byter namn, fil {0}/{1}</value>
+  </data>
+  <data name="PleaseWait" xml:space="preserve">
+    <value>Vänligen vänta...</value>
+  </data>
+  <data name="RenamingFiles" xml:space="preserve">
+    <value>Byter namn på filer</value>
+  </data>
+  <data name="Template" xml:space="preserve">
+    <value>Mall</value>
+  </data>
+  <data name="AudioDataSize" xml:space="preserve">
+    <value>Ljuddata storlek</value>
+  </data>
+  <data name="BitrateDistribution" xml:space="preserve">
+    <value>Bitrate fördelning</value>
+  </data>
+  <data name="bytes" xml:space="preserve">
+    <value>bytes</value>
+  </data>
+  <data name="CalculatedBitrate" xml:space="preserve">
+    <value>Beräknad bitrate</value>
+  </data>
+  <data name="CBR" xml:space="preserve">
+    <value>Konstant bitrate</value>
+  </data>
+  <data name="Channels" xml:space="preserve">
+    <value>Kanaler</value>
+  </data>
+  <data name="ContainsDoubledId3v1Tags" xml:space="preserve">
+    <value>Har dubbla ID3v1 taggar</value>
+  </data>
+  <data name="CorrectVbrHeader" xml:space="preserve">
+    <value>Korrigera VBR</value>
+  </data>
+  <data name="Count" xml:space="preserve">
+    <value>Antal</value>
+  </data>
+  <data name="Details" xml:space="preserve">
+    <value>Detaljer</value>
+  </data>
+  <data name="Emphasis" xml:space="preserve">
+    <value>Betoning</value>
+  </data>
+  <data name="EncoderGuessed" xml:space="preserve">
+    <value>Kodare (gissad)</value>
+  </data>
+  <data name="EncodingType" xml:space="preserve">
+    <value>Kodningstyp</value>
+  </data>
+  <data name="EndPosition" xml:space="preserve">
+    <value>Slutposition</value>
+  </data>
+  <data name="ErrorPosition" xml:space="preserve">
+    <value>Felposition</value>
+  </data>
+  <data name="ErrorSummary" xml:space="preserve">
+    <value>Felsummering</value>
+  </data>
+  <data name="FirstLocatedSync" xml:space="preserve">
+    <value>Första hittade sync</value>
+  </data>
+  <data name="HasApev2Tag" xml:space="preserve">
+    <value>Har Apev2 tagg</value>
+  </data>
+  <data name="HasBadLeadingData" xml:space="preserve">
+    <value>Har felaktig huvuddata</value>
+  </data>
+  <data name="HasId3v1Tag" xml:space="preserve">
+    <value>Har Id3v1.x tagg</value>
+  </data>
+  <data name="HasId3v2Tag" xml:space="preserve">
+    <value>Har Id3v2.x tagg</value>
+  </data>
+  <data name="HasLyrics3Tag" xml:space="preserve">
+    <value>Har Lyrics3 tagg</value>
+  </data>
+  <data name="HasSyncErrors" xml:space="preserve">
+    <value>Mpeg sync fel</value>
+  </data>
+  <data name="Id3v1TagSize" xml:space="preserve">
+    <value>Id3v1.x tag storlek</value>
+  </data>
+  <data name="Id3v2TagSize" xml:space="preserve">
+    <value>Id3v2.x tag storlek</value>
+  </data>
+  <data name="IsVBRButNotDetected" xml:space="preserve">
+    <value>Har felaktigt VBR beskrivning</value>
+  </data>
+  <data name="MpegOverview" xml:space="preserve">
+    <value>Mpeg översikt</value>
+  </data>
+  <data name="MpegSyncErrors" xml:space="preserve">
+    <value>Mpeg sync fel</value>
+  </data>
+  <data name="PercentOfTotal" xml:space="preserve">
+    <value>Procent av total</value>
+  </data>
+  <data name="PlayFromThisPosition" xml:space="preserve">
+    <value>Spela från denna position</value>
+  </data>
+  <data name="RemoveApeTag" xml:space="preserve">
+    <value>Ta bort Ape tagg</value>
+  </data>
+  <data name="RemoveDoubleId3v1Tags" xml:space="preserve">
+    <value>Ta bort dubbla Id3v1 taggar</value>
+  </data>
+  <data name="RemoveFile" xml:space="preserve">
+    <value>Ta bort fil</value>
+  </data>
+  <data name="RemoveLeadingBytes" xml:space="preserve">
+    <value>Ta bort inledande bytes</value>
+  </data>
+  <data name="StartPosition" xml:space="preserve">
+    <value>Start position</value>
+  </data>
+  <data name="SyncNumber" xml:space="preserve">
+    <value>Synknummer</value>
+  </data>
+  <data name="TotalSyncs" xml:space="preserve">
+    <value>Totala synkar</value>
+  </data>
+  <data name="Variables" xml:space="preserve">
+    <value>Variablar</value>
+  </data>
+  <data name="UnableToStartWebService" xml:space="preserve">
+    <value>Kunde inte starta webbtjänsten. Vänligen kontrollera att porten inte är upptagen.</value>
+  </data>
+  <data name="IncorrectVbrHeader" xml:space="preserve">
+    <value>Felaktig VBR beskrivning</value>
+  </data>
+  <data name="FilesWithErrors" xml:space="preserve">
+    <value>Filer med fel</value>
+  </data>
+  <data name="FilesWithoutErrors" xml:space="preserve">
+    <value>Filer utan fel</value>
+  </data>
+  <data name="AnalyseFiles" xml:space="preserve">
+    <value>Analysera filer</value>
+  </data>
+  <data name="AnalyseFilesMenu" xml:space="preserve">
+    <value>Analysera filer...</value>
+  </data>
+  <data name="AnalysingFile" xml:space="preserve">
+    <value>Analyserar fil {0} av {1}</value>
+  </data>
+  <data name="TimeOffset" xml:space="preserve">
+    <value>Tid-offset</value>
+  </data>
+  <data name="ClickToRestoreOriginalData" xml:space="preserve">
+    <value>Klicka för att återställa orginaldata</value>
+  </data>
+  <data name="OverwriteData" xml:space="preserve">
+    <value>Skriv över data</value>
+  </data>
+  <data name="UnknownNumberOfTracks" xml:space="preserve">
+    <value>Okänt antal spår</value>
+  </data>
+  <data name="OutputDevice" xml:space="preserve">
+    <value>Utmatningenhet</value>
+  </data>
+  <data name="OutputDeviceChangeWarning" xml:space="preserve">
+    <value>Om du ändrar utmatningsenhet måste Helium startas om.</value>
+  </data>
+  <data name="Player" xml:space="preserve">
+    <value>Spelare</value>
+  </data>
+  <data name="Refine" xml:space="preserve">
+    <value>Förfina</value>
+  </data>
+  <data name="RenameFiles" xml:space="preserve">
+    <value>Byt namn på filer</value>
+  </data>
+  <data name="Scripts" xml:space="preserve">
+    <value>Script</value>
+  </data>
+  <data name="ScriptCompletedSuccessfully" xml:space="preserve">
+    <value>Scriptet kördes utan problem</value>
+  </data>
+  <data name="ScriptCompletedWithErrors" xml:space="preserve">
+    <value>Scriptet kördes med fel</value>
+  </data>
+  <data name="ScriptProgressWindow" xml:space="preserve">
+    <value>Exekverar script</value>
+  </data>
+  <data name="RemoveAll" xml:space="preserve">
+    <value>Ta bort alla</value>
+  </data>
+  <data name="ExclusiveMode" xml:space="preserve">
+    <value>Använd exklusivt läge</value>
+  </data>
+  <data name="GlobalFilterWindow" xml:space="preserve">
+    <value>Globalfilter</value>
+  </data>
+  <data name="MoveRemainingFiles" xml:space="preserve">
+    <value>Flytta återstående filer</value>
+  </data>
+  <data name="SelectItem" xml:space="preserve">
+    <value>Välj post</value>
+  </data>
+  <data name="RunScriptMenu" xml:space="preserve">
+    <value>Kör script...</value>
+  </data>
+  <data name="EditLabel" xml:space="preserve">
+    <value>Ändra utigvare...</value>
+  </data>
+  <data name="ParentLabel" xml:space="preserve">
+    <value>Förälderutgivare</value>
+  </data>
+  <data name="SelectScriptTitle" xml:space="preserve">
+    <value>Välj script att köra</value>
+  </data>
+  <data name="PlaybackBuffer" xml:space="preserve">
+    <value>Uppspelningsbuffer (ms)</value>
+  </data>
+  <data name="PlaybackDeviceChanged" xml:space="preserve">
+    <value>Uppspelningsinställningarna har ändrats. Helium måste startas om. Klicka på OK för att starta om Helium.</value>
+  </data>
+  <data name="UseWASAPI" xml:space="preserve">
+    <value>Använd WASAPI</value>
+  </data>
+  <data name="ClickToSeeDetails" xml:space="preserve">
+    <value>Klicka här för att se mer information</value>
+  </data>
+  <data name="HasIncorrectApicMime" xml:space="preserve">
+    <value>Felaktig APIC MIME</value>
+  </data>
+  <data name="CalcKeyCloseWarning" xml:space="preserve">
+    <value>En nyckelberäkningsoperation körs. Verktyget kan stängas först när operationen är slutförd.</value>
+  </data>
+  <data name="CalcMusicKey" xml:space="preserve">
+    <value>Beräkna nyckel</value>
+  </data>
+  <data name="ActiveDatabase" xml:space="preserve">
+    <value>Aktiv databas</value>
+  </data>
+  <data name="Backup" xml:space="preserve">
+    <value>Backup</value>
+  </data>
+  <data name="BackupCreatedWithNoProblems" xml:space="preserve">
+    <value>Backup operationen lyckades.</value>
+  </data>
+  <data name="BackupExistsOverwrite" xml:space="preserve">
+    <value>En backup med detta namn finns redan. Vill du skriva över den filen?</value>
+  </data>
+  <data name="BackupMenu" xml:space="preserve">
+    <value>Backup...</value>
+  </data>
+  <data name="CreatingBackup" xml:space="preserve">
+    <value>Skapar backup, vänligen vänta</value>
+  </data>
+  <data name="DestinationPath" xml:space="preserve">
+    <value>Destinationsmapp:</value>
+  </data>
+  <data name="Overwrite" xml:space="preserve">
+    <value>Skriv över</value>
+  </data>
+  <data name="UserSettings" xml:space="preserve">
+    <value>Användarinställningar</value>
+  </data>
+  <data name="ShowVisualisations" xml:space="preserve">
+    <value>Visa Visualisations</value>
+  </data>
+  <data name="MarkAsBadMatch" xml:space="preserve">
+    <value>Ingen match</value>
+  </data>
+  <data name="Input" xml:space="preserve">
+    <value>Input</value>
+  </data>
+  <data name="PortChanged" xml:space="preserve">
+    <value>Du har ändrat porten för webbtjänsten. Helium måste startas om. Klicka på OK för att starta om Helium.</value>
+  </data>
+  <data name="AcoustId" xml:space="preserve">
+    <value>AcoustId</value>
+  </data>
+  <data name="AggregatedTitle" xml:space="preserve">
+    <value>Titel, Remix och Undertitel</value>
+  </data>
+  <data name="InsertField" xml:space="preserve">
+    <value>Infoga fält</value>
+  </data>
+  <data name="EditTemplates" xml:space="preserve">
+    <value>Ändra mallar</value>
+  </data>
+  <data name="EditTemplatesEllipsed" xml:space="preserve">
+    <value>Ändra mallar...</value>
+  </data>
+  <data name="NoDatabaseSelected" xml:space="preserve">
+    <value>Ingen databas valld.</value>
+  </data>
+  <data name="SqlServerBackupRootInfo" xml:space="preserve">
+    <value>Vänligen kontroller att Sql server kontot har tillgång till mappen där backupfilen finns.</value>
+  </data>
+  <data name="MySqlOptions" xml:space="preserve">
+    <value>MySql inställningar</value>
+  </data>
+  <data name="RestoreFile" xml:space="preserve">
+    <value>Återställ filnamn</value>
+  </data>
+  <data name="RestoreMenu" xml:space="preserve">
+    <value>Återställ...</value>
+  </data>
+  <data name="RestoreWindow" xml:space="preserve">
+    <value>Återställ</value>
+  </data>
+  <data name="Server" xml:space="preserve">
+    <value>Server</value>
+  </data>
+  <data name="SqlServerCompactOptions" xml:space="preserve">
+    <value>Sql server compact inställningar</value>
+  </data>
+  <data name="SqlServerOptions" xml:space="preserve">
+    <value>Sql server inställningar</value>
+  </data>
+  <data name="DatabaseExists" xml:space="preserve">
+    <value>Databasen finns redan.
+Välj ett nytt namn.</value>
+  </data>
+  <data name="Large" xml:space="preserve">
+    <value>Stor</value>
+  </data>
+  <data name="Medium" xml:space="preserve">
+    <value>Mellan</value>
+  </data>
+  <data name="Small" xml:space="preserve">
+    <value>Liten</value>
+  </data>
+  <data name="ThumbnailSize" xml:space="preserve">
+    <value>Bild storlek</value>
+  </data>
+  <data name="ThumbnailSizeChanged" xml:space="preserve">
+    <value>Storleken på miniatyrbilderna har ändrats. Klicka på OK för att starta om Helium.</value>
+  </data>
+  <data name="DesktopAlerts" xml:space="preserve">
+    <value>Notifikationer</value>
+  </data>
+  <data name="Theme" xml:space="preserve">
+    <value>Tema</value>
+  </data>
+  <data name="Contact" xml:space="preserve">
+    <value>Kontakt</value>
+  </data>
+  <data name="EditLabelWindow" xml:space="preserve">
+    <value>Ändra utgivare</value>
+  </data>
+  <data name="BackupRestoredNoProblems" xml:space="preserve">
+    <value>Backupen återställdes utan problem.
+Klicka på OK för att starta om Helium.</value>
+  </data>
+  <data name="BackupRestoredWithProblems" xml:space="preserve">
+    <value>Backupen återställdes utan problem.</value>
+  </data>
+  <data name="DatabaseIsActive" xml:space="preserve">
+    <value>Databasen du försöker återställa är aktiv. 
+Vänligen välj ett annat filnamn att återställa till.</value>
+  </data>
+  <data name="ExtractingBackupFiles" xml:space="preserve">
+    <value>Packar upp backup filer</value>
+  </data>
+  <data name="RestoreOverwriteWarn" xml:space="preserve">
+    <value>Varning: Befintliga inställningar, bilder och scripts kommer att skrivas över.
+Klicka på OK för att fortsätta.</value>
+  </data>
+  <data name="RestoringBackup" xml:space="preserve">
+    <value>Återställer backup</value>
+  </data>
+  <data name="RestoringPictures" xml:space="preserve">
+    <value>Återställer bilder</value>
+  </data>
+  <data name="RestoringScripts" xml:space="preserve">
+    <value>Återställer scripts</value>
+  </data>
+  <data name="RestoringSettings" xml:space="preserve">
+    <value>Återställer inställningar</value>
+  </data>
+  <data name="Extreme" xml:space="preserve">
+    <value>Extrem</value>
+  </data>
+  <data name="Good" xml:space="preserve">
+    <value>Bra</value>
+  </data>
+  <data name="Low" xml:space="preserve">
+    <value>Låg</value>
+  </data>
+  <data name="Spectrogram" xml:space="preserve">
+    <value>Spectrogram</value>
+  </data>
+  <data name="SpectrogramInfo" xml:space="preserve">
+    <value>Kvalitet kommer appliceras nästa gång spectrogramet skapas. Bättre kvalitet tar mer tid att rendera och konsumerar mer minne. Använd inställningen "Extreme" med försiktighet.</value>
+  </data>
+  <data name="SpectrogramPalettes" xml:space="preserve">
+    <value>Paletter</value>
+  </data>
+  <data name="SpectrogramQuality" xml:space="preserve">
+    <value>Kvalitet</value>
+  </data>
+  <data name="UntitledAlbum" xml:space="preserve">
+    <value>Okänt album</value>
+  </data>
+  <data name="WaveFormChannels" xml:space="preserve">
+    <value>Vågform (två kanaler)</value>
+  </data>
+  <data name="WaveFormMixed" xml:space="preserve">
+    <value>Vågform (blandad)</value>
+  </data>
+  <data name="WaveFormMono" xml:space="preserve">
+    <value>Vågform (mono)</value>
+  </data>
+  <data name="String1" xml:space="preserve">
+    <value>Inga filer valda</value>
+  </data>
+  <data name="NoFileSelected" xml:space="preserve">
+    <value>Inga filer valda</value>
+  </data>
+  <data name="CleaningEmptyFolders" xml:space="preserve">
+    <value>Rensar tomma mappar...</value>
+  </data>
+  <data name="ClickF2ToRename" xml:space="preserve">
+    <value>Välj en post och tryck F2 för att byta namn manuellt</value>
+  </data>
+  <data name="EnterNewFilename" xml:space="preserve">
+    <value>Nytt filnamn</value>
+  </data>
+  <data name="FileExists" xml:space="preserve">
+    <value>Den resulterande filen finns redan</value>
+  </data>
+  <data name="FilenameTooLong" xml:space="preserve">
+    <value>Det resulterande namnet är länge än 256 tecken</value>
+  </data>
+  <data name="MovingRemainingFiles" xml:space="preserve">
+    <value>Flyttar återstående filer...</value>
+  </data>
+  <data name="RippingTrack" xml:space="preserve">
+    <value>Rippar spår</value>
+  </data>
+  <data name="CdDrive" xml:space="preserve">
+    <value>Cd-enhet</value>
+  </data>
+  <data name="CdRipper" xml:space="preserve">
+    <value>Cd-ripper</value>
+  </data>
+  <data name="CdRipperMenu" xml:space="preserve">
+    <value>Cd-ripper...</value>
+  </data>
+  <data name="NoCdDrivesFound" xml:space="preserve">
+    <value>Inga Cd-enheter funna</value>
+  </data>
+  <data name="Refresh" xml:space="preserve">
+    <value>Updatera</value>
+  </data>
+  <data name="SelectTracksToRip" xml:space="preserve">
+    <value>Välj spår att rippa</value>
+  </data>
+  <data name="EqualizerHeader" xml:space="preserve">
+    <value>Equalizer</value>
+  </data>
+  <data name="EqualizerMenu" xml:space="preserve">
+    <value>Equalizer...</value>
+  </data>
+  <data name="Presets" xml:space="preserve">
+    <value>Förinställningar</value>
+  </data>
+  <data name="Equalizer" xml:space="preserve">
+    <value>Equalizer</value>
+  </data>
+  <data name="FilenameToTag" xml:space="preserve">
+    <value>Filnamn till tag</value>
+  </data>
+  <data name="ExtractTitleRemixSubtitle" xml:space="preserve">
+    <value>Extrahera titel (remix)(undertitel)</value>
+  </data>
+  <data name="FilesAdded" xml:space="preserve">
+    <value>tillagada filer</value>
+  </data>
+  <data name="FilesRemoved" xml:space="preserve">
+    <value>borttagna filer</value>
+  </data>
+  <data name="FilesUpdated" xml:space="preserve">
+    <value>uppdaterade filer</value>
+  </data>
+  <data name="NoUpdatesPerformed" xml:space="preserve">
+    <value>Inga uppdateringar genomfördes</value>
+  </data>
+  <data name="Playing" xml:space="preserve">
+    <value>Spelar</value>
+  </data>
+  <data name="AboutData" xml:space="preserve">
+    <value>Skapare av Helium:
+
+Huvudprogrammering:
+Mikael Stalvik
+
+Assisterandeprogrammering:
+Fredrik Heidgert
+
+Installationssystem:
+Mikael Stalvik
+
+Tack till:
+Alla användare som har deltagit i testande och utvecklingen av nya Helium!
+
+Webbsida:
+http://www.helium-music-manager.com
+
+Copyright © 1997-2016 Imploded Software AB. All permissions reserved.</value>
+  </data>
+  <data name="Export" xml:space="preserve">
+    <value>Exportera</value>
+  </data>
+  <data name="ExportToM3U" xml:space="preserve">
+    <value>Exportera till M3U</value>
+  </data>
+  <data name="ExportToM3U8" xml:space="preserve">
+    <value>Exportera till M3U8</value>
+  </data>
+  <data name="ExportToPLS" xml:space="preserve">
+    <value>Exportera till PLS</value>
+  </data>
+  <data name="DownloadInput" xml:space="preserve">
+    <value>Indata</value>
+  </data>
+  <data name="CopyFilesMenu" xml:space="preserve">
+    <value>Kopiera filer...</value>
+  </data>
+  <data name="MoveFilesMenu" xml:space="preserve">
+    <value>Flytta filer...</value>
+  </data>
+  <data name="ProgressCopyFiles" xml:space="preserve">
+    <value>Kopierar fil {0}/{1}</value>
+  </data>
+  <data name="ProgressCopyTitle" xml:space="preserve">
+    <value>Kopierar filer</value>
+  </data>
+  <data name="ProgressMoveFiles" xml:space="preserve">
+    <value>Flyttar fil {0}/{1}</value>
+  </data>
+  <data name="ProgressMoveTitle" xml:space="preserve">
+    <value>Flyttar filer</value>
+  </data>
+  <data name="SelectDestinationFolder" xml:space="preserve">
+    <value>Välj destinationsmapp</value>
+  </data>
+  <data name="ApplyChanges" xml:space="preserve">
+    <value>Applicera</value>
+  </data>
+  <data name="PendingChangesWarning" xml:space="preserve">
+    <value>Det finns väntande ändringar. Klicka på Applicera för att applicera ändringarna nu.</value>
+  </data>
+  <data name="ToggleEditMode" xml:space="preserve">
+    <value>Växla mellan inmatningsläge</value>
+  </data>
+  <data name="DestinationFolder" xml:space="preserve">
+    <value>Destinationsmapp</value>
+  </data>
+  <data name="ImplodedOnTheWeb" xml:space="preserve">
+    <value>Imploded Software på webben</value>
+  </data>
+  <data name="OfficialWebSite" xml:space="preserve">
+    <value>Officiell webbsida</value>
+  </data>
+  <data name="RemapPathMenu" xml:space="preserve">
+    <value>Mappa om sökvägar...</value>
+  </data>
+  <data name="RemapPathTitle" xml:space="preserve">
+    <value>Mappa om sökvägar</value>
+  </data>
+  <data name="SourceFolder" xml:space="preserve">
+    <value>Källmapp</value>
+  </data>
+  <data name="Support" xml:space="preserve">
+    <value>Support</value>
+  </data>
+  <data name="BackgroundOptions" xml:space="preserve">
+    <value>Bakgrundsinställningar</value>
+  </data>
+  <data name="Blur" xml:space="preserve">
+    <value>Oskärpa</value>
+  </data>
+  <data name="Center" xml:space="preserve">
+    <value>Centrera</value>
+  </data>
+  <data name="FillCenter" xml:space="preserve">
+    <value>Fyll från mitten</value>
+  </data>
+  <data name="FillTop" xml:space="preserve">
+    <value>Fyll från toppen</value>
+  </data>
+  <data name="Opacity" xml:space="preserve">
+    <value>Genomskinlighet</value>
+  </data>
+  <data name="TileByX" xml:space="preserve">
+    <value>Täck horisontellt</value>
+  </data>
+  <data name="TileByXy" xml:space="preserve">
+    <value>Täck</value>
+  </data>
+  <data name="TileHalf" xml:space="preserve">
+    <value>Täck horisontellt (full höjd)</value>
+  </data>
+  <data name="PathsRemapped" xml:space="preserve">
+    <value>Sökvägar har mappats om. Helium startas om.</value>
+  </data>
+  <data name="BlurWarning" xml:space="preserve">
+    <value>Vänligen notera att oskärpa påverkar prestandan</value>
+  </data>
+  <data name="FillAboveCenter" xml:space="preserve">
+    <value>Fyll ovan mitten</value>
+  </data>
+  <data name="FillBelowCenter" xml:space="preserve">
+    <value>Fyll nedan mitten</value>
+  </data>
+  <data name="FillBottom" xml:space="preserve">
+    <value>Fyll från botten</value>
+  </data>
+  <data name="LibraryNeedsUpdate" xml:space="preserve">
+    <value>Den valda databasen behöver uppdatera innan den kan öppnas.
+Klicka på OK för att uppgradera databasen.</value>
+  </data>
+  <data name="Library_Hmm11Database" xml:space="preserve">
+    <value>Databasen du försöker öppna är från Helium 11 eller en äldre version.
+För att använda denna databas behöver du importera den från bibliotekshanteringen. </value>
+  </data>
+  <data name="Discard" xml:space="preserve">
+    <value>Släng</value>
+  </data>
+  <data name="DownloadAlbumPictures" xml:space="preserve">
+    <value>Ladda ner album bilder</value>
+  </data>
+  <data name="DownloadAlbumPicturesMenu" xml:space="preserve">
+    <value>Ladda ner album bilder...</value>
+  </data>
+  <data name="Select" xml:space="preserve">
+    <value>Välj</value>
+  </data>
+  <data name="SelectAllWithoutPictures" xml:space="preserve">
+    <value>Välj alla utan bilder</value>
+  </data>
+  <data name="DownloadArtistPictures" xml:space="preserve">
+    <value>Ladda ner artist bilder</value>
+  </data>
+  <data name="DownloadArtistPicturesMenu" xml:space="preserve">
+    <value>Ladda ner artist bilder...</value>
+  </data>
+  <data name="CheckForUpdatesMenu" xml:space="preserve">
+    <value>Sök efter uppdateringar...</value>
+  </data>
+  <data name="DownloadingNewVersion" xml:space="preserve">
+    <value>Laddar ner ny version</value>
+  </data>
+  <data name="EnableAutomaticUpdateCheck" xml:space="preserve">
+    <value>Aktivera automatisk sökning efter uppdateringar</value>
+  </data>
+  <data name="AvailablePlugins" xml:space="preserve">
+    <value>Tillgängliga plug-ins</value>
+  </data>
+  <data name="Configure" xml:space="preserve">
+    <value>Inställningar...</value>
+  </data>
+  <data name="Plugins" xml:space="preserve">
+    <value>Plug-ins</value>
+  </data>
+  <data name="BackgroundAlbumOptions" xml:space="preserve">
+    <value>Album bakgrund</value>
+  </data>
+  <data name="BackgroundArtistsOptions" xml:space="preserve">
+    <value>Artist bakgrund</value>
+  </data>
+  <data name="ImportFromHelium11" xml:space="preserve">
+    <value>Importera från Helium 11</value>
+  </data>
+  <data name="ImportFromHelium11Menu" xml:space="preserve">
+    <value>Importera från Helium 11...</value>
+  </data>
+  <data name="ViewImage" xml:space="preserve">
+    <value>Visa bild</value>
+  </data>
+  <data name="ShowAllItems" xml:space="preserve">
+    <value>Visa alla poster</value>
+  </data>
+  <data name="ShowItemsWithNoPictures" xml:space="preserve">
+    <value>Visa endast poster som ej har bilder</value>
+  </data>
+  <data name="ShowItemsWithPictures" xml:space="preserve">
+    <value>Visa endast poster som har bilder</value>
+  </data>
+  <data name="ShowOnlyAlbumArtists" xml:space="preserve">
+    <value>Visa endast album artister</value>
+  </data>
+  <data name="Ascending" xml:space="preserve">
+    <value>Stigande</value>
+  </data>
+  <data name="Descending" xml:space="preserve">
+    <value>Fallande</value>
+  </data>
+  <data name="NoSorting" xml:space="preserve">
+    <value>Ingen sortering</value>
+  </data>
+  <data name="SortBy" xml:space="preserve">
+    <value>Sortera efter</value>
+  </data>
+  <data name="ThenBy" xml:space="preserve">
+    <value>Därefter</value>
+  </data>
+  <data name="TotalLength" xml:space="preserve">
+    <value>Total längd</value>
+  </data>
+  <data name="Views" xml:space="preserve">
+    <value>Vyer</value>
+  </data>
+  <data name="AvailableVisualizations" xml:space="preserve">
+    <value>Tillgängliga visualiseringar</value>
+  </data>
+  <data name="DockInNowPlayingView" xml:space="preserve">
+    <value>Docka i nu-spelas vyn</value>
+  </data>
+  <data name="FullScreen" xml:space="preserve">
+    <value>Fullskärm</value>
+  </data>
+  <data name="ShowInVisualizationsView" xml:space="preserve">
+    <value>Helt-fönster läge</value>
+  </data>
+  <data name="StartStopVisualization" xml:space="preserve">
+    <value>Starta/stanna visualisering</value>
+  </data>
+  <data name="Visualizations" xml:space="preserve">
+    <value>Visualiseringar</value>
+  </data>
+  <data name="VisualizationView" xml:space="preserve">
+    <value>Visualiserings-vy</value>
+  </data>
+  <data name="ConfigVisualization" xml:space="preserve">
+    <value>Konfigurera visualisering...</value>
+  </data>
+  <data name="ShowVisualPositionBar" xml:space="preserve">
+    <value>Visa grafisk positionspanel</value>
+  </data>
+  <data name="DoNotShowAgain" xml:space="preserve">
+    <value>Visa inte igen</value>
+  </data>
+  <data name="Restore" xml:space="preserve">
+    <value>Återställ</value>
+  </data>
+  <data name="StartVisDlg" xml:space="preserve">
+    <value>Starta visualisering</value>
+  </data>
+  <data name="ClearPlayQueue" xml:space="preserve">
+    <value>Rensa spelkö</value>
+  </data>
+  <data name="AddedTrends" xml:space="preserve">
+    <value>Tillagd-trend</value>
+  </data>
+  <data name="Days" xml:space="preserve">
+    <value>Dagar</value>
+  </data>
+  <data name="FiletypeTrends" xml:space="preserve">
+    <value>Filtyp-trend</value>
+  </data>
+  <data name="InTheLast" xml:space="preserve">
+    <value>I den sista</value>
+  </data>
+  <data name="Months" xml:space="preserve">
+    <value>Månader</value>
+  </data>
+  <data name="NotInTheLast" xml:space="preserve">
+    <value>Inte i den senaste</value>
+  </data>
+  <data name="PlayingTrends" xml:space="preserve">
+    <value>Uppspelnings-trend</value>
+  </data>
+  <data name="Weeks" xml:space="preserve">
+    <value>Veckor</value>
+  </data>
+  <data name="EqualizerActive" xml:space="preserve">
+    <value>Equalizer aktiv</value>
+  </data>
+  <data name="FileTypeAddedTrends" xml:space="preserve">
+    <value>Filtyp och tillagd-trend</value>
+  </data>
+  <data name="BrowseFolderInMe" xml:space="preserve">
+    <value>Hitta mapp i musikutforskaren</value>
+  </data>
+  <data name="AutoHideShowNowPlayingWhenStartingVis" xml:space="preserve">
+    <value>Dölj/visa nu-spelas panel automatiskt när en visualisering är dockad/i helt-fönster läge</value>
+  </data>
+  <data name="MapToFrame" xml:space="preserve">
+    <value>Mappa till frame</value>
+  </data>
+  <data name="AddToLibrary" xml:space="preserve">
+    <value>Lägg till bibliotek</value>
+  </data>
+  <data name="Command" xml:space="preserve">
+    <value>Kommand</value>
+  </data>
+  <data name="Converter" xml:space="preserve">
+    <value>Konverterare</value>
+  </data>
+  <data name="DefaultTagEditor" xml:space="preserve">
+    <value>Standard tagg redigerare</value>
+  </data>
+  <data name="Key" xml:space="preserve">
+    <value>Nyckel</value>
+  </data>
+  <data name="Modifiers" xml:space="preserve">
+    <value>Modifierare</value>
+  </data>
+  <data name="PlayNow" xml:space="preserve">
+    <value>Spela nu</value>
+  </data>
+  <data name="QueueLast" xml:space="preserve">
+    <value>Köa sist</value>
+  </data>
+  <data name="QueueNext" xml:space="preserve">
+    <value>Köa nästa</value>
+  </data>
+  <data name="RunScript" xml:space="preserve">
+    <value>Kör script</value>
+  </data>
+  <data name="Shortcuts" xml:space="preserve">
+    <value>Genvägar</value>
+  </data>
+  <data name="Splitter" xml:space="preserve">
+    <value>Delare</value>
+  </data>
+  <data name="TagToFilename" xml:space="preserve">
+    <value>Tag till filnamn</value>
+  </data>
+  <data name="ArtistsView" xml:space="preserve">
+    <value>Artist vy</value>
+  </data>
+  <data name="EditSubtracks" xml:space="preserve">
+    <value>Ändra underspår</value>
+  </data>
+  <data name="GenresView" xml:space="preserve">
+    <value>Genres vy</value>
+  </data>
+  <data name="LabelsView" xml:space="preserve">
+    <value>Utgivare vy</value>
+  </data>
+  <data name="PlaylistsView" xml:space="preserve">
+    <value>Spellist vy</value>
+  </data>
+  <data name="ReleasesView" xml:space="preserve">
+    <value>Utgåvor vy</value>
+  </data>
+  <data name="StatisticsView" xml:space="preserve">
+    <value>Statistik vy</value>
+  </data>
+  <data name="ToggleGraphicPositionBar" xml:space="preserve">
+    <value>Växla grafisk positionspanel</value>
+  </data>
+  <data name="ToggleNavigationPane" xml:space="preserve">
+    <value>Växla full-storleks navigationspanel</value>
+  </data>
+  <data name="TracksView" xml:space="preserve">
+    <value>Spår vy</value>
+  </data>
+  <data name="YearsView" xml:space="preserve">
+    <value>År vy</value>
+  </data>
+  <data name="ClearPqOnDoubleClick" xml:space="preserve">
+    <value>Rensa spelkö vid dubbel-klick</value>
+  </data>
+  <data name="Reload" xml:space="preserve">
+    <value>Ladda om</value>
+  </data>
+  <data name="Import_InvalidNeonDatabase" xml:space="preserve">
+    <value>Den valda databasen är inte en giltig Helium databas.</value>
+  </data>
+  <data name="Import" xml:space="preserve">
+    <value>Importera</value>
+  </data>
+  <data name="EqOptions" xml:space="preserve">
+    <value>Equalizer inställningar</value>
+  </data>
+  <data name="ImportNeonCommand" xml:space="preserve">
+    <value>Importera databas</value>
+  </data>
+  <data name="ToggleEq" xml:space="preserve">
+    <value>Växla Equalizer</value>
+  </data>
+  <data name="ToggleNavigationPaneWidth" xml:space="preserve">
+    <value>Växla full-storleks navigationspanel</value>
+  </data>
+  <data name="ImportDbProgress25_Neon" xml:space="preserve">
+    <value>Importerar sökvägar</value>
+  </data>
+  <data name="ImportDbProgress26_Neon" xml:space="preserve">
+    <value>Importerar smarta spellistor mappar</value>
+  </data>
+  <data name="ImportDbProgress27_Neon" xml:space="preserve">
+    <value>Importerar smarta spellistor</value>
+  </data>
+  <data name="ImportDbProgress28_Neon" xml:space="preserve">
+    <value>Importerar texter</value>
+  </data>
+  <data name="OptimizeCommand" xml:space="preserve">
+    <value>Optimera aktiv databas</value>
+  </data>
+  <data name="OpenPort" xml:space="preserve">
+    <value>Öppna port i Windows brandvägg</value>
+  </data>
+  <data name="DoNotUseRg" xml:space="preserve">
+    <value>Använd inte replay gain</value>
+  </data>
+  <data name="UseAlbumGain" xml:space="preserve">
+    <value>Använd album gain</value>
+  </data>
+  <data name="UseTrackGain" xml:space="preserve">
+    <value>Använd track gain</value>
+  </data>
+  <data name="ReplayGain" xml:space="preserve">
+    <value>Replay gain</value>
+  </data>
+  <data name="UseRgWhenEqIsActive" xml:space="preserve">
+    <value>Använd replay gain när equalizern är aktiv (överrid pre-amp)</value>
+  </data>
+  <data name="Stat_OneMonthAgo" xml:space="preserve">
+    <value>1 månad sedan...</value>
+  </data>
+  <data name="Stat_OneWeekAgo" xml:space="preserve">
+    <value>1 vecka sedan...</value>
+  </data>
+  <data name="Stat_OneYearAgo" xml:space="preserve">
+    <value>1 år sedan...</value>
+  </data>
+  <data name="Stat_XMonthsAgo" xml:space="preserve">
+    <value>{0} månader sedan...</value>
+  </data>
+  <data name="Stat_XWeeksAgo" xml:space="preserve">
+    <value>{0} veckor sedan...</value>
+  </data>
+  <data name="Stat_XYearsAgo" xml:space="preserve">
+    <value>{0} år sedan...</value>
+  </data>
+  <data name="UserColumns" xml:space="preserve">
+    <value>Användar kolumner</value>
+  </data>
+  <data name="FontSize" xml:space="preserve">
+    <value>Font-storlek</value>
+  </data>
+  <data name="FontSizeChanged" xml:space="preserve">
+    <value>Den globala font storleken har ändrats. 
+Klicka på OK för att starta om Helium.</value>
+  </data>
+  <data name="Normal" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="CustomColumns" xml:space="preserve">
+    <value>Egna kolumner</value>
+  </data>
+  <data name="CardView" xml:space="preserve">
+    <value>Kort</value>
+  </data>
+  <data name="CollapseHeader" xml:space="preserve">
+    <value>Kollapsa rubrik</value>
+  </data>
+  <data name="ExpandHeader" xml:space="preserve">
+    <value>Expandera rubrik</value>
+  </data>
+  <data name="SplitView" xml:space="preserve">
+    <value>Delad vy</value>
+  </data>
+  <data name="Thumbnails" xml:space="preserve">
+    <value>Tumnaglar</value>
+  </data>
+  <data name="AllTracks" xml:space="preserve">
+    <value>Alla spår</value>
+  </data>
+  <data name="UpgradeVersionTitle" xml:space="preserve">
+    <value>Uppgradera från Helium free till Helium Premium!</value>
+  </data>
+  <data name="String2" xml:space="preserve">
+    <value>Expandera rubrik</value>
+  </data>
+  <data name="LimitedInFree" xml:space="preserve">
+    <value>Detta verktyg är begränsat till 20 poster i fri versionen</value>
+  </data>
+  <data name="ChangeImagePathMessage" xml:space="preserve">
+    <value>Ändring av bild-cache sökvägen kräver en omstart.
+Vill du fortsätta?</value>
+  </data>
+  <data name="ChangeImagePathTitle" xml:space="preserve">
+    <value>Ändra bild-cache</value>
+  </data>
+  <data name="ImageCacheFolder" xml:space="preserve">
+    <value>Bild-cache mapp</value>
+  </data>
+  <data name="DAT_ScriptExecuted" xml:space="preserve">
+    <value>Det valda scriptet kördes utan problem</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>E-post</value>
+  </data>
+  <data name="FullName" xml:space="preserve">
+    <value>För- och efternamn</value>
+  </data>
+  <data name="GetPremium" xml:space="preserve">
+    <value>Skaffa Premium versionen</value>
+  </data>
+  <data name="GetPremiumInformation" xml:space="preserve">
+    <value>Mer information om Premium versionen</value>
+  </data>
+  <data name="InvalidDataEntered" xml:space="preserve">
+    <value>Ogiltig data inskriven.
+Vänligen notera att alla fält är skiftlägeskänsliga och måste skrivas in i det exakta formatet de skickades i.</value>
+  </data>
+  <data name="LicenseKey" xml:space="preserve">
+    <value>Licensnyckel</value>
+  </data>
+  <data name="Purchase" xml:space="preserve">
+    <value>Köp</value>
+  </data>
+  <data name="ReadMore" xml:space="preserve">
+    <value>Läs mer</value>
+  </data>
+  <data name="RegisterHelium" xml:space="preserve">
+    <value>Registrera Helium</value>
+  </data>
+  <data name="RegisterHeliumTitle" xml:space="preserve">
+    <value>Registera din version av Helium</value>
+  </data>
+  <data name="SuccessFullRegistration" xml:space="preserve">
+    <value>Grattis!
+
+Du har registrerat Helium.
+Klicka på OK för att starta om och njut av Premium funktionerna.</value>
+  </data>
+  <data name="FileNotFound" xml:space="preserve">
+    <value>Fil hittades inte {0}</value>
+  </data>
+  <data name="Sublabels" xml:space="preserve">
+    <value>Underutgivare</value>
+  </data>
+  <data name="TopFileTypes" xml:space="preserve">
+    <value>Topp filtyper</value>
+  </data>
+  <data name="TopLabels" xml:space="preserve">
+    <value>Topp utgivare</value>
+  </data>
+  <data name="TopReleaseTypes" xml:space="preserve">
+    <value>Topp utgivningsformat</value>
+  </data>
+  <data name="OnlyInPremium" xml:space="preserve">
+    <value>Denna funktion finns endast i Helium Premium</value>
+  </data>
+  <data name="ListeningHabits" xml:space="preserve">
+    <value>Lyssningsvanor</value>
+  </data>
+  <data name="RatingStatistics" xml:space="preserve">
+    <value>Betygsstatistik</value>
+  </data>
+  <data name="Tops" xml:space="preserve">
+    <value>Topp</value>
+  </data>
+  <data name="AlbumRatings" xml:space="preserve">
+    <value>Album betyg</value>
+  </data>
+  <data name="ArtistRatings" xml:space="preserve">
+    <value>Artist betyg</value>
+  </data>
+  <data name="PlayedDays" xml:space="preserve">
+    <value>Spelad veckodagar</value>
+  </data>
+  <data name="PlayedHours" xml:space="preserve">
+    <value>Spelad timmar</value>
+  </data>
+  <data name="PlayedWeeks" xml:space="preserve">
+    <value>Spelad veckor</value>
+  </data>
+  <data name="TrackRatings" xml:space="preserve">
+    <value>Låtbetyg</value>
+  </data>
+  <data name="FreeVersionLimit" xml:space="preserve">
+    <value>Denna funktion är ej tillgänglig i gratisversionen av Helium.
+För att använda denna funktion behöver du uppgradera till Premium versionen.</value>
+  </data>
+  <data name="SourceImageNotFound" xml:space="preserve">
+    <value>Källfilen hittades inte</value>
+  </data>
+  <data name="ClearPicture" xml:space="preserve">
+    <value>Rensa bild</value>
+  </data>
+  <data name="RemoveAlbumMenu" xml:space="preserve">
+    <value>Ta bort album...</value>
+  </data>
+  <data name="AddBlank" xml:space="preserve">
+    <value>Lägg till blank</value>
+  </data>
+  <data name="AvailableFields" xml:space="preserve">
+    <value>Tillgängliga fält</value>
+  </data>
+  <data name="Columns" xml:space="preserve">
+    <value>Kolumner</value>
+  </data>
+  <data name="FourColumns" xml:space="preserve">
+    <value>Fyra kolumner</value>
+  </data>
+  <data name="OneColumn" xml:space="preserve">
+    <value>En kolumn</value>
+  </data>
+  <data name="SelectedFields" xml:space="preserve">
+    <value>Valda fält</value>
+  </data>
+  <data name="SelectedTab" xml:space="preserve">
+    <value>Vald flik</value>
+  </data>
+  <data name="ThreeColumns" xml:space="preserve">
+    <value>Tre kolumner</value>
+  </data>
+  <data name="TwoColumns" xml:space="preserve">
+    <value>Två kolumner</value>
+  </data>
+  <data name="AteTemplateEditor" xml:space="preserve">
+    <value>Ändra mall</value>
+  </data>
+  <data name="SaveAs" xml:space="preserve">
+    <value>Spara som...</value>
+  </data>
+  <data name="EditTemplate" xml:space="preserve">
+    <value>Ändra mall...</value>
+  </data>
+  <data name="EditAteTabWindow" xml:space="preserve">
+    <value>Ändra flik</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Namn</value>
+  </data>
+  <data name="Move" xml:space="preserve">
+    <value>Flytta</value>
+  </data>
+  <data name="CopyMenu" xml:space="preserve">
+    <value>Kopiera...</value>
+  </data>
+  <data name="MoveMenu" xml:space="preserve">
+    <value>Flytta...</value>
+  </data>
+  <data name="RenameMenu" xml:space="preserve">
+    <value>Byt namn...</value>
+  </data>
+  <data name="RemoveAllFilesAndSubfolders" xml:space="preserve">
+    <value>Ta bort alla filer i mappen och undermappar</value>
+  </data>
+  <data name="RemoveMenu" xml:space="preserve">
+    <value>Ta bort...</value>
+  </data>
+  <data name="OverwritePictures" xml:space="preserve">
+    <value>Skriv över bilder</value>
+  </data>
+  <data name="NoGrouping" xml:space="preserve">
+    <value>Ingen gruppering</value>
+  </data>
+  <data name="CustomPictureName" xml:space="preserve">
+    <value>Egendefinierat namn</value>
+  </data>
+  <data name="SelectedFiles" xml:space="preserve">
+    <value>Valda filer</value>
+  </data>
+  <data name="SelectFiles" xml:space="preserve">
+    <value>Välj filer</value>
+  </data>
+  <data name="AlbumPictureNameFormat" xml:space="preserve">
+    <value>Albumbild filnamn format</value>
+  </data>
+  <data name="Codes" xml:space="preserve">
+    <value>Koder</value>
+  </data>
+  <data name="TracksPlayed" xml:space="preserve">
+    <value>låtar spelade</value>
+  </data>
+  <data name="AlbumPicturePath" xml:space="preserve">
+    <value>Sökväg till album bilder</value>
+  </data>
+  <data name="ArtistPicturePath" xml:space="preserve">
+    <value>Sökväg till artist bilder</value>
+  </data>
+  <data name="Imp11_ImportAlbumPictures" xml:space="preserve">
+    <value>-Importera album bilder</value>
+  </data>
+  <data name="Imp11_ImportArtistPictures" xml:space="preserve">
+    <value>-Importera artist bilder</value>
+  </data>
+  <data name="Imp11_ImportLabelPictures" xml:space="preserve">
+    <value>-Importera utgivare bilder</value>
+  </data>
+  <data name="Imp11_SQLCEDesc" xml:space="preserve">
+    <value>-Importera Sql Server Compact databas:</value>
+  </data>
+  <data name="ImportingData" xml:space="preserve">
+    <value>Importerar data</value>
+  </data>
+  <data name="LabelPicturePath" xml:space="preserve">
+    <value>Sökväg till utgivare bilder</value>
+  </data>
+  <data name="TheActiveDatabaseIsNotEmpty" xml:space="preserve">
+    <value>Den aktiva databasen är inte tom!</value>
+  </data>
+  <data name="UserDefinedCapitaliazationChars" xml:space="preserve">
+    <value>Användardefinierade skiljetecken (skriv tecken efter varandra)</value>
+  </data>
+  <data name="And" xml:space="preserve">
+    <value>Och</value>
+  </data>
+  <data name="Author" xml:space="preserve">
+    <value>Skapare</value>
+  </data>
+  <data name="Expression1" xml:space="preserve">
+    <value>Uttryck 1</value>
+  </data>
+  <data name="Expression2" xml:space="preserve">
+    <value>Uttryck 2</value>
+  </data>
+  <data name="Expression3" xml:space="preserve">
+    <value>Uttryck 3</value>
+  </data>
+  <data name="FilePath" xml:space="preserve">
+    <value>Sökväg:</value>
+  </data>
+  <data name="Initializing" xml:space="preserve">
+    <value>Initialiserar...</value>
+  </data>
+  <data name="NoUpdatesAreAvailable" xml:space="preserve">
+    <value>Inga uppdateringar tillgängliga</value>
+  </data>
+  <data name="Off" xml:space="preserve">
+    <value>AV</value>
+  </data>
+  <data name="On" xml:space="preserve">
+    <value>PÅ</value>
+  </data>
+  <data name="Operator" xml:space="preserve">
+    <value>Operand</value>
+  </data>
+  <data name="Or" xml:space="preserve">
+    <value>Eller</value>
+  </data>
+  <data name="ScriptScope" xml:space="preserve">
+    <value>Script-omfång</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Inställningar</value>
+  </data>
+  <data name="UnableToPerformUpdateCheck" xml:space="preserve">
+    <value>Kunde inte genomföra uppdateringskoll. Försök igen senare.</value>
+  </data>
+  <data name="ForceCopyPicturesOnAdd" xml:space="preserve">
+    <value>Tvångskopiera bilder hittade till den specificerade mappen under lägg till operationen</value>
+  </data>
+  <data name="VisualizationsWarningMessage" xml:space="preserve">
+    <value>Du är på väg att starta visualiserings plug-in gjord av tredje parts tillverkare.
+
+Vänligen notera att visualiseringar inte är gjorda av Imploded Software och att dom kan fungera olika beroende på maskiner.
+Visualiseringar kan behöva specifika beroende så som OpenGl och/eller specifika versioner av DirectX/Direct-3D.
+Dessa parametrar kan generera instabilitet och krascher.
+
+Vill du fortsätta?</value>
+  </data>
+  <data name="MySql_IncorrectCase" xml:space="preserve">
+    <value>Din MySql server innehåller felaktigt värde för lower_case_table_names.
+
+Värdet för lower_case_table_names måste anges till 1, case insensitive mode.
+Vänligen ändra värdet i din MySql konfigurationsfil och försök igen.</value>
+  </data>
+  <data name="NoErrorsInFlacFile" xml:space="preserve">
+    <value>Inga fel hittade</value>
+  </data>
+  <data name="Housekeep" xml:space="preserve">
+    <value>Hushållning</value>
+  </data>
+  <data name="Information" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="NoFilesAvailable" xml:space="preserve">
+    <value>Inga filer är tillgängliga</value>
+  </data>
+  <data name="EditEllipsed" xml:space="preserve">
+    <value>Ändra...</value>
+  </data>
+</root>

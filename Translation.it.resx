@@ -1,0 +1,4285 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="metadata">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" />
+							</xsd:sequence>
+							<xsd:attribute name="name" use="required" type="xsd:string" />
+							<xsd:attribute name="type" type="xsd:string" />
+							<xsd:attribute name="mimetype" type="xsd:string" />
+							<xsd:attribute ref="xml:space" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="assembly">
+						<xsd:complexType>
+							<xsd:attribute name="alias" type="xsd:string" />
+							<xsd:attribute name="name" type="xsd:string" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+							<xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+							<xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+							<xsd:attribute ref="xml:space" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="resmimetype">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="version">
+		<value>2.0</value>
+	</resheader>
+	<resheader name="reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="About" xml:space="preserve">
+		<value>A proposito di</value>
+	</data>
+	<data name="Add" xml:space="preserve">
+		<value>Aggiungi</value>
+	</data>
+	<data name="AddFilesToLibrary" xml:space="preserve">
+		<value>Aggiungi files alla Collezione...</value>
+	</data>
+	<data name="AddFiles_AdddingFiles" xml:space="preserve">
+		<value>Sto aggiungendo file</value>
+	</data>
+	<data name="AddFiles_AddFilesToLibrary" xml:space="preserve">
+		<value>File aggiunti alla tua collezione</value>
+	</data>
+	<data name="AddFiles_AddingFolders" xml:space="preserve">
+		<value>Helium sta aggiungendo le cartelle selezionate. attendere</value>
+	</data>
+	<data name="AddFiles_AddPicturesFromTags" xml:space="preserve">
+		<value>Aggiunta immagini dai TAG</value>
+	</data>
+	<data name="AddFiles_CalculatingAlbums" xml:space="preserve">
+		<value>Contollo album e corrispondenza immagini</value>
+	</data>
+	<data name="AddFiles_CreateAccurateRipIds" xml:space="preserve">
+		<value>Creazione id AccurateRip {0}% fatto</value>
+	</data>
+	<data name="AddFiles_CreateAcoustIds" xml:space="preserve">
+		<value>Creazione id AcoustiID {0}% fatto</value>
+	</data>
+	<data name="AddFiles_CreateArtists" xml:space="preserve">
+		<value>Creazione artisti e classificazione artisti</value>
+	</data>
+	<data name="AddFiles_CreateMbids" xml:space="preserve">
+		<value>Creazione id MusicBrainz {0}% fatto</value>
+	</data>
+	<data name="AddFiles_CreatePuids" xml:space="preserve">
+		<value>Creazione id PuiID {0}% fatto</value>
+	</data>
+	<data name="AddFiles_CreatingAlbums" xml:space="preserve">
+		<value>Creazione album {0}% fatto</value>
+	</data>
+	<data name="AddFiles_CreatingGenres" xml:space="preserve">
+		<value>Creazione genere {0}% fatto</value>
+	</data>
+	<data name="AddFiles_CreatingLabels" xml:space="preserve">
+		<value>Creazione case discografiche {0}% fatto</value>
+	</data>
+	<data name="AddFiles_DetailText" xml:space="preserve">
+		<value>Seleziona la cartella che vuoi aggiungere alla tua collezione. </value>
+	</data>
+	<data name="AddFiles_Header" xml:space="preserve">
+		<value>Aggiungi alla collezione</value>
+	</data>
+	<data name="AddFiles_PrecalcArtistInfo" xml:space="preserve">
+		<value>Precalcolo informazioni artista</value>
+	</data>
+	<data name="AddFiles_ScanningFiles" xml:space="preserve">
+		<value>Scansione dei file da aggiungere, attendere...</value>
+	</data>
+	<data name="AddFiles_UpdateArtistInfo" xml:space="preserve">
+		<value>Aggiornamento informazioni artista</value>
+	</data>
+	<data name="AddFiles_UpdatingAlbumInformation" xml:space="preserve">
+		<value>Aggiornamento informazioni album, {0}% fatto</value>
+	</data>
+	<data name="AddMusic" xml:space="preserve">
+		<value>Aggiungi musica</value>
+	</data>
+	<data name="Advanced" xml:space="preserve">
+		<value>Avanzate</value>
+	</data>
+	<data name="AdvancedMode" xml:space="preserve">
+		<value>Modalità avanzata</value>
+	</data>
+	<data name="Akas" xml:space="preserve">
+		<value>Alias</value>
+	</data>
+	<data name="Albums" xml:space="preserve">
+		<value>Album</value>
+	</data>
+	<data name="Artists" xml:space="preserve">
+		<value>Artisti</value>
+	</data>
+	<data name="CachingAlbums" xml:space="preserve">
+		<value>Caching album</value>
+	</data>
+	<data name="CachingArtists" xml:space="preserve">
+		<value>Caching artisti</value>
+	</data>
+	<data name="CachingData" xml:space="preserve">
+		<value>Caching dati, attendere</value>
+	</data>
+	<data name="CachingTracks" xml:space="preserve">
+		<value>Caching brani</value>
+	</data>
+	<data name="Cancel" xml:space="preserve">
+		<value>Annulla</value>
+	</data>
+	<data name="LoadPicture" xml:space="preserve">
+		<value>Carico...</value>
+	</data>
+	<data name="Clear" xml:space="preserve">
+		<value>Pulisci</value>
+	</data>
+	<data name="CreateingDatabase" xml:space="preserve">
+		<value>Nuovo database in creazione, attendere</value>
+	</data>
+	<data name="CurrentStep" xml:space="preserve">
+		<value>Fase attuale</value>
+	</data>
+	<data name="Edit" xml:space="preserve">
+		<value>Modifica</value>
+	</data>
+	<data name="ExploreFolder" xml:space="preserve">
+		<value>Esplora cartella</value>
+	</data>
+	<data name="File" xml:space="preserve">
+		<value>File</value>
+	</data>
+	<data name="Filter" xml:space="preserve">
+		<value>Filtro</value>
+	</data>
+	<data name="Followers" xml:space="preserve">
+		<value>Seguaci</value>
+	</data>
+	<data name="Help" xml:space="preserve">
+		<value>Aiuto</value>
+	</data>
+	<data name="InfluencedBy" xml:space="preserve">
+		<value>Influenzato da</value>
+	</data>
+	<data name="Labels" xml:space="preserve">
+		<value>Case Discografiche</value>
+	</data>
+	<data name="LoadingData" xml:space="preserve">
+		<value>Dati in caricamento, attendere...</value>
+	</data>
+	<data name="MusicExplorer" xml:space="preserve">
+		<value>Esploratore musicale</value>
+	</data>
+	<data name="NoTrackPlaying" xml:space="preserve">
+		<value>Nessun brano in ascolto</value>
+	</data>
+	<data name="Options" xml:space="preserve">
+		<value>Opzioni...</value>
+	</data>
+	<data name="PerformedSongsBy" xml:space="preserve">
+		<value>Canzoni eseguite da</value>
+	</data>
+	<data name="PlayQueue" xml:space="preserve">
+		<value>Ascolta coda di riproduzione</value>
+	</data>
+	<data name="Properties" xml:space="preserve">
+		<value>Proprietà...</value>
+	</data>
+	<data name="Remove" xml:space="preserve">
+		<value>Rimuovi</value>
+	</data>
+	<data name="RemoveAlbum" xml:space="preserve">
+		<value>Rimuovi l'album dalla collezione?</value>
+	</data>
+	<data name="Reset" xml:space="preserve">
+		<value>Reset</value>
+	</data>
+	<data name="SeeAlso" xml:space="preserve">
+		<value>Vedi anche</value>
+	</data>
+	<data name="SelectFolder" xml:space="preserve">
+		<value>Seleziona cartella</value>
+	</data>
+	<data name="Shown" xml:space="preserve">
+		<value>Mostra</value>
+	</data>
+	<data name="Similar" xml:space="preserve">
+		<value>Simile</value>
+	</data>
+	<data name="Step" xml:space="preserve">
+		<value>Passo</value>
+	</data>
+	<data name="SuggestedAlbums" xml:space="preserve">
+		<value>Album suggeriti</value>
+	</data>
+	<data name="Tools" xml:space="preserve">
+		<value>Strumenti</value>
+	</data>
+	<data name="TotalSteps" xml:space="preserve">
+		<value>Passi totali</value>
+	</data>
+	<data name="Tracks" xml:space="preserve">
+		<value>Brani</value>
+	</data>
+	<data name="User" xml:space="preserve">
+		<value>Utente</value>
+	</data>
+	<data name="VariousArtists" xml:space="preserve">
+		<value>Artisti vari</value>
+	</data>
+	<data name="View" xml:space="preserve">
+		<value>Vista</value>
+	</data>
+	<data name="Accessed" xml:space="preserve">
+		<value>Consultati</value>
+	</data>
+	<data name="Album" xml:space="preserve">
+		<value>Album</value>
+	</data>
+	<data name="Artist" xml:space="preserve">
+		<value>Artisti</value>
+	</data>
+	<data name="AudioProperties" xml:space="preserve">
+		<value>Proprietà audio</value>
+	</data>
+	<data name="Available" xml:space="preserve">
+		<value>Disponibile</value>
+	</data>
+	<data name="Biography" xml:space="preserve">
+		<value>Biografia</value>
+	</data>
+	<data name="Bitrate" xml:space="preserve">
+		<value>BitRate</value>
+	</data>
+	<data name="BitsPerSample" xml:space="preserve">
+		<value>Bit per campione</value>
+	</data>
+	<data name="Close" xml:space="preserve">
+		<value>Chiudi</value>
+	</data>
+	<data name="Created" xml:space="preserve">
+		<value>Creato</value>
+	</data>
+	<data name="DetailedFileAndTagInfo" xml:space="preserve">
+		<value>Dettaglio TAG e informazioni file</value>
+	</data>
+	<data name="Discography" xml:space="preserve">
+		<value>Discografia</value>
+	</data>
+	<data name="Explore" xml:space="preserve">
+		<value>Esplorazione...</value>
+	</data>
+	<data name="Filename" xml:space="preserve">
+		<value>Nome file</value>
+	</data>
+	<data name="FileProperties_Title" xml:space="preserve">
+		<value>Proprietà file</value>
+	</data>
+	<data name="FileSize" xml:space="preserve">
+		<value>Dimensione file</value>
+	</data>
+	<data name="FileTime" xml:space="preserve">
+		<value>Durata file</value>
+	</data>
+	<data name="FileType" xml:space="preserve">
+		<value>Tipo file</value>
+	</data>
+	<data name="Format" xml:space="preserve">
+		<value>Formato</value>
+	</data>
+	<data name="Frequency" xml:space="preserve">
+		<value>Frequenza</value>
+	</data>
+	<data name="Genre" xml:space="preserve">
+		<value>Genere</value>
+	</data>
+	<data name="Hidden" xml:space="preserve">
+		<value>Nascosto</value>
+	</data>
+	<data name="LastPlayed" xml:space="preserve">
+		<value>Ultimo ascoltato</value>
+	</data>
+	<data name="Modified" xml:space="preserve">
+		<value>Modificato</value>
+	</data>
+	<data name="NeverPlayed" xml:space="preserve">
+		<value>Mai ascoltato</value>
+	</data>
+	<data name="NextArrow" xml:space="preserve">
+		<value>Prossimo&gt;</value>
+	</data>
+	<data name="No" xml:space="preserve">
+		<value>No</value>
+	</data>
+	<data name="Overview" xml:space="preserve">
+		<value>Panoramica</value>
+	</data>
+	<data name="PlayCounter" xml:space="preserve">
+		<value>Contatore ascolti</value>
+	</data>
+	<data name="PreviousArrow" xml:space="preserve">
+		<value>&lt; Precedente</value>
+	</data>
+	<data name="Profile" xml:space="preserve">
+		<value>Profilo</value>
+	</data>
+	<data name="Rating" xml:space="preserve">
+		<value>Valutazione</value>
+	</data>
+	<data name="ReadOnly" xml:space="preserve">
+		<value>Sola lettura</value>
+	</data>
+	<data name="SampleRate" xml:space="preserve">
+		<value>Frequenza di campionamento</value>
+	</data>
+	<data name="SimilarArtists" xml:space="preserve">
+		<value>Artisti simili</value>
+	</data>
+	<data name="SongLength" xml:space="preserve">
+		<value>Durata canzone</value>
+	</data>
+	<data name="Tags" xml:space="preserve">
+		<value>TAG</value>
+	</data>
+	<data name="Time" xml:space="preserve">
+		<value>Durata</value>
+	</data>
+	<data name="Title" xml:space="preserve">
+		<value>Titolo</value>
+	</data>
+	<data name="VBR" xml:space="preserve">
+		<value>VBR</value>
+	</data>
+	<data name="Version" xml:space="preserve">
+		<value>Edizione</value>
+	</data>
+	<data name="Year" xml:space="preserve">
+		<value>Anno</value>
+	</data>
+	<data name="Yes" xml:space="preserve">
+		<value>Sì</value>
+	</data>
+	<data name="AddFiles_AddingFiles" xml:space="preserve">
+		<value>Sto aggiungendo file, {0} fatto</value>
+	</data>
+	<data name="UpdateLibrary_Header" xml:space="preserve">
+		<value>Aggiornamento collezione</value>
+	</data>
+	<data name="UpdateLibrary_DetailText" xml:space="preserve">
+		<value>Seleziona le cartelle da aggiornare</value>
+	</data>
+	<data name="UpdateLibrary_ForceSync" xml:space="preserve">
+		<value>Forza la sincronizzazione dei file</value>
+	</data>
+	<data name="UpdateLibrary_ProgressDetail" xml:space="preserve">
+		<value>Ogni nuovo file trovato sarà aggiunto dopo che la scansione sarà completata</value>
+	</data>
+	<data name="UpdateLibrary_ProgressHeader" xml:space="preserve">
+		<value>La cartella selezionata è stata aggiornata</value>
+	</data>
+	<data name="UpdateLibrary_RemoveUnavailable" xml:space="preserve">
+		<value>Elimina i file non disponibili</value>
+	</data>
+	<data name="UpdateLibrary" xml:space="preserve">
+		<value>Aggiornamento collezione...</value>
+	</data>
+	<data name="Releases" xml:space="preserve">
+		<value>Pubblicazioni</value>
+	</data>
+	<data name="ActiveFile" xml:space="preserve">
+		<value>File attivo</value>
+	</data>
+	<data name="AllReleaseTypes" xml:space="preserve">
+		<value>Tutti i tipi di pubblicazione</value>
+	</data>
+	<data name="AllYears" xml:space="preserve">
+		<value>Tutti gli anni</value>
+	</data>
+	<data name="AllGenres" xml:space="preserve">
+		<value>Tutti i generi</value>
+	</data>
+	<data name="Added" xml:space="preserve">
+		<value>Aggiunto</value>
+	</data>
+	<data name="Cds" xml:space="preserve">
+		<value>CD</value>
+	</data>
+	<data name="Recorded" xml:space="preserve">
+		<value>Registrato</value>
+	</data>
+	<data name="Released" xml:space="preserve">
+		<value>Pubblicato</value>
+	</data>
+	<data name="Long" xml:space="preserve">
+		<value>Lunghezza</value>
+	</data>
+	<data name="Born" xml:space="preserve">
+		<value>Nato</value>
+	</data>
+	<data name="Died" xml:space="preserve">
+		<value>Morto</value>
+	</data>
+	<data name="Disbanded" xml:space="preserve">
+		<value>Sciolto</value>
+	</data>
+	<data name="Formed" xml:space="preserve">
+		<value>Formato</value>
+	</data>
+	<data name="From" xml:space="preserve">
+		<value>Da</value>
+	</data>
+	<data name="Group" xml:space="preserve">
+		<value>Gruppo</value>
+	</data>
+	<data name="UntitledArtist" xml:space="preserve">
+		<value>Artista senza nome</value>
+	</data>
+	<data name="Parent" xml:space="preserve">
+		<value>Associato</value>
+	</data>
+	<data name="UntitledLabel" xml:space="preserve">
+		<value>Etichetta senza nome</value>
+	</data>
+	<data name="RebuildingCache" xml:space="preserve">
+		<value>Ricostruzione cache</value>
+	</data>
+	<data name="TypeToFilter" xml:space="preserve">
+		<value>Tipologia di filtri...</value>
+	</data>
+	<data name="RT_Album" xml:space="preserve">
+		<value>Album</value>
+	</data>
+	<data name="RT_Anthology" xml:space="preserve">
+		<value>Antologia</value>
+	</data>
+	<data name="RT_AudioBook" xml:space="preserve">
+		<value>Audio libro</value>
+	</data>
+	<data name="RT_Bootleg" xml:space="preserve">
+		<value>Bootleg</value>
+	</data>
+	<data name="RT_Compilation" xml:space="preserve">
+		<value>Compilation</value>
+	</data>
+	<data name="RT_Digital" xml:space="preserve">
+		<value>Digitale</value>
+	</data>
+	<data name="RT_DVD" xml:space="preserve">
+		<value>DVD</value>
+	</data>
+	<data name="RT_EP" xml:space="preserve">
+		<value>EP</value>
+	</data>
+	<data name="RT_LivePerformance" xml:space="preserve">
+		<value>Live</value>
+	</data>
+	<data name="RT_Maxi" xml:space="preserve">
+		<value>Maxi</value>
+	</data>
+	<data name="RT_Sampler" xml:space="preserve">
+		<value>Campionatore</value>
+	</data>
+	<data name="RT_SoundEffects" xml:space="preserve">
+		<value>Effetti sonori</value>
+	</data>
+	<data name="RT_Soundtrack" xml:space="preserve">
+		<value>Colonna sonora</value>
+	</data>
+	<data name="RT_Undefined" xml:space="preserve">
+		<value>Non definito</value>
+	</data>
+	<data name="RT_Video" xml:space="preserve">
+		<value>Video</value>
+	</data>
+	<data name="TypeToSearch" xml:space="preserve">
+		<value>Tipo di ricerca...</value>
+	</data>
+	<data name="LangChanged" xml:space="preserve">
+		<value>Hai cambiato lingua. Helium dovrà essere riavviato. 
+Clicca OK per riavviare Helium.</value>
+	</data>
+	<data name="Language" xml:space="preserve">
+		<value>Lingua</value>
+	</data>
+	<data name="LastFm_Completed" xml:space="preserve">
+		<value>Clicca OK quando hai completato l'autenticazione su Last.fm</value>
+	</data>
+	<data name="LastFm_Grant" xml:space="preserve">
+		<value>Clicca OK per consentire a Helium di usare last.fm</value>
+	</data>
+	<data name="LastFm_NeedToRegister" xml:space="preserve">
+		<value>È necessario registrare Helium per l'utilizzo di Last.fm</value>
+	</data>
+	<data name="Password" xml:space="preserve">
+		<value>Password</value>
+	</data>
+	<data name="Register" xml:space="preserve">
+		<value>Registrazione</value>
+	</data>
+	<data name="UseLastFm" xml:space="preserve">
+		<value>Usa Last.fm</value>
+	</data>
+	<data name="AddFiles_Completed" xml:space="preserve">
+		<value>Aggiunta file completata</value>
+	</data>
+	<data name="AboutNeon" xml:space="preserve">
+		<value>A proposito di Helium</value>
+	</data>
+	<data name="OptionsTitle" xml:space="preserve">
+		<value>Opzioni</value>
+	</data>
+	<data name="Import_DatabaseIsNotEmpty" xml:space="preserve">
+		<value>Puoi eseguire un'importazione solo su un database vuoto.</value>
+	</data>
+	<data name="EditTags" xml:space="preserve">
+		<value>Modifica TAG...</value>
+	</data>
+	<data name="FileExistsInQueue" xml:space="preserve">
+		<value>Uno o più file selezionati sono attualmente in elaborazione. Ritenta quando l'operazione sarà terminata.</value>
+	</data>
+	<data name="UpdatingDatabase" xml:space="preserve">
+		<value>Aggiornamento database</value>
+	</data>
+	<data name="UpdatingFileStatus" xml:space="preserve">
+		<value>Aggiornamento file {0}/{1}</value>
+	</data>
+	<data name="GroupMembers" xml:space="preserve">
+		<value>Membri del gruppo</value>
+	</data>
+	<data name="ImportHelium11Db" xml:space="preserve">
+		<value>Importa il database di Helium 11...</value>
+	</data>
+	<data name="MemberOf" xml:space="preserve">
+		<value>Membro di</value>
+	</data>
+	<data name="ImportingHelium11Database" xml:space="preserve">
+		<value>Sto importando il database di Helium 11</value>
+	</data>
+	<data name="EditMultipleGenresHelper" xml:space="preserve">
+		<value>Dividi i generi in linee separate</value>
+	</data>
+	<data name="EditMultipleGenresTitle" xml:space="preserve">
+		<value>Modifica più generi</value>
+	</data>
+	<data name="EditMultipleLabelsHelper" xml:space="preserve">
+		<value>Dividi le case disc. in linee separate</value>
+	</data>
+	<data name="EditMultipleLabelsTitle" xml:space="preserve">
+		<value>Modifica più case disc.</value>
+	</data>
+	<data name="ImportDbProgress1" xml:space="preserve">
+		<value>Importazione utenti</value>
+	</data>
+	<data name="ImportDbProgress10" xml:space="preserve">
+		<value>Importazione artisti</value>
+	</data>
+	<data name="ImportDbProgress11" xml:space="preserve">
+		<value>Importazione valutazione artisti</value>
+	</data>
+	<data name="ImportDbProgress12" xml:space="preserve">
+		<value>Importazione album</value>
+	</data>
+	<data name="ImportDbProgress13" xml:space="preserve">
+		<value>Importazione valutazione album</value>
+	</data>
+	<data name="ImportDbProgress14" xml:space="preserve">
+		<value>Importazione relazioni</value>
+	</data>
+	<data name="ImportDbProgress15" xml:space="preserve">
+		<value>Importazione voci di dettaglio</value>
+	</data>
+	<data name="ImportDbProgress16" xml:space="preserve">
+		<value>Importazione valutazioni</value>
+	</data>
+	<data name="ImportDbProgress17" xml:space="preserve">
+		<value>Importazione artisti x voci di dettaglio</value>
+	</data>
+	<data name="ImportDbProgress18" xml:space="preserve">
+		<value>Importazione commenti</value>
+	</data>
+	<data name="ImportDbProgress19" xml:space="preserve">
+		<value>Importazione testi</value>
+	</data>
+	<data name="ImportDbProgress2" xml:space="preserve">
+		<value>Importazione gruppi utente</value>
+	</data>
+	<data name="ImportDbProgress20" xml:space="preserve">
+		<value>Importazione cronologia</value>
+	</data>
+	<data name="ImportDbProgress21" xml:space="preserve">
+		<value>Importazione voci delle playlist</value>
+	</data>
+	<data name="ImportDbProgress22" xml:space="preserve">
+		<value>Importazione generi x voci di dettaglio</value>
+	</data>
+	<data name="ImportDbProgress23" xml:space="preserve">
+		<value>Importazione case disc. x voci di dettaglio</value>
+	</data>
+	<data name="ImportDbProgress25" xml:space="preserve">
+		<value>Correzione artisti co sottotracce</value>
+	</data>
+	<data name="ImportDbProgress26" xml:space="preserve">
+		<value>Correzione durata sottotracce</value>
+	</data>
+	<data name="ImportDbProgress27" xml:space="preserve">
+		<value>Eliminazione album orfani</value>
+	</data>
+	<data name="ImportDbProgress28" xml:space="preserve">
+		<value>Aggiunta cartelle della directory</value>
+	</data>
+	<data name="ImportDbProgress3" xml:space="preserve">
+		<value>Importazione mappatura utente</value>
+	</data>
+	<data name="ImportDbProgress4" xml:space="preserve">
+		<value>Importazione servizi</value>
+	</data>
+	<data name="ImportDbProgress5" xml:space="preserve">
+		<value>Importazione nazioni</value>
+	</data>
+	<data name="ImportDbProgress6" xml:space="preserve">
+		<value>Importazione generi</value>
+	</data>
+	<data name="ImportDbProgress7" xml:space="preserve">
+		<value>Importazione cartelle playlist</value>
+	</data>
+	<data name="ImportDbProgress8" xml:space="preserve">
+		<value>Importazione playlist</value>
+	</data>
+	<data name="ImportDbProgress9" xml:space="preserve">
+		<value>Importazione case discografiche</value>
+	</data>
+	<data name="Extract" xml:space="preserve">
+		<value>Estrazione</value>
+	</data>
+	<data name="EditMultipleArtists" xml:space="preserve">
+		<value>Modifica più artisti</value>
+	</data>
+	<data name="EditIplTitle" xml:space="preserve">
+		<value>Modifica persone coinvolte</value>
+	</data>
+	<data name="EditMclTitle" xml:space="preserve">
+		<value>Modifica riconoscimenti</value>
+	</data>
+	<data name="AddEditComment" xml:space="preserve">
+		<value>Aggiungi/modifica commenti</value>
+	</data>
+	<data name="AddEditTxxx" xml:space="preserve">
+		<value>Aggiungi/modifica txxx</value>
+	</data>
+	<data name="Content" xml:space="preserve">
+		<value>Contenuto</value>
+	</data>
+	<data name="Description" xml:space="preserve">
+		<value>Descrizione</value>
+	</data>
+	<data name="Load" xml:space="preserve">
+		<value>Carica</value>
+	</data>
+	<data name="Save" xml:space="preserve">
+		<value>Salva</value>
+	</data>
+	<data name="AddEditPicture" xml:space="preserve">
+		<value>Aggiungi/modifica immagine</value>
+	</data>
+	<data name="Browse" xml:space="preserve">
+		<value>Sfoglia</value>
+	</data>
+	<data name="Picture" xml:space="preserve">
+		<value>Immagine</value>
+	</data>
+	<data name="PictureType" xml:space="preserve">
+		<value>Tipo immagine</value>
+	</data>
+	<data name="Finish" xml:space="preserve">
+		<value>Terminato</value>
+	</data>
+	<data name="te_album" xml:space="preserve">
+		<value>Album</value>
+	</data>
+	<data name="te_albumartist" xml:space="preserve">
+		<value>Artista album</value>
+	</data>
+	<data name="te_albumartistsortorder" xml:space="preserve">
+		<value>Ordinamento artista</value>
+	</data>
+	<data name="te_albumsortorder" xml:space="preserve">
+		<value>Ordinamento album</value>
+	</data>
+	<data name="te_albumsubtitle" xml:space="preserve">
+		<value>Sottotitolo album</value>
+	</data>
+	<data name="te_albumversion" xml:space="preserve">
+		<value>Edizione album</value>
+	</data>
+	<data name="te_artist" xml:space="preserve">
+		<value>Artista</value>
+	</data>
+	<data name="te_artistsortorder" xml:space="preserve">
+		<value>Ordinamento artista</value>
+	</data>
+	<data name="te_artisturl" xml:space="preserve">
+		<value>URL artista</value>
+	</data>
+	<data name="te_audiofileurl" xml:space="preserve">
+		<value>URL file audio</value>
+	</data>
+	<data name="te_bandorch" xml:space="preserve">
+		<value>Orchestra</value>
+	</data>
+	<data name="te_biography" xml:space="preserve">
+		<value>Biografia</value>
+	</data>
+	<data name="te_blank" xml:space="preserve">
+		<value>Vuoto</value>
+	</data>
+	<data name="te_bpm" xml:space="preserve">
+		<value>BPM</value>
+	</data>
+	<data name="te_buycdurl" xml:space="preserve">
+		<value>URL acquisto CD</value>
+	</data>
+	<data name="te_catalognumber" xml:space="preserve">
+		<value>Numero di catalogo</value>
+	</data>
+	<data name="te_composer" xml:space="preserve">
+		<value>Compositore</value>
+	</data>
+	<data name="te_conductor" xml:space="preserve">
+		<value>Direttore</value>
+	</data>
+	<data name="te_copyright" xml:space="preserve">
+		<value>Diritti d'autore</value>
+	</data>
+	<data name="te_currentcd" xml:space="preserve">
+		<value>CD corrente</value>
+	</data>
+	<data name="te_currenttrack" xml:space="preserve">
+		<value>Brano corrente</value>
+	</data>
+	<data name="te_custom1" xml:space="preserve">
+		<value>Personale 1</value>
+	</data>
+	<data name="te_custom10" xml:space="preserve">
+		<value>Personale 10</value>
+	</data>
+	<data name="te_custom2" xml:space="preserve">
+		<value>Personale 2</value>
+	</data>
+	<data name="te_custom3" xml:space="preserve">
+		<value>Personale 3</value>
+	</data>
+	<data name="te_custom4" xml:space="preserve">
+		<value>Personale 4</value>
+	</data>
+	<data name="te_custom5" xml:space="preserve">
+		<value>Personale 5</value>
+	</data>
+	<data name="te_custom6" xml:space="preserve">
+		<value>Personale 6</value>
+	</data>
+	<data name="te_custom7" xml:space="preserve">
+		<value>Personale 7</value>
+	</data>
+	<data name="te_custom8" xml:space="preserve">
+		<value>Personale 8</value>
+	</data>
+	<data name="te_custom9" xml:space="preserve">
+		<value>Personale 9</value>
+	</data>
+	<data name="te_encodedby" xml:space="preserve">
+		<value>Codificato da</value>
+	</data>
+	<data name="te_fileowner" xml:space="preserve">
+		<value>Proprietario file</value>
+	</data>
+	<data name="te_genre" xml:space="preserve">
+		<value>Genere</value>
+	</data>
+	<data name="te_grouping" xml:space="preserve">
+		<value>Raggruppamento</value>
+	</data>
+	<data name="te_initialkey" xml:space="preserve">
+		<value>Chiave iniziale</value>
+	</data>
+	<data name="te_ipls" xml:space="preserve">
+		<value>Persone coinvolte</value>
+	</data>
+	<data name="te_isrc" xml:space="preserve">
+		<value>ISRC</value>
+	</data>
+	<data name="te_label" xml:space="preserve">
+		<value>Casa discografica</value>
+	</data>
+	<data name="te_labelurl" xml:space="preserve">
+		<value>URL casa discografica</value>
+	</data>
+	<data name="te_language" xml:space="preserve">
+		<value>Lingua</value>
+	</data>
+	<data name="te_lyricist" xml:space="preserve">
+		<value>Paroliere</value>
+	</data>
+	<data name="te_lyrics" xml:space="preserve">
+		<value>Testi</value>
+	</data>
+	<data name="te_mcl" xml:space="preserve">
+		<value>Riconoscimenti</value>
+	</data>
+	<data name="te_media" xml:space="preserve">
+		<value>Media</value>
+	</data>
+	<data name="te_mood" xml:space="preserve">
+		<value>Umore</value>
+	</data>
+	<data name="te_multiplecomments" xml:space="preserve">
+		<value>Commenti multipli</value>
+	</data>
+	<data name="te_orgartist" xml:space="preserve">
+		<value>Artista originale</value>
+	</data>
+	<data name="te_orgfilename" xml:space="preserve">
+		<value>Nome file originale</value>
+	</data>
+	<data name="te_orglyricist" xml:space="preserve">
+		<value>Paroliere originale</value>
+	</data>
+	<data name="te_orgtitle" xml:space="preserve">
+		<value>Titolo originale</value>
+	</data>
+	<data name="te_orgyear" xml:space="preserve">
+		<value>Anno oriignale</value>
+	</data>
+	<data name="te_partofseries" xml:space="preserve">
+		<value>Parte di una serie</value>
+	</data>
+	<data name="te_pictures" xml:space="preserve">
+		<value>Immagini collegate</value>
+	</data>
+	<data name="te_popularity" xml:space="preserve">
+		<value>Popolarità</value>
+	</data>
+	<data name="te_preference" xml:space="preserve">
+		<value>Preferenze</value>
+	</data>
+	<data name="te_produced" xml:space="preserve">
+		<value>Prodotto</value>
+	</data>
+	<data name="te_quality" xml:space="preserve">
+		<value>Qualità</value>
+	</data>
+	<data name="te_radiourl" xml:space="preserve">
+		<value>URL radio</value>
+	</data>
+	<data name="te_rating" xml:space="preserve">
+		<value>Valutazione</value>
+	</data>
+	<data name="te_recordingyear" xml:space="preserve">
+		<value>Anno registrazione</value>
+	</data>
+	<data name="te_releasetype" xml:space="preserve">
+		<value>Tipo pubblicazione</value>
+	</data>
+	<data name="te_releaseyear" xml:space="preserve">
+		<value>Anno pubblicazione</value>
+	</data>
+	<data name="te_remix" xml:space="preserve">
+		<value>Remix</value>
+	</data>
+	<data name="te_singlecomment" xml:space="preserve">
+		<value>Commento</value>
+	</data>
+	<data name="te_situation" xml:space="preserve">
+		<value>Situazione</value>
+	</data>
+	<data name="te_softwaresettings" xml:space="preserve">
+		<value>Impostazioni software</value>
+	</data>
+	<data name="te_studio" xml:space="preserve">
+		<value>Studio</value>
+	</data>
+	<data name="te_subtitle" xml:space="preserve">
+		<value>Sottotitolo</value>
+	</data>
+	<data name="te_tempo" xml:space="preserve">
+		<value>Tempo</value>
+	</data>
+	<data name="te_title" xml:space="preserve">
+		<value>Titolo</value>
+	</data>
+	<data name="te_titlesortorder" xml:space="preserve">
+		<value>Ordinamento titolo</value>
+	</data>
+	<data name="te_totalcds" xml:space="preserve">
+		<value>CD totali</value>
+	</data>
+	<data name="te_totaltracks" xml:space="preserve">
+		<value>Brani totali</value>
+	</data>
+	<data name="te_txxx" xml:space="preserve">
+		<value>txxx multipli</value>
+	</data>
+	<data name="Borned" xml:space="preserve">
+		<value>Nato a</value>
+	</data>
+	<data name="EditArtist" xml:space="preserve">
+		<value>Modifica artista...</value>
+	</data>
+	<data name="BornName" xml:space="preserve">
+		<value>Nome di nascita</value>
+	</data>
+	<data name="Country" xml:space="preserve">
+		<value>Paese</value>
+	</data>
+	<data name="EditArtistInformation" xml:space="preserve">
+		<value>Modifica informazioni artista</value>
+	</data>
+	<data name="IsGroup" xml:space="preserve">
+		<value>È un gruppo</value>
+	</data>
+	<data name="IsSingleArtist" xml:space="preserve">
+		<value>È un'artista</value>
+	</data>
+	<data name="WebPage" xml:space="preserve">
+		<value>Pagina WEB</value>
+	</data>
+	<data name="ImportDbProgress24" xml:space="preserve">
+		<value>Importazione id</value>
+	</data>
+	<data name="ApplyToAll" xml:space="preserve">
+		<value>Applica a tutto &gt;&gt;</value>
+	</data>
+	<data name="ChangePicture" xml:space="preserve">
+		<value>Cambia immagine...</value>
+	</data>
+	<data name="DownloadingData" xml:space="preserve">
+		<value>Download informazioni</value>
+	</data>
+	<data name="DownloadPicture" xml:space="preserve">
+		<value>Download...</value>
+	</data>
+	<data name="ImportHelium11Command" xml:space="preserve">
+		<value>Importa da Helium 11...</value>
+	</data>
+	<data name="Import_InvalidDatabase" xml:space="preserve">
+		<value>Il database selezionato non è un database di Helium 11. 
+Assicurati che il database sia aggiornato alla versione di Helium 11 più recente .</value>
+	</data>
+	<data name="LibraryManagement" xml:space="preserve">
+		<value>Gestione collezione...</value>
+	</data>
+	<data name="LibraryManagmentTitle" xml:space="preserve">
+		<value>Gestione collezione</value>
+	</data>
+	<data name="Library_CannotOverwriteActive" xml:space="preserve">
+		<value>Non puoi sovrascrivere il database attivo</value>
+	</data>
+	<data name="Library_DatabaseAlreadyActive" xml:space="preserve">
+		<value>Questo database è già attivo</value>
+	</data>
+	<data name="Library_DatabaseConnected" xml:space="preserve">
+		<value>Il database attivo è stato cambiato. Helium deve essere riavviato. 
+Clicca OK per riavviare Helium.</value>
+	</data>
+	<data name="Library_InvalidDatabase" xml:space="preserve">
+		<value>Il database selezionato non è valido.</value>
+	</data>
+	<data name="Library_NewDatabaseCreate" xml:space="preserve">
+		<value>Il database è stato creato correttamente ed Helium deve essere riavviato. 
+Clicca OK per riavviare Helium.</value>
+	</data>
+	<data name="NewCommand" xml:space="preserve">
+		<value>Nuovo...</value>
+	</data>
+	<data name="OpenCommand" xml:space="preserve">
+		<value>Apri...</value>
+	</data>
+	<data name="ReadingPlayQueue" xml:space="preserve">
+		<value>Leggi coda di riproduzione</value>
+	</data>
+	<data name="AlbumGain" xml:space="preserve">
+		<value>Amplificazione album</value>
+	</data>
+	<data name="TrackGain" xml:space="preserve">
+		<value>Amplificazione Brano</value>
+	</data>
+	<data name="CreateSqlServerDatabase" xml:space="preserve">
+		<value>Creazione database SQL Server </value>
+	</data>
+	<data name="Error_CannotConnectToServer" xml:space="preserve">
+		<value>Non posso accedere al server selezionato</value>
+	</data>
+	<data name="Error_DatabaseAlreadyExists" xml:space="preserve">
+		<value>Esiste già un database con questo nome</value>
+	</data>
+	<data name="Library_CannotConnect" xml:space="preserve">
+		<value>Non possso connettermi al database selezionato</value>
+	</data>
+	<data name="CreateMySqlDatabase" xml:space="preserve">
+		<value>Creazione database MySql/MariaDb</value>
+	</data>
+	<data name="OpenMySqlDatabase" xml:space="preserve">
+		<value>Creazione database MySql/MariaDb</value>
+	</data>
+	<data name="Database" xml:space="preserve">
+		<value>Database</value>
+	</data>
+	<data name="MySqlServer" xml:space="preserve">
+		<value>Server MySql/MariaDb</value>
+	</data>
+	<data name="Port" xml:space="preserve">
+		<value>Porta</value>
+	</data>
+	<data name="SqlAuth" xml:space="preserve">
+		<value>Autenticazione Sql</value>
+	</data>
+	<data name="SqlServerInstance" xml:space="preserve">
+		<value>Nome istanza Server Sql</value>
+	</data>
+	<data name="Username" xml:space="preserve">
+		<value>Nome utente</value>
+	</data>
+	<data name="WindowsAuth" xml:space="preserve">
+		<value>Autenticazione Windows</value>
+	</data>
+	<data name="DAC_AddedFiles" xml:space="preserve">
+		<value>L'operazione è stata completata</value>
+	</data>
+	<data name="DAC_TaggedFiles" xml:space="preserve">
+		<value>L'operazione è stata completata</value>
+	</data>
+	<data name="DAT_AddedFiles" xml:space="preserve">
+		<value>File aggiunti</value>
+	</data>
+	<data name="DAT_TaggedFiles" xml:space="preserve">
+		<value>TAG completato</value>
+	</data>
+	<data name="ShowAlerts" xml:space="preserve">
+		<value>Mostra avvisi in desktop</value>
+	</data>
+	<data name="Visual" xml:space="preserve">
+		<value>Visualizzazione</value>
+	</data>
+	<data name="DAC_Imported" xml:space="preserve">
+		<value>Il database selezionato è stato importato.</value>
+	</data>
+	<data name="DAC_Updated" xml:space="preserve">
+		<value>L'aggiornamento della collezione è terminato.</value>
+	</data>
+	<data name="DAT_Imported" xml:space="preserve">
+		<value>Database importato</value>
+	</data>
+	<data name="DAT_Updated" xml:space="preserve">
+		<value>Collezione aggiornata</value>
+	</data>
+	<data name="SelectDatabaseTypeImport" xml:space="preserve">
+		<value>Seleziona il tipo di database da importare</value>
+	</data>
+	<data name="ViewOriginal" xml:space="preserve">
+		<value>Vista originale...</value>
+	</data>
+	<data name="OpenSqlServerDatabase" xml:space="preserve">
+		<value>Apri database SQL Server</value>
+	</data>
+	<data name="Library_DatabaseImported" xml:space="preserve">
+		<value>Il database selezionato è stato importati. Helium dev'essere riavviato. Clicca OK per chiudere Helium.</value>
+	</data>
+	<data name="AddToPlaylist" xml:space="preserve">
+		<value>Aggiungi alla playlist...</value>
+	</data>
+	<data name="AddToPlaylistTitle" xml:space="preserve">
+		<value>Aggiungi alla playlist</value>
+	</data>
+	<data name="ShowAlertsNotActive" xml:space="preserve">
+		<value>Mostra avvisi solo quando Helium non ha finestre attive</value>
+	</data>
+	<data name="MoveDown" xml:space="preserve">
+		<value>Sposta in basso</value>
+	</data>
+	<data name="MoveUp" xml:space="preserve">
+		<value>Sposta in alto</value>
+	</data>
+	<data name="Playlists" xml:space="preserve">
+		<value>Playlist</value>
+	</data>
+	<data name="RemoveTracks" xml:space="preserve">
+		<value>Vuoi eliminare i brani selezionati dalla tua collezione?</value>
+	</data>
+	<data name="NewFolder" xml:space="preserve">
+		<value>Crea nuova cartella</value>
+	</data>
+	<data name="Rename" xml:space="preserve">
+		<value>Rinomina</value>
+	</data>
+	<data name="NoFilesSelected" xml:space="preserve">
+		<value>Nessun file selezionato</value>
+	</data>
+	<data name="Played" xml:space="preserve">
+		<value>Ascoltati</value>
+	</data>
+	<data name="Statistics" xml:space="preserve">
+		<value>Statistiche</value>
+	</data>
+	<data name="NewFolderMenu" xml:space="preserve">
+		<value>Nuova cartella...</value>
+	</data>
+	<data name="NewPlaylist" xml:space="preserve">
+		<value>Nuova playlist...</value>
+	</data>
+	<data name="Play" xml:space="preserve">
+		<value>Ascolta</value>
+	</data>
+	<data name="GeneralStatistics" xml:space="preserve">
+		<value>Statistiche generali</value>
+	</data>
+	<data name="MonthlyStatistics" xml:space="preserve">
+		<value>Statistiche mensili</value>
+	</data>
+	<data name="MostPlayedArtists" xml:space="preserve">
+		<value>Artisti maggiormente ascoltati</value>
+	</data>
+	<data name="MostPlayedGenres" xml:space="preserve">
+		<value>Generi maggiormente ascoltati</value>
+	</data>
+	<data name="MostPlayedYears" xml:space="preserve">
+		<value>Anni maggiormente ascoltati</value>
+	</data>
+	<data name="NumberOfAlbumsInLibrary" xml:space="preserve">
+		<value>Numero di album nella collezione</value>
+	</data>
+	<data name="NumberOfArtistsInLibrary" xml:space="preserve">
+		<value>Numero di artisti nella collezione</value>
+	</data>
+	<data name="NumberOfGenresInLibrary" xml:space="preserve">
+		<value>Numero di generi nella collezione</value>
+	</data>
+	<data name="NumberOfLabelsInLibrary" xml:space="preserve">
+		<value>Numero di case discografiche nella collezione</value>
+	</data>
+	<data name="NumberOfTracksInLibrary" xml:space="preserve">
+		<value>Numero di brani nella collezione</value>
+	</data>
+	<data name="PlayingStatistics" xml:space="preserve">
+		<value>Statistiche playlist</value>
+	</data>
+	<data name="TopArtists" xml:space="preserve">
+		<value>Artisti top</value>
+	</data>
+	<data name="TopGenres" xml:space="preserve">
+		<value>Generi top</value>
+	</data>
+	<data name="TopYears" xml:space="preserve">
+		<value>Anni top</value>
+	</data>
+	<data name="TotalPlaytimeInLibrary" xml:space="preserve">
+		<value>Tempo di ascolto totale della collezione</value>
+	</data>
+	<data name="TotalTracksPlayed" xml:space="preserve">
+		<value>Brani totali ascoltati</value>
+	</data>
+	<data name="TracksPlayedThisMonth" xml:space="preserve">
+		<value>Brani ascoltati questo mese</value>
+	</data>
+	<data name="TracksPlayedThisWeek" xml:space="preserve">
+		<value>Brani ascoltati questa settimana</value>
+	</data>
+	<data name="TracksPlayedThisYear" xml:space="preserve">
+		<value>Brani ascoltati quest'anno</value>
+	</data>
+	<data name="TracksPlayedToday" xml:space="preserve">
+		<value>Brani ascoltati oggi</value>
+	</data>
+	<data name="AlbumArtist" xml:space="preserve">
+		<value>Artista album</value>
+	</data>
+	<data name="Apply" xml:space="preserve">
+		<value>Applica</value>
+	</data>
+	<data name="ApplyDown" xml:space="preserve">
+		<value>Applica in basso</value>
+	</data>
+	<data name="CD" xml:space="preserve">
+		<value>CD</value>
+	</data>
+	<data name="ExtractArtistDashTitle" xml:space="preserve">
+		<value>Estrazione artista-titolo</value>
+	</data>
+	<data name="ExtractArtistSlashTitle" xml:space="preserve">
+		<value>Estrazione artista/titolo</value>
+	</data>
+	<data name="ExtractMultipleArtists" xml:space="preserve">
+		<value>Estrazione artisti multipli</value>
+	</data>
+	<data name="ExtractTitleDashArtist" xml:space="preserve">
+		<value>Estrazione titolo-artista</value>
+	</data>
+	<data name="ExtractTitleRemix" xml:space="preserve">
+		<value>Estrazione titolo (remix)</value>
+	</data>
+	<data name="ExtractTitleSlashArtist" xml:space="preserve">
+		<value>Estrazione titolo/artista</value>
+	</data>
+	<data name="ExtractTitleSubtitle" xml:space="preserve">
+		<value>Estrazione titolo (sottotitolo)</value>
+	</data>
+	<data name="RecYear" xml:space="preserve">
+		<value>Anno reg.</value>
+	</data>
+	<data name="RelYear" xml:space="preserve">
+		<value>Anno pub.</value>
+	</data>
+	<data name="Remix" xml:space="preserve">
+		<value>Remix</value>
+	</data>
+	<data name="SelectColumns" xml:space="preserve">
+		<value>Seleziona colonne</value>
+	</data>
+	<data name="SelectColumnsMenu" xml:space="preserve">
+		<value>Seleziona colonne...</value>
+	</data>
+	<data name="Subtitle" xml:space="preserve">
+		<value>Sottotitolo</value>
+	</data>
+	<data name="Switch" xml:space="preserve">
+		<value>Scambia</value>
+	</data>
+	<data name="SwitchWithAlbum" xml:space="preserve">
+		<value>Scambia con album</value>
+	</data>
+	<data name="SwitchWithArtist" xml:space="preserve">
+		<value>Scambia con artista</value>
+	</data>
+	<data name="SwitchWithRemix" xml:space="preserve">
+		<value>Scambia con remix</value>
+	</data>
+	<data name="SwitchWithSubtitle" xml:space="preserve">
+		<value>Scambia con sottotitolo</value>
+	</data>
+	<data name="SwitchWithTitle" xml:space="preserve">
+		<value>Scambia con titolo</value>
+	</data>
+	<data name="Track" xml:space="preserve">
+		<value>Brano</value>
+	</data>
+	<data name="Aka" xml:space="preserve">
+		<value>Alias</value>
+	</data>
+	<data name="TagEditor" xml:space="preserve">
+		<value>Modifica TAG</value>
+	</data>
+	<data name="InvolvedPeoples" xml:space="preserve">
+		<value>persone coinvolte</value>
+	</data>
+	<data name="Label" xml:space="preserve">
+		<value>Casa discografica</value>
+	</data>
+	<data name="Mcl" xml:space="preserve">
+		<value>Lista riconoscimenti</value>
+	</data>
+	<data name="ReleaseType" xml:space="preserve">
+		<value>Tipo di pubblicazione</value>
+	</data>
+	<data name="EditMultipleComments" xml:space="preserve">
+		<value>Modifica più commenti</value>
+	</data>
+	<data name="Comments" xml:space="preserve">
+		<value>Commenti</value>
+	</data>
+	<data name="EditBiography" xml:space="preserve">
+		<value>Modifica biografia</value>
+	</data>
+	<data name="EditLyrics" xml:space="preserve">
+		<value>Modifica testi</value>
+	</data>
+	<data name="AlbumArtistSortOrder" xml:space="preserve">
+		<value>Ordinamento artista</value>
+	</data>
+	<data name="AlbumSortOrder" xml:space="preserve">
+		<value>Ordinamento album</value>
+	</data>
+	<data name="AlbumSubtitle" xml:space="preserve">
+		<value>Sottotitolo album</value>
+	</data>
+	<data name="AlbumVersion" xml:space="preserve">
+		<value>Edizione album</value>
+	</data>
+	<data name="ArtistSortOrder" xml:space="preserve">
+		<value>Ordinamento artista</value>
+	</data>
+	<data name="ArtistUrl" xml:space="preserve">
+		<value>URL artista</value>
+	</data>
+	<data name="AudioFileUrl" xml:space="preserve">
+		<value>URL file audio</value>
+	</data>
+	<data name="BandOrch" xml:space="preserve">
+		<value>Orchestra</value>
+	</data>
+	<data name="Bpm" xml:space="preserve">
+		<value>Bpm</value>
+	</data>
+	<data name="BuyCdUrl" xml:space="preserve">
+		<value>URL acquisto CD</value>
+	</data>
+	<data name="CatalogNumber" xml:space="preserve">
+		<value>Numero catalogo</value>
+	</data>
+	<data name="Comment" xml:space="preserve">
+		<value>Commento</value>
+	</data>
+	<data name="Composer" xml:space="preserve">
+		<value>Compositore</value>
+	</data>
+	<data name="Conductor" xml:space="preserve">
+		<value>Direttore</value>
+	</data>
+	<data name="Copyright" xml:space="preserve">
+		<value>Diritti d'autore</value>
+	</data>
+	<data name="Custom1" xml:space="preserve">
+		<value>Personale 1</value>
+	</data>
+	<data name="Custom10" xml:space="preserve">
+		<value>Personale 10</value>
+	</data>
+	<data name="Custom2" xml:space="preserve">
+		<value>Personale 2</value>
+	</data>
+	<data name="Custom3" xml:space="preserve">
+		<value>Personale 3</value>
+	</data>
+	<data name="Custom4" xml:space="preserve">
+		<value>Personale 4</value>
+	</data>
+	<data name="Custom5" xml:space="preserve">
+		<value>Personale 5</value>
+	</data>
+	<data name="Custom6" xml:space="preserve">
+		<value>Personale 6</value>
+	</data>
+	<data name="Custom7" xml:space="preserve">
+		<value>Personale 7</value>
+	</data>
+	<data name="Custom8" xml:space="preserve">
+		<value>Personale 8</value>
+	</data>
+	<data name="Custom9" xml:space="preserve">
+		<value>Personale 9</value>
+	</data>
+	<data name="EncodedBy" xml:space="preserve">
+		<value>Codificato da</value>
+	</data>
+	<data name="FileOwner" xml:space="preserve">
+		<value>Proprietario file</value>
+	</data>
+	<data name="Grouping" xml:space="preserve">
+		<value>Raggruppamento</value>
+	</data>
+	<data name="InitialKey" xml:space="preserve">
+		<value>Chiave iniziale</value>
+	</data>
+	<data name="Isrc" xml:space="preserve">
+		<value>ISRC</value>
+	</data>
+	<data name="LabelUrl" xml:space="preserve">
+		<value>URL casa discografica</value>
+	</data>
+	<data name="Lyricist" xml:space="preserve">
+		<value>Paroliere</value>
+	</data>
+	<data name="Lyrics" xml:space="preserve">
+		<value>Testi</value>
+	</data>
+	<data name="Media" xml:space="preserve">
+		<value>Media</value>
+	</data>
+	<data name="Mood" xml:space="preserve">
+		<value>Umore</value>
+	</data>
+	<data name="OrgArtist" xml:space="preserve">
+		<value>Artista org.</value>
+	</data>
+	<data name="OrgFilename" xml:space="preserve">
+		<value>Nome file org.</value>
+	</data>
+	<data name="OrgLyricist" xml:space="preserve">
+		<value>Paroliere org.</value>
+	</data>
+	<data name="OrgTitle" xml:space="preserve">
+		<value>Titolo org.</value>
+	</data>
+	<data name="OrgYear" xml:space="preserve">
+		<value>Anno org.</value>
+	</data>
+	<data name="PartOfSeries" xml:space="preserve">
+		<value>Parte di serie</value>
+	</data>
+	<data name="Popularity" xml:space="preserve">
+		<value>Popolarità</value>
+	</data>
+	<data name="Preference" xml:space="preserve">
+		<value>Preferenza</value>
+	</data>
+	<data name="Produced" xml:space="preserve">
+		<value>Prodotto</value>
+	</data>
+	<data name="Quality" xml:space="preserve">
+		<value>Qualità</value>
+	</data>
+	<data name="RadioUrl" xml:space="preserve">
+		<value>URL radio</value>
+	</data>
+	<data name="Situation" xml:space="preserve">
+		<value>Situazione</value>
+	</data>
+	<data name="SoftwareSettings" xml:space="preserve">
+		<value>Impostazioni software</value>
+	</data>
+	<data name="Studio" xml:space="preserve">
+		<value>Studio</value>
+	</data>
+	<data name="Tempo" xml:space="preserve">
+		<value>tempo</value>
+	</data>
+	<data name="TitleSortOrder" xml:space="preserve">
+		<value>Ordinamento titolo</value>
+	</data>
+	<data name="Txxx" xml:space="preserve">
+		<value>TXXX</value>
+	</data>
+	<data name="Favourite" xml:space="preserve">
+		<value>Preferito</value>
+	</data>
+	<data name="CurrentTrack" xml:space="preserve">
+		<value>Brano corrente</value>
+	</data>
+	<data name="Path" xml:space="preserve">
+		<value>Percorso</value>
+	</data>
+	<data name="Pictures" xml:space="preserve">
+		<value>Immagini</value>
+	</data>
+	<data name="CapitalizationCapitalizeHelperText" xml:space="preserve">
+		<value>Rendi tutto maiuscolo i seguenti campi quando il tasto CAP è attivo</value>
+	</data>
+	<data name="ActiveTagEditor" xml:space="preserve">
+		<value>Modifica TAG attivo</value>
+	</data>
+	<data name="Capitalizer" xml:space="preserve">
+		<value>CAP</value>
+	</data>
+	<data name="General" xml:space="preserve">
+		<value>Generale</value>
+	</data>
+	<data name="LastFm" xml:space="preserve">
+		<value>Last.fm</value>
+	</data>
+	<data name="Lowercase" xml:space="preserve">
+		<value>Minuscolo</value>
+	</data>
+	<data name="None" xml:space="preserve">
+		<value>Nessuno</value>
+	</data>
+	<data name="Sentence" xml:space="preserve">
+		<value>Frase</value>
+	</data>
+	<data name="Uppercase" xml:space="preserve">
+		<value>Maiuscolo</value>
+	</data>
+	<data name="UserDefined" xml:space="preserve">
+		<value>Definito dall'utente</value>
+	</data>
+	<data name="Word" xml:space="preserve">
+		<value>Parola</value>
+	</data>
+	<data name="AdvancedTagEditor" xml:space="preserve">
+		<value>Modifica TAG avanzata</value>
+	</data>
+	<data name="CustomCapitalizationHelperText" xml:space="preserve">
+		<value>Lista di regole personali per prime lettere Maiuscole (una parola per riga)</value>
+	</data>
+	<data name="CustomCapitalization" xml:space="preserve">
+		<value>Regole personali per prima lettera maiuscola </value>
+	</data>
+	<data name="Delete" xml:space="preserve">
+		<value>Elimina</value>
+	</data>
+	<data name="Original" xml:space="preserve">
+		<value>Originale</value>
+	</data>
+	<data name="OriginalCaseDoesNotMatter" xml:space="preserve">
+		<value>Il valore originale verrà mostrato in minuscolo</value>
+	</data>
+	<data name="Replacement" xml:space="preserve">
+		<value>Sostituzione</value>
+	</data>
+	<data name="WordReplacement" xml:space="preserve">
+		<value>Sostituzione parola</value>
+	</data>
+	<data name="WordReplacerHelperText" xml:space="preserve">
+		<value>Definizioni sostituzione parola</value>
+	</data>
+	<data name="Appearances" xml:space="preserve">
+		<value>Esibizioni</value>
+	</data>
+	<data name="TheActiveDatabaseCannotBeDeleted" xml:space="preserve">
+		<value>Il database attivo non può essere eliminato</value>
+	</data>
+	<data name="WouldYouLikeToDeleteTheSelectedDatabase" xml:space="preserve">
+		<value>Vuoi eliminare il database selezionato?</value>
+	</data>
+	<data name="AddedDateRoot" xml:space="preserve">
+		<value>Data aggiunta</value>
+	</data>
+	<data name="AlbumArtistRoot" xml:space="preserve">
+		<value>Artisti album</value>
+	</data>
+	<data name="AlbumRoot" xml:space="preserve">
+		<value>Pubblicazioni</value>
+	</data>
+	<data name="ArtistRoot" xml:space="preserve">
+		<value>Artista</value>
+	</data>
+	<data name="EntireLibrary" xml:space="preserve">
+		<value>Collezione intera</value>
+	</data>
+	<data name="FavouriteAlbumsRoot" xml:space="preserve">
+		<value>Album preferiti</value>
+	</data>
+	<data name="FavouriteArtistsRoot" xml:space="preserve">
+		<value>Artisti preferiti</value>
+	</data>
+	<data name="FavouriteRoot" xml:space="preserve">
+		<value>Preferiti</value>
+	</data>
+	<data name="FavouriteTracksRoot" xml:space="preserve">
+		<value>Brani preferiti</value>
+	</data>
+	<data name="FileDateRoot" xml:space="preserve">
+		<value>Data dei file</value>
+	</data>
+	<data name="GenreRoot" xml:space="preserve">
+		<value>Generi</value>
+	</data>
+	<data name="GroupingRoot" xml:space="preserve">
+		<value>Raggruppamento</value>
+	</data>
+	<data name="LabelsRoot" xml:space="preserve">
+		<value>Case discografiche</value>
+	</data>
+	<data name="LibraryVolumeRoot" xml:space="preserve">
+		<value>Collezione</value>
+	</data>
+	<data name="MoodRoot" xml:space="preserve">
+		<value>Umore</value>
+	</data>
+	<data name="PlayingHistoryRoot" xml:space="preserve">
+		<value>Cronologia ascolti</value>
+	</data>
+	<data name="QualityRoot" xml:space="preserve">
+		<value>Qualità</value>
+	</data>
+	<data name="RatingRoot" xml:space="preserve">
+		<value>Valutazioni</value>
+	</data>
+	<data name="RecYearRoot" xml:space="preserve">
+		<value>Anni di registrazione</value>
+	</data>
+	<data name="ReleaseTypeRoot" xml:space="preserve">
+		<value>Tipo di pubblicazione</value>
+	</data>
+	<data name="RelYearRoot" xml:space="preserve">
+		<value>Anni di pubblicazione</value>
+	</data>
+	<data name="SeriesRoot" xml:space="preserve">
+		<value>Serie</value>
+	</data>
+	<data name="SituationRoot" xml:space="preserve">
+		<value>Situazione</value>
+	</data>
+	<data name="TitleRoot" xml:space="preserve">
+		<value>Titoli</value>
+	</data>
+	<data name="UserDefinedRoot" xml:space="preserve">
+		<value>Definito dall'utente 1</value>
+	</data>
+	<data name="UserDefinedRoot10" xml:space="preserve">
+		<value>Definito dall'utente 10</value>
+	</data>
+	<data name="UserDefinedRoot2" xml:space="preserve">
+		<value>Definito dall'utente 2</value>
+	</data>
+	<data name="UserDefinedRoot3" xml:space="preserve">
+		<value>Definito dall'utente 3</value>
+	</data>
+	<data name="UserDefinedRoot4" xml:space="preserve">
+		<value>Definito dall'utente 4</value>
+	</data>
+	<data name="UserDefinedRoot5" xml:space="preserve">
+		<value>Definito dall'utente 5</value>
+	</data>
+	<data name="UserDefinedRoot6" xml:space="preserve">
+		<value>Definito dall'utente 6</value>
+	</data>
+	<data name="UserDefinedRoot7" xml:space="preserve">
+		<value>Definito dall'utente 7</value>
+	</data>
+	<data name="UserDefinedRoot8" xml:space="preserve">
+		<value>Definito dall'utente 8</value>
+	</data>
+	<data name="UserDefinedRoot9" xml:space="preserve">
+		<value>Definito dall'utente 9</value>
+	</data>
+	<data name="AddedDate" xml:space="preserve">
+		<value>Data aggiunta</value>
+	</data>
+	<data name="AddNode" xml:space="preserve">
+		<value>&lt; Aggiungi</value>
+	</data>
+	<data name="AlbumArtistFirstLetter" xml:space="preserve">
+		<value>Iniziale artista album</value>
+	</data>
+	<data name="AlbumFirstLetter" xml:space="preserve">
+		<value>Iniziale album</value>
+	</data>
+	<data name="AlbumRating" xml:space="preserve">
+		<value>Valutazione album</value>
+	</data>
+	<data name="BandOrchestra" xml:space="preserve">
+		<value>Orchestra</value>
+	</data>
+	<data name="CurrentCD" xml:space="preserve">
+		<value>CD corrente</value>
+	</data>
+	<data name="Customize" xml:space="preserve">
+		<value>Personalizza...</value>
+	</data>
+	<data name="CustomizeMusicBrowserNodes" xml:space="preserve">
+		<value>Personalizza esploratore musicale</value>
+	</data>
+	<data name="Down" xml:space="preserve">
+		<value>Giù</value>
+	</data>
+	<data name="HasLyrics" xml:space="preserve">
+		<value>Testi presenti</value>
+	</data>
+	<data name="IsVBR" xml:space="preserve">
+		<value>VBR</value>
+	</data>
+	<data name="MusicExplorerOptions" xml:space="preserve">
+		<value>Opzioni...</value>
+	</data>
+	<data name="Obscure" xml:space="preserve">
+		<value>Popolarità</value>
+	</data>
+	<data name="OriginalArtist" xml:space="preserve">
+		<value>Artista originale</value>
+	</data>
+	<data name="OriginalLyricist" xml:space="preserve">
+		<value>Paroliere originale</value>
+	</data>
+	<data name="OriginalTitle" xml:space="preserve">
+		<value>Titolo originale</value>
+	</data>
+	<data name="OriginalYear" xml:space="preserve">
+		<value>Anno originale</value>
+	</data>
+	<data name="RecYearDecade" xml:space="preserve">
+		<value>Decennio anno registrazione</value>
+	</data>
+	<data name="RelyearDecade" xml:space="preserve">
+		<value>Decennio anno pubblicazione</value>
+	</data>
+	<data name="RemoveNode" xml:space="preserve">
+		<value>Elimina &gt;</value>
+	</data>
+	<data name="TitleFirstLetter" xml:space="preserve">
+		<value>Iniziale titolo</value>
+	</data>
+	<data name="TotalCDs" xml:space="preserve">
+		<value>CD totali</value>
+	</data>
+	<data name="TotalTracks" xml:space="preserve">
+		<value>Brani totali</value>
+	</data>
+	<data name="Up" xml:space="preserve">
+		<value>Su</value>
+	</data>
+	<data name="ArtistFirstLetter" xml:space="preserve">
+		<value>Iniziale artista</value>
+	</data>
+	<data name="ReleasesOrdering" xml:space="preserve">
+		<value>Ordinamento pubblicazioni</value>
+	</data>
+	<data name="ReleasesOrderingHelper" xml:space="preserve">
+		<value>Definisci quali pubblicazioni devono essere ordinate per artista e dettagli casa discografica</value>
+	</data>
+	<data name="CalculateBpm" xml:space="preserve">
+		<value>Calcola Bpm</value>
+	</data>
+	<data name="CalcBpmCloseWarning" xml:space="preserve">
+		<value>L'operazione di calcolo Bpm è in corso. 
+Lo strumento potrà essere chiuso al termine dell'operazione.</value>
+	</data>
+	<data name="Calculate" xml:space="preserve">
+		<value>Calcola</value>
+	</data>
+	<data name="BpmCalculator" xml:space="preserve">
+		<value>Calcolatore Bpm</value>
+	</data>
+	<data name="Manual" xml:space="preserve">
+		<value>Manuale</value>
+	</data>
+	<data name="Beats" xml:space="preserve">
+		<value>Battute</value>
+	</data>
+	<data name="BpmCalculatorHelper" xml:space="preserve">
+		<value>Clicca Play per riprodurre e poi il bottone Battuta per incrementare il contatore</value>
+	</data>
+	<data name="CalculatedBpm" xml:space="preserve">
+		<value>Bpm calcolato</value>
+	</data>
+	<data name="ElapsedTime" xml:space="preserve">
+		<value>Tempo trascorso</value>
+	</data>
+	<data name="TappedBpm" xml:space="preserve">
+		<value>Bpm </value>
+	</data>
+	<data name="Beat" xml:space="preserve">
+		<value>Battuta</value>
+	</data>
+	<data name="ManualBpm" xml:space="preserve">
+		<value>Calcolo Bpm manuale...</value>
+	</data>
+	<data name="DownloadPictureTitle" xml:space="preserve">
+		<value>Download immagine</value>
+	</data>
+	<data name="Search" xml:space="preserve">
+		<value>Cerca</value>
+	</data>
+	<data name="CustomFieldsReleaseTypes" xml:space="preserve">
+		<value>Campi personali, colonne e tipi di pubblicazione</value>
+	</data>
+	<data name="CustomFields" xml:space="preserve">
+		<value>Campi personali</value>
+	</data>
+	<data name="DisplayName" xml:space="preserve">
+		<value>Nome visualizzato</value>
+	</data>
+	<data name="ReleaseTypes" xml:space="preserve">
+		<value>Tipi di pubblicazione</value>
+	</data>
+	<data name="Value" xml:space="preserve">
+		<value>Valore</value>
+	</data>
+	<data name="AddTheOutputFilesToTheLibrary" xml:space="preserve">
+		<value>Aggiungi il file alla collezione</value>
+	</data>
+	<data name="AddTracks" xml:space="preserve">
+		<value>Aggiungi...</value>
+	</data>
+	<data name="OutputFormat" xml:space="preserve">
+		<value>Formato di output</value>
+	</data>
+	<data name="OutputToSameFolderAsSourceFolder" xml:space="preserve">
+		<value>Salva nella stessa cartella del file sorgente</value>
+	</data>
+	<data name="SaveToFolder" xml:space="preserve">
+		<value>Salva nella cartella</value>
+	</data>
+	<data name="SelectAll" xml:space="preserve">
+		<value>Selez. tutto</value>
+	</data>
+	<data name="SelectedFile" xml:space="preserve">
+		<value>File selezionato</value>
+	</data>
+	<data name="SelectNone" xml:space="preserve">
+		<value>Deseleziona</value>
+	</data>
+	<data name="Compression" xml:space="preserve">
+		<value>Compressione</value>
+	</data>
+	<data name="ConstantBitrate" xml:space="preserve">
+		<value>Bitrate costante</value>
+	</data>
+	<data name="EncoderOptions" xml:space="preserve">
+		<value>Opzioni codifica</value>
+	</data>
+	<data name="EndOffset" xml:space="preserve">
+		<value>Fine compensazione</value>
+	</data>
+	<data name="ExtractingFile" xml:space="preserve">
+		<value>Estrazione file</value>
+	</data>
+	<data name="FastMode" xml:space="preserve">
+		<value>Modalità veloce</value>
+	</data>
+	<data name="HighQuality" xml:space="preserve">
+		<value>Alta qualità</value>
+	</data>
+	<data name="IsSelected" xml:space="preserve">
+		<value>Selezionato</value>
+	</data>
+	<data name="SplitFile" xml:space="preserve">
+		<value>Dividi file...</value>
+	</data>
+	<data name="SplitFileHeader" xml:space="preserve">
+		<value>Dividi file</value>
+	</data>
+	<data name="StartOffset" xml:space="preserve">
+		<value>Inizio compensazione</value>
+	</data>
+	<data name="TrackLength" xml:space="preserve">
+		<value>Durata brano</value>
+	</data>
+	<data name="UseNormalization" xml:space="preserve">
+		<value>Usa amplificazione volume</value>
+	</data>
+	<data name="VariableBitrate" xml:space="preserve">
+		<value>Bitrate variabile</value>
+	</data>
+	<data name="DeleteTheSelectedTracks" xml:space="preserve">
+		<value>Eliminare i brani selezionati?</value>
+	</data>
+	<data name="AutoTrack" xml:space="preserve">
+		<value>Auto traccia</value>
+	</data>
+	<data name="RemoveFromLibraryAndDisc" xml:space="preserve">
+		<value>Elimina dalla collezione e dal computer</value>
+	</data>
+	<data name="RemoveFromLibraryOnly" xml:space="preserve">
+		<value>Elimina solo dalla collezione</value>
+	</data>
+	<data name="RemoveItemsTitle" xml:space="preserve">
+		<value>Elimina voci</value>
+	</data>
+	<data name="CopyAlbumPictureToAlbumFolder" xml:space="preserve">
+		<value>Copia immagine album nella cartella</value>
+	</data>
+	<data name="CopyAlbumPictureToPicturesFolder" xml:space="preserve">
+		<value>Copia immagine album nella cartella</value>
+	</data>
+	<data name="Minimize" xml:space="preserve">
+		<value>Minimizza</value>
+	</data>
+	<data name="MultipleArtists" xml:space="preserve">
+		<value>Artisti multipli</value>
+	</data>
+	<data name="MultipleArtistsCommandHelperText" xml:space="preserve">
+		<value>Ogni voce della lista sarà trattata come un comando usato per dividere gli artisti. Se necessario il testo originale verrà sostituito con il nuovo testo.</value>
+	</data>
+	<data name="OutputFolder" xml:space="preserve">
+		<value>Cartella di output</value>
+	</data>
+	<data name="ConvertingFile" xml:space="preserve">
+		<value>Conversione file</value>
+	</data>
+	<data name="ConvertFiles" xml:space="preserve">
+		<value>Converti file</value>
+	</data>
+	<data name="ConvertFilesMenu" xml:space="preserve">
+		<value>Converti file...</value>
+	</data>
+	<data name="ConversionOptions" xml:space="preserve">
+		<value>Opzioni di conversione</value>
+	</data>
+	<data name="AlbumNormalization" xml:space="preserve">
+		<value>Amplificazione album</value>
+	</data>
+	<data name="NormalizingTrack" xml:space="preserve">
+		<value>Brano normalizzato</value>
+	</data>
+	<data name="NormalizingTracks" xml:space="preserve">
+		<value>Brani normalizzati</value>
+	</data>
+	<data name="TrackNormalization" xml:space="preserve">
+		<value>Amplificazione traccia</value>
+	</data>
+	<data name="ApplyingTags" xml:space="preserve">
+		<value>Applicazione TAG, normalizzazione e spostamento file</value>
+	</data>
+	<data name="CalculatingAlbumGainForFiles" xml:space="preserve">
+		<value>Calcolo amplificazione album e brani for {0} files</value>
+	</data>
+	<data name="NormalizationMode" xml:space="preserve">
+		<value>Modalità amplificazione volume</value>
+	</data>
+	<data name="NormalizeFiles" xml:space="preserve">
+		<value>Applica amplificazione volume</value>
+	</data>
+	<data name="NormalizeFilesMenu" xml:space="preserve">
+		<value>Applica amplificazione volume...</value>
+	</data>
+	<data name="NormalizingFile" xml:space="preserve">
+		<value>Applicazione amplificazione</value>
+	</data>
+	<data name="CalculateAlbumGain" xml:space="preserve">
+		<value>Calcolo amplificazione album e brano</value>
+	</data>
+	<data name="CalculateTrackGain" xml:space="preserve">
+		<value>Calcolo amplificazione traccia</value>
+	</data>
+	<data name="CalculatingGainForFile" xml:space="preserve">
+		<value>Calcolo amplificazione per file</value>
+	</data>
+	<data name="UpdatingDatabaseFile" xml:space="preserve">
+		<value>Aggiornamento database, file</value>
+	</data>
+	<data name="VolumeGain" xml:space="preserve">
+		<value>Amplificazione volume</value>
+	</data>
+	<data name="AppendNumber" xml:space="preserve">
+		<value>Aggiungi numerazione</value>
+	</data>
+	<data name="DeleteSourceFilesAfterConversion" xml:space="preserve">
+		<value>Elimina il file sorgente dopo la conversione</value>
+	</data>
+	<data name="HowShouldConflictingFilenamesBeHandled" xml:space="preserve">
+		<value>Come devo trattare i nome file conflittuali?</value>
+	</data>
+	<data name="OverwriteFile" xml:space="preserve">
+		<value>Sovrascrivi file</value>
+	</data>
+	<data name="RemoveFilesFromLibrary" xml:space="preserve">
+		<value>Elimina i file dalla collezione</value>
+	</data>
+	<data name="SkipConversion" xml:space="preserve">
+		<value>Salta la conversione</value>
+	</data>
+	<data name="EditSubtracksMenu" xml:space="preserve">
+		<value>Modifica sottotracce...</value>
+	</data>
+	<data name="LoadCue" xml:space="preserve">
+		<value>Carica Cue</value>
+	</data>
+	<data name="SubtrackEditor" xml:space="preserve">
+		<value>Modifica sottotracce</value>
+	</data>
+	<data name="OtherTracks" xml:space="preserve">
+		<value>Altri brani</value>
+	</data>
+	<data name="Library_LibraryImported" xml:space="preserve">
+		<value>La collezione è stata importata. Helium dovrà essere riavviato. 
+Clicca OK per riavviare.</value>
+	</data>
+	<data name="EditPicturesWindow" xml:space="preserve">
+		<value>Modifica immagini</value>
+	</data>
+	<data name="AlbumArtistSortOrderShort" xml:space="preserve">
+		<value>Ordinamento art.</value>
+	</data>
+	<data name="RecordingYear" xml:space="preserve">
+		<value>Anno registrazione</value>
+	</data>
+	<data name="ReleaseYear" xml:space="preserve">
+		<value>Anno pubblicazione</value>
+	</data>
+	<data name="PlayingHistory" xml:space="preserve">
+		<value>Cronologia ascolti</value>
+	</data>
+	<data name="IsFavourite" xml:space="preserve">
+		<value>Preferito</value>
+	</data>
+	<data name="MixMaster" xml:space="preserve">
+		<value>Sottotracce</value>
+	</data>
+	<data name="OtherVersions" xml:space="preserve">
+		<value>Altra versione</value>
+	</data>
+	<data name="Pics" xml:space="preserve">
+		<value>Immagini</value>
+	</data>
+	<data name="Publisher" xml:space="preserve">
+		<value>Casa discografica</value>
+	</data>
+	<data name="VbrCbr" xml:space="preserve">
+		<value>Bitrate variabile</value>
+	</data>
+	<data name="To" xml:space="preserve">
+		<value>a</value>
+	</data>
+	<data name="AdvancedSearch" xml:space="preserve">
+		<value>Ricerca avanzata</value>
+	</data>
+	<data name="AdvancedSearchMenu" xml:space="preserve">
+		<value>Ricerca avanzata,,,</value>
+	</data>
+	<data name="ArtistRating" xml:space="preserve">
+		<value>Valutazione artista</value>
+	</data>
+	<data name="ArtistTotalTracks" xml:space="preserve">
+		<value>Brani dtotali dell'artista</value>
+	</data>
+	<data name="AttachedPictures" xml:space="preserve">
+		<value>Immagini allegate</value>
+	</data>
+	<data name="IsArtist" xml:space="preserve">
+		<value>Artista</value>
+	</data>
+	<data name="IsFavouriteAlbum" xml:space="preserve">
+		<value>Album preferito</value>
+	</data>
+	<data name="IsFavouriteArtist" xml:space="preserve">
+		<value>Artista preferito</value>
+	</data>
+	<data name="IsFavouriteTrack" xml:space="preserve">
+		<value>Brano preferito</value>
+	</data>
+	<data name="IsVariableBitrate" xml:space="preserve">
+		<value>Bitrate variabile</value>
+	</data>
+	<data name="OperatorContains" xml:space="preserve">
+		<value>Contenuto</value>
+	</data>
+	<data name="OperatorDoesNotContain" xml:space="preserve">
+		<value>Non contenuto</value>
+	</data>
+	<data name="OperatorEndsWith" xml:space="preserve">
+		<value>Finisce con</value>
+	</data>
+	<data name="OperatorStartsWith" xml:space="preserve">
+		<value>Inizia con</value>
+	</data>
+	<data name="OrgRecordingYear" xml:space="preserve">
+		<value>Annodi registrazione org.</value>
+	</data>
+	<data name="Subtracks" xml:space="preserve">
+		<value>Sottotracce</value>
+	</data>
+	<data name="NoResultsAvailable" xml:space="preserve">
+		<value>Nessun risultato disponibile</value>
+	</data>
+	<data name="LoadTemplate" xml:space="preserve">
+		<value>Carica modello</value>
+	</data>
+	<data name="RemoveSelectedTemplate" xml:space="preserve">
+		<value>Vuoi eliminare il modello selezionato?</value>
+	</data>
+	<data name="SaveTemplate" xml:space="preserve">
+		<value>Salva modello</value>
+	</data>
+	<data name="SelectATemplateFromTheList" xml:space="preserve">
+		<value>Seleziona un modello dalla lista seguente</value>
+	</data>
+	<data name="TemplateExistsOverwrite" xml:space="preserve">
+		<value>Esiste già un modello con questa descrizione</value>
+	</data>
+	<data name="TemplateNameEmpty" xml:space="preserve">
+		<value>La descrizione del modello non può essere vuota.</value>
+	</data>
+	<data name="TheDefaultUserCannotBeRemoved" xml:space="preserve">
+		<value>L'utente predefinito non può essere rimosso</value>
+	</data>
+	<data name="EditUser" xml:space="preserve">
+		<value>Modifica utente</value>
+	</data>
+	<data name="NewUser" xml:space="preserve">
+		<value>Nuovo utente</value>
+	</data>
+	<data name="RemoveTheSelectedUser" xml:space="preserve">
+		<value>Rimuovere l'utente selezionato?</value>
+	</data>
+	<data name="Exit" xml:space="preserve">
+		<value>Uscita</value>
+	</data>
+	<data name="Login" xml:space="preserve">
+		<value>Login</value>
+	</data>
+	<data name="ManageUsersMenu" xml:space="preserve">
+		<value>Gestione utenti...</value>
+	</data>
+	<data name="NowPlaying" xml:space="preserve">
+		<value>In ascolto</value>
+	</data>
+	<data name="RememberMe" xml:space="preserve">
+		<value>Ricordami</value>
+	</data>
+	<data name="New" xml:space="preserve">
+		<value>Nuovo</value>
+	</data>
+	<data name="PasswordsDoNotMatch" xml:space="preserve">
+		<value>La password non corrisponde</value>
+	</data>
+	<data name="TagName" xml:space="preserve">
+		<value>Nome TAG</value>
+	</data>
+	<data name="TagNameMustBeUnique" xml:space="preserve">
+		<value>Il nome TAG dev'essere univoco non vuoto</value>
+	</data>
+	<data name="UserDetails" xml:space="preserve">
+		<value>Dettagli utente</value>
+	</data>
+	<data name="UserNameMustBeUnique" xml:space="preserve">
+		<value>Il nome utente dev'essere univoco</value>
+	</data>
+	<data name="ManageUsers" xml:space="preserve">
+		<value>Gestione utenti</value>
+	</data>
+	<data name="TheActiveUserCannotBeRemoved" xml:space="preserve">
+		<value>L'utente attivo non può essere rimosso.</value>
+	</data>
+	<data name="Tasks" xml:space="preserve">
+		<value>Attività</value>
+	</data>
+	<data name="Logout" xml:space="preserve">
+		<value>Logout</value>
+	</data>
+	<data name="LogoutAndRestart" xml:space="preserve">
+		<value>Vuoi fare il logout e riavviare?</value>
+	</data>
+	<data name="LimitTo" xml:space="preserve">
+		<value>Limite a</value>
+	</data>
+	<data name="SelectedBy" xml:space="preserve">
+		<value>selezionato per</value>
+	</data>
+	<data name="SearchResults" xml:space="preserve">
+		<value>Risultati ricerca</value>
+	</data>
+	<data name="Gigabytes" xml:space="preserve">
+		<value>Giga bytes</value>
+	</data>
+	<data name="HighestRating" xml:space="preserve">
+		<value>Valutazione massima</value>
+	</data>
+	<data name="Hours" xml:space="preserve">
+		<value>Ore</value>
+	</data>
+	<data name="LeastPlayed" xml:space="preserve">
+		<value>Meno ascoltato</value>
+	</data>
+	<data name="LeastRecentlyAdded" xml:space="preserve">
+		<value>Aggiunto meno recentemente</value>
+	</data>
+	<data name="LeastRecentlyPlayed" xml:space="preserve">
+		<value>Ascoltato meno recentemente</value>
+	</data>
+	<data name="LowestRating" xml:space="preserve">
+		<value>Valutazione minima</value>
+	</data>
+	<data name="Megabytes" xml:space="preserve">
+		<value>Mega bytes</value>
+	</data>
+	<data name="Minutes" xml:space="preserve">
+		<value>Minuti</value>
+	</data>
+	<data name="MostPlayed" xml:space="preserve">
+		<value>Più ascoltato</value>
+	</data>
+	<data name="MostRecentlyAdded" xml:space="preserve">
+		<value>Aggiunto più recentemente</value>
+	</data>
+	<data name="MostRecentlyPlayed" xml:space="preserve">
+		<value>Ascoltato più recentemente</value>
+	</data>
+	<data name="Random" xml:space="preserve">
+		<value>Casuale</value>
+	</data>
+	<data name="Songs" xml:space="preserve">
+		<value>Canzoni</value>
+	</data>
+	<data name="CouldNotConnectToLastFm" xml:space="preserve">
+		<value>Non sei autorizzato su Last.fm. Controlla le tue credenziali e ritenta</value>
+	</data>
+	<data name="NavigateUp" xml:space="preserve">
+		<value>Su...</value>
+	</data>
+	<data name="EditSmartPlaylist" xml:space="preserve">
+		<value>Modifica playlist smart</value>
+	</data>
+	<data name="NewSmartPlaylist" xml:space="preserve">
+		<value>Nuova playlist smart</value>
+	</data>
+	<data name="SmartPlaylist" xml:space="preserve">
+		<value>Playlist smart</value>
+	</data>
+	<data name="SmartPlaylists" xml:space="preserve">
+		<value>Playlist smart</value>
+	</data>
+	<data name="PlaylistName" xml:space="preserve">
+		<value>Nome playlist</value>
+	</data>
+	<data name="ListeningHistory" xml:space="preserve">
+		<value>Cronologia ascolti</value>
+	</data>
+	<data name="LastPlayedTime" xml:space="preserve">
+		<value>Ultimo ascolto</value>
+	</data>
+	<data name="RemoveSelectedSyncItem" xml:space="preserve">
+		<value>Rimuovi le voci selezionate?</value>
+	</data>
+	<data name="Items" xml:space="preserve">
+		<value>Voci</value>
+	</data>
+	<data name="OfTotal" xml:space="preserve">
+		<value> del totale</value>
+	</data>
+	<data name="Plays" xml:space="preserve">
+		<value>Ascolta</value>
+	</data>
+	<data name="LastThirtyDaysPlays" xml:space="preserve">
+		<value>Ascoltato negli ultimi tre giorni</value>
+	</data>
+	<data name="Shuffle" xml:space="preserve">
+		<value>Mescola</value>
+	</data>
+	<data name="AllPlugins" xml:space="preserve">
+		<value>Tutti i plug-in</value>
+	</data>
+	<data name="Download" xml:space="preserve">
+		<value>Download</value>
+	</data>
+	<data name="Copy" xml:space="preserve">
+		<value>Copia</value>
+	</data>
+	<data name="Cut" xml:space="preserve">
+		<value>Taglia</value>
+	</data>
+	<data name="Paste" xml:space="preserve">
+		<value>Incolla</value>
+	</data>
+	<data name="Genres" xml:space="preserve">
+		<value>Generi</value>
+	</data>
+	<data name="PlayedThisDay" xml:space="preserve">
+		<value>Ascoltato oggi</value>
+	</data>
+	<data name="UseGlobalHotkeys" xml:space="preserve">
+		<value>Usa scorciatoie</value>
+	</data>
+	<data name="Next" xml:space="preserve">
+		<value>Prossimo</value>
+	</data>
+	<data name="Prev" xml:space="preserve">
+		<value>Precedente</value>
+	</data>
+	<data name="SelectDate" xml:space="preserve">
+		<value>Data selezionata</value>
+	</data>
+	<data name="NavigationPaneFullWidth" xml:space="preserve">
+		<value>Pannello menu di navigazione ampio</value>
+	</data>
+	<data name="AddRandomAlbum" xml:space="preserve">
+		<value>Aggiungi album casuali</value>
+	</data>
+	<data name="AddRandomTracks" xml:space="preserve">
+		<value>Aggiungi brani casuali</value>
+	</data>
+	<data name="AddRandomTracksFromSameArtist" xml:space="preserve">
+		<value>Aggiungi brani casuali dello stesso artista</value>
+	</data>
+	<data name="AddRandomTracksFromSameGenre" xml:space="preserve">
+		<value>Aggiungi brani casuali dello stesso genere</value>
+	</data>
+	<data name="AddRandomTracksFromSameYear" xml:space="preserve">
+		<value>Aggiungi brani casuali dello stesso anno</value>
+	</data>
+	<data name="AddSimilarTracks" xml:space="preserve">
+		<value>Aggiungi brani simili</value>
+	</data>
+	<data name="All" xml:space="preserve">
+		<value>Tutto</value>
+	</data>
+	<data name="AutoEnqueue" xml:space="preserve">
+		<value>Coda di riproduzione automatica</value>
+	</data>
+	<data name="AutoEnqueueEnabled" xml:space="preserve">
+		<value>Coda di riproduzione automatica abilitata</value>
+	</data>
+	<data name="AutoEnqueueOptionsMenu" xml:space="preserve">
+		<value>Opzioni Coda di riproduzione automatica...</value>
+	</data>
+	<data name="AutomaticallyMaintainAtLeast" xml:space="preserve">
+		<value>Mantenimento automatico al minimo</value>
+	</data>
+	<data name="AutomaticallyRetainAtMost" xml:space="preserve">
+		<value>Mantenimento automatico al massimo</value>
+	</data>
+	<data name="PreviousTracksInPlayQueue" xml:space="preserve">
+		<value>Brano precedente nella coda di riproduzione</value>
+	</data>
+	<data name="UpcomingTracksInPlayQueue" xml:space="preserve">
+		<value>Prossimi brani nella Coda di riproduzione </value>
+	</data>
+	<data name="UpdateLibrary_RemoveUnavailableRoots" xml:space="preserve">
+		<value>Rimuovi percorsi non disponibili</value>
+	</data>
+	<data name="CenterActiveTrack" xml:space="preserve">
+		<value>Centra il brano corrente nella Coda di riproduzione </value>
+	</data>
+	<data name="EnableWebservice" xml:space="preserve">
+		<value>Abilita il Web service</value>
+	</data>
+	<data name="Webservice" xml:space="preserve">
+		<value>Web service</value>
+	</data>
+	<data name="WebserviceStarted" xml:space="preserve">
+		<value>Web service iniziato sulla porta: {0}</value>
+	</data>
+	<data name="YourIp" xml:space="preserve">
+		<value>Il tuo indirizzo IP è:</value>
+	</data>
+	<data name="NumberOfItemsDiffer" xml:space="preserve">
+		<value>Numero di brani div. Brani sorgente: {0}, Brani scaricati:{1}</value>
+	</data>
+	<data name="DownloadInformation" xml:space="preserve">
+		<value>Scarica informazioni</value>
+	</data>
+	<data name="Duration" xml:space="preserve">
+		<value>Durata</value>
+	</data>
+	<data name="NoOptionsAvailable" xml:space="preserve">
+		<value>Nessuna opzione disponibile</value>
+	</data>
+	<data name="AddFromSmartPlaylist" xml:space="preserve">
+		<value>Aggiungi da playlist smart</value>
+	</data>
+	<data name="NoSmartPlaylistSelected" xml:space="preserve">
+		<value>Nessuna playlist smart selezionata</value>
+	</data>
+	<data name="SelectSmartPlaylist" xml:space="preserve">
+		<value>Seleziona playlist smart</value>
+	</data>
+	<data name="ShowSortOrderValues" xml:space="preserve">
+		<value>Mostra valori ordinamento</value>
+	</data>
+	<data name="UseSortOrder" xml:space="preserve">
+		<value>Ordinamento utilizzo</value>
+	</data>
+	<data name="Stop" xml:space="preserve">
+		<value>Stop</value>
+	</data>
+	<data name="WordsUsedForAutoSortOrder" xml:space="preserve">
+		<value>Parole usate per l'auto ordinamento</value>
+	</data>
+	<data name="Years" xml:space="preserve">
+		<value>Anni</value>
+	</data>
+	<data name="ArtistTitle" xml:space="preserve">
+		<value>Artista - titolo</value>
+	</data>
+	<data name="CompareBy" xml:space="preserve">
+		<value>Confronta per</value>
+	</data>
+	<data name="DuplicateFinder" xml:space="preserve">
+		<value>Cerca duplicati</value>
+	</data>
+	<data name="DuplicateFinderMenu" xml:space="preserve">
+		<value>Cerca duplicati...</value>
+	</data>
+	<data name="MatchRating" xml:space="preserve">
+		<value>Valutazione corrispondente</value>
+	</data>
+	<data name="SonglengthTolerance" xml:space="preserve">
+		<value>Tolleranza durata canzone</value>
+	</data>
+	<data name="TagToFilenameMenu" xml:space="preserve">
+		<value>Rinomina file...</value>
+	</data>
+	<data name="SortOrder" xml:space="preserve">
+		<value>Ordinamento</value>
+	</data>
+	<data name="DarkTheme" xml:space="preserve">
+		<value>Applica tema "Dark"</value>
+	</data>
+	<data name="LightTheme" xml:space="preserve">
+		<value>Applica tema "Light"</value>
+	</data>
+	<data name="ThemeChanged" xml:space="preserve">
+		<value>Il tema è stato cambiato, Helium dev'essere riavviato. Click OK per riavviare.</value>
+	</data>
+	<data name="DupeMatch10" xml:space="preserve">
+		<value>Conteggio corrispondenze 10% o inferiore</value>
+	</data>
+	<data name="DupeMatch100" xml:space="preserve">
+		<value>Conteggio corrispondenze 100% o inferiore</value>
+	</data>
+	<data name="DupeMatch20" xml:space="preserve">
+		<value>Conteggio corrispondenze 20% o inferiore</value>
+	</data>
+	<data name="DupeMatch30" xml:space="preserve">
+		<value>Conteggio corrispondenze 30% o inferiore</value>
+	</data>
+	<data name="DupeMatch40" xml:space="preserve">
+		<value>Conteggio corrispondenze 40% o inferiore</value>
+	</data>
+	<data name="DupeMatch50" xml:space="preserve">
+		<value>Conteggio corrispondenze 50% o inferiore</value>
+	</data>
+	<data name="DupeMatch60" xml:space="preserve">
+		<value>Conteggio corrispondenze 60% o inferiore</value>
+	</data>
+	<data name="DupeMatch70" xml:space="preserve">
+		<value>Conteggio corrispondenze 70% o inferiore</value>
+	</data>
+	<data name="DupeMatch80" xml:space="preserve">
+		<value>Conteggio corrispondenze 80% o inferiore</value>
+	</data>
+	<data name="DupeMatch90" xml:space="preserve">
+		<value>Conteggio corrispondenze 90% o inferiore</value>
+	</data>
+	<data name="FindDuplicatesIn" xml:space="preserve">
+		<value>Cerca duplicati in</value>
+	</data>
+	<data name="SpecificFolder" xml:space="preserve">
+		<value>Cartella specifica</value>
+	</data>
+	<data name="UnknownAcoustId" xml:space="preserve">
+		<value>AcoustId sconosciuto</value>
+	</data>
+	<data name="CalculatingResult" xml:space="preserve">
+		<value>Calcolo risultato</value>
+	</data>
+	<data name="CompareByAcoustId" xml:space="preserve">
+		<value>Confronta per Acoust Id</value>
+	</data>
+	<data name="CompareByAcoustIdResults" xml:space="preserve">
+		<value>Risultati confronto per Acoust Id</value>
+	</data>
+	<data name="EqualInGroup" xml:space="preserve">
+		<value>Gruppo uguale:</value>
+	</data>
+	<data name="RemoveSelectedFiles" xml:space="preserve">
+		<value>Rimuovi {0} file dalla collezione e dal disco?</value>
+	</data>
+	<data name="RemoveCheckmarked" xml:space="preserve">
+		<value>Rimuovi contrassegni</value>
+	</data>
+	<data name="RenameAndCopy" xml:space="preserve">
+		<value>Rinomina e copia</value>
+	</data>
+	<data name="RenameAndMove" xml:space="preserve">
+		<value>Rinomina e sposta</value>
+	</data>
+	<data name="RenamingFileXofY" xml:space="preserve">
+		<value>File rinominati {0}/{1}</value>
+	</data>
+	<data name="PleaseWait" xml:space="preserve">
+		<value>Attendere...</value>
+	</data>
+	<data name="RenamingFiles" xml:space="preserve">
+		<value>Rinomino file</value>
+	</data>
+	<data name="Template" xml:space="preserve">
+		<value>Modello</value>
+	</data>
+	<data name="AudioDataSize" xml:space="preserve">
+		<value>Dimensione dati audio</value>
+	</data>
+	<data name="BitrateDistribution" xml:space="preserve">
+		<value>Distribuzione Bitrate</value>
+	</data>
+	<data name="bytes" xml:space="preserve">
+		<value>bytes</value>
+	</data>
+	<data name="CalculatedBitrate" xml:space="preserve">
+		<value>Bitrate calcolato</value>
+	</data>
+	<data name="CBR" xml:space="preserve">
+		<value>Bitrate costante</value>
+	</data>
+	<data name="Channels" xml:space="preserve">
+		<value>Canali</value>
+	</data>
+	<data name="ContainsDoubledId3v1Tags" xml:space="preserve">
+		<value>TAG Idev1 doppio</value>
+	</data>
+	<data name="CorrectVbrHeader" xml:space="preserve">
+		<value>Etichetta VBR corretta</value>
+	</data>
+	<data name="Count" xml:space="preserve">
+		<value>Contatore</value>
+	</data>
+	<data name="Details" xml:space="preserve">
+		<value>Dettagli</value>
+	</data>
+	<data name="Emphasis" xml:space="preserve">
+		<value>Enfasi</value>
+	</data>
+	<data name="EncoderGuessed" xml:space="preserve">
+		<value>Codifica</value>
+	</data>
+	<data name="EncodingType" xml:space="preserve">
+		<value>Tipo di codifica</value>
+	</data>
+	<data name="EndPosition" xml:space="preserve">
+		<value>Posizione finale</value>
+	</data>
+	<data name="ErrorPosition" xml:space="preserve">
+		<value>Posiizone errore</value>
+	</data>
+	<data name="ErrorSummary" xml:space="preserve">
+		<value>Sommario errore</value>
+	</data>
+	<data name="FirstLocatedSync" xml:space="preserve">
+		<value>Sincronizzazione primo trovato</value>
+	</data>
+	<data name="HasApev2Tag" xml:space="preserve">
+		<value>TAG Apev2 presente</value>
+	</data>
+	<data name="HasBadLeadingData" xml:space="preserve">
+		<value>Dati rovinati presenti</value>
+	</data>
+	<data name="HasId3v1Tag" xml:space="preserve">
+		<value>TAG Id3v1.x presente</value>
+	</data>
+	<data name="HasId3v2Tag" xml:space="preserve">
+		<value>TAG Id3v2.x presente</value>
+	</data>
+	<data name="HasLyrics3Tag" xml:space="preserve">
+		<value>TAG Lyrics3 presente</value>
+	</data>
+	<data name="HasSyncErrors" xml:space="preserve">
+		<value>errore di sincronizzazione Mpeg</value>
+	</data>
+	<data name="Id3v1TagSize" xml:space="preserve">
+		<value>Dimensione TAG Id3v1.x</value>
+	</data>
+	<data name="Id3v2TagSize" xml:space="preserve">
+		<value>Dimensione TAG Id3v2.x</value>
+	</data>
+	<data name="IsVBRButNotDetected" xml:space="preserve">
+		<value>Etichetta VBR inesatta presente</value>
+	</data>
+	<data name="MpegOverview" xml:space="preserve">
+		<value>Panoramica Mpeg</value>
+	</data>
+	<data name="MpegSyncErrors" xml:space="preserve">
+		<value>Sincronizzazione errori Mpeg</value>
+	</data>
+	<data name="PercentOfTotal" xml:space="preserve">
+		<value>Percento del totale</value>
+	</data>
+	<data name="PlayFromThisPosition" xml:space="preserve">
+		<value>Ascolta da questa posizione</value>
+	</data>
+	<data name="RemoveApeTag" xml:space="preserve">
+		<value>Rimuovi TAG Ape</value>
+	</data>
+	<data name="RemoveDoubleId3v1Tags" xml:space="preserve">
+		<value>Rimuovi doppi Id3v1 TAG</value>
+	</data>
+	<data name="RemoveFile" xml:space="preserve">
+		<value>Rimuovi file</value>
+	</data>
+	<data name="RemoveLeadingBytes" xml:space="preserve">
+		<value>Rimuovi bytes finali</value>
+	</data>
+	<data name="StartPosition" xml:space="preserve">
+		<value>Posizione di inizio</value>
+	</data>
+	<data name="SyncNumber" xml:space="preserve">
+		<value>Numero di sincronizzazioni</value>
+	</data>
+	<data name="TotalSyncs" xml:space="preserve">
+		<value>Sincronizzazioni totali</value>
+	</data>
+	<data name="Variables" xml:space="preserve">
+		<value>Variabili</value>
+	</data>
+	<data name="UnableToStartWebService" xml:space="preserve">
+		<value>Web server non disponibile. Controllare che la porta sia libera.</value>
+	</data>
+	<data name="IncorrectVbrHeader" xml:space="preserve">
+		<value>Etichetta VBR errata</value>
+	</data>
+	<data name="FilesWithErrors" xml:space="preserve">
+		<value>File con errori</value>
+	</data>
+	<data name="FilesWithoutErrors" xml:space="preserve">
+		<value>filke senza errori</value>
+	</data>
+	<data name="AnalyseFiles" xml:space="preserve">
+		<value>Analisi file</value>
+	</data>
+	<data name="AnalyseFilesMenu" xml:space="preserve">
+		<value>Analisi file...</value>
+	</data>
+	<data name="AnalysingFile" xml:space="preserve">
+		<value>File in analisi {0} di {1}</value>
+	</data>
+	<data name="TimeOffset" xml:space="preserve">
+		<value>Compensazione tempo</value>
+	</data>
+	<data name="ClickToRestoreOriginalData" xml:space="preserve">
+		<value>Clicca per ripristinare i dati originali</value>
+	</data>
+	<data name="OverwriteData" xml:space="preserve">
+		<value>Sovrascrivi i dati</value>
+	</data>
+	<data name="UnknownNumberOfTracks" xml:space="preserve">
+		<value>Numero di brani sconosciuto</value>
+	</data>
+	<data name="OutputDevice" xml:space="preserve">
+		<value>Dispositivo di output</value>
+	</data>
+	<data name="OutputDeviceChangeWarning" xml:space="preserve">
+		<value>Se modifichi il dispositivo di output Helium dovrà essere riavviato.</value>
+	</data>
+	<data name="Player" xml:space="preserve">
+		<value>Player</value>
+	</data>
+	<data name="Refine" xml:space="preserve">
+		<value>Affina</value>
+	</data>
+	<data name="RenameFiles" xml:space="preserve">
+		<value>Rinomina file</value>
+	</data>
+	<data name="Scripts" xml:space="preserve">
+		<value>Scripts</value>
+	</data>
+	<data name="ScriptCompletedSuccessfully" xml:space="preserve">
+		<value>Script completato</value>
+	</data>
+	<data name="ScriptCompletedWithErrors" xml:space="preserve">
+		<value>Script completato con errori</value>
+	</data>
+	<data name="ScriptProgressWindow" xml:space="preserve">
+		<value>Esecuzione script</value>
+	</data>
+	<data name="RemoveAll" xml:space="preserve">
+		<value>Rimuovi tutto</value>
+	</data>
+	<data name="ExclusiveMode" xml:space="preserve">
+		<value>Modalità uso esclusivo</value>
+	</data>
+	<data name="GlobalFilterWindow" xml:space="preserve">
+		<value>Filtro globale</value>
+	</data>
+	<data name="MoveRemainingFiles" xml:space="preserve">
+		<value>Sposta i file rimanenti</value>
+	</data>
+	<data name="SelectItem" xml:space="preserve">
+		<value>Seleziona voce</value>
+	</data>
+	<data name="RunScriptMenu" xml:space="preserve">
+		<value>Eseguo script...</value>
+	</data>
+	<data name="EditLabel" xml:space="preserve">
+		<value>Modifica casa discografica</value>
+	</data>
+	<data name="ParentLabel" xml:space="preserve">
+		<value>Casa discografica madre</value>
+	</data>
+	<data name="SelectScriptTitle" xml:space="preserve">
+		<value>Seleziona lo script da eseguire</value>
+	</data>
+	<data name="PlaybackBuffer" xml:space="preserve">
+		<value>Buffer esecuzione (ms)</value>
+	</data>
+	<data name="PlaybackDeviceChanged" xml:space="preserve">
+		<value>I parametri del riproduttore sono stati cambiati. Helium deve essere riavviato perché le modifiche abbiano effetto. Clicca OK per riavviare Helium.</value>
+	</data>
+	<data name="UseWASAPI" xml:space="preserve">
+		<value>Utilizza WASAPI</value>
+	</data>
+	<data name="ClickToSeeDetails" xml:space="preserve">
+		<value>Clicca qui per vedere maggiori dettagli</value>
+	</data>
+	<data name="HasIncorrectApicMime" xml:space="preserve">
+		<value>APIC MIME errato</value>
+	</data>
+	<data name="CalcKeyCloseWarning" xml:space="preserve">
+		<value>Un'operazione importante è in esecuzione. Lo strumento non può essere chiuso prima che l'operazione sia stata completata.</value>
+	</data>
+	<data name="CalcMusicKey" xml:space="preserve">
+		<value>Ricalcolo parametri</value>
+	</data>
+	<data name="ActiveDatabase" xml:space="preserve">
+		<value>Database attivo</value>
+	</data>
+	<data name="Backup" xml:space="preserve">
+		<value>Backup</value>
+	</data>
+	<data name="BackupCreatedWithNoProblems" xml:space="preserve">
+		<value>Operazione di backup completata correttamente</value>
+	</data>
+	<data name="BackupExistsOverwrite" xml:space="preserve">
+		<value>Un backup con questo nome esiste già. Vuoi sovrascrivere il file?</value>
+	</data>
+	<data name="BackupMenu" xml:space="preserve">
+		<value>Backup...</value>
+	</data>
+	<data name="CreatingBackup" xml:space="preserve">
+		<value>Creazione backup, attendere</value>
+	</data>
+	<data name="DestinationPath" xml:space="preserve">
+		<value>Percorso di destinazione:</value>
+	</data>
+	<data name="Overwrite" xml:space="preserve">
+		<value>Sovrascrive</value>
+	</data>
+	<data name="UserSettings" xml:space="preserve">
+		<value>Impostazioni utente</value>
+	</data>
+	<data name="ShowVisualisations" xml:space="preserve">
+		<value>Mostra visualizzazioni</value>
+	</data>
+	<data name="MarkAsBadMatch" xml:space="preserve">
+		<value>Corrispondenza non trovata</value>
+	</data>
+	<data name="Input" xml:space="preserve">
+		<value>Input</value>
+	</data>
+	<data name="PortChanged" xml:space="preserve">
+		<value>Hai cambiato la porta di Web server e Helium deve essere riavviato. Clicca OK per riavviare Helium.</value>
+	</data>
+	<data name="AcoustId" xml:space="preserve">
+		<value>Acoust Id</value>
+	</data>
+	<data name="AggregatedTitle" xml:space="preserve">
+		<value>Titolo, Remix e sottotitolo</value>
+	</data>
+	<data name="InsertField" xml:space="preserve">
+		<value>Inserisci campo</value>
+	</data>
+	<data name="EditTemplates" xml:space="preserve">
+		<value>Modifica modelli</value>
+	</data>
+	<data name="EditTemplatesEllipsed" xml:space="preserve">
+		<value>Modifica modelli...</value>
+	</data>
+	<data name="NoDatabaseSelected" xml:space="preserve">
+		<value>Nessun database selezionato.</value>
+	</data>
+	<data name="SqlServerBackupRootInfo" xml:space="preserve">
+		<value>Assicurarsi che l'account SQL sever abbia accesso alla cartella in cui il risiede il backup.</value>
+	</data>
+	<data name="MySqlOptions" xml:space="preserve">
+		<value>Opzioni MySql</value>
+	</data>
+	<data name="RestoreFile" xml:space="preserve">
+		<value>Ripristina file di backup</value>
+	</data>
+	<data name="RestoreMenu" xml:space="preserve">
+		<value>Ripristina...</value>
+	</data>
+	<data name="RestoreWindow" xml:space="preserve">
+		<value>Ripristina</value>
+	</data>
+	<data name="Server" xml:space="preserve">
+		<value>Server</value>
+	</data>
+	<data name="SqlServerCompactOptions" xml:space="preserve">
+		<value>Opzioni Sql server compact</value>
+	</data>
+	<data name="SqlServerOptions" xml:space="preserve">
+		<value>Opzioni Sql server</value>
+	</data>
+	<data name="DatabaseExists" xml:space="preserve">
+		<value>Un database con questo nome è già esistente. 
+Scegliere un altro nome.</value>
+	</data>
+	<data name="Large" xml:space="preserve">
+		<value>Grande</value>
+	</data>
+	<data name="Medium" xml:space="preserve">
+		<value>Medio</value>
+	</data>
+	<data name="Small" xml:space="preserve">
+		<value>Piccolo</value>
+	</data>
+	<data name="ThumbnailSize" xml:space="preserve">
+		<value>Dimensione miniatura</value>
+	</data>
+	<data name="ThumbnailSizeChanged" xml:space="preserve">
+		<value>La dimensione miniatura è stata modificata. Clicca OK per riavviare Helium.</value>
+	</data>
+	<data name="DesktopAlerts" xml:space="preserve">
+		<value>Avvisi desktop</value>
+	</data>
+	<data name="Theme" xml:space="preserve">
+		<value>Tema</value>
+	</data>
+	<data name="Contact" xml:space="preserve">
+		<value>Contatto</value>
+	</data>
+	<data name="EditLabelWindow" xml:space="preserve">
+		<value>Modifica  casa discografica</value>
+	</data>
+	<data name="BackupRestoredNoProblems" xml:space="preserve">
+		<value>Ripristino backup completato. 
+Clicca OK per riavviare Helium.</value>
+	</data>
+	<data name="BackupRestoredWithProblems" xml:space="preserve">
+		<value>Ripristino backup completato con uno o più problemi.</value>
+	</data>
+	<data name="DatabaseIsActive" xml:space="preserve">
+		<value>Il database che stati cercando di ripristinare è attualmente in uso. 
+Scegli un altro database da ripristinare.</value>
+	</data>
+	<data name="ExtractingBackupFiles" xml:space="preserve">
+		<value>Estrazione file di backup</value>
+	</data>
+	<data name="RestoreOverwriteWarn" xml:space="preserve">
+		<value>Attenzione: le impostazioni, le immagini e gli script esistenti saranno sovrascritti durante questa operazione. Clicca OK per continuare.</value>
+	</data>
+	<data name="RestoringBackup" xml:space="preserve">
+		<value>Ripristino backup</value>
+	</data>
+	<data name="RestoringPictures" xml:space="preserve">
+		<value>Ripristino immagini</value>
+	</data>
+	<data name="RestoringScripts" xml:space="preserve">
+		<value>Ripristino scrpts</value>
+	</data>
+	<data name="RestoringSettings" xml:space="preserve">
+		<value>Ripristino impostazioni</value>
+	</data>
+	<data name="Extreme" xml:space="preserve">
+		<value>Estremo</value>
+	</data>
+	<data name="Good" xml:space="preserve">
+		<value>Buono</value>
+	</data>
+	<data name="Low" xml:space="preserve">
+		<value>Basso</value>
+	</data>
+	<data name="Spectrogram" xml:space="preserve">
+		<value>Spettrogramma</value>
+	</data>
+	<data name="SpectrogramInfo" xml:space="preserve">
+		<value>La qualità sarà applicata la prossima volta che lo spettrogramma </value>
+	</data>
+	<data name="SpectrogramPalettes" xml:space="preserve">
+		<value>Tavolozze spettrogramma</value>
+	</data>
+	<data name="SpectrogramQuality" xml:space="preserve">
+		<value>Qualità spettrogramma</value>
+	</data>
+	<data name="UntitledAlbum" xml:space="preserve">
+		<value>Album senza titolo</value>
+	</data>
+	<data name="WaveFormChannels" xml:space="preserve">
+		<value>Forma d'onda (stereo)</value>
+	</data>
+	<data name="WaveFormMixed" xml:space="preserve">
+		<value>Forma d'onda (mix)</value>
+	</data>
+	<data name="WaveFormMono" xml:space="preserve">
+		<value>Forma d'onda (mono)</value>
+	</data>
+	<data name="NoFileSelected" xml:space="preserve">
+		<value>Nessun file selezionato</value>
+	</data>
+	<data name="CleaningEmptyFolders" xml:space="preserve">
+		<value>Elimina cartelle vuote...</value>
+	</data>
+	<data name="ClickF2ToRename" xml:space="preserve">
+		<value>Seleziona una voce e premi F2 per rinominare manualmente</value>
+	</data>
+	<data name="EnterNewFilename" xml:space="preserve">
+		<value>Inserisci nuovo nome file</value>
+	</data>
+	<data name="FileExists" xml:space="preserve">
+		<value>Il file risultante esiste già</value>
+	</data>
+	<data name="FilenameTooLong" xml:space="preserve">
+		<value>Il file risultante è più lungo di 256 caratteri</value>
+	</data>
+	<data name="MovingRemainingFiles" xml:space="preserve">
+		<value>Spostamento file rimanenti...</value>
+	</data>
+	<data name="RippingTrack" xml:space="preserve">
+		<value>Estrazione brano</value>
+	</data>
+	<data name="CdDrive" xml:space="preserve">
+		<value>Lettore CD</value>
+	</data>
+	<data name="CdRipper" xml:space="preserve">
+		<value>Estrazione CD</value>
+	</data>
+	<data name="CdRipperMenu" xml:space="preserve">
+		<value>Estrazione CD...</value>
+	</data>
+	<data name="NoCdDrivesFound" xml:space="preserve">
+		<value>Nessun Lettore CD presente</value>
+	</data>
+	<data name="Refresh" xml:space="preserve">
+		<value>Aggiorna</value>
+	</data>
+	<data name="SelectTracksToRip" xml:space="preserve">
+		<value>Seleziona i brani da estrarre</value>
+	</data>
+	<data name="EqualizerHeader" xml:space="preserve">
+		<value>Equalizzatore</value>
+	</data>
+	<data name="EqualizerMenu" xml:space="preserve">
+		<value>Equalizzatore...</value>
+	</data>
+	<data name="Presets" xml:space="preserve">
+		<value>Preset</value>
+	</data>
+	<data name="Equalizer" xml:space="preserve">
+		<value>Equalizzatore</value>
+	</data>
+	<data name="FilenameToTag" xml:space="preserve">
+		<value>Nome file &gt; TAG</value>
+	</data>
+	<data name="ExtractTitleRemixSubtitle" xml:space="preserve">
+		<value>Estrazione titolo (remix/sottotitolo)</value>
+	</data>
+	<data name="FilesAdded" xml:space="preserve">
+		<value>file aggiunti</value>
+	</data>
+	<data name="FilesRemoved" xml:space="preserve">
+		<value>file rimossi</value>
+	</data>
+	<data name="FilesUpdated" xml:space="preserve">
+		<value>file aggiornati</value>
+	</data>
+	<data name="NoUpdatesPerformed" xml:space="preserve">
+		<value>Nessun aggiornamento disponibile</value>
+	</data>
+	<data name="Playing" xml:space="preserve">
+		<value>In ascolto</value>
+	</data>
+	<data name="AboutData" xml:space="preserve">
+		<value>Helium Credits:
+
+Capo Programmatore:
+Mikael Stalvik
+
+Programmatore:
+Fredrik Heidgert
+
+Installatore di sistema:
+Mikael Stalvik
+
+Ringraziamneti a:
+Tutti gli utenti che hanno contribuito allo sviluppo del nuovo Helium!
+
+
+Sito ufficiale di Helium:
+http://www.helium-music-manager.com
+
+Copyright © 1997-2016 Imploded Software AB. All permissions reserved.</value>
+	</data>
+	<data name="Export" xml:space="preserve">
+		<value>Esporta</value>
+	</data>
+	<data name="ExportToM3U" xml:space="preserve">
+		<value>Esporta a M3U</value>
+	</data>
+	<data name="ExportToM3U8" xml:space="preserve">
+		<value>Esporta a M3U8</value>
+	</data>
+	<data name="ExportToPLS" xml:space="preserve">
+		<value>Esporta a PLS</value>
+	</data>
+	<data name="DownloadInput" xml:space="preserve">
+		<value>Input</value>
+	</data>
+	<data name="CopyFilesMenu" xml:space="preserve">
+		<value>Copia file...</value>
+	</data>
+	<data name="MoveFilesMenu" xml:space="preserve">
+		<value>Sposta file...</value>
+	</data>
+	<data name="ProgressCopyFiles" xml:space="preserve">
+		<value>Copia file {0}/{1}</value>
+	</data>
+	<data name="ProgressCopyTitle" xml:space="preserve">
+		<value>Copia file</value>
+	</data>
+	<data name="ProgressMoveFiles" xml:space="preserve">
+		<value>Sposta file {0}/{1}</value>
+	</data>
+	<data name="ProgressMoveTitle" xml:space="preserve">
+		<value>Sposta file</value>
+	</data>
+	<data name="SelectDestinationFolder" xml:space="preserve">
+		<value>Seleziona la cartella di destinazione</value>
+	</data>
+	<data name="ApplyChanges" xml:space="preserve">
+		<value>Applica modifiche</value>
+	</data>
+	<data name="PendingChangesWarning" xml:space="preserve">
+		<value>Ci sono modifiche in attesa. Clicca il tasto Applica modifiche per eseguire le modifiche alla tua collexione e ai TAG</value>
+	</data>
+	<data name="ToggleEditMode" xml:space="preserve">
+		<value>Modalità modific commutata</value>
+	</data>
+	<data name="DestinationFolder" xml:space="preserve">
+		<value>Cartella di destinazione</value>
+	</data>
+	<data name="ImplodedOnTheWeb" xml:space="preserve">
+		<value>Imploded Software nel Web</value>
+	</data>
+	<data name="OfficialWebSite" xml:space="preserve">
+		<value>Sito ufficiale</value>
+	</data>
+	<data name="RemapPathMenu" xml:space="preserve">
+		<value>Rimappa percorso...</value>
+	</data>
+	<data name="RemapPathTitle" xml:space="preserve">
+		<value>Rimappa percorso</value>
+	</data>
+	<data name="SourceFolder" xml:space="preserve">
+		<value>Cartella sorgente</value>
+	</data>
+	<data name="Support" xml:space="preserve">
+		<value>Supporto</value>
+	</data>
+	<data name="BackgroundOptions" xml:space="preserve">
+		<value>Opzioni sottofondo</value>
+	</data>
+	<data name="Blur" xml:space="preserve">
+		<value>Sfocatura</value>
+	</data>
+	<data name="Center" xml:space="preserve">
+		<value>Centra</value>
+	</data>
+	<data name="FillCenter" xml:space="preserve">
+		<value>Riempi al centro</value>
+	</data>
+	<data name="FillTop" xml:space="preserve">
+		<value>Riempi in alto</value>
+	</data>
+	<data name="Opacity" xml:space="preserve">
+		<value>Opacità</value>
+	</data>
+	<data name="TileByX" xml:space="preserve">
+		<value>Affianca immagine orizzontalmente</value>
+	</data>
+	<data name="TileByXy" xml:space="preserve">
+		<value>Affianca immagine</value>
+	</data>
+	<data name="TileHalf" xml:space="preserve">
+		<value>Affianca immagine orizzontalmente (a tutt'altezza)</value>
+	</data>
+	<data name="PathsRemapped" xml:space="preserve">
+		<value>Il percorso è stato rimappato. Helium dev'essere riavviato.</value>
+	</data>
+	<data name="BlurWarning" xml:space="preserve">
+		<value>Nota che utilizzando il rendering sfocato il sistema potrebbe rallentare</value>
+	</data>
+	<data name="Node" xml:space="preserve">
+		<value>Nodo</value>
+	</data>
+	<data name="EnqueueLast" xml:space="preserve">
+		<value>Accoda in fondo</value>
+	</data>
+	<data name="EnqueueNext" xml:space="preserve">
+		<value>Accoda al successivo</value>
+	</data>
+	<data name="XFilesSelected" xml:space="preserve">
+		<value>{0} file selezionati</value>
+	</data>
+	<data name="OperatorIs" xml:space="preserve">
+		<value>È</value>
+	</data>
+	<data name="OperatorIsAtLeast" xml:space="preserve">
+		<value>È almeno</value>
+	</data>
+	<data name="OperatorIsAtMost" xml:space="preserve">
+		<value>È al massimo</value>
+	</data>
+	<data name="OperatorIsEmpty" xml:space="preserve">
+		<value>È vuoto</value>
+	</data>
+	<data name="OperatorIsInTheRange" xml:space="preserve">
+		<value>Non è nel range</value>
+	</data>
+	<data name="OperatorIsNot" xml:space="preserve">
+		<value>Non è</value>
+	</data>
+	<data name="OperatorIsNotEmpty" xml:space="preserve">
+		<value>Non è vuoto</value>
+	</data>
+	<data name="FillAboveCenter" xml:space="preserve">
+		<value>Riempi sopra al centro</value>
+	</data>
+	<data name="FillBelowCenter" xml:space="preserve">
+		<value>Riempi sotto al centro</value>
+	</data>
+	<data name="FillBottom" xml:space="preserve">
+		<value>Riempui in basso</value>
+	</data>
+	<data name="LibraryNeedsUpdate" xml:space="preserve">
+		<value>Il database selezionato deve essere aggiornato prima di poter essere aperto. 
+Clicca OK per aggiornare il database.</value>
+	</data>
+	<data name="Library_Hmm11Database" xml:space="preserve">
+		<value>Il database che vuoi aprire è un database di Helium 11 o antecedente.
+Per poter usare questo database è necessario importarlo in un nuovo database tramite Gestione collezione.</value>
+	</data>
+	<data name="Discard" xml:space="preserve">
+		<value>Scarica</value>
+	</data>
+	<data name="DownloadAlbumPictures" xml:space="preserve">
+		<value>Download immagini album</value>
+	</data>
+	<data name="DownloadAlbumPicturesMenu" xml:space="preserve">
+		<value>Download immagini album...</value>
+	</data>
+	<data name="Select" xml:space="preserve">
+		<value>Seleziona</value>
+	</data>
+	<data name="SelectAllWithoutPictures" xml:space="preserve">
+		<value>Seleziona tutto quello che è senza immagini</value>
+	</data>
+	<data name="DownloadArtistPictures" xml:space="preserve">
+		<value>Download immagini artista</value>
+	</data>
+	<data name="DownloadArtistPicturesMenu" xml:space="preserve">
+		<value>Download immagini artista...</value>
+	</data>
+	<data name="CheckForUpdatesMenu" xml:space="preserve">
+		<value>Controllo aggiornamenti...</value>
+	</data>
+	<data name="DownloadingNewVersion" xml:space="preserve">
+		<value>Nuova versione in download</value>
+	</data>
+	<data name="EnableAutomaticUpdateCheck" xml:space="preserve">
+		<value>Abilita controllo automatico aggiornamenti</value>
+	</data>
+	<data name="AvailablePlugins" xml:space="preserve">
+		<value>Plug-in disponibili</value>
+	</data>
+	<data name="Configure" xml:space="preserve">
+		<value>Configura</value>
+	</data>
+	<data name="Plugins" xml:space="preserve">
+		<value>Plug-in</value>
+	</data>
+	<data name="BetaMessage" xml:space="preserve">
+		<value>Benvenuto alla versione beta di Helium!
+
+Nota che le versioni beta possono contenere bachi e/o funzioni non perfettamente funzionanti.
+Si raccomanda di lavora scon una copia dei tuoi file per prevenire qualunque perdita accidentale dei dati.
+
+Se riscontri degli errori, inviaci per cortesia il modulo di segnalazione errori includendo una descrizione di come sono avvenuti. </value>
+	</data>
+	<data name="BackgroundAlbumOptions" xml:space="preserve">
+		<value>Sfondo album</value>
+	</data>
+	<data name="BackgroundArtistsOptions" xml:space="preserve">
+		<value>Sfondo artista</value>
+	</data>
+	<data name="ImportFromHelium11" xml:space="preserve">
+		<value>Importazione da Helium 11</value>
+	</data>
+	<data name="ImportFromHelium11Menu" xml:space="preserve">
+		<value>Importazione da Helium 11...</value>
+	</data>
+	<data name="MySql_IncorrectCase" xml:space="preserve">
+		<value>Il tuo server MySql contiene un valore invalido di lower_case_table_names.
+
+Il valore di lower_case_table_names deve essere impostato a 1.
+Cambia questo valore nel file di  configurazione mysql e riprova.</value>
+	</data>
+	<data name="ViewImage" xml:space="preserve">
+		<value>Vista immagine</value>
+	</data>
+	<data name="ShowAllItems" xml:space="preserve">
+		<value>Mostra tutte le voci</value>
+	</data>
+	<data name="ShowItemsWithNoPictures" xml:space="preserve">
+		<value>Mostra solo le voci senza immagini associate</value>
+	</data>
+	<data name="ShowItemsWithPictures" xml:space="preserve">
+		<value>Mostra solo le voci con immagini associate</value>
+	</data>
+	<data name="ShowOnlyAlbumArtists" xml:space="preserve">
+		<value>Mostra solo artisti album</value>
+	</data>
+	<data name="Ascending" xml:space="preserve">
+		<value>Ascendente</value>
+	</data>
+	<data name="Descending" xml:space="preserve">
+		<value>Discendente</value>
+	</data>
+	<data name="NoSorting" xml:space="preserve">
+		<value>Nessuna estrazione</value>
+	</data>
+	<data name="SortBy" xml:space="preserve">
+		<value>Estrai per</value>
+	</data>
+	<data name="ThenBy" xml:space="preserve">
+		<value>Quindi per</value>
+	</data>
+	<data name="TotalLength" xml:space="preserve">
+		<value>Durata totale</value>
+	</data>
+	<data name="Views" xml:space="preserve">
+		<value>Viste</value>
+	</data>
+	<data name="AvailableVisualizations" xml:space="preserve">
+		<value>Visualizzazioni disponibili</value>
+	</data>
+	<data name="DockInNowPlayingView" xml:space="preserve">
+		<value>Pannello in vista in ascolto</value>
+	</data>
+	<data name="FullScreen" xml:space="preserve">
+		<value>Schermo pieno</value>
+	</data>
+	<data name="ShowInVisualizationsView" xml:space="preserve">
+		<value>Modalità finestra piena</value>
+	</data>
+	<data name="StartStopVisualization" xml:space="preserve">
+		<value>Start/Stop visualizzazione</value>
+	</data>
+	<data name="Visualizations" xml:space="preserve">
+		<value>Visualizzazione</value>
+	</data>
+	<data name="VisualizationView" xml:space="preserve">
+		<value>Vista visualizzazione</value>
+	</data>
+	<data name="ConfigVisualization" xml:space="preserve">
+		<value>Configurazione visualizzazione...</value>
+	</data>
+	<data name="ShowVisualPositionBar" xml:space="preserve">
+		<value>Mostra sonogramma</value>
+	</data>
+	<data name="DoNotShowAgain" xml:space="preserve">
+		<value>Non mostrare più</value>
+	</data>
+	<data name="Restore" xml:space="preserve">
+		<value>Ripristina</value>
+	</data>
+	<data name="StartVisDlg" xml:space="preserve">
+		<value>Inizia visualizzazione</value>
+	</data>
+	<data name="VisualizationsWarningMessage" xml:space="preserve">
+		<value>Stai iniziando un plug.in di visualizzazione di un'altra società.
+
+Nota che la visualizzazione non è sviluppata da Imploded Software e può funzionare in modo diverso su macchine differenti.
+lE Visualizzazioni possono anche richiedere specifiche istanze quali OpenGl e/o specifiche versioni di DirectX/Direct-3D.
+Questi parametri possono generare instabilità o crash.
+
+Vuoi continuare?</value>
+	</data>
+	<data name="ClearPlayQueue" xml:space="preserve">
+		<value>Cancella coda di riproduzione</value>
+	</data>
+	<data name="AddedTrends" xml:space="preserve">
+		<value>Tendenze aggiunte</value>
+	</data>
+	<data name="Days" xml:space="preserve">
+		<value>Giorni</value>
+	</data>
+	<data name="FiletypeTrends" xml:space="preserve">
+		<value>Tipo di file tendenze</value>
+	</data>
+	<data name="InTheLast" xml:space="preserve">
+		<value>All'ultimo</value>
+	</data>
+	<data name="Months" xml:space="preserve">
+		<value>Mesi</value>
+	</data>
+	<data name="NotInTheLast" xml:space="preserve">
+		<value>Non all'ultimo</value>
+	</data>
+	<data name="PlayingTrends" xml:space="preserve">
+		<value>Tendenze d'ascolto</value>
+	</data>
+	<data name="Weeks" xml:space="preserve">
+		<value>Settimane</value>
+	</data>
+	<data name="EqualizerActive" xml:space="preserve">
+		<value>Attiva equalizzazione</value>
+	</data>
+	<data name="FileTypeAddedTrends" xml:space="preserve">
+		<value>Tipo file e tendenze aggiunte</value>
+	</data>
+	<data name="BrowseFolderInMe" xml:space="preserve">
+		<value>Esplora cartella in Esploratore Musicale</value>
+	</data>
+	<data name="AutoHideShowNowPlayingWhenStartingVis" xml:space="preserve">
+		<value>Mostra/nascondi In Ascolto automatico quando inizia la Visualizzazione in modalità finestra a pannello/pieno </value>
+	</data>
+	<data name="MapToFrame" xml:space="preserve">
+		<value>Map-to-frame</value>
+	</data>
+	<data name="AddToLibrary" xml:space="preserve">
+		<value>Aggiungi alla collezione</value>
+	</data>
+	<data name="Command" xml:space="preserve">
+		<value>Comando</value>
+	</data>
+	<data name="Converter" xml:space="preserve">
+		<value>Convertitore</value>
+	</data>
+	<data name="DefaultTagEditor" xml:space="preserve">
+		<value>Editor di TAG predefinito</value>
+	</data>
+	<data name="Key" xml:space="preserve">
+		<value>Chiave</value>
+	</data>
+	<data name="Modifiers" xml:space="preserve">
+		<value>Modificatore</value>
+	</data>
+	<data name="PlayNow" xml:space="preserve">
+		<value>In ascolto</value>
+	</data>
+	<data name="QueueLast" xml:space="preserve">
+		<value>Accoda in fondo</value>
+	</data>
+	<data name="QueueNext" xml:space="preserve">
+		<value>Accoda al successivo</value>
+	</data>
+	<data name="RunScript" xml:space="preserve">
+		<value>Elabora lo script</value>
+	</data>
+	<data name="Shortcuts" xml:space="preserve">
+		<value>Scorciatoie</value>
+	</data>
+	<data name="Splitter" xml:space="preserve">
+		<value>Splitter</value>
+	</data>
+	<data name="TagToFilename" xml:space="preserve">
+		<value>Da TAG a nome file</value>
+	</data>
+	<data name="ArtistsView" xml:space="preserve">
+		<value>Vista artisti</value>
+	</data>
+	<data name="EditSubtracks" xml:space="preserve">
+		<value>Modifica sottotracce</value>
+	</data>
+	<data name="GenresView" xml:space="preserve">
+		<value>Vista Generi</value>
+	</data>
+	<data name="LabelsView" xml:space="preserve">
+		<value>Vista Case discografiche</value>
+	</data>
+	<data name="PlaylistsView" xml:space="preserve">
+		<value>Vista Playlist</value>
+	</data>
+	<data name="ReleasesView" xml:space="preserve">
+		<value>Vista Pubblicazioni</value>
+	</data>
+	<data name="StatisticsView" xml:space="preserve">
+		<value>Vista Statistiche</value>
+	</data>
+	<data name="ToggleGraphicPositionBar" xml:space="preserve">
+		<value>Commuta barra di posizione grafica</value>
+	</data>
+	<data name="ToggleNavigationPane" xml:space="preserve">
+		<value>Commuta pannello di navigazione a massima dimensione</value>
+	</data>
+	<data name="TracksView" xml:space="preserve">
+		<value>Vista Brani</value>
+	</data>
+	<data name="YearsView" xml:space="preserve">
+		<value>Vista Anni</value>
+	</data>
+	<data name="ClearPqOnDoubleClick" xml:space="preserve">
+		<value>Cancella la coda di riproduzione con doppio clic</value>
+	</data>
+	<data name="Reload" xml:space="preserve">
+		<value>Ricarica</value>
+	</data>
+	<data name="Import_InvalidNeonDatabase" xml:space="preserve">
+		<value>Il databese selezionato non è un database valido di Helium.</value>
+	</data>
+	<data name="Import" xml:space="preserve">
+		<value>Importa</value>
+	</data>
+	<data name="EqOptions" xml:space="preserve">
+		<value>Opzioni equalizzatore</value>
+	</data>
+	<data name="ImportNeonCommand" xml:space="preserve">
+		<value>Importa database</value>
+	</data>
+	<data name="ToggleEq" xml:space="preserve">
+		<value>Commuta equalizzatore</value>
+	</data>
+	<data name="ToggleNavigationPaneWidth" xml:space="preserve">
+		<value>Commuta pannello di navigazione a piena dimensione</value>
+	</data>
+	<data name="ImportDbProgress25_Neon" xml:space="preserve">
+		<value>Importazione percorsi aggiunti</value>
+	</data>
+	<data name="ImportDbProgress26_Neon" xml:space="preserve">
+		<value>Importazione cartelle playlist Smart</value>
+	</data>
+	<data name="ImportDbProgress27_Neon" xml:space="preserve">
+		<value>Importazione playlist Smart</value>
+	</data>
+	<data name="ImportDbProgress28_Neon" xml:space="preserve">
+		<value>Importazione testi</value>
+	</data>
+	<data name="OptimizeCommand" xml:space="preserve">
+		<value>Ottimizza il database attivo</value>
+	</data>
+	<data name="OpenPort" xml:space="preserve">
+		<value>Apri la porta nel firewall di Windows</value>
+	</data>
+	<data name="DoNotUseRg" xml:space="preserve">
+		<value>Non usare amplificazione</value>
+	</data>
+	<data name="UseAlbumGain" xml:space="preserve">
+		<value>Non usare amplificazione album</value>
+	</data>
+	<data name="UseTrackGain" xml:space="preserve">
+		<value>Non usare amplificazione brano</value>
+	</data>
+	<data name="ReplayGain" xml:space="preserve">
+		<value>Ripeti amplificazione</value>
+	</data>
+	<data name="UseRgWhenEqIsActive" xml:space="preserve">
+		<value>Usa amplificazione ripetuta quando l'equalizzatore è attivo (bypass pre-amp)</value>
+	</data>
+	<data name="Stat_OneMonthAgo" xml:space="preserve">
+		<value>1 mese fa...</value>
+	</data>
+	<data name="Stat_OneWeekAgo" xml:space="preserve">
+		<value>1 settimana fa...</value>
+	</data>
+	<data name="Stat_OneYearAgo" xml:space="preserve">
+		<value>1 anno fa...</value>
+	</data>
+	<data name="Stat_XMonthsAgo" xml:space="preserve">
+		<value>{0} mesi fa...</value>
+	</data>
+	<data name="Stat_XWeeksAgo" xml:space="preserve">
+		<value>{0} settimane fa...</value>
+	</data>
+	<data name="Stat_XYearsAgo" xml:space="preserve">
+		<value>{0} anni fa...</value>
+	</data>
+	<data name="UserColumns" xml:space="preserve">
+		<value>Colonne utente</value>
+	</data>
+	<data name="FontSize" xml:space="preserve">
+		<value>Dimensione carattere</value>
+	</data>
+	<data name="FontSizeChanged" xml:space="preserve">
+		<value>La dimensione carattere è stata cambiata e Helium deve essere riavviato.
+Clicca OK per riavviare .</value>
+	</data>
+	<data name="Normal" xml:space="preserve">
+		<value>Normale</value>
+	</data>
+	<data name="CustomColumns" xml:space="preserve">
+		<value>Colonne personalizzabili</value>
+	</data>
+	<data name="CardView" xml:space="preserve">
+		<value>Schede</value>
+	</data>
+	<data name="CollapseHeader" xml:space="preserve">
+		<value>Collassa intestazione</value>
+	</data>
+	<data name="ExpandHeader" xml:space="preserve">
+		<value>Espandi intestazione</value>
+	</data>
+	<data name="SplitView" xml:space="preserve">
+		<value>Vista Split</value>
+	</data>
+	<data name="Thumbnails" xml:space="preserve">
+		<value>Miniature</value>
+	</data>
+	<data name="AllTracks" xml:space="preserve">
+		<value>Tutti i brani</value>
+	</data>
+	<data name="UpgradeVersionTitle" xml:space="preserve">
+		<value>Aggiorna Helium da free a Premium!</value>
+	</data>
+	<data name="LimitedInFree" xml:space="preserve">
+		<value>Questo strumento è limitato a 20 voci nella versione free</value>
+	</data>
+	<data name="ChangeImagePathMessage" xml:space="preserve">
+		<value>Cambiare la cache delle immagini richiede il riavvio di Helium.
+Vuoi continuare?</value>
+	</data>
+	<data name="ChangeImagePathTitle" xml:space="preserve">
+		<value>Cambia cache immagini</value>
+	</data>
+	<data name="ImageCacheFolder" xml:space="preserve">
+		<value>Cartella cache immagini</value>
+	</data>
+	<data name="DAT_ScriptExecuted" xml:space="preserve">
+		<value>Lo script selezionato è stato eseguito</value>
+	</data>
+	<data name="Email" xml:space="preserve">
+		<value>Email</value>
+	</data>
+	<data name="FullName" xml:space="preserve">
+		<value>Nome completo</value>
+	</data>
+	<data name="GetPremium" xml:space="preserve">
+		<value>Passa alla versione Premium</value>
+	</data>
+	<data name="GetPremiumInformation" xml:space="preserve">
+		<value>Maggiori informazioni sulla versione Premium</value>
+	</data>
+	<data name="InvalidDataEntered" xml:space="preserve">
+		<value>I dati inseriti non sono validi. 
+Nota che tutti i dati sono sensibili al maiuscolo/minuscolo ed è necessario inserirli nella stessa forma in cu ce li hai forniti.</value>
+	</data>
+	<data name="LicenseKey" xml:space="preserve">
+		<value>Chiave licenza</value>
+	</data>
+	<data name="Purchase" xml:space="preserve">
+		<value>Acquista</value>
+	</data>
+	<data name="ReadMore" xml:space="preserve">
+		<value>Informazioni aggiuntive</value>
+	</data>
+	<data name="RegisterHelium" xml:space="preserve">
+		<value>Sblocca Premium</value>
+	</data>
+	<data name="RegisterHeliumTitle" xml:space="preserve">
+		<value>Sblocca versione Premium</value>
+	</data>
+	<data name="SuccessFullRegistration" xml:space="preserve">
+		<value>Congratulazioni!
+
+Hai correttamente registrato Helium.
+Clicca OK per riavviare helium e utilizzare le funzionalità Premium.</value>
+	</data>
+	<data name="FileNotFound" xml:space="preserve">
+		<value>Filenon trovati ({0})</value>
+	</data>
+	<data name="Sublabels" xml:space="preserve">
+		<value>Sotto etichette</value>
+	</data>
+	<data name="TopFileTypes" xml:space="preserve">
+		<value>Tipo di file top</value>
+	</data>
+	<data name="TopLabels" xml:space="preserve">
+		<value>Case discografiche top</value>
+	</data>
+	<data name="TopReleaseTypes" xml:space="preserve">
+		<value>Top tipo di pubblicazione</value>
+	</data>
+	<data name="OnlyInPremium" xml:space="preserve">
+		<value>Questa funzione è disponibile solo nella versione Premium</value>
+	</data>
+	<data name="ListeningHabits" xml:space="preserve">
+		<value>Ascolti abituali</value>
+	</data>
+	<data name="RatingStatistics" xml:space="preserve">
+		<value>Statistiche valutazioni</value>
+	</data>
+	<data name="Tops" xml:space="preserve">
+		<value>Top</value>
+	</data>
+	<data name="AlbumRatings" xml:space="preserve">
+		<value>Valutazioni album</value>
+	</data>
+	<data name="ArtistRatings" xml:space="preserve">
+		<value>Valutazioni artista</value>
+	</data>
+	<data name="PlayedDays" xml:space="preserve">
+		<value>Ascoltati nel fine settimana</value>
+	</data>
+	<data name="PlayedHours" xml:space="preserve">
+		<value>Ascoltati negli orari</value>
+	</data>
+	<data name="PlayedWeeks" xml:space="preserve">
+		<value>Ascoltati settimanalmente</value>
+	</data>
+	<data name="TrackRatings" xml:space="preserve">
+		<value>Valutazioni brani</value>
+	</data>
+	<data name="FreeVersionLimit" xml:space="preserve">
+		<value>Questa funzione è disponibile solo nella versione Premium.
+per usare questa funzione devi aggiornare Helium alla versione Premium.</value>
+	</data>
+	<data name="SourceImageNotFound" xml:space="preserve">
+		<value>Immagine sorgente non trovata</value>
+	</data>
+	<data name="ClearPicture" xml:space="preserve">
+		<value>Cancella immagine</value>
+	</data>
+	<data name="RemoveAlbumMenu" xml:space="preserve">
+		<value>Rimuovi album...</value>
+	</data>
+	<data name="AddBlank" xml:space="preserve">
+		<value>Aggiungi spazio</value>
+	</data>
+	<data name="AvailableFields" xml:space="preserve">
+		<value>Campi disponibili</value>
+	</data>
+	<data name="Columns" xml:space="preserve">
+		<value>Colonne</value>
+	</data>
+	<data name="FourColumns" xml:space="preserve">
+		<value>Quattro colonne</value>
+	</data>
+	<data name="OneColumn" xml:space="preserve">
+		<value>Una colonna</value>
+	</data>
+	<data name="SelectedFields" xml:space="preserve">
+		<value>Campi selezionati</value>
+	</data>
+	<data name="SelectedTab" xml:space="preserve">
+		<value>Tab selezionati</value>
+	</data>
+	<data name="ThreeColumns" xml:space="preserve">
+		<value>Tre colonne</value>
+	</data>
+	<data name="TwoColumns" xml:space="preserve">
+		<value>Due colonne</value>
+	</data>
+	<data name="AteTemplateEditor" xml:space="preserve">
+		<value>Modifica modello</value>
+	</data>
+	<data name="SaveAs" xml:space="preserve">
+		<value>Salva come...</value>
+	</data>
+	<data name="EditTemplate" xml:space="preserve">
+		<value>Modifica modello</value>
+	</data>
+	<data name="EditAteTabWindow" xml:space="preserve">
+		<value>Modifica tab</value>
+	</data>
+	<data name="Name" xml:space="preserve">
+		<value>Nome</value>
+	</data>
+	<data name="Move" xml:space="preserve">
+		<value>Sposta</value>
+	</data>
+	<data name="CopyMenu" xml:space="preserve">
+		<value>Copia...</value>
+	</data>
+	<data name="MoveMenu" xml:space="preserve">
+		<value>Sposta...</value>
+	</data>
+	<data name="RenameMenu" xml:space="preserve">
+		<value>Rinomina...</value>
+	</data>
+	<data name="RemoveAllFilesAndSubfolders" xml:space="preserve">
+		<value>Rimuovi tutti i file dalla cartella e dalle sotto cartelle</value>
+	</data>
+	<data name="RemoveMenu" xml:space="preserve">
+		<value>Rimuovi...</value>
+	</data>
+	<data name="OverwritePictures" xml:space="preserve">
+		<value>Sostituisci le immagini esistenti</value>
+	</data>
+	<data name="NoGrouping" xml:space="preserve">
+		<value>Nessun raggruppamento</value>
+	</data>
+	<data name="CustomPictureName" xml:space="preserve">
+		<value>Nome personalizzato</value>
+	</data>
+	<data name="SelectedFiles" xml:space="preserve">
+		<value>File selezionati</value>
+	</data>
+	<data name="SelectFiles" xml:space="preserve">
+		<value>Seleziona file</value>
+	</data>
+	<data name="AlbumPictureNameFormat" xml:space="preserve">
+		<value>Nome formato immagine album</value>
+	</data>
+	<data name="Codes" xml:space="preserve">
+		<value>Codici</value>
+	</data>
+	<data name="TracksPlayed" xml:space="preserve">
+		<value>brani ascoltati</value>
+	</data>
+	<data name="AlbumPicturePath" xml:space="preserve">
+		<value>Percorso immagine album</value>
+	</data>
+	<data name="ArtistPicturePath" xml:space="preserve">
+		<value>Percorso immagine artista</value>
+	</data>
+	<data name="Imp11_ImportAlbumPictures" xml:space="preserve">
+		<value>-Importa immagini album</value>
+	</data>
+	<data name="Imp11_ImportArtistPictures" xml:space="preserve">
+		<value>-Importa immagini artista</value>
+	</data>
+	<data name="Imp11_ImportLabelPictures" xml:space="preserve">
+		<value>-Importa immagini casa discografica</value>
+	</data>
+	<data name="Imp11_SQLCEDesc" xml:space="preserve">
+		<value>-Importa database Sql Server Compact:</value>
+	</data>
+	<data name="ImportingData" xml:space="preserve">
+		<value>Importazione dati</value>
+	</data>
+	<data name="LabelPicturePath" xml:space="preserve">
+		<value>Percorso immagine casa discografica</value>
+	</data>
+	<data name="TheActiveDatabaseIsNotEmpty" xml:space="preserve">
+		<value>Il database attivo non è vuoto!</value>
+	</data>
+	<data name="UserDefinedCapitaliazationChars" xml:space="preserve">
+		<value>Delimitatore di carattere definito dall'utente (un carattere dietro all'altro)</value>
+	</data>
+	<data name="And" xml:space="preserve">
+		<value>E</value>
+	</data>
+	<data name="Author" xml:space="preserve">
+		<value>Autore</value>
+	</data>
+	<data name="Expression1" xml:space="preserve">
+		<value>Espressione 1</value>
+	</data>
+	<data name="Expression2" xml:space="preserve">
+		<value>Espressione 2</value>
+	</data>
+	<data name="Expression3" xml:space="preserve">
+		<value>Espressione 3</value>
+	</data>
+	<data name="FilePath" xml:space="preserve">
+		<value>Precorso file:</value>
+	</data>
+	<data name="Initializing" xml:space="preserve">
+		<value>Inizializzazione...</value>
+	</data>
+	<data name="NoUpdatesAreAvailable" xml:space="preserve">
+		<value>Nessun aggiornamento disponibile</value>
+	</data>
+	<data name="Off" xml:space="preserve">
+		<value>OFF</value>
+	</data>
+	<data name="On" xml:space="preserve">
+		<value>ON</value>
+	</data>
+	<data name="Operator" xml:space="preserve">
+		<value>Operatore</value>
+	</data>
+	<data name="Or" xml:space="preserve">
+		<value>O</value>
+	</data>
+	<data name="ScriptScope" xml:space="preserve">
+		<value>Ambito script</value>
+	</data>
+	<data name="Settings" xml:space="preserve">
+		<value>Impostazioni</value>
+	</data>
+	<data name="UnableToPerformUpdateCheck" xml:space="preserve">
+		<value>Non posso cotrollare gli aggiornamenti, Ritenta più tardi.</value>
+	</data>
+	<data name="ForceCopyPicturesOnAdd" xml:space="preserve">
+		<value>Forza la copia immagini alla cartella specificata durante l'aggiunta</value>
+	</data>
+	<data name="NoErrorsInFlacFile" xml:space="preserve">
+		<value>Nessun errore trovato</value>
+	</data>
+	<data name="Housekeep" xml:space="preserve">
+		<value>Pulizia</value>
+	</data>
+	<data name="Information" xml:space="preserve">
+		<value>Informazione</value>
+	</data>
+	<data name="NoFilesAvailable" xml:space="preserve">
+		<value>Nessun file disponibile</value>
+	</data>
+	<data name="FilesLoaded" xml:space="preserve">
+		<value>file caricati</value>
+	</data>
+	<data name="NewArtistName" xml:space="preserve">
+		<value>Nuovo nome artista:</value>
+	</data>
+	<data name="HousekeepPaths" xml:space="preserve">
+		<value>Quando pulisci il tuo percorso, tutti i percorsi presenti verrano rimossi. 
+Vuoi continuare?</value>
+	</data>
+	<data name="ToggleAutoIncTracks" xml:space="preserve">
+		<value>Commuta auto inc. brani</value>
+	</data>
+	<data name="ToggleAutoSort" xml:space="preserve">
+		<value>Commuta auto ordinamento</value>
+	</data>
+	<data name="ToggleCapitalizer" xml:space="preserve">
+		<value>Commuta maiuscolo/minuscolo</value>
+	</data>
+	<data name="UL_RemovingFiles" xml:space="preserve">
+		<value>Rimozione file, {0} % fatto</value>
+	</data>
+	<data name="UL_ScanningExistingFiles" xml:space="preserve">
+		<value>Scansione file esistenti, {0} % fatto</value>
+	</data>
+	<data name="UL_SearchingForNewFiles" xml:space="preserve">
+		<value>Ricerca nuovi file, {0} % fatto</value>
+	</data>
+	<data name="UL_UpdatingExistingFiles" xml:space="preserve">
+		<value>Aggiornamento file esistenti, {0} % fatto</value>
+	</data>
+	<data name="UpdatingMetadata" xml:space="preserve">
+		<value>Aggiornamento metadati</value>
+	</data>
+	<data name="AlbumsArtistDetails" xml:space="preserve">
+		<value>Pubblicazioni senza detagli artista</value>
+	</data>
+	<data name="DlAlbumsStatusBar" xml:space="preserve">
+		<value>{0} album, {1} selezionati</value>
+	</data>
+	<data name="DlArtistsStatusBar" xml:space="preserve">
+		<value>{0} artisti, {1} selezionati</value>
+	</data>
+	<data name="DownloadingImage" xml:space="preserve">
+		<value>Download immagine</value>
+	</data>
+	<data name="Contents" xml:space="preserve">
+		<value>Contenuti</value>
+	</data>
+	<data name="PlayerInfo" xml:space="preserve">
+		<value>Informazioni Player</value>
+	</data>
+	<data name="False" xml:space="preserve">
+		<value>Falso</value>
+	</data>
+	<data name="True" xml:space="preserve">
+		<value>Vero</value>
+	</data>
+	<data name="Stars_0" xml:space="preserve">
+		<value>Nessuna valutazione</value>
+	</data>
+	<data name="Stars_0_5" xml:space="preserve">
+		<value>0,5 stelle</value>
+	</data>
+	<data name="Stars_1" xml:space="preserve">
+		<value>1 stella</value>
+	</data>
+	<data name="Stars_1_5" xml:space="preserve">
+		<value>1,5 stelle</value>
+	</data>
+	<data name="Stars_2" xml:space="preserve">
+		<value>2 stelle</value>
+	</data>
+	<data name="Stars_2_5" xml:space="preserve">
+		<value>2,5 stelle</value>
+	</data>
+	<data name="Stars_3" xml:space="preserve">
+		<value>3 stelle</value>
+	</data>
+	<data name="Stars_3_5" xml:space="preserve">
+		<value>3,5 stelle</value>
+	</data>
+	<data name="Stars_4" xml:space="preserve">
+		<value>4 stelle</value>
+	</data>
+	<data name="Stars_4_5" xml:space="preserve">
+		<value>4,5 stelle</value>
+	</data>
+	<data name="Stars_5" xml:space="preserve">
+		<value>5 stelle</value>
+	</data>
+	<data name="OverwriteExistingPictures" xml:space="preserve">
+		<value>Sostituisci immagini esistenti</value>
+	</data>
+	<data name="OverwriteExistingPicturesInfo" xml:space="preserve">
+		<value>Se Sovrascrivi è selezionato, le immagini esistenti delle Cover saranno sostituite.</value>
+	</data>
+	<data name="SaveAlbumPictureToTags" xml:space="preserve">
+		<value>Salva Immagine album nei TAG...</value>
+	</data>
+	<data name="SaveAlbumPictureToTagsTitle" xml:space="preserve">
+		<value>Salva Immagine album nei TAG</value>
+	</data>
+	<data name="SaveAlbumPicturesToTags" xml:space="preserve">
+		<value>Salva Immagine album nei TAG...</value>
+	</data>
+	<data name="LinkType" xml:space="preserve">
+		<value>Tipo collegamento</value>
+	</data>
+	<data name="ReleaseDetails" xml:space="preserve">
+		<value>Dettagli Pubblicazione</value>
+	</data>
+	<data name="TrackDetails" xml:space="preserve">
+		<value>Dettagli Brano</value>
+	</data>
+	<data name="ViewMode" xml:space="preserve">
+		<value>Modalità Vista</value>
+	</data>
+	<data name="ReleasesByRecordingYear" xml:space="preserve">
+		<value>Brani per anno registrazione</value>
+	</data>
+	<data name="ReleasesByReleaseYear" xml:space="preserve">
+		<value>Pubblicazioni per anno registrazione</value>
+	</data>
+	<data name="Id3Tags" xml:space="preserve">
+		<value>TAG Id3 v2</value>
+	</data>
+	<data name="SaveInCompatibleId3v2Mode" xml:space="preserve">
+		<value>Salva album con piena compatibilità esterna</value>
+	</data>
+	<data name="DockPlayQueue" xml:space="preserve">
+		<value>Pannello Ascolti nella barra di destra</value>
+	</data>
+	<data name="Line1" xml:space="preserve">
+		<value>Linea 1</value>
+	</data>
+	<data name="Line2" xml:space="preserve">
+		<value>Linea 2</value>
+	</data>
+	<data name="Line3" xml:space="preserve">
+		<value>Linea 3</value>
+	</data>
+	<data name="NewAlbumName" xml:space="preserve">
+		<value>Nuovo nome album</value>
+	</data>
+	<data name="DoubleClickToSeeMoreDetails" xml:space="preserve">
+		<value>Doppio clic su una voce per vedere maggiori dettagli specifici</value>
+	</data>
+	<data name="DefaultScript" xml:space="preserve">
+		<value>Script predefinito</value>
+	</data>
+	<data name="ExecuteDefaultScript" xml:space="preserve">
+		<value>Esecuzione script predefinito</value>
+	</data>
+	<data name="NoAlbumsAvailable" xml:space="preserve">
+		<value>Nessun album disponibile</value>
+	</data>
+	<data name="RenderDetailPageStatistics" xml:space="preserve">
+		<value>Restituzione statistiche pagine di dettaglio artista e album</value>
+	</data>
+	<data name="Undefined" xml:space="preserve">
+		<value>Indefinito</value>
+	</data>
+	<data name="NoRating" xml:space="preserve">
+		<value>Nessuna valutazione</value>
+	</data>
+	<data name="BiographyHeight" xml:space="preserve">
+		<value>Altezza biografia</value>
+	</data>
+	<data name="LyricsHeight" xml:space="preserve">
+		<value>Altezza Testi</value>
+	</data>
+	<data name="PicturesHeight" xml:space="preserve">
+		<value>Altezza immagini</value>
+	</data>
+	<data name="RightSidebar" xml:space="preserve">
+		<value>Barra di destra</value>
+	</data>
+	<data name="AlbumCollections" xml:space="preserve">
+		<value>Collezione album</value>
+	</data>
+	<data name="CollectionName" xml:space="preserve">
+		<value>Nome collezione</value>
+	</data>
+	<data name="CreateNewMenu" xml:space="preserve">
+		<value>Crea nuovo...</value>
+	</data>
+	<data name="ManageAlbumCollections" xml:space="preserve">
+		<value>Gestisci collezioni album....</value>
+	</data>
+	<data name="ManageAlbumCollectionsWindow" xml:space="preserve">
+		<value>Gestisci collezioni album....</value>
+	</data>
+	<data name="NewCollectionWindow" xml:space="preserve">
+		<value>Nuova collezione album</value>
+	</data>
+	<data name="NoCollection" xml:space="preserve">
+		<value>Nessuana collezione</value>
+	</data>
+	<data name="SetReleaseType" xml:space="preserve">
+		<value>Imposta tipo di pubblicazione</value>
+	</data>
+	<data name="MoveToAlbumMenu" xml:space="preserve">
+		<value>Sposta nell'album...</value>
+	</data>
+	<data name="SelectAlbum" xml:space="preserve">
+		<value>Seleziona album</value>
+	</data>
+	<data name="EditAlbumReviewWindow" xml:space="preserve">
+		<value>Modifica recensione album</value>
+	</data>
+	<data name="EditReview" xml:space="preserve">
+		<value>Modifica recensione album</value>
+	</data>
+	<data name="AlbumReview" xml:space="preserve">
+		<value>Recensione album</value>
+	</data>
+	<data name="HasAlbumReview" xml:space="preserve">
+		<value>L'album è recensito</value>
+	</data>
+	<data name="Imp11_PerformJobsDesc" xml:space="preserve">
+		<value>I dati deguenti saranno importati da Helium 11</value>
+	</data>
+	<data name="PendingJobs" xml:space="preserve">
+		<value>{0} attività in attesa</value>
+	</data>
+	<data name="UpdateFolder" xml:space="preserve">
+		<value>Aggiorna cartella...</value>
+	</data>
+	<data name="RemoveSourceFile" xml:space="preserve">
+		<value>Rimuovi file sorgente</value>
+	</data>
+	<data name="NoTracksSelected" xml:space="preserve">
+		<value>Nessun brano selezionato</value>
+	</data>
+	<data name="ThereAreErrors" xml:space="preserve">
+		<value>Ci sono uno o più errori, controllali prima di procedere con l'operazione di rinomina.</value>
+	</data>
+	<data name="SuggestedTracks" xml:space="preserve">
+		<value>Brani suggeriti</value>
+	</data>
+	<data name="FavouriteTracks" xml:space="preserve">
+		<value>Brani preferito</value>
+	</data>
+	<data name="Fill" xml:space="preserve">
+		<value>Pieno</value>
+	</data>
+	<data name="Scale" xml:space="preserve">
+		<value>Scala</value>
+	</data>
+	<data name="CroppingChanged" xml:space="preserve">
+		<value>La modalità ritaglio è cambiata e Helium deve essere riavviato.</value>
+	</data>
+	<data name="CropThumbnails" xml:space="preserve">
+		<value>Ritaglia miniature</value>
+	</data>
+	<data name="Ta16To10" xml:space="preserve">
+		<value>16:10</value>
+	</data>
+	<data name="Ta16To9" xml:space="preserve">
+		<value>16:9</value>
+	</data>
+	<data name="Ta1To1" xml:space="preserve">
+		<value>1:1</value>
+	</data>
+	<data name="Ta4To3" xml:space="preserve">
+		<value>4:3</value>
+	</data>
+	<data name="ThumbnailAspectRatio" xml:space="preserve">
+		<value>Proporzioni miniature</value>
+	</data>
+	<data name="ThumbnailRatioChanged" xml:space="preserve">
+		<value>Le proporzioni miniature sono acmbiate. Helium deve essere riavviato.</value>
+	</data>
+	<data name="DownloadLyricsWindow" xml:space="preserve">
+		<value>Download testi</value>
+	</data>
+	<data name="Bold" xml:space="preserve">
+		<value>Grassetto</value>
+	</data>
+	<data name="Italic" xml:space="preserve">
+		<value>Corsivo</value>
+	</data>
+	<data name="Link" xml:space="preserve">
+		<value>Collega</value>
+	</data>
+	<data name="RemoveFormatting" xml:space="preserve">
+		<value>Rimuovi formattazione</value>
+	</data>
+	<data name="Underline" xml:space="preserve">
+		<value>Sottolineato</value>
+	</data>
+	<data name="Unlink" xml:space="preserve">
+		<value>Scollega</value>
+	</data>
+	<data name="ShowLetterNavigation" xml:space="preserve">
+		<value>Mostra lettera barra di navigazione</value>
+	</data>
+	<data name="AdvancedTagEditorAll" xml:space="preserve">
+		<value>Editor di TAG avanzato (tutte le voci nella vista)</value>
+	</data>
+	<data name="AdvancedTagEditorSelected" xml:space="preserve">
+		<value>Editor di TAG avanzato (seleziona voci)</value>
+	</data>
+	<data name="TagEditorAll" xml:space="preserve">
+		<value>Editor di TAG (tutte le voci nella vista)</value>
+	</data>
+	<data name="TagEditorSelected" xml:space="preserve">
+		<value>Editor di TAG (seleziona voci)</value>
+	</data>
+	<data name="LabelDetails" xml:space="preserve">
+		<value>Pubblicazioni senza dettagli casa discografica</value>
+	</data>
+	<data name="CopyToExternalFolder" xml:space="preserve">
+		<value>Copia alla cartella...</value>
+	</data>
+	<data name="SaveAsId3v23" xml:space="preserve">
+		<value>Salva TAG ID3 v2. versione 2.3</value>
+	</data>
+	<data name="StopWhenTrackFinished" xml:space="preserve">
+		<value>Ferma quando è finito il brano</value>
+	</data>
+	<data name="Seconds" xml:space="preserve">
+		<value>secondi</value>
+	</data>
+	<data name="ShowNavigationMenu" xml:space="preserve">
+		<value>Mostra pannello del menu di navigazione</value>
+	</data>
+	<data name="UpdatePlaycounterAfter" xml:space="preserve">
+		<value>Aggiorna il contatore d'ascolti </value>
+	</data>
+	<data name="CrossfadeLength" xml:space="preserve">
+		<value>Durata dissolvenza</value>
+	</data>
+	<data name="UseCrossfade" xml:space="preserve">
+		<value>Usa dissolvenza</value>
+	</data>
+	<data name="AddRoot" xml:space="preserve">
+		<value>Aggiungi percorso radice</value>
+	</data>
+	<data name="CannotRemoveRootPath" xml:space="preserve">
+		<value>Il percorso selezionato non può essere rimosso fino a che la tua collezione contiene file collegati a questo percorso. 
+È necessario rimuovere questi file prima di rimuovere il percorso.</value>
+	</data>
+	<data name="RemoveRoot" xml:space="preserve">
+		<value>Rimuovi percorso</value>
+	</data>
+	<data name="WasapiPlaybackBuffer" xml:space="preserve">
+		<value>La durata del buffer dispositivo è di pochi secondi.  Questo è il minimo e l'utilizzatore può scegliere di usare un bufefr maggiore</value>
+	</data>
+	<data name="PrioritizeFiles_AddPicturesFromTags" xml:space="preserve">
+		<value>Privilegia le immagini dei TAG</value>
+	</data>
+	<data name="PlaybackTypeChanged" xml:space="preserve">
+		<value>Il tipo di Palyback è stato cambiato e Helium deve essere riavviato.</value>
+	</data>
+	<data name="EnableMultiSelect" xml:space="preserve">
+		<value>Abilita multiselezione</value>
+	</data>
+	<data name="LoadAlbumPictureFromTags" xml:space="preserve">
+		<value>Carica immagine dai TAG</value>
+	</data>
+	<data name="Apev2TagSize" xml:space="preserve">
+		<value>Dimensione TAG Ape v2</value>
+	</data>
+	<data name="ActivePath" xml:space="preserve">
+		<value>Percorso:</value>
+	</data>
+	<data name="NoPathSelected" xml:space="preserve">
+		<value>&lt;nessun percorso selezionato&gt;</value>
+	</data>
+	<data name="InLibrary" xml:space="preserve">
+		<value>In collezione</value>
+	</data>
+	<data name="MyComputer" xml:space="preserve">
+		<value>Mio computer</value>
+	</data>
+	<data name="SaveAutomaticallyMyComputer" xml:space="preserve">
+		<value>Salva le modifiche automaticamente</value>
+	</data>
+	<data name="SaveChanges" xml:space="preserve">
+		<value>Salva modifiche</value>
+	</data>
+	<data name="ScanSubfolders" xml:space="preserve">
+		<value>Scanziona sottocartelle</value>
+	</data>
+	<data name="Library_OldSqlServer" xml:space="preserve">
+		<value>Il tuo Sql server non è supportato. Soltanto la versione 12 e successive sono supportate.</value>
+	</data>
+	<data name="QuickTagEditor" xml:space="preserve">
+		<value>Modifica rapida</value>
+	</data>
+	<data name="Crossfade" xml:space="preserve">
+		<value>Dissolvenza</value>
+	</data>
+	<data name="QtClear" xml:space="preserve">
+		<value>- Cancella valori-</value>
+	</data>
+	<data name="QtKeep" xml:space="preserve">
+		<value>-Mantieni valori originali-</value>
+	</data>
+	<data name="MyComputerView" xml:space="preserve">
+		<value>Mio computer</value>
+	</data>
+	<data name="ExportPlsWithRelativePaths" xml:space="preserve">
+		<value>Esporta le paylit e i relativi percorsi</value>
+	</data>
+	<data name="NoResultsFound" xml:space="preserve">
+		<value>Nessun risultato trovato</value>
+	</data>
+	<data name="CrossfadeStart" xml:space="preserve">
+		<value>Inizia la dissolvenza alla fine del brano:</value>
+	</data>
+	<data name="TooltipFormat" xml:space="preserve">
+		<value>Formato suggerimenti</value>
+	</data>
+	<data name="FilesNotLoaded" xml:space="preserve">
+		<value>i file non possono essere letti</value>
+	</data>
+	<data name="Confirm" xml:space="preserve">
+		<value>Conferma</value>
+	</data>
+	<data name="ThereAreRenameErrors" xml:space="preserve">
+		<value>Ci sono uno o più errori, vuoi continuare?</value>
+	</data>
+	<data name="ExportPlaylistsWithExtendedInfo" xml:space="preserve">
+		<value>Includi le informazioni estese quando esporti le playlist</value>
+	</data>
+	<data name="CalculateUserColumns" xml:space="preserve">
+		<value>Calcolo colonne utente (disabilita l'incremento di prestazioni nella lista brani)</value>
+	</data>
+	<data name="MusicExplorerUserDefinedNames" xml:space="preserve">
+		<value>Esploratore musicale definito dall'utente</value>
+	</data>
+</root>
